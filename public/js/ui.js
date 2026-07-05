@@ -381,15 +381,25 @@ const UI = (() => {
               <label for="cfg-ot">OT Name</label>
               <input type="text" id="cfg-ot" placeholder="Trainer name">
             </div>
-            <div class="config-field">
-              <label for="cfg-ot-gender">OT Gender</label>
-              <select id="cfg-ot-gender">
-                <option value="">-- None --</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-              </select>
+          </div>
+          <div style="margin-top:10px;">
+            <label style="font-size:0.72rem;color:var(--text-muted);font-weight:500;text-transform:uppercase;letter-spacing:0.3px;">OT Gender</label>
+            <div class="trait-toggles trait-toggles--single-row" style="margin-top:6px;">
+              <button type="button" class="icon-toggle icon-toggle--male" data-ot-gender="Male" aria-pressed="false" title="Male">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M14.5 3a1 1 0 000 2h2.086l-3.51 3.51A6 6 0 1014.99 9.9L18.5 6.41V8.5a1 1 0 002 0v-4.5a1 1 0 00-1-1h-5zM10 10a4 4 0 110 8 4 4 0 010-8z"/></svg>
+                <span>Male</span>
+              </button>
+              <button type="button" class="icon-toggle icon-toggle--female" data-ot-gender="Female" aria-pressed="false" title="Female">
+                <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2a6 6 0 00-1 11.917V16H9a1 1 0 000 2h2v2a1 1 0 002 0v-2h2a1 1 0 000-2h-2v-2.083A6 6 0 0012 2zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>
+                <span>Female</span>
+              </button>
             </div>
           </div>
+          <select id="cfg-ot-gender" style="display:none;">
+            <option value="">-- None --</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
         </div>
       </div>`;
 

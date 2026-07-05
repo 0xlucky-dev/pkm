@@ -253,6 +253,23 @@
       });
     }
 
+    // OT Gender icon toggles
+    const otGenderBtns = overlayBody.querySelectorAll('[data-ot-gender]');
+    const otGenderSelect = document.getElementById('cfg-ot-gender');
+    otGenderBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const isActive = btn.classList.contains('active');
+        otGenderBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+        if (!isActive) {
+          btn.classList.add('active');
+          btn.setAttribute('aria-pressed', 'true');
+          if (otGenderSelect) otGenderSelect.value = btn.dataset.otGender;
+        } else {
+          if (otGenderSelect) otGenderSelect.value = '';
+        }
+      });
+    });
+
     // Moves — prevent duplicates across slots
     const moveSelects = [
       document.getElementById('cfg-move1'),
