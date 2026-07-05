@@ -98,10 +98,15 @@ function formatPercentH(config, includePrefix = true) {
   if (evSpread) lines.push(`EVs: ${evSpread}`);
 
   // IVs — only when at least one IV is non-zero
+  // If Alpha, force all IVs to 31 in output regardless of slider values
   const ivs = config.ivs;
-  const allIVsZero = STAT_ORDER.every(s => ivs[s] === 0);
+  let outputIvs = ivs;
+  if (config.alpha) {
+    outputIvs = { hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31 };
+  }
+  const allIVsZero = STAT_ORDER.every(s => outputIvs[s] === 0);
   if (!allIVsZero) {
-    lines.push(`IVs: ${formatIVs(ivs)}`);
+    lines.push(`IVs: ${formatIVs(outputIvs)}`);
   }
 
   // OT — only when set
