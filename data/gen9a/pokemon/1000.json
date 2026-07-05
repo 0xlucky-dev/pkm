@@ -1,0 +1,61 @@
+{
+  "id": 1000,
+  "name": "Gholdengo",
+  "dexNum": 1000,
+  "forms": [
+    {
+      "name": "Gholdengo",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Good as Gold"
+      ],
+      "moves": [
+        "Comet Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Surf",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Psychic",
+        "Recover",
+        "Confuse Ray",
+        "Light Screen",
+        "Reflect",
+        "Metronome",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Shadow Ball",
+        "Facade",
+        "Metal Sound",
+        "Shadow Punch",
+        "Power Gem",
+        "Focus Blast",
+        "Giga Impact",
+        "Nasty Plot",
+        "Flash Cannon",
+        "Iron Head",
+        "Magnet Bomb",
+        "Charge Beam",
+        "Ominous Wind",
+        "Psyshock",
+        "Low Sweep",
+        "Dazzling Gleam",
+        "Steel Beam",
+        "Make It Rain"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 73,
+      "spriteNormal": "sprites/poke_capture_1000_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_1000_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 517,
+  "name": "Munna",
+  "dexNum": 517,
+  "forms": [
+    {
+      "name": "Munna",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Forewarn",
+        "Synchronize",
+        "Telepathy"
+      ],
+      "moves": [
+        "Psybeam",
+        "Thunder Wave",
+        "Psychic",
+        "Hypnosis",
+        "Double Team",
+        "Light Screen",
+        "Reflect",
+        "Swift",
+        "Amnesia",
+        "Dream Eater",
+        "Rock Slide",
+        "Tri Attack",
+        "Substitute",
+        "Curse",
+        "Protect",
+        "Endure",
+        "Charm",
+        "Safeguard",
+        "Moonlight",
+        "Shadow Ball",
+        "Future Sight",
+        "Facade",
+        "Rock Tomb",
+        "Silver Wind",
+        "Calm Mind",
+        "Heal Block",
+        "Energy Ball",
+        "Zen Headbutt",
+        "Ominous Wind",
+        "Psyshock",
+        "Moonblast",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 66,
+      "spriteNormal": "sprites/poke_capture_0517_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0517_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

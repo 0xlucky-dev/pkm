@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Helper — Premium GTS Tool</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        colors: {
+          surface: 'rgba(25, 30, 56, 0.7)',
+          'navy-deep': '#0f1123',
+          card: '#131629',
+          'card-hover': '#1a2040',
+          accent: '#c4388a',
+        },
+        fontFamily: {
+          sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+        }
+      }
+    }
+  }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#0f1123] text-gray-100 min-h-screen overflow-x-hidden font-sans antialiased relative">
+  <!-- Subtle background gradient mesh -->
+  <div class="fixed inset-0 pointer-events-none z-0">
+    <div class="absolute w-[600px] h-[600px] top-[15%] left-[20%] bg-pink-500/[0.03] rounded-full blur-3xl"></div>
+    <div class="absolute w-[500px] h-[500px] bottom-[20%] right-[20%] bg-blue-500/[0.03] rounded-full blur-3xl"></div>
+  </div>
+
+  <!-- Nav Bar -->
+  <header class="sticky top-0 z-[100] flex items-center justify-between px-6 lg:px-10 h-16 lg:h-20 bg-[#131629]/80 backdrop-blur-xl border-b border-[rgba(100,140,220,0.12)] shadow-[0_4px_16px_rgba(0,0,0,0.4),0_1px_0_rgba(255,255,255,0.03)_inset]">
+    <div class="flex items-center gap-2 flex-shrink-0">
+      <span class="text-lg lg:text-2xl font-bold text-white uppercase tracking-wide">Pokémon <span class="text-[#c4388a]">Helper</span></span>
+      <div class="relative" id="version-dropdown-wrap">
+        <button type="button" id="version-dropdown-btn"
+                class="flex items-center gap-1.5 lg:gap-2 px-2.5 lg:px-5 py-1.5 lg:py-2.5 rounded-lg lg:rounded-xl bg-[rgba(25,30,56,0.7)] border border-[rgba(100,140,220,0.15)] text-xs lg:text-base font-medium text-[#7b8ab8] cursor-pointer outline-none hover:text-white hover:border-[rgba(100,140,220,0.3)] transition-all duration-200">
+          <span>Select</span>
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-[#4a5580] lg:w-[14px] lg:h-[14px]"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div id="version-dropdown-menu" class="hidden absolute top-full left-0 mt-2 min-w-[220px] rounded-xl bg-[rgba(20,25,50,0.97)] border border-[rgba(100,140,220,0.15)] shadow-[0_8px_32px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.05)] backdrop-blur-xl z-50 overflow-hidden">
+          <button type="button" data-version="gen9"
+                  class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3">
+            <img src="/img/sv.png" class="w-6 h-6 object-contain rounded" alt="">
+            <span>Pokemon Scarlet/Violet</span>
+          </button>
+          <button type="button" data-version="gen9a"
+                  class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3 border-t border-[rgba(100,140,220,0.08)]">
+            <img src="/img/za.png" class="w-6 h-6 object-contain rounded" alt="">
+            <span>Pokemon Legends Z-A</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center gap-3 flex-shrink-0">
+      <a href="https://discord.gg/kaD7f4Asq" target="_blank" rel="noopener noreferrer"
+         class="bg-[#5865f2] text-white px-2.5 lg:px-6 py-2 lg:py-3 rounded-full font-semibold flex items-center gap-1.5 lg:gap-3 hover:bg-[#4752c4] hover:shadow-lg hover:shadow-[#5865f2]/30 transition-all duration-200 text-xs lg:text-base">
+        <img src="/icons/discord.svg" width="24" height="24" alt="Discord" class="rounded-full lg:w-[40px] lg:h-[40px]">
+        <span class="hidden lg:inline">Discord</span>
+      </a>
+    </div>
+    <!-- Hidden select for app.js compatibility -->
+    <select id="version-select" class="visually-hidden" aria-hidden="true">
+      <option value="gen9">Scarlet/Violet</option>
+      <option value="gen9a">Pokemon ZA</option>
+    </select>
+  </header>
+
+  <!-- Hero / Logo Banner Card -->
+  <section class="relative z-[1] pt-9 pb-6 lg:pt-12 lg:pb-8 px-4 text-center flex flex-col items-center gap-4 lg:gap-6">
+    <div class="relative bg-[rgba(25,35,65,0.85)] border-[1.5px] border-[rgba(100,160,255,0.25)] rounded-2xl p-8 lg:p-12 shadow-[0_4px_12px_rgba(0,0,0,0.4),0_16px_48px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.08)] overflow-hidden">
+      <!-- Animated gradient border glow -->
+      <div class="absolute inset-[-2px] bg-gradient-to-br from-[#e91e8c] via-[#8b5cf6] to-[#00c8ff] rounded-2xl opacity-40 animate-border-glow -z-10" style="background-size:400% 400%"></div>
+      <div class="absolute inset-0 bg-[#131629] rounded-2xl -z-10"></div>
+      <img id="version-logo" src="/img/sv.png" alt="Game version" class="h-20 lg:h-32 w-auto object-contain mx-auto drop-shadow-[0_4px_12px_rgba(233,30,140,0.2)]">
+      <span id="version-subtitle" class="block mt-3 text-xs lg:text-sm font-medium text-[#7b8ab8] uppercase tracking-wider">Pokemon Scarlet/Violet</span>
+    </div>
+    <p class="text-sm lg:text-base text-[#7b8ab8] max-w-sm lg:max-w-lg leading-relaxed">เลือกโปเกมอน ตั้งค่า แล้วคัดลอกคำสั่ง</p>
+    <a href="https://discord.gg/kaD7f4Asq" target="_blank" rel="noopener noreferrer"
+       class="inline-flex items-center gap-2.5 lg:gap-4 px-7 lg:px-10 py-3 lg:py-4 rounded-full bg-[#5865f2] text-white font-semibold text-sm lg:text-lg shadow-lg shadow-[#5865f2]/30 hover:bg-[#4752c4] hover:shadow-xl hover:shadow-[#5865f2]/40 hover:-translate-y-0.5 transition-all duration-200">
+      <img src="/icons/discord.svg" width="28" height="28" alt="Discord" class="rounded-full lg:w-[48px] lg:h-[48px]">
+      <span>เข้าร่วม Discord เรา</span>
+    </a>
+  </section>
+
+  <!-- Search Bar (desktop) -->
+  <div class="relative z-[1] max-w-xl lg:max-w-2xl mx-auto px-4 pb-5 lg:pb-8">
+    <div class="relative flex items-center">
+      <svg class="absolute left-5 lg:left-6 text-[#4a5580] pointer-events-none" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="M21 21l-4.35-4.35"/>
+      </svg>
+      <input type="text" id="search-input"
+             class="w-full bg-[rgba(20,30,60,0.8)] border-[1.5px] border-[rgba(100,160,255,0.2)] rounded-full px-6 py-4 pl-12 lg:px-8 lg:py-5 lg:pl-14 text-white placeholder-[#4a5580] focus:border-[#c4388a] focus:ring-2 focus:ring-[rgba(196,56,138,0.15)] focus:bg-[rgba(20,30,60,0.95)] outline-none transition-all duration-200 text-sm lg:text-base shadow-[inset_0_2px_6px_rgba(0,0,0,0.4),0_1px_0_rgba(255,255,255,0.04)]"
+             placeholder="Search Pokémon by name or dex number..." autocomplete="off" aria-label="Search Pokemon">
+    </div>
+  </div>
+
+  <!-- Search Bar (mobile — hidden, kept for app.js compat) -->
+  <div class="search-container--mobile hidden">
+    <div class="relative flex items-center max-w-xl mx-auto px-4">
+      <svg class="absolute left-8 text-[#4a5580] pointer-events-none" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/>
+        <path d="M21 21l-4.35-4.35"/>
+      </svg>
+      <input type="text" id="search-input-mobile"
+             class="w-full bg-[rgba(25,30,56,0.6)] border border-[rgba(100,140,220,0.15)] rounded-full px-6 py-4 pl-12 text-white placeholder-[#4a5580] focus:border-[#e91e8c] focus:ring-2 focus:ring-[rgba(233,30,140,0.15)] outline-none transition-all duration-200 text-sm"
+             placeholder="Search Pokémon..." autocomplete="off" aria-label="Search Pokemon">
+    </div>
+  </div>
+
+  <!-- Pokemon Grid -->
+  <main class="relative z-[1] px-4 lg:px-10 pb-32 max-w-[1600px] mx-auto">
+    <div id="pokemon-grid" class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-3 lg:gap-5"></div>
+    <div id="grid-loader" class="text-center py-8 text-[#7b8ab8] text-sm lg:text-base font-medium" style="display:none;">Loading...</div>
+  </main>
+
+  <!-- Multi-Trade Badge (floating) -->
+  <button id="batch-badge" class="hidden fixed bottom-6 right-6 z-[500] bg-green-600/90 backdrop-blur-sm text-white shadow-xl shadow-green-600/30 flex items-center justify-center cursor-pointer hover:scale-110 hover:shadow-2xl hover:shadow-green-600/40 transition-all duration-300 batch-badge--mini" aria-label="View multi-trade batch">
+    <span id="batch-badge-full" class="flex flex-col items-center gap-0.5 px-5 py-3">
+      <span class="text-sm lg:text-base font-bold">เทรดจำนวน <span id="batch-badge-count">0</span> ตัว</span>
+      <span class="text-xs lg:text-sm opacity-80">กดคัดลอก</span>
+    </span>
+    <span id="batch-badge-mini" class="hidden text-base font-bold">0</span>
+  </button>
+
+  <!-- Config Overlay -->
+  <div id="config-overlay" class="overlay hidden" role="dialog" aria-modal="true" aria-label="Pokemon Configuration">
+    <div class="overlay__backdrop"></div>
+    <div class="overlay__panel">
+      <div class="overlay__header">
+        <h2 id="overlay-title" class="overlay__title">#001 Bulbasaur</h2>
+        <button id="overlay-close" class="overlay__close" aria-label="Close">&times;</button>
+      </div>
+      <div class="overlay__body" id="overlay-body">
+        <!-- Populated dynamically by JS -->
+      </div>
+      <div class="overlay__footer">
+        <button id="btn-copy" class="btn btn--primary">Copy Pokémon</button>
+        <button id="btn-batch" class="btn btn--secondary">Multi-Trade (<span id="btn-batch-count">0</span>)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Batch Modal -->
+  <div id="batch-modal" class="overlay hidden" role="dialog" aria-modal="true" aria-label="Multi-Trade Batch">
+    <div class="overlay__backdrop"></div>
+    <div class="overlay__panel batch-panel">
+      <div class="overlay__header">
+        <h2 class="overlay__title">Multi-Trade Batch</h2>
+        <button id="batch-modal-close" class="overlay__close" aria-label="Close">&times;</button>
+      </div>
+      <div class="overlay__body" id="batch-list">
+        <!-- Populated dynamically -->
+      </div>
+      <div class="overlay__footer">
+        <button id="btn-copy-all" class="btn btn--primary">Copy All</button>
+        <button id="btn-clear-batch" class="btn btn--danger">Clear</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast hidden" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="js/customDropdown.js"></script>
+  <script src="js/commandFormatter.js"></script>
+  <script src="js/genderResolver.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Version dropdown switcher (bridges dropdown ↔ hidden select for app.js) -->
+  <script>
+  (function() {
+    const btn = document.getElementById('version-dropdown-btn');
+    const menu = document.getElementById('version-dropdown-menu');
+    const hiddenSelect = document.getElementById('version-select');
+    const logoImg = document.getElementById('version-logo');
+    const subtitle = document.getElementById('version-subtitle');
+
+    const versionMeta = {
+      gen9:  { logo: '/img/sv.png', subtitle: 'Pokemon Scarlet/Violet' },
+      gen9a: { logo: '/img/za.png', subtitle: 'Pokemon Legends Z-A' }
+    };
+
+    function setVersion(version) {
+      const meta = versionMeta[version] || versionMeta.gen9;
+      logoImg.src = meta.logo;
+      subtitle.textContent = meta.subtitle;
+    }
+
+    // Toggle menu
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      menu.classList.toggle('hidden');
+    });
+
+    // Select option
+    menu.querySelectorAll('.version-option').forEach(option => {
+      option.addEventListener('click', () => {
+        const version = option.dataset.version;
+        setVersion(version);
+        hiddenSelect.value = version;
+        hiddenSelect.dispatchEvent(new Event('change'));
+        menu.classList.add('hidden');
+      });
+    });
+
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+      if (!document.getElementById('version-dropdown-wrap').contains(e.target)) {
+        menu.classList.add('hidden');
+      }
+    });
+
+    window.addEventListener('popstate', () => {
+      setTimeout(() => setVersion(hiddenSelect.value), 0);
+    });
+
+    // Initial sync from URL
+    setVersion(hiddenSelect.value);
+  })();
+  </script>
+</body>
+</html>

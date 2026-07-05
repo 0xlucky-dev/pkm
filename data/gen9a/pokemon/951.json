@@ -1,0 +1,50 @@
+{
+  "id": 951,
+  "name": "Capsakid",
+  "dexNum": 951,
+  "forms": [
+    {
+      "name": "Capsakid",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Chlorophyll",
+        "Insomnia",
+        "Klutz"
+      ],
+      "moves": [
+        "Headbutt",
+        "Leer",
+        "Bite",
+        "Leech Seed",
+        "Growth",
+        "Razor Leaf",
+        "Solar Beam",
+        "Super Fang",
+        "Substitute",
+        "Protect",
+        "Giga Drain",
+        "Endure",
+        "Rollout",
+        "Crunch",
+        "Facade",
+        "Bullet Seed",
+        "Magical Leaf",
+        "Seed Bomb",
+        "Energy Ball",
+        "Zen Headbutt",
+        "Leafage",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 32,
+      "spriteNormal": "sprites/poke_capture_0951_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0951_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

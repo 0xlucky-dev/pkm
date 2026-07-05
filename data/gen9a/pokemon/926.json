@@ -1,0 +1,57 @@
+{
+  "id": 926,
+  "name": "Fidough",
+  "dexNum": 926,
+  "forms": [
+    {
+      "name": "Fidough",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Own Tempo",
+        "Klutz"
+      ],
+      "moves": [
+        "Tackle",
+        "Body Slam",
+        "Double-Edge",
+        "Tail Whip",
+        "Bite",
+        "Growl",
+        "Roar",
+        "Dig",
+        "Agility",
+        "Lick",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Charm",
+        "Crunch",
+        "Facade",
+        "Wish",
+        "Bounce",
+        "Mud Shot",
+        "Thunder Fang",
+        "Ice Fang",
+        "Fire Fang",
+        "Flame Charge",
+        "Work Up",
+        "Snarl",
+        "Draining Kiss",
+        "Play Rough",
+        "Dazzling Gleam",
+        "Psychic Fangs",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0926_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0926_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

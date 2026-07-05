@@ -1,0 +1,55 @@
+{
+  "id": 822,
+  "name": "Corvisquire",
+  "dexNum": 822,
+  "forms": [
+    {
+      "name": "Corvisquire",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Keen Eye",
+        "Unnerve",
+        "Big Pecks"
+      ],
+      "moves": [
+        "Razor Wind",
+        "Gust",
+        "Wing Attack",
+        "Fly",
+        "Take Down",
+        "Leer",
+        "Peck",
+        "Agility",
+        "Swift",
+        "Sky Attack",
+        "Slash",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Swagger",
+        "Rock Smash",
+        "Facade",
+        "Taunt",
+        "Feather Dance",
+        "Aerial Ace",
+        "U-turn",
+        "Air Slash",
+        "Brave Bird",
+        "Nasty Plot",
+        "Work Up",
+        "Hurricane",
+        "Dual Wingbeat"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0822_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0822_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

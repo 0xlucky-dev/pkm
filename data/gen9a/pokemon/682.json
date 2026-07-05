@@ -1,0 +1,50 @@
+{
+  "id": 682,
+  "name": "Spritzee",
+  "dexNum": 682,
+  "forms": [
+    {
+      "name": "Spritzee",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Healer",
+        "Aroma Veil"
+      ],
+      "moves": [
+        "Psybeam",
+        "Thunderbolt",
+        "Psychic",
+        "Hypnosis",
+        "Light Screen",
+        "Reflect",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Charm",
+        "Facade",
+        "Wish",
+        "Fake Tears",
+        "Calm Mind",
+        "Heal Block",
+        "Energy Ball",
+        "Nasty Plot",
+        "Flash Cannon",
+        "Disarming Voice",
+        "Draining Kiss",
+        "Fairy Wind",
+        "Moonblast",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0682_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0682_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

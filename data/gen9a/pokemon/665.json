@@ -1,0 +1,127 @@
+{
+  "id": 665,
+  "name": "Spewpa",
+  "dexNum": 665,
+  "forms": [
+    {
+      "name": "Spewpa",
+      "formName": "Garden",
+      "formIndex": 4,
+      "abilities": [
+        "Shed Skin",
+        "Friend Guard"
+      ],
+      "moves": [
+        "Tackle",
+        "Poison Powder",
+        "Stun Spore",
+        "String Shot",
+        "Harden",
+        "Protect",
+        "Endure",
+        "Facade",
+        "Iron Defense",
+        "Infestation"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0665_004_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0665_004_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Spewpa",
+      "formName": "Default Form",
+      "formIndex": 6,
+      "abilities": [
+        "Shed Skin",
+        "Friend Guard"
+      ],
+      "moves": [
+        "Tackle",
+        "Poison Powder",
+        "Stun Spore",
+        "String Shot",
+        "Harden",
+        "Protect",
+        "Endure",
+        "Facade",
+        "Iron Defense",
+        "Infestation"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0665_006_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0665_006_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Spewpa",
+      "formName": "Meadow",
+      "formIndex": 6,
+      "abilities": [
+        "Shed Skin",
+        "Friend Guard"
+      ],
+      "moves": [
+        "Tackle",
+        "Poison Powder",
+        "Stun Spore",
+        "String Shot",
+        "Harden",
+        "Protect",
+        "Endure",
+        "Facade",
+        "Iron Defense",
+        "Infestation"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0665_006_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0665_006_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Spewpa",
+      "formName": "Marine",
+      "formIndex": 8,
+      "abilities": [
+        "Shed Skin",
+        "Friend Guard"
+      ],
+      "moves": [
+        "Tackle",
+        "Poison Powder",
+        "Stun Spore",
+        "String Shot",
+        "Harden",
+        "Protect",
+        "Endure",
+        "Facade",
+        "Iron Defense",
+        "Infestation"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0665_008_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0665_008_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

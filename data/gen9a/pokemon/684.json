@@ -1,0 +1,53 @@
+{
+  "id": 684,
+  "name": "Swirlix",
+  "dexNum": 684,
+  "forms": [
+    {
+      "name": "Swirlix",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sweet Veil",
+        "Unburden"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Flamethrower",
+        "Surf",
+        "String Shot",
+        "Thunderbolt",
+        "Psychic",
+        "Light Screen",
+        "Self-Destruct",
+        "Amnesia",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Charm",
+        "Safeguard",
+        "Facade",
+        "Wish",
+        "Fake Tears",
+        "Calm Mind",
+        "Energy Ball",
+        "Cotton Guard",
+        "Sticky Web",
+        "Draining Kiss",
+        "Play Rough",
+        "Fairy Wind",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 62,
+      "spriteNormal": "sprites/poke_capture_0684_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0684_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

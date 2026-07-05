@@ -1,0 +1,61 @@
+{
+  "id": 152,
+  "name": "Chikorita",
+  "dexNum": 152,
+  "forms": [
+    {
+      "name": "Chikorita",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Overgrow",
+        "Leaf Guard"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Headbutt",
+        "Tackle",
+        "Body Slam",
+        "Double-Edge",
+        "Tail Whip",
+        "Leech Seed",
+        "Razor Leaf",
+        "Solar Beam",
+        "Double Team",
+        "Light Screen",
+        "Reflect",
+        "Substitute",
+        "Curse",
+        "Protect",
+        "Endure",
+        "Safeguard",
+        "Iron Tail",
+        "Synthesis",
+        "Ancient Power",
+        "Facade",
+        "Knock Off",
+        "Bullet Seed",
+        "Seed Bomb",
+        "Energy Ball",
+        "Earth Power",
+        "Leaf Storm",
+        "Bulldoze",
+        "Work Up",
+        "Disarming Voice",
+        "Dazzling Gleam",
+        "Solar Blade",
+        "Leafage",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 64,
+      "spriteNormal": "sprites/poke_capture_0152_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0152_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

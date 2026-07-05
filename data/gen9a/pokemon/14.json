@@ -1,0 +1,32 @@
+{
+  "id": 14,
+  "name": "Kakuna",
+  "dexNum": 14,
+  "forms": [
+    {
+      "name": "Kakuna",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Shed Skin"
+      ],
+      "moves": [
+        "Poison Sting",
+        "String Shot",
+        "Harden",
+        "Facade",
+        "Iron Defense",
+        "Electroweb"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 59,
+      "spriteNormal": "sprites/poke_capture_0014_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0014_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

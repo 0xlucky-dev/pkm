@@ -1,0 +1,60 @@
+{
+  "id": 587,
+  "name": "Emolga",
+  "dexNum": 587,
+  "forms": [
+    {
+      "name": "Emolga",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Static",
+        "Motor Drive"
+      ],
+      "moves": [
+        "Razor Wind",
+        "Wing Attack",
+        "Tail Whip",
+        "Solar Beam",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Agility",
+        "Quick Attack",
+        "Double Team",
+        "Light Screen",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Charm",
+        "Spark",
+        "Iron Tail",
+        "Facade",
+        "Charge",
+        "Taunt",
+        "U-turn",
+        "Air Slash",
+        "Energy Ball",
+        "Discharge",
+        "Charge Beam",
+        "Volt Switch",
+        "Electroweb",
+        "Wild Charge",
+        "Eerie Impulse",
+        "Nuzzle",
+        "Dual Wingbeat"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 56,
+      "spriteNormal": "sprites/poke_capture_0587_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0587_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

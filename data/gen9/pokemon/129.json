@@ -1,0 +1,30 @@
+{
+  "id": 129,
+  "name": "Magikarp",
+  "dexNum": 129,
+  "forms": [
+    {
+      "name": "Magikarp",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swift Swim",
+        "Rattled"
+      ],
+      "moves": [
+        "Tackle",
+        "Splash",
+        "Flail"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0129_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0129_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

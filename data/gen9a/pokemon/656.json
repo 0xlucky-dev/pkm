@@ -1,0 +1,61 @@
+{
+  "id": 656,
+  "name": "Froakie",
+  "dexNum": 656,
+  "forms": [
+    {
+      "name": "Froakie",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Torrent",
+        "Protean"
+      ],
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Water Gun",
+        "Hydro Pump",
+        "Surf",
+        "Ice Beam",
+        "Blizzard",
+        "Bubble Beam",
+        "Dig",
+        "Quick Attack",
+        "Double Team",
+        "Smokescreen",
+        "Lick",
+        "Waterfall",
+        "Swift",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Spikes",
+        "Icy Wind",
+        "Endure",
+        "False Swipe",
+        "Facade",
+        "Taunt",
+        "Rock Tomb",
+        "Aerial Ace",
+        "Bounce",
+        "Water Pulse",
+        "U-turn",
+        "Toxic Spikes",
+        "Night Slash",
+        "Liquidation",
+        "Trailblaze",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 61,
+      "spriteNormal": "sprites/poke_capture_0656_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0656_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

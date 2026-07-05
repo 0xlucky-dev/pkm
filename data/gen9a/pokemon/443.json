@@ -1,0 +1,62 @@
+{
+  "id": 443,
+  "name": "Gible",
+  "dexNum": 443,
+  "forms": [
+    {
+      "name": "Gible",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sand Veil",
+        "Rough Skin"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Bite",
+        "Flamethrower",
+        "Earthquake",
+        "Dig",
+        "Fire Blast",
+        "Swift",
+        "Rock Slide",
+        "Slash",
+        "Substitute",
+        "Protect",
+        "Outrage",
+        "Endure",
+        "False Swipe",
+        "Dragon Breath",
+        "Facade",
+        "Rock Tomb",
+        "Sand Tomb",
+        "Dragon Claw",
+        "Dragon Pulse",
+        "Dragon Rush",
+        "Earth Power",
+        "Shadow Claw",
+        "Thunder Fang",
+        "Fire Fang",
+        "Draco Meteor",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "Scale Shot",
+        "Scorching Sands"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0443_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0443_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

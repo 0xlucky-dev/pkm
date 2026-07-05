@@ -1,0 +1,61 @@
+{
+  "id": 246,
+  "name": "Larvitar",
+  "dexNum": 246,
+  "forms": [
+    {
+      "name": "Larvitar",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Guts",
+        "Sand Veil"
+      ],
+      "moves": [
+        "Headbutt",
+        "Tackle",
+        "Body Slam",
+        "Double-Edge",
+        "Leer",
+        "Bite",
+        "Hyper Beam",
+        "Rock Throw",
+        "Earthquake",
+        "Dig",
+        "Screech",
+        "Rock Slide",
+        "Substitute",
+        "Curse",
+        "Protect",
+        "Outrage",
+        "Endure",
+        "Crunch",
+        "Ancient Power",
+        "Facade",
+        "Taunt",
+        "Brick Break",
+        "Rock Tomb",
+        "Sand Tomb",
+        "Iron Defense",
+        "Mud Shot",
+        "Rock Blast",
+        "Dark Pulse",
+        "Earth Power",
+        "Giga Impact",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 62,
+      "spriteNormal": "sprites/poke_capture_0246_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0246_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

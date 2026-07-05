@@ -1,0 +1,50 @@
+{
+  "id": 582,
+  "name": "Vanillite",
+  "dexNum": 582,
+  "forms": [
+    {
+      "name": "Vanillite",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Ice Body",
+        "Snow Cloak",
+        "Weak Armor"
+      ],
+      "moves": [
+        "Tackle",
+        "Mist",
+        "Ice Beam",
+        "Blizzard",
+        "Harden",
+        "Light Screen",
+        "Self-Destruct",
+        "Acid Armor",
+        "Explosion",
+        "Substitute",
+        "Protect",
+        "Icy Wind",
+        "Endure",
+        "Facade",
+        "Taunt",
+        "Hyper Voice",
+        "Sheer Cold",
+        "Icicle Spear",
+        "Iron Defense",
+        "Flash Cannon",
+        "Frost Breath",
+        "Icicle Crash"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0582_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0582_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

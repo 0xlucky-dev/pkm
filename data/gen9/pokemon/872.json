@@ -1,0 +1,44 @@
+{
+  "id": 872,
+  "name": "Snom",
+  "dexNum": 872,
+  "forms": [
+    {
+      "name": "Snom",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Shield Dust",
+        "Ice Scales"
+      ],
+      "moves": [
+        "Rest",
+        "Substitute",
+        "Powder Snow",
+        "Protect",
+        "Icy Wind",
+        "Sleep Talk",
+        "Mirror Coat",
+        "Facade",
+        "Icicle Spear",
+        "Bug Buzz",
+        "Bug Bite",
+        "Struggle Bug",
+        "Fairy Wind",
+        "Lunge",
+        "Skitter Smack",
+        "Tera Blast",
+        "Pounce"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0872_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0872_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

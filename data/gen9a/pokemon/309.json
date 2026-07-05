@@ -1,0 +1,60 @@
+{
+  "id": 309,
+  "name": "Electrike",
+  "dexNum": 309,
+  "forms": [
+    {
+      "name": "Electrike",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Static",
+        "Lightning Rod",
+        "Minus"
+      ],
+      "moves": [
+        "Headbutt",
+        "Tackle",
+        "Body Slam",
+        "Leer",
+        "Bite",
+        "Roar",
+        "Flamethrower",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Agility",
+        "Quick Attack",
+        "Light Screen",
+        "Swift",
+        "Substitute",
+        "Curse",
+        "Protect",
+        "Endure",
+        "Spark",
+        "Crunch",
+        "Facade",
+        "Charge",
+        "Thunder Fang",
+        "Ice Fang",
+        "Fire Fang",
+        "Discharge",
+        "Volt Switch",
+        "Wild Charge",
+        "Snarl",
+        "Eerie Impulse",
+        "Psychic Fangs"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 58,
+      "spriteNormal": "sprites/poke_capture_0309_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0309_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

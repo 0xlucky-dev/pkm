@@ -1,0 +1,56 @@
+{
+  "id": 707,
+  "name": "Klefki",
+  "dexNum": 707,
+  "forms": [
+    {
+      "name": "Klefki",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Prankster",
+        "Magician"
+      ],
+      "moves": [
+        "Tackle",
+        "Hyper Beam",
+        "Thunder Wave",
+        "Psychic",
+        "Double Team",
+        "Light Screen",
+        "Reflect",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Spikes",
+        "Endure",
+        "Metal Claw",
+        "Future Sight",
+        "Torment",
+        "Facade",
+        "Metal Sound",
+        "Iron Defense",
+        "Calm Mind",
+        "Heal Block",
+        "Giga Impact",
+        "Flash Cannon",
+        "Magnet Bomb",
+        "Psyshock",
+        "Draining Kiss",
+        "Play Rough",
+        "Fairy Wind",
+        "Dazzling Gleam",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 64,
+      "spriteNormal": "sprites/poke_capture_0707_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0707_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

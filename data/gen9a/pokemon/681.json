@@ -1,0 +1,62 @@
+{
+  "id": 681,
+  "name": "Aegislash",
+  "dexNum": 681,
+  "forms": [
+    {
+      "name": "Aegislash",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Stance Change"
+      ],
+      "moves": [
+        "Razor Wind",
+        "Swords Dance",
+        "Headbutt",
+        "Tackle",
+        "Hyper Beam",
+        "Screech",
+        "Reflect",
+        "Rock Slide",
+        "Slash",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "False Swipe",
+        "Shadow Ball",
+        "Facade",
+        "Brick Break",
+        "Metal Sound",
+        "Aerial Ace",
+        "Iron Defense",
+        "Close Combat",
+        "Night Slash",
+        "Giga Impact",
+        "Shadow Claw",
+        "Shadow Sneak",
+        "Psycho Cut",
+        "Zen Headbutt",
+        "Flash Cannon",
+        "Iron Head",
+        "Head Smash",
+        "Double Hit",
+        "Ominous Wind",
+        "Dual Chop",
+        "Sacred Sword",
+        "King’s Shield",
+        "Solar Blade",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 65,
+      "spriteNormal": "sprites/poke_capture_0681_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0681_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

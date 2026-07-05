@@ -1,0 +1,59 @@
+{
+  "id": 944,
+  "name": "Shroodle",
+  "dexNum": 944,
+  "forms": [
+    {
+      "name": "Shroodle",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Unburden",
+        "Pickpocket",
+        "Prankster"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Double-Edge",
+        "Leer",
+        "Bite",
+        "Dig",
+        "Toxic",
+        "Mimic",
+        "Light Screen",
+        "Reflect",
+        "Metronome",
+        "Super Fang",
+        "Slash",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Endure",
+        "Swagger",
+        "Facade",
+        "Taunt",
+        "Knock Off",
+        "Poison Fang",
+        "Mud Shot",
+        "U-turn",
+        "Heal Block",
+        "Toxic Spikes",
+        "Poison Jab",
+        "Nasty Plot",
+        "Gunk Shot",
+        "Acid Spray",
+        "Parting Shot",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0944_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0944_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

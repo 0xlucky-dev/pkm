@@ -1,0 +1,59 @@
+{
+  "id": 957,
+  "name": "Tinkatink",
+  "dexNum": 957,
+  "forms": [
+    {
+      "name": "Tinkatink",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Mold Breaker",
+        "Own Tempo",
+        "Pickpocket"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Thunder Wave",
+        "Rock Throw",
+        "Screech",
+        "Light Screen",
+        "Reflect",
+        "Metronome",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "False Swipe",
+        "Metal Claw",
+        "Rock Smash",
+        "Fake Out",
+        "Facade",
+        "Brick Break",
+        "Knock Off",
+        "Fake Tears",
+        "Rock Tomb",
+        "Flash Cannon",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "Draining Kiss",
+        "Play Rough",
+        "Fairy Wind",
+        "Power-Up Punch",
+        "Brutal Swing",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0957_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0957_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": 674,
+  "name": "Pancham",
+  "dexNum": 674,
+  "forms": [
+    {
+      "name": "Pancham",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Iron Fist",
+        "Mold Breaker",
+        "Scrappy"
+      ],
+      "moves": [
+        "Comet Punch",
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Swords Dance",
+        "Tackle",
+        "Body Slam",
+        "Leer",
+        "Surf",
+        "Dig",
+        "Rock Slide",
+        "Slash",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Detect",
+        "Endure",
+        "False Swipe",
+        "Crunch",
+        "Facade",
+        "Taunt",
+        "Brick Break",
+        "Hyper Voice",
+        "Rock Tomb",
+        "Bulk Up",
+        "Drain Punch",
+        "Shadow Claw",
+        "Stone Edge",
+        "Storm Throw",
+        "Low Sweep",
+        "Circle Throw",
+        "Bulldoze",
+        "Work Up",
+        "Parting Shot"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 62,
+      "spriteNormal": "sprites/poke_capture_0674_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0674_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

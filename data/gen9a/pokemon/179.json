@@ -1,0 +1,53 @@
+{
+  "id": 179,
+  "name": "Mareep",
+  "dexNum": 179,
+  "forms": [
+    {
+      "name": "Mareep",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Static",
+        "Plus"
+      ],
+      "moves": [
+        "Tackle",
+        "Body Slam",
+        "Growl",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Dig",
+        "Confuse Ray",
+        "Light Screen",
+        "Reflect",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Facade",
+        "Charge",
+        "Power Gem",
+        "Discharge",
+        "Charge Beam",
+        "Volt Switch",
+        "Electroweb",
+        "Wild Charge",
+        "Cotton Guard",
+        "Dazzling Gleam",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0179_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0179_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

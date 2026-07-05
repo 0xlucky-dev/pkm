@@ -1,0 +1,61 @@
+{
+  "id": 349,
+  "name": "Feebas",
+  "dexNum": 349,
+  "forms": [
+    {
+      "name": "Feebas",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swift Swim",
+        "Oblivious",
+        "Adaptability"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Mist",
+        "Surf",
+        "Ice Beam",
+        "Blizzard",
+        "Hypnosis",
+        "Confuse Ray",
+        "Light Screen",
+        "Haze",
+        "Waterfall",
+        "Swift",
+        "Splash",
+        "Rest",
+        "Substitute",
+        "Flail",
+        "Protect",
+        "Icy Wind",
+        "Endure",
+        "Sleep Talk",
+        "Dragon Breath",
+        "Rain Dance",
+        "Mirror Coat",
+        "Whirlpool",
+        "Facade",
+        "Tickle",
+        "Muddy Water",
+        "Mud Shot",
+        "Water Pulse",
+        "Dragon Pulse",
+        "Scale Shot",
+        "Tera Blast",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 71,
+      "spriteNormal": "sprites/poke_capture_0349_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0349_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 361,
+  "name": "Snorunt",
+  "dexNum": 361,
+  "forms": [
+    {
+      "name": "Snorunt",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Inner Focus",
+        "Ice Body",
+        "Moody"
+      ],
+      "moves": [
+        "Headbutt",
+        "Body Slam",
+        "Leer",
+        "Bite",
+        "Ice Beam",
+        "Blizzard",
+        "Double Team",
+        "Light Screen",
+        "Substitute",
+        "Protect",
+        "Spikes",
+        "Icy Wind",
+        "Endure",
+        "Crunch",
+        "Shadow Ball",
+        "Facade",
+        "Fake Tears",
+        "Icicle Spear",
+        "Water Pulse",
+        "Ice Shard",
+        "Ice Fang",
+        "Frost Breath",
+        "Icicle Crash",
+        "Trailblaze",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0361_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0361_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

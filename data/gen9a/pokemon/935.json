@@ -1,0 +1,45 @@
+{
+  "id": 935,
+  "name": "Charcadet",
+  "dexNum": 935,
+  "forms": [
+    {
+      "name": "Charcadet",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Flash Fire",
+        "Flame Body"
+      ],
+      "moves": [
+        "Leer",
+        "Ember",
+        "Flamethrower",
+        "Fire Spin",
+        "Smokescreen",
+        "Confuse Ray",
+        "Fire Blast",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Heat Wave",
+        "Will-O-Wisp",
+        "Facade",
+        "Overheat",
+        "Flare Blitz",
+        "Lava Plume",
+        "Ominous Wind",
+        "Flame Charge"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0935_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0935_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": 672,
+  "name": "Skiddo",
+  "dexNum": 672,
+  "forms": [
+    {
+      "name": "Skiddo",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sap Sipper",
+        "Grass Pelt"
+      ],
+      "moves": [
+        "Vine Whip",
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Tail Whip",
+        "Roar",
+        "Surf",
+        "Leech Seed",
+        "Growth",
+        "Razor Leaf",
+        "Solar Beam",
+        "Dig",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Giga Drain",
+        "Endure",
+        "Megahorn",
+        "Synthesis",
+        "Facade",
+        "Brick Break",
+        "Bullet Seed",
+        "Bulk Up",
+        "Mud Shot",
+        "Leaf Blade",
+        "Seed Bomb",
+        "Energy Ball",
+        "Zen Headbutt",
+        "Bulldoze",
+        "Wild Charge",
+        "Horn Leech",
+        "Play Rough",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0672_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0672_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

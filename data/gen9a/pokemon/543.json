@@ -1,0 +1,49 @@
+{
+  "id": 543,
+  "name": "Venipede",
+  "dexNum": 543,
+  "forms": [
+    {
+      "name": "Venipede",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Poison Point",
+        "Swarm",
+        "Speed Boost"
+      ],
+      "moves": [
+        "Take Down",
+        "Double-Edge",
+        "Poison Sting",
+        "Pin Missile",
+        "Leer",
+        "Solar Beam",
+        "Toxic",
+        "Agility",
+        "Screech",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Spikes",
+        "Endure",
+        "Rollout",
+        "Facade",
+        "Rock Tomb",
+        "Iron Defense",
+        "Toxic Spikes",
+        "Poison Jab",
+        "Infestation"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0543_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0543_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

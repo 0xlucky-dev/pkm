@@ -1,0 +1,59 @@
+{
+  "id": 932,
+  "name": "Nacli",
+  "dexNum": 932,
+  "forms": [
+    {
+      "name": "Nacli",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Purifying Salt",
+        "Sturdy",
+        "Clear Body"
+      ],
+      "moves": [
+        "Headbutt",
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Rock Throw",
+        "Earthquake",
+        "Fissure",
+        "Dig",
+        "Recover",
+        "Harden",
+        "Skull Bash",
+        "Rock Slide",
+        "Substitute",
+        "Curse",
+        "Protect",
+        "Endure",
+        "Ancient Power",
+        "Facade",
+        "Rock Tomb",
+        "Iron Defense",
+        "Mud Shot",
+        "Power Gem",
+        "Earth Power",
+        "Zen Headbutt",
+        "Flash Cannon",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Heavy Slam",
+        "Bulldoze",
+        "Meteor Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0932_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0932_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

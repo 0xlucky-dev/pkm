@@ -1,0 +1,174 @@
+/**
+ * Custom Dropdown Component — Dark Glass UI
+ * Replaces native <select> with a styled dropdown that supports icons.
+ * Usage: CustomDropdown.init(selectElement) — converts a <select> into custom dropdown.
+ */
+
+const CustomDropdown = (() => {
+  'use strict';
+
+  // Utility: get ball icon slug
+  function getBallSlug(name) {
+    return name.toLowerCase().replace(/[éè]/g, 'e').replace(/[^a-z]/g, '');
+  }
+
+  /**
+   * Convert a native <select> into a custom dropdown.
+   * @param {HTMLSelectElement} select - The select element to replace.
+   * @param {Object} opts - Options: { icons: boolean, iconPath: string, maxHeight: string }
+   */
+  function init(select, opts = {}) {
+    if (!select || select.dataset.customDropdown === 'true') return;
+    select.dataset.customDropdown = 'true';
+
+    const { icons = false, iconPath = '/icons/', maxHeight = '200px' } = opts;
+
+    // Wrapper
+    const wrapper = document.createElement('div');
+    wrapper.className = 'cd-wrap';
+    select.parentNode.insertBefore(wrapper, select);
+    wrapper.appendChild(select);
+    select.style.display = 'none';
+
+    // Build button (trigger)
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'cd-btn';
+    btn.setAttribute('aria-haspopup', 'listbox');
+    btn.setAttribute('aria-expanded', 'false');
+
+    const selectedOpt = select.options[select.selectedIndex];
+    btn.innerHTML = buildBtnContent(selectedOpt, icons, iconPath);
+    wrapper.appendChild(btn);
+
+    // Build dropdown menu
+    const menu = document.createElement('div');
+    menu.className = 'cd-menu';
+    menu.style.maxHeight = maxHeight;
+    menu.setAttribute('role', 'listbox');
+
+    // Search input inside menu (for long lists)
+    const options = Array.from(select.options);
+    let searchInput = null;
+    if (options.length > 8) {
+      searchInput = document.createElement('input');
+      searchInput.type = 'text';
+      searchInput.className = 'cd-search';
+      searchInput.placeholder = 'Search...';
+      searchInput.autocomplete = 'off';
+      menu.appendChild(searchInput);
+    }
+
+    // Options container
+    const optionsList = document.createElement('div');
+    optionsList.className = 'cd-options';
+    menu.appendChild(optionsList);
+
+    // Render options
+    function renderOptions(filter = '') {
+      optionsList.innerHTML = '';
+      const lowerFilter = filter.toLowerCase();
+      for (const opt of options) {
+        if (lowerFilter && !opt.textContent.toLowerCase().includes(lowerFilter)) continue;
+
+        const item = document.createElement('div');
+        item.className = 'cd-item' + (opt.value === select.value ? ' cd-item--active' : '');
+        item.dataset.value = opt.value;
+        item.setAttribute('role', 'option');
+
+        if (icons && opt.value) {
+          const slug = getBallSlug(opt.value);
+          item.innerHTML = `<img src="${iconPath}${slug}.png" class="cd-item-icon" width="20" height="20" alt="" onerror="this.style.display='none'"><span>${opt.textContent}</span>`;
+        } else {
+          item.innerHTML = `<span>${opt.textContent}</span>`;
+        }
+        optionsList.appendChild(item);
+      }
+    }
+
+    renderOptions();
+    wrapper.appendChild(menu);
+
+    // Toggle menu
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = wrapper.classList.toggle('cd-open');
+      btn.setAttribute('aria-expanded', String(isOpen));
+      if (isOpen && searchInput) {
+        searchInput.value = '';
+        renderOptions();
+        setTimeout(() => searchInput.focus(), 50);
+      }
+    });
+
+    // Search filter
+    if (searchInput) {
+      searchInput.addEventListener('input', () => {
+        renderOptions(searchInput.value);
+      });
+      searchInput.addEventListener('click', (e) => e.stopPropagation());
+    }
+
+    // Select option
+    optionsList.addEventListener('click', (e) => {
+      const item = e.target.closest('.cd-item');
+      if (!item) return;
+      const val = item.dataset.value;
+      select.value = val;
+      select.dispatchEvent(new Event('change', { bubbles: true }));
+      btn.innerHTML = buildBtnContent(select.options[select.selectedIndex], icons, iconPath);
+      wrapper.classList.remove('cd-open');
+      btn.setAttribute('aria-expanded', 'false');
+      // Update active state
+      optionsList.querySelectorAll('.cd-item').forEach(i => i.classList.remove('cd-item--active'));
+      item.classList.add('cd-item--active');
+    });
+
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+      if (!wrapper.contains(e.target)) {
+        wrapper.classList.remove('cd-open');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Return wrapper for reference
+    return wrapper;
+  }
+
+  function buildBtnContent(option, icons, iconPath) {
+    if (!option) return '<span class="cd-placeholder">Select...</span>';
+    const text = option.textContent;
+    const value = option.value;
+    if (!value) return `<span class="cd-placeholder">${text}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
+
+    if (icons && value) {
+      const slug = getBallSlug(value);
+      return `<img src="${iconPath}${slug}.png" class="cd-btn-icon" width="20" height="20" alt="" onerror="this.style.display='none'"><span>${text}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
+    }
+    return `<span>${text}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
+  }
+
+  /**
+   * Initialize all selects in a container.
+   * Ball select gets icons, others get plain custom dropdown.
+   */
+  function initAll(container) {
+    const selects = container.querySelectorAll('select');
+    selects.forEach(sel => {
+      // Skip form select (it has special handling)
+      if (sel.id === 'cfg-form') return;
+
+      const isBall = sel.id === 'cfg-ball';
+      init(sel, {
+        icons: isBall,
+        iconPath: '/icons/',
+        maxHeight: isBall ? '220px' : '180px',
+      });
+    });
+  }
+
+  return { init, initAll };
+})();
+
+window.CustomDropdown = CustomDropdown;

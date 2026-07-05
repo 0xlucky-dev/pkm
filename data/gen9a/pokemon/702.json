@@ -1,0 +1,62 @@
+{
+  "id": 702,
+  "name": "Dedenne",
+  "dexNum": 702,
+  "forms": [
+    {
+      "name": "Dedenne",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Cheek Pouch",
+        "Pickup",
+        "Plus"
+      ],
+      "moves": [
+        "Thunder Punch",
+        "Tackle",
+        "Tail Whip",
+        "Hyper Beam",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Dig",
+        "Agility",
+        "Light Screen",
+        "Swift",
+        "Super Fang",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Charm",
+        "Fake Out",
+        "Facade",
+        "Charge",
+        "U-turn",
+        "Seed Bomb",
+        "Giga Impact",
+        "Discharge",
+        "Magnet Bomb",
+        "Charge Beam",
+        "Volt Switch",
+        "Wild Charge",
+        "Parabolic Charge",
+        "Play Rough",
+        "Eerie Impulse",
+        "Dazzling Gleam",
+        "Nuzzle",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 64,
+      "spriteNormal": "sprites/poke_capture_0702_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0702_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

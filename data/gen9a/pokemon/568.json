@@ -1,0 +1,54 @@
+{
+  "id": 568,
+  "name": "Trubbish",
+  "dexNum": 568,
+  "forms": [
+    {
+      "name": "Trubbish",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Stench",
+        "Sticky Hold",
+        "Aftermath"
+      ],
+      "moves": [
+        "Headbutt",
+        "Take Down",
+        "Toxic",
+        "Smokescreen",
+        "Self-Destruct",
+        "Amnesia",
+        "Explosion",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Spikes",
+        "Giga Drain",
+        "Endure",
+        "Rollout",
+        "Facade",
+        "Bullet Seed",
+        "Mud Shot",
+        "Toxic Spikes",
+        "Poison Jab",
+        "Dark Pulse",
+        "Seed Bomb",
+        "Drain Punch",
+        "Gunk Shot",
+        "Sludge Wave",
+        "Acid Spray",
+        "Brutal Swing"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0568_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0568_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

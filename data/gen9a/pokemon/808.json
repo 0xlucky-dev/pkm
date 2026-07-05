@@ -1,0 +1,46 @@
+{
+  "id": 808,
+  "name": "Meltan",
+  "dexNum": 808,
+  "forms": [
+    {
+      "name": "Meltan",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Magnet Pull"
+      ],
+      "moves": [
+        "Headbutt",
+        "Tail Whip",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Harden",
+        "Self-Destruct",
+        "Acid Armor",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Facade",
+        "Iron Defense",
+        "Giga Impact",
+        "Flash Cannon",
+        "Iron Head",
+        "Magnet Bomb",
+        "Charge Beam",
+        "Brutal Swing",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0808_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0808_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

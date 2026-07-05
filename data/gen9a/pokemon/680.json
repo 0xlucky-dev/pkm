@@ -1,0 +1,56 @@
+{
+  "id": 680,
+  "name": "Doublade",
+  "dexNum": 680,
+  "forms": [
+    {
+      "name": "Doublade",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "No Guard"
+      ],
+      "moves": [
+        "Razor Wind",
+        "Swords Dance",
+        "Headbutt",
+        "Tackle",
+        "Screech",
+        "Reflect",
+        "Rock Slide",
+        "Slash",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "False Swipe",
+        "Facade",
+        "Brick Break",
+        "Metal Sound",
+        "Aerial Ace",
+        "Iron Defense",
+        "Close Combat",
+        "Night Slash",
+        "Shadow Claw",
+        "Shadow Sneak",
+        "Psycho Cut",
+        "Zen Headbutt",
+        "Flash Cannon",
+        "Iron Head",
+        "Double Hit",
+        "Dual Chop",
+        "Sacred Sword",
+        "Solar Blade",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 60,
+      "spriteNormal": "sprites/poke_capture_0680_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0680_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

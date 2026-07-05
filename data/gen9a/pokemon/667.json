@@ -1,0 +1,62 @@
+{
+  "id": 667,
+  "name": "Litleo",
+  "dexNum": 667,
+  "forms": [
+    {
+      "name": "Litleo",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Rivalry",
+        "Unnerve",
+        "Moxie"
+      ],
+      "moves": [
+        "Headbutt",
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Leer",
+        "Roar",
+        "Ember",
+        "Flamethrower",
+        "Solar Beam",
+        "Fire Spin",
+        "Dig",
+        "Fire Blast",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Crunch",
+        "Heat Wave",
+        "Will-O-Wisp",
+        "Facade",
+        "Taunt",
+        "Hyper Voice",
+        "Overheat",
+        "Flare Blitz",
+        "Earth Power",
+        "Thunder Fang",
+        "Fire Fang",
+        "Flame Charge",
+        "Work Up",
+        "Wild Charge",
+        "Snarl",
+        "Psychic Fangs",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0667_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0667_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

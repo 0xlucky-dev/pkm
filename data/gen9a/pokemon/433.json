@@ -1,0 +1,62 @@
+{
+  "id": 433,
+  "name": "Chingling",
+  "dexNum": 433,
+  "forms": [
+    {
+      "name": "Chingling",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Tackle",
+        "Take Down",
+        "Double-Edge",
+        "Growl",
+        "Supersonic",
+        "Thunder Wave",
+        "Confusion",
+        "Psychic",
+        "Screech",
+        "Light Screen",
+        "Reflect",
+        "Self-Destruct",
+        "Amnesia",
+        "Substitute",
+        "Curse",
+        "Protect",
+        "Icy Wind",
+        "Endure",
+        "Safeguard",
+        "Shadow Ball",
+        "Future Sight",
+        "Facade",
+        "Taunt",
+        "Wish",
+        "Knock Off",
+        "Hyper Voice",
+        "Metal Sound",
+        "Calm Mind",
+        "Water Pulse",
+        "Heal Block",
+        "Energy Ball",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Psyshock",
+        "Disarming Voice",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0433_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0433_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

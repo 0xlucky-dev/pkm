@@ -1,0 +1,50 @@
+{
+  "id": 653,
+  "name": "Fennekin",
+  "dexNum": 653,
+  "forms": [
+    {
+      "name": "Fennekin",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Blaze",
+        "Magician"
+      ],
+      "moves": [
+        "Tackle",
+        "Tail Whip",
+        "Ember",
+        "Flamethrower",
+        "Psybeam",
+        "Solar Beam",
+        "Fire Spin",
+        "Psychic",
+        "Agility",
+        "Light Screen",
+        "Fire Blast",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Charm",
+        "Will-O-Wisp",
+        "Facade",
+        "Overheat",
+        "Calm Mind",
+        "Flare Blitz",
+        "Psyshock",
+        "Flame Charge"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 61,
+      "spriteNormal": "sprites/poke_capture_0653_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0653_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

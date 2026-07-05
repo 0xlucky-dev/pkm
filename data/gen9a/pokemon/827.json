@@ -1,0 +1,58 @@
+{
+  "id": 827,
+  "name": "Nickit",
+  "dexNum": 827,
+  "forms": [
+    {
+      "name": "Nickit",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Run Away",
+        "Unburden",
+        "Stakeout"
+      ],
+      "moves": [
+        "Razor Wind",
+        "Tail Whip",
+        "Roar",
+        "Dig",
+        "Agility",
+        "Quick Attack",
+        "Mimic",
+        "Double Team",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Icy Wind",
+        "Endure",
+        "Fake Out",
+        "Torment",
+        "Will-O-Wisp",
+        "Facade",
+        "Taunt",
+        "Knock Off",
+        "Fake Tears",
+        "Mud Shot",
+        "Heal Block",
+        "Dark Pulse",
+        "Night Slash",
+        "Nasty Plot",
+        "Snarl",
+        "Parting Shot",
+        "Play Rough",
+        "First Impression",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0827_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0827_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

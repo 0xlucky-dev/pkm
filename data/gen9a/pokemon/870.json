@@ -1,0 +1,62 @@
+{
+  "id": 870,
+  "name": "Falinks",
+  "dexNum": 870,
+  "forms": [
+    {
+      "name": "Falinks",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Battle Armor",
+        "Defiant"
+      ],
+      "moves": [
+        "Comet Punch",
+        "Swords Dance",
+        "Headbutt",
+        "Tackle",
+        "Body Slam",
+        "Hyper Beam",
+        "Agility",
+        "Focus Energy",
+        "Skull Bash",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "False Swipe",
+        "Megahorn",
+        "Rock Smash",
+        "Fake Out",
+        "Facade",
+        "Brick Break",
+        "Knock Off",
+        "Rock Tomb",
+        "Iron Defense",
+        "Bulk Up",
+        "Close Combat",
+        "Poison Jab",
+        "Seed Bomb",
+        "Focus Blast",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Iron Head",
+        "Double Hit",
+        "Low Sweep",
+        "First Impression",
+        "No Retreat",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 65,
+      "spriteNormal": "sprites/poke_capture_0870_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0870_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

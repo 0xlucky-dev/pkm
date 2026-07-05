@@ -1,0 +1,54 @@
+{
+  "id": 590,
+  "name": "Foongus",
+  "dexNum": 590,
+  "forms": [
+    {
+      "name": "Foongus",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Effect Spore",
+        "Regenerator"
+      ],
+      "moves": [
+        "Body Slam",
+        "Absorb",
+        "Growth",
+        "Solar Beam",
+        "Stun Spore",
+        "Toxic",
+        "Mimic",
+        "Skull Bash",
+        "Spore",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Giga Drain",
+        "Endure",
+        "Rollout",
+        "Synthesis",
+        "Facade",
+        "Bullet Seed",
+        "Mud Shot",
+        "Magical Leaf",
+        "Heal Block",
+        "Toxic Spikes",
+        "Seed Bomb",
+        "Energy Ball",
+        "Leaf Storm",
+        "Dazzling Gleam",
+        "First Impression"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0590_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0590_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": 693,
+  "name": "Clawitzer",
+  "dexNum": 693,
+  "forms": [
+    {
+      "name": "Clawitzer",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Mega Launcher"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Water Gun",
+        "Hydro Pump",
+        "Surf",
+        "Ice Beam",
+        "Blizzard",
+        "Bubble Beam",
+        "Hyper Beam",
+        "Waterfall",
+        "Splash",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Shadow Ball",
+        "Facade",
+        "Muddy Water",
+        "Bounce",
+        "Mud Shot",
+        "Water Pulse",
+        "U-turn",
+        "Aura Sphere",
+        "Dark Pulse",
+        "Dragon Pulse",
+        "Focus Blast",
+        "Flash Cannon",
+        "Aqua Jet",
+        "Acid Spray",
+        "Scald",
+        "Liquidation",
+        "Flip Turn",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0693_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0693_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

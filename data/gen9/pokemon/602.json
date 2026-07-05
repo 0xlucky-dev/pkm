@@ -1,0 +1,33 @@
+{
+  "id": 602,
+  "name": "Tynamo",
+  "dexNum": 602,
+  "forms": [
+    {
+      "name": "Tynamo",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Tackle",
+        "Thunder Wave",
+        "Spark",
+        "Charge",
+        "Knock Off",
+        "Charge Beam",
+        "Tera Blast"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 74,
+      "spriteNormal": "sprites/poke_capture_0602_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0602_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

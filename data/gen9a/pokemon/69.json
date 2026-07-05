@@ -1,0 +1,56 @@
+{
+  "id": 69,
+  "name": "Bellsprout",
+  "dexNum": 69,
+  "forms": [
+    {
+      "name": "Bellsprout",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Chlorophyll",
+        "Gluttony"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Vine Whip",
+        "Growth",
+        "Razor Leaf",
+        "Solar Beam",
+        "Poison Powder",
+        "Stun Spore",
+        "Sleep Powder",
+        "Toxic",
+        "Reflect",
+        "Leech Life",
+        "Substitute",
+        "Protect",
+        "Giga Drain",
+        "Endure",
+        "Facade",
+        "Knock Off",
+        "Bullet Seed",
+        "Magical Leaf",
+        "Toxic Spikes",
+        "Poison Jab",
+        "Seed Bomb",
+        "Energy Ball",
+        "Leaf Storm",
+        "Power Whip",
+        "Sludge Wave",
+        "Acid Spray",
+        "Infestation",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0069_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0069_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

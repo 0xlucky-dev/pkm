@@ -1,0 +1,63 @@
+{
+  "id": 548,
+  "name": "Petilil",
+  "dexNum": 548,
+  "forms": [
+    {
+      "name": "Petilil",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Chlorophyll",
+        "Own Tempo",
+        "Leaf Guard"
+      ],
+      "moves": [
+        "Absorb",
+        "Mega Drain",
+        "Leech Seed",
+        "Growth",
+        "Solar Beam",
+        "Stun Spore",
+        "Sleep Powder",
+        "Rest",
+        "Substitute",
+        "Protect",
+        "Giga Drain",
+        "Endure",
+        "Charm",
+        "Sleep Talk",
+        "Encore",
+        "Sweet Scent",
+        "Synthesis",
+        "Sunny Day",
+        "Facade",
+        "Helping Hand",
+        "Ingrain",
+        "Bullet Seed",
+        "Magical Leaf",
+        "Healing Wish",
+        "Worry Seed",
+        "Seed Bomb",
+        "Energy Ball",
+        "Leaf Storm",
+        "Grass Knot",
+        "Entrainment",
+        "After You",
+        "Pollen Puff",
+        "Grassy Glide",
+        "Tera Blast",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 82,
+      "spriteNormal": "sprites/poke_capture_0548_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0548_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

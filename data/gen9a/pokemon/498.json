@@ -1,0 +1,56 @@
+{
+  "id": 498,
+  "name": "Tepig",
+  "dexNum": 498,
+  "forms": [
+    {
+      "name": "Tepig",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Blaze",
+        "Thick Fat"
+      ],
+      "moves": [
+        "Headbutt",
+        "Tackle",
+        "Take Down",
+        "Tail Whip",
+        "Roar",
+        "Ember",
+        "Flamethrower",
+        "Fire Spin",
+        "Dig",
+        "Double Team",
+        "Smokescreen",
+        "Focus Energy",
+        "Fire Blast",
+        "Substitute",
+        "Flame Wheel",
+        "Protect",
+        "Endure",
+        "Rollout",
+        "Heat Wave",
+        "Will-O-Wisp",
+        "Facade",
+        "Taunt",
+        "Overheat",
+        "Flare Blitz",
+        "Head Smash",
+        "Flame Charge",
+        "Work Up",
+        "Wild Charge",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 64,
+      "spriteNormal": "sprites/poke_capture_0498_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0498_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

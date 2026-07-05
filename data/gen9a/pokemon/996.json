@@ -1,0 +1,53 @@
+{
+  "id": 996,
+  "name": "Frigibax",
+  "dexNum": 996,
+  "forms": [
+    {
+      "name": "Frigibax",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Thermal Exchange",
+        "Ice Body"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Leer",
+        "Bite",
+        "Ice Beam",
+        "Blizzard",
+        "Dig",
+        "Focus Energy",
+        "Substitute",
+        "Protect",
+        "Icy Wind",
+        "Outrage",
+        "Endure",
+        "Dragon Breath",
+        "Crunch",
+        "Facade",
+        "Icicle Spear",
+        "Dragon Claw",
+        "Dragon Pulse",
+        "Dragon Rush",
+        "Ice Fang",
+        "Draco Meteor",
+        "Icicle Crash",
+        "Freeze-Dry"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 63,
+      "spriteNormal": "sprites/poke_capture_0996_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0996_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

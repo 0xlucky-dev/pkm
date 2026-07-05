@@ -1,0 +1,56 @@
+{
+  "id": 935,
+  "name": "Charcadet",
+  "dexNum": 935,
+  "forms": [
+    {
+      "name": "Charcadet",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Flash Fire",
+        "Flame Body"
+      ],
+      "moves": [
+        "Take Down",
+        "Leer",
+        "Disable",
+        "Ember",
+        "Flamethrower",
+        "Fire Spin",
+        "Night Shade",
+        "Confuse Ray",
+        "Fire Blast",
+        "Rest",
+        "Substitute",
+        "Spite",
+        "Protect",
+        "Destiny Bond",
+        "Endure",
+        "Sleep Talk",
+        "Sunny Day",
+        "Heat Wave",
+        "Will-O-Wisp",
+        "Facade",
+        "Helping Hand",
+        "Astonish",
+        "Overheat",
+        "Flare Blitz",
+        "Lava Plume",
+        "Flame Charge",
+        "Clear Smog",
+        "Incinerate",
+        "Tera Blast"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 56,
+      "spriteNormal": "sprites/poke_capture_0935_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0935_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

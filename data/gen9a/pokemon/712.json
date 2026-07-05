@@ -1,0 +1,52 @@
+{
+  "id": 712,
+  "name": "Bergmite",
+  "dexNum": 712,
+  "forms": [
+    {
+      "name": "Bergmite",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Own Tempo",
+        "Ice Body",
+        "Sturdy"
+      ],
+      "moves": [
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Bite",
+        "Ice Beam",
+        "Blizzard",
+        "Recover",
+        "Harden",
+        "Rock Slide",
+        "Substitute",
+        "Curse",
+        "Protect",
+        "Icy Wind",
+        "Endure",
+        "Crunch",
+        "Facade",
+        "Rock Tomb",
+        "Icicle Spear",
+        "Iron Defense",
+        "Ice Fang",
+        "Stone Edge",
+        "Bulldoze",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 63,
+      "spriteNormal": "sprites/poke_capture_0712_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0712_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

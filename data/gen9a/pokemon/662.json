@@ -1,0 +1,60 @@
+{
+  "id": 662,
+  "name": "Fletchinder",
+  "dexNum": 662,
+  "forms": [
+    {
+      "name": "Fletchinder",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Flame Body",
+        "Gale Wings"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Wing Attack",
+        "Whirlwind",
+        "Fly",
+        "Double-Edge",
+        "Growl",
+        "Ember",
+        "Flamethrower",
+        "Peck",
+        "Fire Spin",
+        "Agility",
+        "Quick Attack",
+        "Double Team",
+        "Fire Blast",
+        "Swift",
+        "Substitute",
+        "Flame Wheel",
+        "Protect",
+        "Endure",
+        "Steel Wing",
+        "Heat Wave",
+        "Will-O-Wisp",
+        "Facade",
+        "Feather Dance",
+        "Overheat",
+        "Aerial Ace",
+        "U-turn",
+        "Flare Blitz",
+        "Air Slash",
+        "Vacuum Wave",
+        "Flame Charge",
+        "Hurricane",
+        "Dual Wingbeat"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0662_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0662_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

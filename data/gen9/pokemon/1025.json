@@ -1,0 +1,61 @@
+{
+  "id": 1025,
+  "name": "Pecharunt",
+  "dexNum": 1025,
+  "forms": [
+    {
+      "name": "Pecharunt",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Poison Puppeteer"
+      ],
+      "moves": [
+        "Toxic",
+        "Night Shade",
+        "Recover",
+        "Withdraw",
+        "Defense Curl",
+        "Smog",
+        "Poison Gas",
+        "Rest",
+        "Substitute",
+        "Curse",
+        "Spite",
+        "Protect",
+        "Sludge Bomb",
+        "Destiny Bond",
+        "Endure",
+        "Rollout",
+        "Mean Look",
+        "Sleep Talk",
+        "Shadow Ball",
+        "Memento",
+        "Imprison",
+        "Astonish",
+        "Fake Tears",
+        "Nasty Plot",
+        "Gunk Shot",
+        "Venoshock",
+        "Sludge Wave",
+        "Acid Spray",
+        "Foul Play",
+        "Hex",
+        "Phantom Force",
+        "Parting Shot",
+        "Poltergeist",
+        "Tera Blast",
+        "Malignant Chain"
+      ],
+      "canShiny": false,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 88,
+      "spriteNormal": "sprites/poke_capture_1025_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

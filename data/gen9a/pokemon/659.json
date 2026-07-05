@@ -1,0 +1,59 @@
+{
+  "id": 659,
+  "name": "Bunnelby",
+  "dexNum": 659,
+  "forms": [
+    {
+      "name": "Bunnelby",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Pickup",
+        "Cheek Pouch",
+        "Huge Power"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Headbutt",
+        "Tackle",
+        "Take Down",
+        "Leer",
+        "Surf",
+        "Earthquake",
+        "Dig",
+        "Agility",
+        "Quick Attack",
+        "Rock Slide",
+        "Super Fang",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Spikes",
+        "Endure",
+        "Rock Smash",
+        "Facade",
+        "Brick Break",
+        "Rock Tomb",
+        "Bulk Up",
+        "Bounce",
+        "Mud Shot",
+        "U-turn",
+        "Earth Power",
+        "Iron Head",
+        "Stone Edge",
+        "Bulldoze",
+        "Wild Charge",
+        "Brutal Swing"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0659_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0659_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

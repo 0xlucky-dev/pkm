@@ -1,0 +1,61 @@
+{
+  "id": 1,
+  "name": "Bulbasaur",
+  "dexNum": 1,
+  "forms": [
+    {
+      "name": "Bulbasaur",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Overgrow",
+        "Chlorophyll"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Vine Whip",
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Growl",
+        "Leech Seed",
+        "Growth",
+        "Razor Leaf",
+        "Solar Beam",
+        "Poison Powder",
+        "Sleep Powder",
+        "Petal Dance",
+        "Toxic",
+        "Light Screen",
+        "Amnesia",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Giga Drain",
+        "Endure",
+        "False Swipe",
+        "Safeguard",
+        "Synthesis",
+        "Facade",
+        "Bullet Seed",
+        "Magical Leaf",
+        "Seed Bomb",
+        "Energy Ball",
+        "Sludge Wave",
+        "Acid Spray",
+        "Work Up",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0001_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0001_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

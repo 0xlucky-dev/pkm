@@ -1,0 +1,29 @@
+{
+  "id": 235,
+  "name": "Smeargle",
+  "dexNum": 235,
+  "forms": [
+    {
+      "name": "Smeargle",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Own Tempo",
+        "Technician",
+        "Moody"
+      ],
+      "moves": [
+        "Sketch"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 71,
+      "spriteNormal": "sprites/poke_capture_0235_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0235_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

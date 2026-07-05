@@ -1,0 +1,59 @@
+{
+  "id": 852,
+  "name": "Clobbopus",
+  "dexNum": 852,
+  "forms": [
+    {
+      "name": "Clobbopus",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Limber",
+        "Technician"
+      ],
+      "moves": [
+        "Comet Punch",
+        "Ice Punch",
+        "Body Slam",
+        "Leer",
+        "Waterfall",
+        "Substitute",
+        "Protect",
+        "Mach Punch",
+        "Detect",
+        "Endure",
+        "Rock Smash",
+        "Whirlpool",
+        "Facade",
+        "Taunt",
+        "Brick Break",
+        "Knock Off",
+        "Muddy Water",
+        "Bulk Up",
+        "Mud Shot",
+        "Close Combat",
+        "Drain Punch",
+        "Vacuum Wave",
+        "Focus Blast",
+        "Bullet Punch",
+        "Double Hit",
+        "Storm Throw",
+        "Circle Throw",
+        "Work Up",
+        "Dual Chop",
+        "Power-Up Punch",
+        "Liquidation",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 63,
+      "spriteNormal": "sprites/poke_capture_0852_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0852_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

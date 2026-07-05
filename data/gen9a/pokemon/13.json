@@ -1,0 +1,31 @@
+{
+  "id": 13,
+  "name": "Weedle",
+  "dexNum": 13,
+  "forms": [
+    {
+      "name": "Weedle",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Shield Dust",
+        "Run Away"
+      ],
+      "moves": [
+        "Poison Sting",
+        "String Shot",
+        "Facade",
+        "Electroweb"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0013_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0013_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 664,
+  "name": "Scatterbug",
+  "dexNum": 664,
+  "forms": [
+    {
+      "name": "Scatterbug",
+      "formName": "Garden",
+      "formIndex": 4,
+      "abilities": [
+        "Shield Dust",
+        "Compound Eyes",
+        "Friend Guard"
+      ],
+      "moves": [
+        "Tackle",
+        "Stun Spore",
+        "String Shot",
+        "Protect",
+        "Endure",
+        "Facade"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0664_004_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0664_004_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Scatterbug",
+      "formName": "Default Form",
+      "formIndex": 6,
+      "abilities": [
+        "Shield Dust",
+        "Compound Eyes",
+        "Friend Guard"
+      ],
+      "moves": [
+        "Tackle",
+        "Stun Spore",
+        "String Shot",
+        "Protect",
+        "Endure",
+        "Facade"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0664_006_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0664_006_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Scatterbug",
+      "formName": "Meadow",
+      "formIndex": 6,
+      "abilities": [
+        "Shield Dust",
+        "Compound Eyes",
+        "Friend Guard"
+      ],
+      "moves": [
+        "Tackle",
+        "Stun Spore",
+        "String Shot",
+        "Protect",
+        "Endure",
+        "Facade"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0664_006_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0664_006_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

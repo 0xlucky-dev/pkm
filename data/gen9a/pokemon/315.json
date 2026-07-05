@@ -1,0 +1,61 @@
+{
+  "id": 315,
+  "name": "Roselia",
+  "dexNum": 315,
+  "forms": [
+    {
+      "name": "Roselia",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Natural Cure",
+        "Poison Point",
+        "Leaf Guard"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Body Slam",
+        "Poison Sting",
+        "Pin Missile",
+        "Absorb",
+        "Leech Seed",
+        "Growth",
+        "Razor Leaf",
+        "Solar Beam",
+        "Stun Spore",
+        "Sleep Powder",
+        "Petal Dance",
+        "Toxic",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Spikes",
+        "Giga Drain",
+        "Endure",
+        "Charm",
+        "Synthesis",
+        "Shadow Ball",
+        "Facade",
+        "Bullet Seed",
+        "Mud Shot",
+        "Magical Leaf",
+        "Toxic Spikes",
+        "Poison Jab",
+        "Seed Bomb",
+        "Energy Ball",
+        "Leaf Storm",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 62,
+      "spriteNormal": "sprites/poke_capture_0315_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0315_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

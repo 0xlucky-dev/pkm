@@ -1,0 +1,61 @@
+{
+  "id": 172,
+  "name": "Pichu",
+  "dexNum": 172,
+  "forms": [
+    {
+      "name": "Pichu",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "moves": [
+        "Thunder Punch",
+        "Body Slam",
+        "Tail Whip",
+        "Growl",
+        "Surf",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Dig",
+        "Quick Attack",
+        "Double Team",
+        "Light Screen",
+        "Reflect",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Charm",
+        "Spark",
+        "Iron Tail",
+        "Fake Out",
+        "Facade",
+        "Charge",
+        "Brick Break",
+        "Volt Tackle",
+        "Nasty Plot",
+        "Discharge",
+        "Volt Switch",
+        "Electroweb",
+        "Wild Charge",
+        "Play Rough",
+        "Nuzzle",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0172_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0172_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

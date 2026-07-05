@@ -1,0 +1,63 @@
+{
+  "id": 736,
+  "name": "Grubbin",
+  "dexNum": 736,
+  "forms": [
+    {
+      "name": "Grubbin",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swarm"
+      ],
+      "moves": [
+        "Vise Grip",
+        "Take Down",
+        "Bite",
+        "String Shot",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Dig",
+        "Harden",
+        "Light Screen",
+        "Rest",
+        "Substitute",
+        "Protect",
+        "Mud-Slap",
+        "Endure",
+        "Spark",
+        "Sleep Talk",
+        "Baton Pass",
+        "Rain Dance",
+        "Crunch",
+        "Facade",
+        "Charge",
+        "Mud Shot",
+        "Poison Jab",
+        "X-Scissor",
+        "Discharge",
+        "Bug Bite",
+        "Charge Beam",
+        "Volt Switch",
+        "Struggle Bug",
+        "Electroweb",
+        "Wild Charge",
+        "Sticky Web",
+        "Electric Terrain",
+        "Lunge",
+        "Skitter Smack",
+        "Tera Blast",
+        "Pounce"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 74,
+      "spriteNormal": "sprites/poke_capture_0736_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0736_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

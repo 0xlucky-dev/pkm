@@ -1,0 +1,61 @@
+{
+  "id": 318,
+  "name": "Carvanha",
+  "dexNum": 318,
+  "forms": [
+    {
+      "name": "Carvanha",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Rough Skin",
+        "Speed Boost"
+      ],
+      "moves": [
+        "Take Down",
+        "Double-Edge",
+        "Leer",
+        "Bite",
+        "Hydro Pump",
+        "Surf",
+        "Ice Beam",
+        "Blizzard",
+        "Agility",
+        "Screech",
+        "Focus Energy",
+        "Waterfall",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Icy Wind",
+        "Endure",
+        "Swagger",
+        "Crunch",
+        "Ancient Power",
+        "Whirlpool",
+        "Facade",
+        "Taunt",
+        "Poison Fang",
+        "Bounce",
+        "Dark Pulse",
+        "Ice Fang",
+        "Zen Headbutt",
+        "Aqua Jet",
+        "Scald",
+        "Psychic Fangs",
+        "Liquidation",
+        "Scale Shot",
+        "Flip Turn"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0318_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0318_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

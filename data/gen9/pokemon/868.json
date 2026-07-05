@@ -1,0 +1,50 @@
+{
+  "id": 868,
+  "name": "Milcery",
+  "dexNum": 868,
+  "forms": [
+    {
+      "name": "Milcery",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sweet Veil",
+        "Aroma Veil"
+      ],
+      "moves": [
+        "Tackle",
+        "Recover",
+        "Acid Armor",
+        "Rest",
+        "Substitute",
+        "Protect",
+        "Sweet Kiss",
+        "Endure",
+        "Charm",
+        "Attract",
+        "Sleep Talk",
+        "Sweet Scent",
+        "Facade",
+        "Helping Hand",
+        "Last Resort",
+        "Entrainment",
+        "Stored Power",
+        "Draining Kiss",
+        "Misty Terrain",
+        "Aromatic Mist",
+        "Dazzling Gleam",
+        "Baby-Doll Eyes",
+        "Tera Blast"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 75,
+      "spriteNormal": "sprites/poke_capture_0868_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0868_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

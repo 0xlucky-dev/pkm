@@ -1,0 +1,57 @@
+{
+  "id": 397,
+  "name": "Staravia",
+  "dexNum": 397,
+  "forms": [
+    {
+      "name": "Staravia",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Intimidate",
+        "Reckless"
+      ],
+      "moves": [
+        "Gust",
+        "Wing Attack",
+        "Whirlwind",
+        "Fly",
+        "Tackle",
+        "Take Down",
+        "Double-Edge",
+        "Growl",
+        "Peck",
+        "Agility",
+        "Quick Attack",
+        "Double Team",
+        "Swift",
+        "Skull Bash",
+        "Sky Attack",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Heat Wave",
+        "Facade",
+        "Knock Off",
+        "Feather Dance",
+        "Aerial Ace",
+        "U-turn",
+        "Vacuum Wave",
+        "Brave Bird",
+        "Ominous Wind",
+        "Work Up",
+        "Hurricane",
+        "Dual Wingbeat"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0397_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0397_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

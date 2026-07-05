@@ -1,0 +1,58 @@
+{
+  "id": 919,
+  "name": "Nymble",
+  "dexNum": 919,
+  "forms": [
+    {
+      "name": "Nymble",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swarm",
+        "Tinted Lens"
+      ],
+      "moves": [
+        "Double Kick",
+        "Tackle",
+        "Take Down",
+        "Leer",
+        "Counter",
+        "Agility",
+        "Screech",
+        "Leech Life",
+        "Rest",
+        "Substitute",
+        "Thief",
+        "Protect",
+        "Endure",
+        "Sleep Talk",
+        "Rain Dance",
+        "Sunny Day",
+        "Facade",
+        "Astonish",
+        "Feint",
+        "U-turn",
+        "Assurance",
+        "Sucker Punch",
+        "X-Scissor",
+        "Bug Buzz",
+        "Bug Bite",
+        "Struggle Bug",
+        "First Impression",
+        "Skitter Smack",
+        "Tera Blast",
+        "Pounce",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0919_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0919_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

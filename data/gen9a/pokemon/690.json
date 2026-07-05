@@ -1,0 +1,61 @@
+{
+  "id": 690,
+  "name": "Skrelp",
+  "dexNum": 690,
+  "forms": [
+    {
+      "name": "Skrelp",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Poison Point",
+        "Poison Touch",
+        "Adaptability"
+      ],
+      "moves": [
+        "Tackle",
+        "Tail Whip",
+        "Water Gun",
+        "Hydro Pump",
+        "Surf",
+        "Bubble Beam",
+        "Thunderbolt",
+        "Toxic",
+        "Double Team",
+        "Smokescreen",
+        "Waterfall",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Outrage",
+        "Endure",
+        "Shadow Ball",
+        "Facade",
+        "Muddy Water",
+        "Mud Shot",
+        "Water Pulse",
+        "Toxic Spikes",
+        "Poison Jab",
+        "Dragon Pulse",
+        "Gunk Shot",
+        "Sludge Wave",
+        "Acid Spray",
+        "Scald",
+        "Play Rough",
+        "Liquidation",
+        "Scale Shot",
+        "Flip Turn",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0690_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0690_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

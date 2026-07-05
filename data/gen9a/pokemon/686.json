@@ -1,0 +1,60 @@
+{
+  "id": 686,
+  "name": "Inkay",
+  "dexNum": 686,
+  "forms": [
+    {
+      "name": "Inkay",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Contrary",
+        "Suction Cups",
+        "Infiltrator"
+      ],
+      "moves": [
+        "Headbutt",
+        "Tackle",
+        "Flamethrower",
+        "Psybeam",
+        "Peck",
+        "Thunderbolt",
+        "Psychic",
+        "Hypnosis",
+        "Mimic",
+        "Light Screen",
+        "Reflect",
+        "Rock Slide",
+        "Slash",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Swagger",
+        "Future Sight",
+        "Facade",
+        "Taunt",
+        "Knock Off",
+        "Fake Tears",
+        "Calm Mind",
+        "Close Combat",
+        "Dark Pulse",
+        "Night Slash",
+        "Nasty Plot",
+        "Psycho Cut",
+        "Zen Headbutt",
+        "Psyshock",
+        "Topsy-Turvy",
+        "Liquidation"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0686_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0686_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

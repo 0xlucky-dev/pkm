@@ -1,0 +1,53 @@
+{
+  "id": 396,
+  "name": "Starly",
+  "dexNum": 396,
+  "forms": [
+    {
+      "name": "Starly",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Keen Eye",
+        "Reckless"
+      ],
+      "moves": [
+        "Gust",
+        "Wing Attack",
+        "Whirlwind",
+        "Fly",
+        "Tackle",
+        "Take Down",
+        "Double-Edge",
+        "Growl",
+        "Peck",
+        "Agility",
+        "Quick Attack",
+        "Double Team",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Heat Wave",
+        "Facade",
+        "Knock Off",
+        "Feather Dance",
+        "Aerial Ace",
+        "U-turn",
+        "Brave Bird",
+        "Work Up",
+        "Hurricane",
+        "Dual Wingbeat"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0396_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0396_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

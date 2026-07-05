@@ -1,0 +1,62 @@
+{
+  "id": 717,
+  "name": "Yveltal",
+  "dexNum": 717,
+  "forms": [
+    {
+      "name": "Yveltal",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Dark Aura"
+      ],
+      "moves": [
+        "Razor Wind",
+        "Gust",
+        "Fly",
+        "Body Slam",
+        "Hyper Beam",
+        "Psychic",
+        "Double Team",
+        "Swift",
+        "Dream Eater",
+        "Sky Attack",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Shadow Ball",
+        "Heat Wave",
+        "Facade",
+        "Taunt",
+        "Hyper Voice",
+        "Dragon Claw",
+        "U-turn",
+        "Heal Block",
+        "Dark Pulse",
+        "Air Slash",
+        "Dragon Rush",
+        "Vacuum Wave",
+        "Focus Blast",
+        "Giga Impact",
+        "Shadow Claw",
+        "Zen Headbutt",
+        "Ominous Wind",
+        "Hurricane",
+        "Snarl",
+        "Phantom Force",
+        "Oblivion Wing",
+        "Dual Wingbeat"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0717_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0717_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

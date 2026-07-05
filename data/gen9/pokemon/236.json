@@ -1,0 +1,60 @@
+{
+  "id": 236,
+  "name": "Tyrogue",
+  "dexNum": 236,
+  "forms": [
+    {
+      "name": "Tyrogue",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Guts",
+        "Steadfast",
+        "Vital Spirit"
+      ],
+      "moves": [
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Low Kick",
+        "Counter",
+        "Focus Energy",
+        "Swift",
+        "High Jump Kick",
+        "Rest",
+        "Rock Slide",
+        "Substitute",
+        "Thief",
+        "Protect",
+        "Mach Punch",
+        "Endure",
+        "Sleep Talk",
+        "Rapid Spin",
+        "Rain Dance",
+        "Sunny Day",
+        "Fake Out",
+        "Uproar",
+        "Facade",
+        "Helping Hand",
+        "Brick Break",
+        "Bulk Up",
+        "Feint",
+        "Vacuum Wave",
+        "Bullet Punch",
+        "Low Sweep",
+        "Bulldoze",
+        "Tera Blast",
+        "Upper Hand"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 71,
+      "spriteNormal": "sprites/poke_capture_0236_000_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0236_000_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

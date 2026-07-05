@@ -1,0 +1,35 @@
+{
+  "id": 401,
+  "name": "Kricketot",
+  "dexNum": 401,
+  "forms": [
+    {
+      "name": "Kricketot",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Shed Skin",
+        "Run Away"
+      ],
+      "moves": [
+        "Tackle",
+        "Growl",
+        "Endeavor",
+        "Bug Bite",
+        "Struggle Bug",
+        "Lunge",
+        "Skitter Smack",
+        "Tera Blast"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 68,
+      "spriteNormal": "sprites/poke_capture_0401_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0401_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

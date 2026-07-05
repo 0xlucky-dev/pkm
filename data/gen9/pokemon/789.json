@@ -1,0 +1,28 @@
+{
+  "id": 789,
+  "name": "Cosmog",
+  "dexNum": 789,
+  "forms": [
+    {
+      "name": "Cosmog",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Unaware"
+      ],
+      "moves": [
+        "Teleport",
+        "Splash"
+      ],
+      "canShiny": false,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0789_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

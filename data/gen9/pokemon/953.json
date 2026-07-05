@@ -1,0 +1,60 @@
+{
+  "id": 953,
+  "name": "Rellor",
+  "dexNum": 953,
+  "forms": [
+    {
+      "name": "Rellor",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Compound Eyes",
+        "Shed Skin"
+      ],
+      "moves": [
+        "Sand Attack",
+        "Tackle",
+        "Take Down",
+        "Dig",
+        "Recover",
+        "Defense Curl",
+        "Leech Life",
+        "Rest",
+        "Substitute",
+        "Thief",
+        "Protect",
+        "Sludge Bomb",
+        "Mud-Slap",
+        "Endure",
+        "Rollout",
+        "Sleep Talk",
+        "Memento",
+        "Facade",
+        "Weather Ball",
+        "Rock Tomb",
+        "Cosmic Power",
+        "Iron Defense",
+        "Mud Shot",
+        "Fling",
+        "X-Scissor",
+        "Bug Buzz",
+        "Gunk Shot",
+        "Bug Bite",
+        "Struggle Bug",
+        "Lunge",
+        "Skitter Smack",
+        "Tera Blast",
+        "Pounce"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 68,
+      "spriteNormal": "sprites/poke_capture_0953_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0953_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

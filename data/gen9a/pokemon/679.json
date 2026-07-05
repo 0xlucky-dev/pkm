@@ -1,0 +1,51 @@
+{
+  "id": 679,
+  "name": "Honedge",
+  "dexNum": 679,
+  "forms": [
+    {
+      "name": "Honedge",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "No Guard"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Headbutt",
+        "Tackle",
+        "Screech",
+        "Reflect",
+        "Rock Slide",
+        "Slash",
+        "Substitute",
+        "Protect",
+        "False Swipe",
+        "Facade",
+        "Brick Break",
+        "Metal Sound",
+        "Aerial Ace",
+        "Iron Defense",
+        "Close Combat",
+        "Night Slash",
+        "Shadow Claw",
+        "Shadow Sneak",
+        "Psycho Cut",
+        "Flash Cannon",
+        "Iron Head",
+        "Sacred Sword",
+        "Solar Blade",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 58,
+      "spriteNormal": "sprites/poke_capture_0679_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0679_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

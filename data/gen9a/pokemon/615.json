@@ -1,0 +1,60 @@
+{
+  "id": 615,
+  "name": "Cryogonal",
+  "dexNum": 615,
+  "forms": [
+    {
+      "name": "Cryogonal",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Body Slam",
+        "Mist",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Solar Beam",
+        "Recover",
+        "Confuse Ray",
+        "Light Screen",
+        "Haze",
+        "Reflect",
+        "Self-Destruct",
+        "Acid Armor",
+        "Explosion",
+        "Slash",
+        "Substitute",
+        "Protect",
+        "Icy Wind",
+        "Endure",
+        "Ancient Power",
+        "Facade",
+        "Sheer Cold",
+        "Icicle Spear",
+        "Iron Defense",
+        "Water Pulse",
+        "Poison Jab",
+        "Night Slash",
+        "Giga Impact",
+        "Ice Shard",
+        "Flash Cannon",
+        "Frost Breath",
+        "Freeze-Dry",
+        "Triple Axel",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 57,
+      "spriteNormal": "sprites/poke_capture_0615_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0615_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

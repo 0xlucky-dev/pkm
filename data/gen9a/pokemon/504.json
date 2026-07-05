@@ -1,0 +1,53 @@
+{
+  "id": 504,
+  "name": "Patrat",
+  "dexNum": 504,
+  "forms": [
+    {
+      "name": "Patrat",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Run Away",
+        "Keen Eye",
+        "Analytic"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Leer",
+        "Bite",
+        "Thunderbolt",
+        "Dig",
+        "Toxic",
+        "Hypnosis",
+        "Double Team",
+        "Focus Energy",
+        "Super Fang",
+        "Substitute",
+        "Protect",
+        "Detect",
+        "Endure",
+        "Crunch",
+        "Shadow Ball",
+        "Facade",
+        "Bullet Seed",
+        "Mud Shot",
+        "Seed Bomb",
+        "Nasty Plot",
+        "Zen Headbutt",
+        "Gunk Shot",
+        "Work Up"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0504_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0504_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

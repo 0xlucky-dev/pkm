@@ -1,0 +1,63 @@
+{
+  "id": 120,
+  "name": "Staryu",
+  "dexNum": 120,
+  "forms": [
+    {
+      "name": "Staryu",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Illuminate",
+        "Natural Cure",
+        "Analytic"
+      ],
+      "moves": [
+        "Tackle",
+        "Water Gun",
+        "Hydro Pump",
+        "Surf",
+        "Ice Beam",
+        "Blizzard",
+        "Psybeam",
+        "Bubble Beam",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Psychic",
+        "Recover",
+        "Harden",
+        "Confuse Ray",
+        "Light Screen",
+        "Reflect",
+        "Self-Destruct",
+        "Waterfall",
+        "Swift",
+        "Tri Attack",
+        "Substitute",
+        "Protect",
+        "Icy Wind",
+        "Endure",
+        "Safeguard",
+        "Whirlpool",
+        "Facade",
+        "Water Pulse",
+        "Power Gem",
+        "Flash Cannon",
+        "Aqua Jet",
+        "Scald",
+        "Dazzling Gleam",
+        "Flip Turn"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 60,
+      "spriteNormal": "sprites/poke_capture_0120_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0120_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": 769,
+  "name": "Sandygast",
+  "dexNum": 769,
+  "forms": [
+    {
+      "name": "Sandygast",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Water Compaction",
+        "Sand Veil"
+      ],
+      "moves": [
+        "Absorb",
+        "Earthquake",
+        "Psychic",
+        "Hypnosis",
+        "Harden",
+        "Rock Slide",
+        "Substitute",
+        "Curse",
+        "Protect",
+        "Sludge Bomb",
+        "Giga Drain",
+        "Endure",
+        "Ancient Power",
+        "Shadow Ball",
+        "Facade",
+        "Rock Tomb",
+        "Sand Tomb",
+        "Iron Defense",
+        "Mud Shot",
+        "Dark Pulse",
+        "Power Gem",
+        "Energy Ball",
+        "Earth Power",
+        "Nasty Plot",
+        "Flash Cannon",
+        "Stone Edge",
+        "Stealth Rock",
+        "Ominous Wind",
+        "Bulldoze",
+        "Infestation",
+        "Shore Up",
+        "Scorching Sands",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0769_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0769_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

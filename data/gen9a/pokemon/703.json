@@ -1,0 +1,59 @@
+{
+  "id": 703,
+  "name": "Carbink",
+  "dexNum": 703,
+  "forms": [
+    {
+      "name": "Carbink",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Clear Body",
+        "Sturdy"
+      ],
+      "moves": [
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Double-Edge",
+        "Hyper Beam",
+        "Rock Throw",
+        "Psychic",
+        "Harden",
+        "Light Screen",
+        "Reflect",
+        "Self-Destruct",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Spikes",
+        "Endure",
+        "Ancient Power",
+        "Facade",
+        "Rock Tomb",
+        "Iron Defense",
+        "Calm Mind",
+        "Power Gem",
+        "Earth Power",
+        "Giga Impact",
+        "Flash Cannon",
+        "Iron Head",
+        "Magnet Bomb",
+        "Stone Edge",
+        "Stealth Rock",
+        "Moonblast",
+        "Dazzling Gleam",
+        "Meteor Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 66,
+      "spriteNormal": "sprites/poke_capture_0703_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0703_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

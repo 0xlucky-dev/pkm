@@ -1,0 +1,57 @@
+{
+  "id": 677,
+  "name": "Espurr",
+  "dexNum": 677,
+  "forms": [
+    {
+      "name": "Espurr",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Keen Eye",
+        "Infiltrator",
+        "Own Tempo"
+      ],
+      "moves": [
+        "Tackle",
+        "Leer",
+        "Psybeam",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Confusion",
+        "Psychic",
+        "Teleport",
+        "Light Screen",
+        "Reflect",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Safeguard",
+        "Shadow Ball",
+        "Fake Out",
+        "Facade",
+        "Fake Tears",
+        "Calm Mind",
+        "Dark Pulse",
+        "Energy Ball",
+        "Nasty Plot",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Psyshock",
+        "Work Up",
+        "Disarming Voice",
+        "Play Rough"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 62,
+      "spriteNormal": "sprites/poke_capture_0677_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0677_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

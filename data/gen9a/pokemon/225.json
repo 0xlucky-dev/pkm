@@ -1,0 +1,62 @@
+{
+  "id": 225,
+  "name": "Delibird",
+  "dexNum": 225,
+  "forms": [
+    {
+      "name": "Delibird",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Vital Spirit",
+        "Hustle",
+        "Insomnia"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Razor Wind",
+        "Fly",
+        "Body Slam",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Peck",
+        "Agility",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Spikes",
+        "Icy Wind",
+        "Endure",
+        "Fake Out",
+        "Facade",
+        "Brick Break",
+        "Feather Dance",
+        "Sheer Cold",
+        "Aerial Ace",
+        "Icicle Spear",
+        "Water Pulse",
+        "Seed Bomb",
+        "Air Slash",
+        "Giga Impact",
+        "Ice Shard",
+        "Gunk Shot",
+        "Frost Breath",
+        "Freeze-Dry",
+        "Triple Axel",
+        "Dual Wingbeat",
+        "Trailblaze",
+        "Chilling Water"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 64,
+      "spriteNormal": "sprites/poke_capture_0225_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0225_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

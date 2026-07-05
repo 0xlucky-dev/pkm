@@ -1,0 +1,67 @@
+{
+  "id": 999,
+  "name": "Gimmighoul",
+  "dexNum": 999,
+  "forms": [
+    {
+      "name": "Gimmighoul",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Rattled"
+      ],
+      "moves": [
+        "Tackle",
+        "Confuse Ray",
+        "Light Screen",
+        "Reflect",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Shadow Ball",
+        "Facade",
+        "Power Gem",
+        "Nasty Plot"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 73,
+      "spriteNormal": "sprites/poke_capture_0999_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0999_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Gimmighoul",
+      "formName": "Roaming",
+      "formIndex": 1,
+      "abilities": [
+        "Run Away"
+      ],
+      "moves": [
+        "Tackle",
+        "Confuse Ray",
+        "Light Screen",
+        "Reflect",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Shadow Ball",
+        "Facade",
+        "Power Gem",
+        "Nasty Plot"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0999_001_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0999_001_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

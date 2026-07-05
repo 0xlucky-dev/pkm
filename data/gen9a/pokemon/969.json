@@ -1,0 +1,58 @@
+{
+  "id": 969,
+  "name": "Glimmet",
+  "dexNum": 969,
+  "forms": [
+    {
+      "name": "Glimmet",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Toxic Debris",
+        "Corrosion"
+      ],
+      "moves": [
+        "Rock Throw",
+        "Toxic",
+        "Harden",
+        "Confuse Ray",
+        "Light Screen",
+        "Reflect",
+        "Self-Destruct",
+        "Acid Armor",
+        "Explosion",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Sludge Bomb",
+        "Spikes",
+        "Endure",
+        "Ancient Power",
+        "Facade",
+        "Rock Tomb",
+        "Iron Defense",
+        "Mud Shot",
+        "Rock Blast",
+        "Toxic Spikes",
+        "Power Gem",
+        "Gunk Shot",
+        "Magnet Bomb",
+        "Stone Edge",
+        "Stealth Rock",
+        "Sludge Wave",
+        "Acid Spray",
+        "Dazzling Gleam",
+        "Meteor Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0969_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0969_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

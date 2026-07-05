@@ -1,0 +1,61 @@
+{
+  "id": 809,
+  "name": "Melmetal",
+  "dexNum": 809,
+  "forms": [
+    {
+      "name": "Melmetal",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Iron Fist"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Thunder Punch",
+        "Headbutt",
+        "Body Slam",
+        "Tail Whip",
+        "Ice Beam",
+        "Hyper Beam",
+        "Solar Beam",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Earthquake",
+        "Harden",
+        "Self-Destruct",
+        "Acid Armor",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Dynamic Punch",
+        "Facade",
+        "Brick Break",
+        "Rock Tomb",
+        "Iron Defense",
+        "Giga Impact",
+        "Flash Cannon",
+        "Discharge",
+        "Iron Head",
+        "Magnet Bomb",
+        "Charge Beam",
+        "Heavy Slam",
+        "Brutal Swing",
+        "Double Iron Bash",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0809_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0809_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

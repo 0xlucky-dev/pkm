@@ -1,0 +1,28 @@
+{
+  "id": 132,
+  "name": "Ditto",
+  "dexNum": 132,
+  "forms": [
+    {
+      "name": "Ditto",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Limber",
+        "Imposter"
+      ],
+      "moves": [
+        "Transform"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 75,
+      "spriteNormal": "sprites/poke_capture_0132_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0132_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

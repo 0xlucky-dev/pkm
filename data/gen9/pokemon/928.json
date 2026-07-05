@@ -1,0 +1,63 @@
+{
+  "id": 928,
+  "name": "Smoliv",
+  "dexNum": 928,
+  "forms": [
+    {
+      "name": "Smoliv",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Early Bird",
+        "Harvest"
+      ],
+      "moves": [
+        "Tackle",
+        "Absorb",
+        "Mega Drain",
+        "Leech Seed",
+        "Growth",
+        "Razor Leaf",
+        "Solar Beam",
+        "Swift",
+        "Rest",
+        "Substitute",
+        "Flail",
+        "Protect",
+        "Giga Drain",
+        "Endure",
+        "Charm",
+        "Sleep Talk",
+        "Sweet Scent",
+        "Synthesis",
+        "Sunny Day",
+        "Memento",
+        "Facade",
+        "Helping Hand",
+        "Weather Ball",
+        "Bullet Seed",
+        "Magical Leaf",
+        "Seed Bomb",
+        "Energy Ball",
+        "Earth Power",
+        "Leaf Storm",
+        "Grass Knot",
+        "Grassy Terrain",
+        "Strength Sap",
+        "Solar Blade",
+        "Terrain Pulse",
+        "Tera Blast",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 56,
+      "spriteNormal": "sprites/poke_capture_0928_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0928_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

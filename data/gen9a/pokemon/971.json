@@ -1,0 +1,59 @@
+{
+  "id": 971,
+  "name": "Greavard",
+  "dexNum": 971,
+  "forms": [
+    {
+      "name": "Greavard",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Pickup",
+        "Fluffy"
+      ],
+      "moves": [
+        "Headbutt",
+        "Tackle",
+        "Double-Edge",
+        "Tail Whip",
+        "Bite",
+        "Growl",
+        "Roar",
+        "Dig",
+        "Smokescreen",
+        "Lick",
+        "Dream Eater",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Charm",
+        "Swagger",
+        "Crunch",
+        "Shadow Ball",
+        "Will-O-Wisp",
+        "Facade",
+        "Mud Shot",
+        "Thunder Fang",
+        "Ice Fang",
+        "Fire Fang",
+        "Shadow Sneak",
+        "Zen Headbutt",
+        "Ominous Wind",
+        "Bulldoze",
+        "Snarl",
+        "Phantom Force",
+        "Play Rough",
+        "Psychic Fangs"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0971_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0971_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

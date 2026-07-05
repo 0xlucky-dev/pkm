@@ -1,0 +1,36 @@
+{
+  "id": 840,
+  "name": "Applin",
+  "dexNum": 840,
+  "forms": [
+    {
+      "name": "Applin",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Ripen",
+        "Gluttony",
+        "Bulletproof"
+      ],
+      "moves": [
+        "Withdraw",
+        "Defense Curl",
+        "Rollout",
+        "Recycle",
+        "Astonish",
+        "Sucker Punch",
+        "Tera Blast",
+        "Pounce"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 82,
+      "spriteNormal": "sprites/poke_capture_0840_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0840_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

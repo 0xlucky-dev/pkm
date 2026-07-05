@@ -1,0 +1,62 @@
+{
+  "id": 64,
+  "name": "Kadabra",
+  "dexNum": 64,
+  "forms": [
+    {
+      "name": "Kadabra",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Synchronize",
+        "Inner Focus",
+        "Magic Guard"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Body Slam",
+        "Psybeam",
+        "Thunder Wave",
+        "Confusion",
+        "Psychic",
+        "Teleport",
+        "Double Team",
+        "Recover",
+        "Light Screen",
+        "Reflect",
+        "Metronome",
+        "Swift",
+        "Dream Eater",
+        "Tri Attack",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Safeguard",
+        "Iron Tail",
+        "Shadow Ball",
+        "Future Sight",
+        "Facade",
+        "Taunt",
+        "Calm Mind",
+        "Drain Punch",
+        "Energy Ball",
+        "Psycho Cut",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Psyshock",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0064_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0064_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

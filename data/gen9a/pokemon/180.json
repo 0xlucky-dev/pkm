@@ -1,0 +1,57 @@
+{
+  "id": 180,
+  "name": "Flaaffy",
+  "dexNum": 180,
+  "forms": [
+    {
+      "name": "Flaaffy",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Static",
+        "Plus"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Tackle",
+        "Body Slam",
+        "Growl",
+        "Roar",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Dig",
+        "Agility",
+        "Confuse Ray",
+        "Light Screen",
+        "Reflect",
+        "Swift",
+        "Substitute",
+        "Protect",
+        "Endure",
+        "Facade",
+        "Charge",
+        "Power Gem",
+        "Discharge",
+        "Charge Beam",
+        "Volt Switch",
+        "Electroweb",
+        "Wild Charge",
+        "Cotton Guard",
+        "Dazzling Gleam",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 51,
+      "spriteNormal": "sprites/poke_capture_0180_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0180_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

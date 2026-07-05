@@ -1,0 +1,62 @@
+{
+  "id": 609,
+  "name": "Chandelure",
+  "dexNum": 609,
+  "forms": [
+    {
+      "name": "Chandelure",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Flash Fire",
+        "Flame Body",
+        "Infiltrator"
+      ],
+      "moves": [
+        "Ember",
+        "Flamethrower",
+        "Hyper Beam",
+        "Solar Beam",
+        "Fire Spin",
+        "Psychic",
+        "Double Team",
+        "Smokescreen",
+        "Confuse Ray",
+        "Haze",
+        "Fire Blast",
+        "Acid Armor",
+        "Substitute",
+        "Flame Wheel",
+        "Curse",
+        "Protect",
+        "Endure",
+        "Safeguard",
+        "Shadow Ball",
+        "Heat Wave",
+        "Will-O-Wisp",
+        "Facade",
+        "Taunt",
+        "Overheat",
+        "Calm Mind",
+        "Heal Block",
+        "Flare Blitz",
+        "Dark Pulse",
+        "Energy Ball",
+        "Giga Impact",
+        "Ominous Wind",
+        "Flame Charge",
+        "Acid Spray",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 65,
+      "spriteNormal": "sprites/poke_capture_0609_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0609_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

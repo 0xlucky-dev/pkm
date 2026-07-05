@@ -1,0 +1,63 @@
+{
+  "id": 716,
+  "name": "Xerneas",
+  "dexNum": 716,
+  "forms": [
+    {
+      "name": "Xerneas",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Fairy Aura"
+      ],
+      "moves": [
+        "Tackle",
+        "Body Slam",
+        "Take Down",
+        "Hyper Beam",
+        "Petal Dance",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Psychic",
+        "Light Screen",
+        "Reflect",
+        "Swift",
+        "Rock Slide",
+        "Substitute",
+        "Protect",
+        "Outrage",
+        "Endure",
+        "Megahorn",
+        "Facade",
+        "Hyper Voice",
+        "Silver Wind",
+        "Calm Mind",
+        "Close Combat",
+        "Night Slash",
+        "Seed Bomb",
+        "Focus Blast",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Flash Cannon",
+        "Psyshock",
+        "Horn Leech",
+        "Play Rough",
+        "Moonblast",
+        "Geomancy",
+        "Dazzling Gleam",
+        "Solar Blade",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0716_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0716_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

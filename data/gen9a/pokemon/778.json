@@ -1,0 +1,62 @@
+{
+  "id": 778,
+  "name": "Mimikyu",
+  "dexNum": 778,
+  "forms": [
+    {
+      "name": "Mimikyu",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Disguise"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Psychic",
+        "Mimic",
+        "Double Team",
+        "Light Screen",
+        "Splash",
+        "Slash",
+        "Substitute",
+        "Curse",
+        "Protect",
+        "Giga Drain",
+        "Endure",
+        "Charm",
+        "Shadow Ball",
+        "Will-O-Wisp",
+        "Facade",
+        "Taunt",
+        "Bulk Up",
+        "Dark Pulse",
+        "Night Slash",
+        "X-Scissor",
+        "Drain Punch",
+        "Giga Impact",
+        "Shadow Claw",
+        "Shadow Sneak",
+        "Wood Hammer",
+        "Work Up",
+        "Phantom Force",
+        "Play Rough",
+        "Dazzling Gleam",
+        "Trailblaze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0778_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0778_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}
