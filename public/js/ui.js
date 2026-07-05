@@ -281,7 +281,7 @@ const UI = (() => {
       ballFieldHtml = `
           <div class="config-field">
             <label>Ball</label>
-            <div class="cd-btn" style="opacity:0.5;cursor:not-allowed;font-size:0.8rem;color:var(--text-dim);">ตัวพิเศษ เลือก Ball ไม่ได้</div>
+            <div class="cd-btn" style="opacity:0.5;cursor:not-allowed;font-size:0.8rem;color:#ffffff;">ตัวพิเศษ เลือก Ball ไม่ได้</div>
             <select id="cfg-ball" style="display:none;"><option value="">-- None --</option></select>
           </div>`;
     } else {
