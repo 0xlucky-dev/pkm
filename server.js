@@ -77,9 +77,9 @@ app.get('/gen9a', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Default route → gen9 (Scarlet/Violet)
+// Default route → gen9a (Legends Z-A)
 app.get('/', (req, res) => {
-  res.redirect('/gen9');
+  res.redirect('/gen9a');
 });
 
 // --- Static file serving ---
