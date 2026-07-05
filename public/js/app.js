@@ -567,6 +567,7 @@
     // Close overlay
     overlayClose.addEventListener('click', closeConfig);
     overlay.querySelector('.overlay__backdrop').addEventListener('click', closeConfig);
+    document.getElementById('overlay-close-bottom').addEventListener('click', closeConfig);
 
     // Swipe down to close on mobile
     let touchStartY = 0;
