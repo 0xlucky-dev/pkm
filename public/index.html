@@ -138,7 +138,6 @@
     <div class="overlay__panel">
       <div class="overlay__header">
         <h2 id="overlay-title" class="overlay__title">#001 Bulbasaur</h2>
-        <button id="overlay-close" class="overlay__close" aria-label="Close">&times;</button>
       </div>
       <div class="overlay__body" id="overlay-body">
         <!-- Populated dynamically by JS -->
@@ -157,14 +156,14 @@
     <div class="overlay__panel batch-panel">
       <div class="overlay__header">
         <h2 class="overlay__title">Multi-Trade Batch</h2>
-        <button id="batch-modal-close" class="overlay__close" aria-label="Close">&times;</button>
       </div>
       <div class="overlay__body" id="batch-list">
         <!-- Populated dynamically -->
       </div>
       <div class="overlay__footer">
         <button id="btn-copy-all" class="btn btn--primary">Copy All</button>
-        <button id="btn-clear-batch" class="btn btn--danger">Clear</button>
+        <button id="btn-clear-batch" class="btn btn--secondary">Clear</button>
+        <button id="batch-modal-close" class="btn btn--close-x" aria-label="Close">✕</button>
       </div>
     </div>
   </div>

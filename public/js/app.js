@@ -34,7 +34,7 @@
   const overlay = document.getElementById('config-overlay');
   const overlayTitle = document.getElementById('overlay-title');
   const overlayBody = document.getElementById('overlay-body');
-  const overlayClose = document.getElementById('overlay-close');
+  const overlayClose = document.getElementById('overlay-close-bottom');
   const btnCopy = document.getElementById('btn-copy');
   const btnBatch = document.getElementById('btn-batch');
   const btnBatchCount = document.getElementById('btn-batch-count');
@@ -602,7 +602,6 @@
     // Close overlay
     overlayClose.addEventListener('click', closeConfig);
     overlay.querySelector('.overlay__backdrop').addEventListener('click', closeConfig);
-    document.getElementById('overlay-close-bottom').addEventListener('click', closeConfig);
 
     // Swipe down to close on mobile
     let touchStartY = 0;
