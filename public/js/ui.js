@@ -232,6 +232,17 @@ const UI = (() => {
         </div>
       </div>`;
 
+    // --- Friendship slider ---
+    const friendshipHtml = `
+      <div class="config-section">
+        <div class="config-section__title">Friendship</div>
+        <div class="config-slider-row level-slider">
+          <span class="slider-value" id="cfg-friendship-val">0</span>
+          <input type="range" id="cfg-friendship" min="0" max="255" value="0"
+                 style="--level-pct: 0%">
+        </div>
+      </div>`;
+
     // --- Basic Info dropdowns ---
     let abilitiesHtml = '';
     for (const ab of abilities) {
@@ -370,6 +381,7 @@ const UI = (() => {
       ${heroHtml}
       ${traitTogglesHtml}
       ${levelSliderHtml}
+      ${friendshipHtml}
       ${basicInfoHtml}
       ${ivsHtml}
       ${evsHtml}

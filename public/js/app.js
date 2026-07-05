@@ -148,6 +148,17 @@
       });
     }
 
+    // Friendship slider
+    const friendshipSlider = document.getElementById('cfg-friendship');
+    if (friendshipSlider) {
+      friendshipSlider.addEventListener('input', () => {
+        const val = friendshipSlider.value;
+        document.getElementById('cfg-friendship-val').textContent = val;
+        const pct = (val / 255) * 100;
+        friendshipSlider.style.setProperty('--level-pct', pct + '%');
+      });
+    }
+
     // IV sliders
     const ivInputs = overlayBody.querySelectorAll('.iv-slider input[type="range"]');
     ivInputs.forEach((input) => {
@@ -375,7 +386,7 @@
       ball,
       ability: currentVersion === 'gen9a' ? '' : ability,  // ZA doesn't allow ability selection
       nature,
-      friendship: '',
+      friendship: parseInt((document.getElementById('cfg-friendship') || {}).value) || 0,
       evs,
       ivs,
       trainer,

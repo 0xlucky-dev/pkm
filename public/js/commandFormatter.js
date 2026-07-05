@@ -88,8 +88,8 @@ function formatPercentH(config, includePrefix = true) {
     lines.push(`${config.nature} Nature`);
   }
 
-  // Friendship — only when set / non-default
-  if (config.friendship != null && config.friendship !== '') {
+  // Friendship — only when > 0
+  if (config.friendship && parseInt(config.friendship) > 0) {
     lines.push(`Friendship: ${config.friendship}`);
   }
 
