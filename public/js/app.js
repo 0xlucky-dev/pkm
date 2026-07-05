@@ -106,7 +106,7 @@
 
     try {
       currentDetail = await loadPokemonDetail(currentVersion, spNumber);
-      overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex);
+      overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
       CustomDropdown.initAll(overlayBody);
       attachConfigListeners();
     } catch (err) {
@@ -130,7 +130,7 @@
     if (formSelect) {
       formSelect.addEventListener('change', () => {
         currentFormIndex = parseInt(formSelect.value) || 0;
-        overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex);
+        overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
         CustomDropdown.initAll(overlayBody);
         attachConfigListeners();
         UI.updateEvTotal();
@@ -198,6 +198,19 @@
       alphaBtn.addEventListener('click', () => {
         const active = alphaBtn.classList.toggle('active');
         alphaBtn.setAttribute('aria-pressed', String(active));
+        // Alpha requires at least 3V IVs — auto-set HP/Atk/Spe to 31 if all are 0
+        if (active) {
+          const ivStats = ['hp', 'atk', 'spe'];
+          for (const s of ivStats) {
+            const el = document.getElementById(`cfg-iv-${s}`);
+            if (el && parseInt(el.value) === 0) {
+              el.value = 31;
+              const valEl = document.getElementById(`cfg-iv-${s}-val`);
+              if (valEl) valEl.textContent = '31';
+              el.style.setProperty('--iv-pct', '100%');
+            }
+          }
+        }
       });
     }
 
@@ -304,6 +317,12 @@
     const ball = document.getElementById('cfg-ball').value;
     const language = document.getElementById('cfg-language').value;
 
+    // Form name for output (only for non-default forms)
+    let formName = '';
+    if (form.formName && form.formName !== 'Default Form' && form.formName.trim()) {
+      formName = form.formName.trim();
+    }
+
     // Nickname
     const nicknameEl = document.getElementById('cfg-nickname');
     const nickname = nicknameEl ? nicknameEl.value.trim() : '';
@@ -359,6 +378,7 @@
 
     return {
       pokemonName: currentDetail.name,
+      formName,
       nickname,
       gender,
       level,
@@ -366,7 +386,7 @@
       alpha,
       sourceVersion: currentVersion === 'gen9a' ? '52' : '50',
       ball,
-      ability,
+      ability: currentVersion === 'gen9a' ? '' : ability,  // ZA doesn't allow ability selection
       nature,
       friendship: '',
       evs,

@@ -170,7 +170,7 @@ const UI = (() => {
   }
 
   // --- Config Overlay Body (zeldaxiaoma-style layout) ---
-  function renderConfigBody(pokemonDetail, options, formIndex = 0) {
+  function renderConfigBody(pokemonDetail, options, formIndex = 0, version = 'gen9') {
     const forms = pokemonDetail.forms || [];
     const activeIndex = (formIndex >= 0 && formIndex < forms.length) ? formIndex : 0;
     const form = forms[activeIndex] || {};
@@ -254,6 +254,14 @@ const UI = (() => {
       langHtml += `<option value="${l}"${l === 'ENG' ? ' selected' : ''}>${l}</option>`;
     }
 
+    const isZA = version === 'gen9a';
+
+    const abilityFieldHtml = isZA ? '' : `
+          <div class="config-field">
+            <label for="cfg-ability">Ability</label>
+            <select id="cfg-ability">${abilitiesHtml}</select>
+          </div>`;
+
     const basicInfoHtml = `
       <div class="config-section">
         <div class="config-section__title">Basic Info</div>
@@ -268,10 +276,7 @@ const UI = (() => {
           </div>
         </div>
         <div class="config-row">
-          <div class="config-field">
-            <label for="cfg-ability">Ability</label>
-            <select id="cfg-ability">${abilitiesHtml}</select>
-          </div>
+          ${abilityFieldHtml}
           <div class="config-field">
             <label for="cfg-language">Language</label>
             <select id="cfg-language">${langHtml}</select>

@@ -51,6 +51,15 @@ function formatPercentH(config, includePrefix = true) {
   let pokeName = config.nickname
     ? `${config.nickname}(${config.pokemonName})`
     : config.pokemonName;
+
+  // If formName is set (non-default form), append it: e.g. "Floette-Eternal"
+  if (config.formName) {
+    const baseName = config.nickname ? config.pokemonName : pokeName;
+    pokeName = config.nickname
+      ? `${config.nickname}(${baseName}-${config.formName})`
+      : `${pokeName}-${config.formName}`;
+  }
+
   let line1 = includePrefix ? `%h ${pokeName}` : pokeName;
   if (config.gender) line1 += ` (${config.gender})`;
   lines.push(line1);
