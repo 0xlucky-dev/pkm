@@ -568,6 +568,21 @@
     overlayClose.addEventListener('click', closeConfig);
     overlay.querySelector('.overlay__backdrop').addEventListener('click', closeConfig);
 
+    // Swipe down to close on mobile
+    let touchStartY = 0;
+    const overlayPanel = overlay.querySelector('.overlay__panel');
+    overlayPanel.addEventListener('touchstart', (e) => {
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+    overlayPanel.addEventListener('touchend', (e) => {
+      const touchEndY = e.changedTouches[0].clientY;
+      const diff = touchEndY - touchStartY;
+      // If swiped down more than 100px from the top area (first 80px)
+      if (diff > 100 && touchStartY < 80) {
+        closeConfig();
+      }
+    }, { passive: true });
+
     // Copy button
     btnCopy.addEventListener('click', copySingle);
 
