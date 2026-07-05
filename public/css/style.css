@@ -183,6 +183,7 @@
   cursor: pointer;
   transition: all var(--transition);
   letter-spacing: 0.2px;
+  white-space: nowrap;
 }
 
 .btn:active { transform: scale(0.97); }
