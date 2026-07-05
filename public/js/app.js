@@ -198,19 +198,6 @@
       alphaBtn.addEventListener('click', () => {
         const active = alphaBtn.classList.toggle('active');
         alphaBtn.setAttribute('aria-pressed', String(active));
-        // Alpha requires at least 3V IVs — auto-set HP/Atk/Spe to 31 if all are 0
-        if (active) {
-          const ivStats = ['hp', 'atk', 'spe'];
-          for (const s of ivStats) {
-            const el = document.getElementById(`cfg-iv-${s}`);
-            if (el && parseInt(el.value) === 0) {
-              el.value = 31;
-              const valEl = document.getElementById(`cfg-iv-${s}-val`);
-              if (valEl) valEl.textContent = '31';
-              el.style.setProperty('--iv-pct', '100%');
-            }
-          }
-        }
       });
     }
 
