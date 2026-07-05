@@ -11,8 +11,8 @@
 
   function versionFromPath() {
     const path = window.location.pathname.replace(/\/+$/, '');
-    if (path === '/gen9a') return 'gen9a';
-    return 'gen9';
+    if (path === '/gen9') return 'gen9';
+    return 'gen9a';
   }
 
   // --- State ---
