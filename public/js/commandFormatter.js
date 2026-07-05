@@ -98,9 +98,10 @@ function formatPercentH(config, includePrefix = true) {
   if (evSpread) lines.push(`EVs: ${evSpread}`);
 
   // IVs — only when at least one IV is non-zero
+  const ivs = config.ivs;
   const allIVsZero = STAT_ORDER.every(s => ivs[s] === 0);
   if (!allIVsZero) {
-    lines.push(`IVs: ${formatIVs(config.ivs)}`);
+    lines.push(`IVs: ${formatIVs(ivs)}`);
   }
 
   // OT — only when set

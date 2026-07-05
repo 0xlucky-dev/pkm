@@ -248,10 +248,10 @@ const UI = (() => {
       ballsHtml += `<option value="${b.name}">${b.name}</option>`;
     }
 
-    const languages = ['ENG', 'JPN', 'FRE', 'GER', 'ITA', 'SPA', 'KOR', 'CHS', 'CHT'];
+    const languages = ['English', 'Japanese', 'French', 'German', 'Italian', 'Spanish', 'Korean', 'ChineseS', 'ChineseT'];
     let langHtml = '';
     for (const l of languages) {
-      langHtml += `<option value="${l}"${l === 'ENG' ? ' selected' : ''}>${l}</option>`;
+      langHtml += `<option value="${l}"${l === 'English' ? ' selected' : ''}>${l}</option>`;
     }
 
     const isZA = version === 'gen9a';
