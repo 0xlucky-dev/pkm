@@ -190,13 +190,13 @@
 
 /* ===== Press/Tap Effect — JS-applied class ===== */
 .tap-flash {
-  animation: tapFlash 0.3s ease !important;
+  animation: tapFlash 0.35s ease !important;
 }
 
 @keyframes tapFlash {
-  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(196, 56, 138, 0.5); }
-  30% { transform: scale(0.92); box-shadow: 0 0 0 8px rgba(196, 56, 138, 0.3); }
-  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(196, 56, 138, 0); }
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6); }
+  30% { transform: scale(0.92); box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.2); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
 }
 
 .btn--primary {
