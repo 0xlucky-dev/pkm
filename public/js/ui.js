@@ -376,9 +376,9 @@ const UI = (() => {
           <svg class="config-section__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="config-section__content" id="trainer-content" style="display:none;">
-          <div style="display:flex;align-items:center;gap:8px;margin-top:12px;">
-            <div class="config-field" style="width:120px;flex-shrink:0;">
-              <input type="text" id="cfg-ot" placeholder="OT Name" style="width:100%;">
+          <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;">
+            <div class="nickname-pill">
+              <input type="text" id="cfg-ot" placeholder="OT Name" maxlength="12" autocomplete="off">
             </div>
             <button type="button" class="icon-toggle icon-toggle--male" data-ot-gender="Male" aria-pressed="false" title="Male">
               <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M14.5 3a1 1 0 000 2h2.086l-3.51 3.51A6 6 0 1014.99 9.9L18.5 6.41V8.5a1 1 0 002 0v-4.5a1 1 0 00-1-1h-5zM10 10a4 4 0 110 8 4 4 0 010-8z"/></svg>
