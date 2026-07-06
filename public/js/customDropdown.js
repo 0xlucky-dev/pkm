@@ -94,10 +94,14 @@ const CustomDropdown = (() => {
       e.stopPropagation();
       const isOpen = wrapper.classList.toggle('cd-open');
       btn.setAttribute('aria-expanded', String(isOpen));
-      if (isOpen && searchInput) {
-        searchInput.value = '';
-        renderOptions();
-        setTimeout(() => searchInput.focus(), 50);
+      if (isOpen) {
+        if (searchInput) {
+          searchInput.value = '';
+          renderOptions();
+          setTimeout(() => searchInput.focus(), 50);
+        }
+        // Dispatch custom event so external code can update indicators
+        select.dispatchEvent(new Event('cd-open', { bubbles: true }));
       }
     });
 

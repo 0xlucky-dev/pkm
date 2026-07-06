@@ -1171,6 +1171,13 @@
   object-fit: contain;
 }
 
+.move-used-icon {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 /* ===== Desktop Scaling (lg+) — Bigger UI for desktop ===== */
 @media (min-width: 1024px) {
   .config-section { padding: 20px 24px; margin-bottom: 28px; border-radius: 16px; }

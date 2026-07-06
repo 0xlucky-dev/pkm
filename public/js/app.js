@@ -299,7 +299,7 @@
         if (sel.value) selected[sel.value] = idx;
       });
 
-      // For each custom dropdown, update items to show ✓ for used moves
+      // For each custom dropdown, update items to show ✓ SVG for used moves
       moveSelects.forEach((sel, idx) => {
         const wrap = sel.closest('.cd-wrap');
         if (!wrap) return;
@@ -308,11 +308,18 @@
           const val = item.dataset.value;
           if (!val) return;
           const usedInOther = (val in selected) && selected[val] !== idx;
+          // Remove existing check icon
+          const existing = item.querySelector('.move-used-icon');
+          if (existing) existing.remove();
           const nameSpan = item.querySelector('span');
           if (nameSpan) {
-            const cleanText = nameSpan.textContent.replace(/ ✓$/, '');
-            nameSpan.textContent = usedInOther ? cleanText + ' ✓' : cleanText;
             nameSpan.style.color = usedInOther ? '#c4388a' : '';
+          }
+          if (usedInOther) {
+            const svg = document.createElement('span');
+            svg.className = 'move-used-icon';
+            svg.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c4388a" stroke-width="3" style="margin-left:auto;flex-shrink:0;"><path d="M5 13l4 4L19 7"/></svg>`;
+            item.appendChild(svg);
           }
         });
       });
@@ -337,6 +344,13 @@
 
     // Initial indicator state
     updateMoveIndicators();
+
+    // Re-apply indicators when any move dropdown opens
+    moveSelects.forEach(sel => {
+      sel.addEventListener('cd-open', () => {
+        setTimeout(updateMoveIndicators, 10);
+      });
+    });
   }
 
   // --- Build config object from form ---
