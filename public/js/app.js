@@ -349,9 +349,9 @@
     const spriteUrl = form.spriteNormal ? '/' + form.spriteNormal.replace(/^\/+/, '') : '';
     const level = parseInt(document.getElementById('cfg-level').value) || form.levelMax || 100;
     const ability = (document.getElementById('cfg-ability') || {}).value || '';
-    const nature = document.getElementById('cfg-nature').value;
-    const ball = document.getElementById('cfg-ball').value;
-    const language = document.getElementById('cfg-language').value;
+    const nature = (document.getElementById('cfg-nature') || {}).value || '';
+    const ball = (document.getElementById('cfg-ball') || {}).value || '';
+    const language = (document.getElementById('cfg-language') || {}).value || 'English';
 
     // Form name for output (only for non-default forms)
     let formName = '';

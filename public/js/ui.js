@@ -267,7 +267,7 @@ const UI = (() => {
 
     const isZA = version === 'gen9a';
 
-    // Floette-Eternal (670, form 5) cannot choose ball in ZA
+    // Floette-Eternal (670, form 5) cannot choose ball or nature in ZA
     const isLockedBall = isZA && pokemonDetail.id === 670 && form.formName === 'Eternal';
 
     const abilityFieldHtml = isZA ? '' : `
@@ -277,18 +277,30 @@ const UI = (() => {
           </div>`;
 
     let ballFieldHtml = '';
+    let natureFieldHtml = '';
     if (isLockedBall) {
       ballFieldHtml = `
           <div class="config-field">
             <label>Ball</label>
-            <div class="cd-btn" style="opacity:0.5;cursor:not-allowed;font-size:0.8rem;color:#ffffff;">ตัวพิเศษ เลือก Ball ไม่ได้</div>
-            <select id="cfg-ball" style="display:none;"><option value="">-- None --</option></select>
+            <div class="cd-btn" style="cursor:not-allowed;color:#ffffff;">ตัวพิเศษ เลือก Ball ไม่ได้</div>
+            <select id="cfg-ball" style="display:none;"><option value=""></option></select>
+          </div>`;
+      natureFieldHtml = `
+          <div class="config-field">
+            <label>Nature</label>
+            <div class="cd-btn" style="cursor:not-allowed;color:#ffffff;">ตัวพิเศษ เลือก Nature ไม่ได้</div>
+            <select id="cfg-nature" style="display:none;"><option value=""></option></select>
           </div>`;
     } else {
       ballFieldHtml = `
           <div class="config-field">
             <label for="cfg-ball">Ball</label>
             <select id="cfg-ball">${ballsHtml}</select>
+          </div>`;
+      natureFieldHtml = `
+          <div class="config-field">
+            <label for="cfg-nature">Nature</label>
+            <select id="cfg-nature">${naturesHtml}</select>
           </div>`;
     }
 
@@ -297,10 +309,7 @@ const UI = (() => {
         <div class="config-section__title">Basic Info</div>
         <div class="config-row">
           ${ballFieldHtml}
-          <div class="config-field">
-            <label for="cfg-nature">Nature</label>
-            <select id="cfg-nature">${naturesHtml}</select>
-          </div>
+          ${natureFieldHtml}
         </div>
         <div class="config-row">
           ${abilityFieldHtml}
