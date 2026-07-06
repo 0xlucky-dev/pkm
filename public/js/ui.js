@@ -378,7 +378,7 @@ const UI = (() => {
         <div class="config-section__content" id="trainer-content" style="display:none;">
           <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;">
             <div class="nickname-pill">
-              <input type="text" id="cfg-ot" placeholder="OT Name" maxlength="12" autocomplete="off">
+              <input type="text" id="cfg-ot" placeholder="OT Name" maxlength="12" autocomplete="off" style="width:110px;">
             </div>
             <button type="button" class="icon-toggle icon-toggle--male" data-ot-gender="Male" aria-pressed="false" title="Male">
               <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M14.5 3a1 1 0 000 2h2.086l-3.51 3.51A6 6 0 1014.99 9.9L18.5 6.41V8.5a1 1 0 002 0v-4.5a1 1 0 00-1-1h-5zM10 10a4 4 0 110 8 4 4 0 010-8z"/></svg>
