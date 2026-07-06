@@ -285,15 +285,26 @@
         if (sel.value) selected[sel.value] = idx;
       });
 
-      // For each native select, style options that are used in other slots
+      // For each custom dropdown, update items with pink checkmark
       moveSelects.forEach((sel, idx) => {
-        const options = sel.querySelectorAll('option');
-        options.forEach(opt => {
-          if (!opt.value) return;
-          const usedInOther = (opt.value in selected) && selected[opt.value] !== idx;
-          opt.style.color = usedInOther ? '#c4388a' : '';
-          const cleanText = opt.textContent.replace(/ ✓$/, '');
-          opt.textContent = usedInOther ? cleanText + ' ✓' : cleanText;
+        const wrap = sel.closest('.cd-wrap');
+        if (!wrap) return;
+        const items = wrap.querySelectorAll('.cd-item');
+        items.forEach(item => {
+          const val = item.dataset.value;
+          if (!val) return;
+          const usedInOther = (val in selected) && selected[val] !== idx;
+          // Remove existing icon
+          const existing = item.querySelector('.move-used-icon');
+          if (existing) existing.remove();
+          const nameSpan = item.querySelector('span');
+          if (nameSpan) nameSpan.style.color = usedInOther ? '#c4388a' : '';
+          if (usedInOther) {
+            const icon = document.createElement('span');
+            icon.className = 'move-used-icon';
+            icon.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c4388a" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg>`;
+            item.appendChild(icon);
+          }
         });
       });
     }
@@ -303,15 +314,26 @@
         const chosen = sel.value;
         if (!chosen) { updateMoveIndicators(); return; }
 
-        // If this move is already selected in another slot, clear that slot
+        // If this move is already selected in another slot, clear that slot + refresh its button
         moveSelects.forEach((otherSel, otherIdx) => {
           if (otherIdx !== idx && otherSel.value === chosen) {
             otherSel.value = '';
+            // Refresh the other custom dropdown button
+            const otherWrap = otherSel.closest('.cd-wrap');
+            if (otherWrap) {
+              const otherBtn = otherWrap.querySelector('.cd-btn');
+              if (otherBtn) otherBtn.innerHTML = `<span class="cd-placeholder">-- None --</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
+            }
           }
         });
 
         updateMoveIndicators();
       });
+    });
+
+    // Re-apply indicators when any move dropdown opens
+    moveSelects.forEach(sel => {
+      sel.addEventListener('cd-open', () => setTimeout(updateMoveIndicators, 10));
     });
 
     // Initial indicator state

@@ -156,21 +156,20 @@ const CustomDropdown = (() => {
   /**
    * Initialize all selects in a container.
    * Ball select gets icons, others get plain custom dropdown.
-   * SKIP move selects (cfg-move*) for performance — they use native select.
    */
   function initAll(container) {
     const selects = container.querySelectorAll('select');
     selects.forEach(sel => {
-      // Skip form select and move selects (performance)
+      // Skip form select and hidden OT gender
       if (sel.id === 'cfg-form') return;
-      if (sel.id && sel.id.startsWith('cfg-move')) return;
       if (sel.id === 'cfg-ot-gender') return;
 
       const isBall = sel.id === 'cfg-ball';
+      const isMove = sel.id && sel.id.startsWith('cfg-move');
       init(sel, {
         icons: isBall,
         iconPath: '/icons/',
-        maxHeight: isBall ? '220px' : '180px',
+        maxHeight: isMove ? '180px' : (isBall ? '220px' : '180px'),
       });
     });
   }
