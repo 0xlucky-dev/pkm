@@ -168,9 +168,10 @@ const CustomDropdown = (() => {
   function initAll(container) {
     const selects = container.querySelectorAll('select');
     selects.forEach(sel => {
-      // Skip form select and hidden OT gender
+      // Skip form select, hidden OT gender, and hidden/locked selects
       if (sel.id === 'cfg-form') return;
       if (sel.id === 'cfg-ot-gender') return;
+      if (sel.style.display === 'none') return;
 
       const isBall = sel.id === 'cfg-ball';
       const isMove = sel.id && sel.id.startsWith('cfg-move');
