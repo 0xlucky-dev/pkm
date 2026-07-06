@@ -231,5 +231,19 @@
     setVersion(hiddenSelect.value);
   })();
   </script>
+  <!-- Tap flash effect for all interactive elements -->
+  <script>
+  (function() {
+    const selectors = '.btn, .cd-btn, .icon-toggle, .poke-card, .btn--close-x, .cd-item, .config-section__toggle';
+    document.addEventListener('pointerdown', (e) => {
+      const el = e.target.closest(selectors);
+      if (!el) return;
+      el.classList.remove('tap-flash');
+      void el.offsetWidth;
+      el.classList.add('tap-flash');
+      setTimeout(() => el.classList.remove('tap-flash'), 300);
+    });
+  })();
+  </script>
 </body>
 </html>

@@ -188,23 +188,15 @@
 
 .btn:active { transform: scale(0.93); filter: brightness(1.2); }
 
-/* ===== Press/Tap Effect for all interactive elements ===== */
-.cd-btn:active,
-.icon-toggle:active,
-.config-field input:active,
-.config-field select:active,
-.nickname-pill input:active,
-.overlay__close:active,
-.btn--close-x:active,
-.poke-card:active {
-  transform: scale(0.95);
-  filter: brightness(1.15);
-  transition: transform 0.05s ease, filter 0.05s ease;
+/* ===== Press/Tap Effect — JS-applied class ===== */
+.tap-flash {
+  animation: tapFlash 0.3s ease !important;
 }
 
-.cd-item:active {
-  background: rgba(196, 56, 138, 0.2) !important;
-  transform: scale(0.97);
+@keyframes tapFlash {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(196, 56, 138, 0.5); }
+  30% { transform: scale(0.92); box-shadow: 0 0 0 8px rgba(196, 56, 138, 0.3); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(196, 56, 138, 0); }
 }
 
 .btn--primary {
