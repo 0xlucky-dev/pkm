@@ -376,13 +376,15 @@ const UI = (() => {
           <svg class="config-section__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="config-section__content" id="trainer-content" style="display:none;">
-          <div style="display:flex;align-items:center;gap:10px;margin-top:12px;">
-            <input type="text" id="cfg-ot" placeholder="OT Name" style="width:120px;flex-shrink:0;padding:9px 12px;font-size:0.85rem;font-family:var(--font);background:rgba(20,28,55,0.9);border:1.5px solid rgba(140,180,255,0.35);border-radius:10px;color:#fff;outline:none;">
-            <button type="button" class="icon-toggle icon-toggle--male" data-ot-gender="Male" aria-pressed="false" title="Male" style="flex-shrink:0;">
-              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14.5 3a1 1 0 000 2h2.086l-3.51 3.51A6 6 0 1014.99 9.9L18.5 6.41V8.5a1 1 0 002 0v-4.5a1 1 0 00-1-1h-5zM10 10a4 4 0 110 8 4 4 0 010-8z"/></svg>
+          <div style="display:flex;align-items:center;gap:8px;margin-top:12px;">
+            <div class="config-field" style="flex:1;min-width:0;">
+              <input type="text" id="cfg-ot" placeholder="OT Name" style="width:100%;">
+            </div>
+            <button type="button" class="icon-toggle icon-toggle--male" data-ot-gender="Male" aria-pressed="false" title="Male" style="padding:6px 12px;font-size:0.75rem;">
+              <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M14.5 3a1 1 0 000 2h2.086l-3.51 3.51A6 6 0 1014.99 9.9L18.5 6.41V8.5a1 1 0 002 0v-4.5a1 1 0 00-1-1h-5zM10 10a4 4 0 110 8 4 4 0 010-8z"/></svg>
             </button>
-            <button type="button" class="icon-toggle icon-toggle--female" data-ot-gender="Female" aria-pressed="false" title="Female" style="flex-shrink:0;">
-              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2a6 6 0 00-1 11.917V16H9a1 1 0 000 2h2v2a1 1 0 002 0v-2h2a1 1 0 000-2h-2v-2.083A6 6 0 0012 2zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>
+            <button type="button" class="icon-toggle icon-toggle--female" data-ot-gender="Female" aria-pressed="false" title="Female" style="padding:6px 12px;font-size:0.75rem;">
+              <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 2a6 6 0 00-1 11.917V16H9a1 1 0 000 2h2v2a1 1 0 002 0v-2h2a1 1 0 000-2h-2v-2.083A6 6 0 0012 2zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>
             </button>
           </div>
           <select id="cfg-ot-gender" style="display:none;">
