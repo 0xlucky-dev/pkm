@@ -82,8 +82,14 @@ app.get('/', (req, res) => {
   res.redirect('/gen9a');
 });
 
-// --- Static file serving ---
-app.use(express.static(path.join(__dirname, 'public')));
+// --- Static file serving (no cache for JS/CSS during dev) ---
+app.use(express.static(path.join(__dirname, 'public'), {
+  setHeaders: (res, filePath) => {
+    if (filePath.endsWith('.js') || filePath.endsWith('.css')) {
+      res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+    }
+  }
+}));
 
 // --- Start server ---
 if (require.main === module) {
