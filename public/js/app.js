@@ -278,6 +278,20 @@
       document.getElementById('cfg-move4'),
     ].filter(Boolean);
 
+    function refreshCdButton(selectEl) {
+      // Find the custom dropdown wrapper and update button text
+      const wrap = selectEl.closest('.cd-wrap');
+      if (!wrap) return;
+      const btn = wrap.querySelector('.cd-btn');
+      if (!btn) return;
+      const opt = selectEl.options[selectEl.selectedIndex];
+      if (opt && opt.value) {
+        btn.innerHTML = `<span>${opt.textContent.replace(/ ✓$/, '')}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
+      } else {
+        btn.innerHTML = `<span class="cd-placeholder">${opt ? opt.textContent : '-- None --'}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
+      }
+    }
+
     function updateMoveIndicators() {
       // Collect currently selected moves across all slots
       const selected = {};
@@ -285,16 +299,21 @@
         if (sel.value) selected[sel.value] = idx;
       });
 
-      // For each select, mark options that are used in OTHER slots
+      // For each custom dropdown, update items to show ✓ for used moves
       moveSelects.forEach((sel, idx) => {
-        const options = sel.querySelectorAll('option');
-        options.forEach(opt => {
-          if (!opt.value) return; // skip "-- None --"
-          const usedInOther = (opt.value in selected) && selected[opt.value] !== idx;
-          // Add/remove a "used" marker text
-          const cleanText = opt.textContent.replace(/ ✓$/, '');
-          opt.textContent = usedInOther ? cleanText + ' ✓' : cleanText;
-          opt.style.color = usedInOther ? '#7b8ab8' : '';
+        const wrap = sel.closest('.cd-wrap');
+        if (!wrap) return;
+        const items = wrap.querySelectorAll('.cd-item');
+        items.forEach(item => {
+          const val = item.dataset.value;
+          if (!val) return;
+          const usedInOther = (val in selected) && selected[val] !== idx;
+          const nameSpan = item.querySelector('span');
+          if (nameSpan) {
+            const cleanText = nameSpan.textContent.replace(/ ✓$/, '');
+            nameSpan.textContent = usedInOther ? cleanText + ' ✓' : cleanText;
+            nameSpan.style.color = usedInOther ? '#c4388a' : '';
+          }
         });
       });
     }
@@ -308,6 +327,7 @@
         moveSelects.forEach((otherSel, otherIdx) => {
           if (otherIdx !== idx && otherSel.value === chosen) {
             otherSel.value = '';
+            refreshCdButton(otherSel);
           }
         });
 
