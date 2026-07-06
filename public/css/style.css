@@ -186,7 +186,26 @@
   white-space: nowrap;
 }
 
-.btn:active { transform: scale(0.97); }
+.btn:active { transform: scale(0.93); filter: brightness(1.2); }
+
+/* ===== Press/Tap Effect for all interactive elements ===== */
+.cd-btn:active,
+.icon-toggle:active,
+.config-field input:active,
+.config-field select:active,
+.nickname-pill input:active,
+.overlay__close:active,
+.btn--close-x:active,
+.poke-card:active {
+  transform: scale(0.95);
+  filter: brightness(1.15);
+  transition: transform 0.05s ease, filter 0.05s ease;
+}
+
+.cd-item:active {
+  background: rgba(196, 56, 138, 0.2) !important;
+  transform: scale(0.97);
+}
 
 .btn--primary {
   background: linear-gradient(135deg, #e83e8c, #c4388a);
