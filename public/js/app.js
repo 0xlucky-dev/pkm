@@ -384,11 +384,11 @@
     };
     const gender = resolveGender(genderInfo, requestedGender);
 
-    // Moves
+    // Moves — deduplicated
     const moves = [];
     for (let i = 1; i <= 4; i++) {
       const val = document.getElementById(`cfg-move${i}`).value;
-      if (val) moves.push(val);
+      if (val && !moves.includes(val)) moves.push(val);
     }
 
     // EVs
