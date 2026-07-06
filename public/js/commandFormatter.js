@@ -60,7 +60,9 @@ function formatPercentH(config, includePrefix = true) {
       : `${pokeName}-${config.formName}`;
   }
 
-  let line1 = includePrefix ? `%h ${pokeName}` : pokeName;
+  let line1 = '';
+  const prefix = config.sourceVersion === '50' ? '%hsv ' : '%h ';
+  line1 = includePrefix ? `${prefix}${pokeName}` : pokeName;
   if (config.gender) line1 += ` (${config.gender})`;
   lines.push(line1);
 
