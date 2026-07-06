@@ -92,6 +92,14 @@ const CustomDropdown = (() => {
     // Toggle menu
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
+      // Close all other open custom dropdowns first
+      document.querySelectorAll('.cd-wrap.cd-open').forEach(w => {
+        if (w !== wrapper) {
+          w.classList.remove('cd-open');
+          const b = w.querySelector('.cd-btn');
+          if (b) b.setAttribute('aria-expanded', 'false');
+        }
+      });
       const isOpen = wrapper.classList.toggle('cd-open');
       btn.setAttribute('aria-expanded', String(isOpen));
       if (isOpen) {
