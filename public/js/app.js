@@ -278,20 +278,6 @@
       document.getElementById('cfg-move4'),
     ].filter(Boolean);
 
-    function refreshCdButton(selectEl) {
-      // Find the custom dropdown wrapper and update button text
-      const wrap = selectEl.closest('.cd-wrap');
-      if (!wrap) return;
-      const btn = wrap.querySelector('.cd-btn');
-      if (!btn) return;
-      const opt = selectEl.options[selectEl.selectedIndex];
-      if (opt && opt.value) {
-        btn.innerHTML = `<span>${opt.textContent.replace(/ ✓$/, '')}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
-      } else {
-        btn.innerHTML = `<span class="cd-placeholder">${opt ? opt.textContent : '-- None --'}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
-      }
-    }
-
     function updateMoveIndicators() {
       // Collect currently selected moves across all slots
       const selected = {};
@@ -299,28 +285,15 @@
         if (sel.value) selected[sel.value] = idx;
       });
 
-      // For each custom dropdown, update items to show ✓ SVG for used moves
+      // For each native select, style options that are used in other slots
       moveSelects.forEach((sel, idx) => {
-        const wrap = sel.closest('.cd-wrap');
-        if (!wrap) return;
-        const items = wrap.querySelectorAll('.cd-item');
-        items.forEach(item => {
-          const val = item.dataset.value;
-          if (!val) return;
-          const usedInOther = (val in selected) && selected[val] !== idx;
-          // Remove existing check icon
-          const existing = item.querySelector('.move-used-icon');
-          if (existing) existing.remove();
-          const nameSpan = item.querySelector('span');
-          if (nameSpan) {
-            nameSpan.style.color = usedInOther ? '#c4388a' : '';
-          }
-          if (usedInOther) {
-            const svg = document.createElement('span');
-            svg.className = 'move-used-icon';
-            svg.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c4388a" stroke-width="3" style="margin-left:auto;flex-shrink:0;"><path d="M5 13l4 4L19 7"/></svg>`;
-            item.appendChild(svg);
-          }
+        const options = sel.querySelectorAll('option');
+        options.forEach(opt => {
+          if (!opt.value) return;
+          const usedInOther = (opt.value in selected) && selected[opt.value] !== idx;
+          opt.style.color = usedInOther ? '#c4388a' : '';
+          const cleanText = opt.textContent.replace(/ ✓$/, '');
+          opt.textContent = usedInOther ? cleanText + ' ✓' : cleanText;
         });
       });
     }
@@ -334,7 +307,6 @@
         moveSelects.forEach((otherSel, otherIdx) => {
           if (otherIdx !== idx && otherSel.value === chosen) {
             otherSel.value = '';
-            refreshCdButton(otherSel);
           }
         });
 
@@ -344,13 +316,6 @@
 
     // Initial indicator state
     updateMoveIndicators();
-
-    // Re-apply indicators when any move dropdown opens
-    moveSelects.forEach(sel => {
-      sel.addEventListener('cd-open', () => {
-        setTimeout(updateMoveIndicators, 10);
-      });
-    });
   }
 
   // --- Build config object from form ---

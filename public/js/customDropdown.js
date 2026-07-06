@@ -156,12 +156,15 @@ const CustomDropdown = (() => {
   /**
    * Initialize all selects in a container.
    * Ball select gets icons, others get plain custom dropdown.
+   * SKIP move selects (cfg-move*) for performance — they use native select.
    */
   function initAll(container) {
     const selects = container.querySelectorAll('select');
     selects.forEach(sel => {
-      // Skip form select (it has special handling)
+      // Skip form select and move selects (performance)
       if (sel.id === 'cfg-form') return;
+      if (sel.id && sel.id.startsWith('cfg-move')) return;
+      if (sel.id === 'cfg-ot-gender') return;
 
       const isBall = sel.id === 'cfg-ball';
       init(sel, {
