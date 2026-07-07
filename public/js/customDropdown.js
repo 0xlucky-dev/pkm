@@ -103,6 +103,10 @@ const CustomDropdown = (() => {
       const isOpen = wrapper.classList.toggle('cd-open');
       btn.setAttribute('aria-expanded', String(isOpen));
       if (isOpen) {
+        // Decide whether to open downward or flip upward. The overlay body is a
+        // scroll container (overflow-y:auto), so a menu near its bottom edge gets
+        // clipped — flip it up when there's more room above than below.
+        positionMenu();
         if (searchInput) {
           searchInput.value = '';
           renderOptions();
@@ -112,6 +116,24 @@ const CustomDropdown = (() => {
         select.dispatchEvent(new Event('cd-open', { bubbles: true }));
       }
     });
+
+    // Choose open direction based on available space in the scroll container.
+    function positionMenu() {
+      wrapper.classList.remove('cd-open--up');
+      const scroller = wrapper.closest('.overlay__body');
+      const btnRect = btn.getBoundingClientRect();
+      // Menu is display:block now that cd-open is set, so offsetHeight is valid.
+      const menuH = menu.offsetHeight || parseInt(maxHeight, 10) || 220;
+      const boundTop = scroller ? scroller.getBoundingClientRect().top : 0;
+      const boundBottom = scroller
+        ? scroller.getBoundingClientRect().bottom
+        : window.innerHeight;
+      const spaceBelow = boundBottom - btnRect.bottom;
+      const spaceAbove = btnRect.top - boundTop;
+      if (spaceBelow < menuH + 12 && spaceAbove > spaceBelow) {
+        wrapper.classList.add('cd-open--up');
+      }
+    }
 
     // Search filter
     if (searchInput) {
@@ -178,7 +200,7 @@ const CustomDropdown = (() => {
       init(sel, {
         icons: isBall,
         iconPath: '/icons/',
-        maxHeight: isMove ? '180px' : (isBall ? '220px' : '180px'),
+        maxHeight: isMove ? '320px' : (isBall ? '300px' : '300px'),
       });
     });
   }

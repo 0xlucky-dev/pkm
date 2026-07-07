@@ -101,7 +101,7 @@
       inset 0 1px 0 rgba(255, 255, 255, 0.08);
   }
   .overlay__header { padding: 22px 36px; }
-  .overlay__body { padding: 28px 36px; }
+  .overlay__body { padding: 28px 36px; padding-bottom: 96px; }
   .overlay__footer { padding: 20px 36px; }
   .overlay__title { font-size: 1.5rem; }
   .btn { padding: 16px 28px; font-size: 1.1rem; border-radius: 12px; }
@@ -156,6 +156,9 @@
   overflow-y: auto;
   overflow-x: hidden;
   padding: 20px 24px;
+  /* Extra bottom room so the last dropdowns (Move 3/4, Trainer) can scroll up
+     and open their menus without being clipped against the panel edge. */
+  padding-bottom: 96px;
   -webkit-overflow-scrolling: touch;
   min-height: 0;
 }
@@ -709,6 +712,29 @@
   min-width: 36px;
 }
 
+/* IV/EV rows sit close together (6 each) — give them more breathing room and
+   a taller, easier-to-grab track so fine adjustments are less fiddly. */
+.config-slider-row.iv-slider,
+.config-slider-row.ev-slider {
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.config-slider-row.iv-slider input[type="range"],
+.config-slider-row.ev-slider input[type="range"] {
+  height: 16px;
+  border-radius: 8px;
+}
+.config-slider-row.iv-slider input[type="range"]::-webkit-slider-thumb,
+.config-slider-row.ev-slider input[type="range"]::-webkit-slider-thumb {
+  width: 28px;
+  height: 28px;
+}
+.config-slider-row.iv-slider input[type="range"]::-moz-range-thumb,
+.config-slider-row.ev-slider input[type="range"]::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+}
+
 /* IV sliders — muted pink fill */
 .iv-slider input[type="range"] {
   background: linear-gradient(90deg, #c4388a var(--iv-pct, 100%), rgba(20, 30, 60, 0.9) var(--iv-pct, 100%));
@@ -833,6 +859,24 @@
   animation: toastIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .toast.hidden { display: none; }
+
+/* Error variant — red */
+.toast.toast--error {
+  background: rgba(45, 20, 24, 0.97);
+  color: #fca5a5;
+  border-color: rgba(239, 68, 68, 0.35);
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.4),
+    0 12px 40px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(239, 68, 68, 0.2);
+}
+
+/* Success variant — explicit green (same family as base) */
+.toast.toast--success {
+  background: rgba(20, 40, 30, 0.97);
+  color: #86efac;
+  border-color: rgba(34, 197, 94, 0.35);
+}
 
 /* ===== Pokemon Card (JS-generated via ui.js) ===== */
 .poke-card {
@@ -1127,8 +1171,16 @@
   max-height: 220px;
 }
 .cd-open .cd-menu {
-  display: block;
+  display: flex;
+  flex-direction: column;
   animation: fadeScaleIn 0.15s ease;
+}
+
+/* Flip upward when there isn't enough room below the trigger. */
+.cd-wrap.cd-open--up .cd-menu {
+  top: auto;
+  bottom: calc(100% + 4px);
+  transform-origin: bottom center;
 }
 
 .cd-search {
@@ -1146,9 +1198,17 @@
   color: var(--text-dim);
 }
 
+.cd-search {
+  flex-shrink: 0;
+}
+
 .cd-options {
   overflow-y: auto;
-  max-height: 180px;
+  /* Fill the remaining menu height instead of a fixed 180px cap so more
+     options are visible. The menu's own max-height (set inline) is the real
+     limit; min-height:0 lets this flex child scroll. */
+  flex: 1 1 auto;
+  min-height: 0;
 }
 .cd-options::-webkit-scrollbar { width: 5px; }
 .cd-options::-webkit-scrollbar-track { background: transparent; }

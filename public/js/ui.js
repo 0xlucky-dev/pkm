@@ -347,9 +347,10 @@ const UI = (() => {
         ${evSlidersHtml}
       </div>`;
 
-    // --- Moves ---
+    // --- Moves (sorted A–Z for easier scanning) ---
     let movesOptionsHtml = '<option value="">-- None --</option>';
-    for (const m of moves) {
+    const sortedMoves = [...moves].sort((a, b) => a.localeCompare(b));
+    for (const m of sortedMoves) {
       movesOptionsHtml += `<option value="${m}">${m}</option>`;
     }
 

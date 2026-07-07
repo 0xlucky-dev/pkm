@@ -420,6 +420,7 @@
       level,
       shiny,
       alpha,
+      _version: currentVersion,
       sourceVersion: currentVersion === 'gen9a' ? '52' : '50',
       ball,
       ability: currentVersion === 'gen9a' ? '' : ability,  // ZA doesn't allow ability selection
@@ -436,9 +437,35 @@
   }
 
   // --- Copy single ---
+  // --- Version guard ---
+  // A Pokémon belongs to the current version when it was built in that version
+  // AND still exists in the currently loaded list. Prevents copying a command
+  // whose Pokémon the target bot can't accept (e.g. an SV mon in a ZA order).
+  function versionLabel(v) {
+    return v === 'gen9a' ? 'Legends: Z-A' : 'Scarlet/Violet';
+  }
+
+  function findVersionMismatches(configs) {
+    const validNames = new Set(pokemonList.map((p) => p.name));
+    return configs.filter(
+      (c) => c._version !== currentVersion || !validNames.has(c.pokemonName)
+    );
+  }
+
   async function copySingle() {
     const config = buildConfig();
     if (!config) return;
+
+    // Guard: the open config is always built for the current version, but keep
+    // a defensive check in case the list failed to load.
+    if (findVersionMismatches([config]).length > 0) {
+      UI.showToast(
+        `${config.pokemonName} ไม่มีในเวอร์ชัน ${versionLabel(currentVersion)} — คัดลอกไม่ได้`,
+        4000,
+        'error'
+      );
+      return;
+    }
 
     const text = formatPercentH(config, true);
     try {
@@ -484,6 +511,19 @@
       UI.showToast('Batch is empty');
       return;
     }
+
+    // Guard: block copy if any item doesn't belong to the current version.
+    const mismatches = findVersionMismatches(batch);
+    if (mismatches.length > 0) {
+      const names = [...new Set(mismatches.map((c) => c.pokemonName))].join(', ');
+      UI.showToast(
+        `มี ${mismatches.length} ตัวไม่ตรงกับเวอร์ชัน ${versionLabel(currentVersion)} (${names}) — ลบออกก่อนคัดลอก`,
+        5000,
+        'error'
+      );
+      return;
+    }
+
     const text = formatBatch(batch);
     try {
       await navigator.clipboard.writeText(text);
@@ -570,9 +610,18 @@
 
     // Version switch
     versionSelect.addEventListener('change', () => {
+      const previousVersion = currentVersion;
       currentVersion = versionSelect.value;
       searchInput.value = '';
       searchInputMobile.value = '';
+      // A batch is tied to a single game version (different .Version code and
+      // fields per version). Clear it on a real version change so Pokémon from
+      // one game can't leak into another game's command.
+      if (currentVersion !== previousVersion && batch.length > 0) {
+        const removed = batch.length;
+        clearBatch();
+        UI.showToast(`สลับเวอร์ชันแล้ว — ล้างรายการ ${removed} ตัวออกจาก batch`, 3000);
+      }
       // Update version logo
       versionLogo.src = currentVersion === 'gen9a' ? '/img/za.png' : '/img/sv.png';
       // Reflect the version in the URL path without reloading the page
@@ -585,8 +634,13 @@
 
     // Handle browser back/forward navigation
     window.addEventListener('popstate', () => {
+      const previousVersion = currentVersion;
       currentVersion = versionFromPath();
       versionSelect.value = currentVersion;
+      // Same reasoning as the dropdown handler: never mix versions in one batch.
+      if (currentVersion !== previousVersion && batch.length > 0) {
+        clearBatch();
+      }
       versionLogo.src = currentVersion === 'gen9a' ? '/img/za.png' : '/img/sv.png';
       searchInput.value = '';
       searchInputMobile.value = '';
