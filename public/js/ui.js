@@ -182,10 +182,14 @@ const UI = (() => {
 
     const { natures, balls } = options;
 
-    // Determine sprite URL
+    // Determine sprite URLs (normal + shiny). Shiny may be empty for some forms.
     let spriteUrl = '';
     if (form.spriteNormal) {
       spriteUrl = '/' + form.spriteNormal.replace(/^\/+/, '');
+    }
+    let spriteShinyUrl = '';
+    if (form.spriteShiny) {
+      spriteShinyUrl = '/' + form.spriteShiny.replace(/^\/+/, '');
     }
 
     // --- Hero section: sprite + name + form selector ---
@@ -205,8 +209,9 @@ const UI = (() => {
     const heroHtml = `
       <div class="config-hero config-hero--centered">
         <div class="config-hero__sprite-wrap">
-          <img class="config-hero__sprite" src="${spriteUrl}" alt="${pokemonDetail.name}"
-               onerror="this.style.display='none';">
+          <img class="config-hero__sprite" id="cfg-hero-sprite" src="${spriteUrl}" alt="${pokemonDetail.name}"
+               data-normal="${spriteUrl}" data-shiny="${spriteShinyUrl}"
+               onerror="this.onerror=null; if(this.dataset.normal && this.src.indexOf(this.dataset.normal)===-1){this.src=this.dataset.normal;}else{this.style.display='none';}">
           <img class="config-hero__pokeball" id="cfg-hero-ball-icon" src="/icons/pokeball.png" width="36" height="36" alt="Ball">
         </div>
         <h2 class="config-hero__name">${pokemonDetail.name}</h2>

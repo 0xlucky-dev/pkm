@@ -123,6 +123,19 @@
     }
   }
 
+  // Swap the hero sprite between normal and shiny. Falls back to the normal
+  // image when the current form has no shiny sprite, so the image never breaks.
+  function updateHeroSprite(isShiny) {
+    const img = document.getElementById('cfg-hero-sprite');
+    if (!img) return;
+    const normal = img.dataset.normal || '';
+    const shiny = img.dataset.shiny || '';
+    const target = (isShiny && shiny) ? shiny : normal;
+    if (!target) return;
+    img.src = target;
+    img.style.display = '';
+  }
+
   // --- Attach listeners inside the config overlay ---
   function attachConfigListeners() {
     // Form selector — re-render the body for the newly selected form.
@@ -194,12 +207,13 @@
       });
     });
 
-    // Shiny toggle
+    // Shiny toggle — swap the hero sprite to the shiny image when available.
     const shinyBtn = document.getElementById('cfg-shiny');
     if (shinyBtn) {
       shinyBtn.addEventListener('click', () => {
         const active = shinyBtn.classList.toggle('active');
         shinyBtn.setAttribute('aria-pressed', String(active));
+        updateHeroSprite(active);
       });
     }
 
@@ -347,6 +361,7 @@
     const forms = currentDetail.forms || [];
     const form = forms[currentFormIndex] || forms[0] || {};
     const spriteUrl = form.spriteNormal ? '/' + form.spriteNormal.replace(/^\/+/, '') : '';
+    const spriteShinyUrl = form.spriteShiny ? '/' + form.spriteShiny.replace(/^\/+/, '') : '';
     const level = parseInt(document.getElementById('cfg-level').value) || form.levelMax || 100;
     const ability = (document.getElementById('cfg-ability') || {}).value || '';
     const nature = (document.getElementById('cfg-nature') || {}).value || '';
@@ -431,7 +446,8 @@
       trainer,
       language,
       moves,
-      _sprite: spriteUrl,
+      // Batch thumbnail follows the shiny choice when a shiny sprite exists.
+      _sprite: (shiny && spriteShinyUrl) ? spriteShinyUrl : spriteUrl,
       _ballSlug: ball ? ball.toLowerCase().replace(/[éè]/g, 'e').replace(/[^a-z]/g, '') : '',
     };
   }

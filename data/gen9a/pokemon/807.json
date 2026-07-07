@@ -58,13 +58,13 @@
         "Brutal Swing",
         "Plasma Fists"
       ],
-      "canShiny": true,
+      "canShiny": false,
       "canAlpha": false,
       "canAlphaShiny": false,
       "canGigantamax": false,
       "levelMax": 100,
       "spriteNormal": "sprites/poke_capture_0807_000_uk_n_00000000_f_n.png",
-      "spriteShiny": "sprites/poke_capture_0807_000_uk_n_00000000_f_r.png",
+      "spriteShiny": "",
       "spriteGmax": "",
       "spriteShinyGmax": ""
     }
