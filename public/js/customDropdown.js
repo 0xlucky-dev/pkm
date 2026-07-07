@@ -118,11 +118,14 @@ const CustomDropdown = (() => {
     });
 
     // Choose open direction based on available space in the scroll container.
+    // On mobile (full-screen overlay), always open downward — the user can scroll.
+    // Only flip upward on desktop where the overlay panel has a fixed max-height.
     function positionMenu() {
       wrapper.classList.remove('cd-open--up');
+      // Skip flipping on narrow viewports (mobile full-screen overlay is scrollable)
+      if (window.innerWidth < 640) return;
       const scroller = wrapper.closest('.overlay__body');
       const btnRect = btn.getBoundingClientRect();
-      // Menu is display:block now that cd-open is set, so offsetHeight is valid.
       const menuH = menu.offsetHeight || parseInt(maxHeight, 10) || 220;
       const boundTop = scroller ? scroller.getBoundingClientRect().top : 0;
       const boundBottom = scroller
