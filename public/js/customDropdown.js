@@ -79,6 +79,9 @@ const CustomDropdown = (() => {
         if (icons && opt.value) {
           const slug = getBallSlug(opt.value);
           item.innerHTML = `<img src="${iconPath}${slug}.png" class="cd-item-icon" width="20" height="20" alt="" onerror="this.style.display='none'"><span>${opt.textContent}</span>`;
+        } else if (opt.dataset && opt.dataset.type) {
+          const typeSlug = opt.dataset.type.toLowerCase();
+          item.innerHTML = `<img src="/icons/types/${typeSlug}.svg" class="cd-item-icon" width="16" height="16" alt="${opt.dataset.type}" onerror="this.style.display='none'"><span>${opt.textContent}</span>`;
         } else {
           item.innerHTML = `<span>${opt.textContent}</span>`;
         }
@@ -183,6 +186,13 @@ const CustomDropdown = (() => {
       const slug = getBallSlug(value);
       return `<img src="${iconPath}${slug}.png" class="cd-btn-icon" width="20" height="20" alt="" onerror="this.style.display='none'"><span>${text}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
     }
+
+    // Show type icon in the button when a move with data-type is selected
+    if (option.dataset && option.dataset.type) {
+      const typeSlug = option.dataset.type.toLowerCase();
+      return `<img src="/icons/types/${typeSlug}.svg" class="cd-btn-icon" width="16" height="16" alt="${option.dataset.type}" onerror="this.style.display='none'"><span>${text}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
+    }
+
     return `<span>${text}</span><svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>`;
   }
 

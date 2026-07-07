@@ -357,10 +357,12 @@ const UI = (() => {
       </div>`;
 
     // --- Moves (sorted A–Z for easier scanning) ---
+    const moveTypes = (options && options.moveTypes) || {};
     let movesOptionsHtml = '<option value="">-- None --</option>';
     const sortedMoves = [...moves].sort((a, b) => a.localeCompare(b));
     for (const m of sortedMoves) {
-      movesOptionsHtml += `<option value="${m}">${m}</option>`;
+      const mType = moveTypes[m] || '';
+      movesOptionsHtml += `<option value="${m}" data-type="${mType}">${m}</option>`;
     }
 
     const movesHtml = `

@@ -59,7 +59,10 @@ app.get('/api/options/:version', (req, res) => {
   const versionCodes = readJSON(path.join(DATA_DIR, 'shared', 'versionCodes.json'), res);
   if (versionCodes === null) return;
 
-  res.json({ natures, balls, versionCodes });
+  const moveTypes = readJSON(path.join(DATA_DIR, 'shared', 'move-types.json'), res);
+  if (moveTypes === null) return;
+
+  res.json({ natures, balls, versionCodes, moveTypes });
 });
 
 // --- Catch-all 404 for unmatched API routes ---
