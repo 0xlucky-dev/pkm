@@ -1,0 +1,1469 @@
+<No.0001>(Have Shiny)
+%h Bulbasaur
+
+<No.0002>(Have Shiny)
+%h Ivysaur
+
+<No.0003>(Have Shiny)
+%h Venusaur
+
+<No.0004>(Have Shiny)
+%h Charmander
+
+<No.0005>(Have Shiny)
+%h Charmeleon
+
+<No.0006>(Have Shiny)
+%h Charizard
+
+<No.0007>(Have Shiny)
+%h Squirtle
+
+<No.0008>(Have Shiny)
+%h Wartortle
+
+<No.0009>(Have Shiny)
+%h Blastoise
+
+<No.0013>(Have Shiny)
+%h Weedle
+
+<No.0014>(Have Shiny)
+%h Kakuna
+
+<No.0015>(Have Shiny)
+%h Beedrill
+
+<No.0016>(Have Shiny)
+%h Pidgey
+
+<No.0017>(Have Shiny)
+%h Pidgeotto
+
+<No.0018>(Have Shiny)
+%h Pidgeot
+
+<No.0023>(Have Shiny)
+%h Ekans
+
+<No.0024>(Have Shiny)
+%h Arbok
+
+<No.0025>(Have Shiny)
+%h Pikachu
+
+<No.0026>(Have Shiny)
+%h Raichu
+
+<No.0026-1>(Have Shiny)
+%h Raichu-Alola
+
+<No.0035>(Have Shiny)
+%h Clefairy
+
+<No.0036>(Have Shiny)
+%h Clefable
+
+<No.0039>(Have Shiny)
+%h Jigglypuff
+
+<No.0040>(Have Shiny)
+%h Wigglytuff
+
+<No.0041>(Have Shiny)
+%h Zubat
+
+<No.0042>(Have Shiny)
+%h Golbat
+
+<No.0052>(Have Shiny)
+%h Meowth
+
+<No.0052-1>(Have Shiny)
+%h Meowth-Alola
+
+<No.0052-2>(Have Shiny)
+%h Meowth-Galar
+
+<No.0053>(Have Shiny)
+%h Persian
+
+<No.0053-1>(Have Shiny)
+%h Persian-Alola
+
+<No.0056>(Have Shiny)
+%h Mankey
+
+<No.0057>(Have Shiny)
+%h Primeape
+
+<No.0063>(Have Shiny)
+%h Abra
+
+<No.0064>(Have Shiny)
+%h Kadabra
+
+<No.0065>(Have Shiny)
+%h Alakazam
+
+<No.0066>(Have Shiny)
+%h Machop
+
+<No.0067>(Have Shiny)
+%h Machoke
+
+<No.0068>(Have Shiny)
+%h Machamp
+
+<No.0069>(Have Shiny)
+%h Bellsprout
+
+<No.0070>(Have Shiny)
+%h Weepinbell
+
+<No.0071>(Have Shiny)
+%h Victreebel
+
+<No.0079>(Have Shiny)
+%h Slowpoke
+
+<No.0079-1>(Have Shiny)
+%h Slowpoke-Galar
+
+<No.0080>(Have Shiny)
+%h Slowbro
+
+<No.0080-2>(Have Shiny)
+%h Slowbro-Galar
+
+<No.0083>(Have Shiny)
+%h Farfetch’d
+
+<No.0083-1>(Have Shiny)
+%h Farfetch’d-Galar
+
+<No.0092>(Have Shiny)
+%h Gastly
+
+<No.0093>(Have Shiny)
+%h Haunter
+
+<No.0094>(Have Shiny)
+%h Gengar
+
+<No.0095>(Have Shiny)
+%h Onix
+
+<No.0104>(Have Shiny)
+%h Cubone
+
+<No.0105>(Have Shiny)
+%h Marowak
+
+<No.0105-1>(Have Shiny)
+%h Marowak-Alola
+
+<No.0115>(Have Shiny)
+%h Kangaskhan
+
+<No.0120>(Have Shiny)
+%h Staryu
+
+<No.0121>(Have Shiny)
+%h Starmie
+
+<No.0122>(Have Shiny)
+%h Mr. Mime
+
+<No.0122-1>(Have Shiny)
+%h Mr. Mime-Galar
+
+<No.0123>(Have Shiny)
+%h Scyther
+
+<No.0127>(Have Shiny)
+%h Pinsir
+
+<No.0129>(Have Shiny)
+%h Magikarp
+
+<No.0130>(Have Shiny)
+%h Gyarados
+
+<No.0133>(Have Shiny)
+%h Eevee
+
+<No.0134>(Have Shiny)
+%h Vaporeon
+
+<No.0135>(Have Shiny)
+%h Jolteon
+
+<No.0136>(Have Shiny)
+%h Flareon
+
+<No.0137>(Have Shiny)
+%h Porygon
+
+<No.0142>(Have Shiny)
+%h Aerodactyl
+
+<No.0147>(Have Shiny)
+%h Dratini
+
+<No.0148>(Have Shiny)
+%h Dragonair
+
+<No.0149>(Have Shiny)
+%h Dragonite
+
+<No.0150>(Have Shiny)
+%h Mewtwo
+
+<No.0152>(Have Shiny)
+%h Chikorita
+
+<No.0153>(Have Shiny)
+%h Bayleef
+
+<No.0154>(Have Shiny)
+%h Meganium
+
+<No.0158>(Have Shiny)
+%h Totodile
+
+<No.0159>(Have Shiny)
+%h Croconaw
+
+<No.0160>(Have Shiny)
+%h Feraligatr
+
+<No.0167>(Have Shiny)
+%h Spinarak
+
+<No.0168>(Have Shiny)
+%h Ariados
+
+<No.0169>(Have Shiny)
+%h Crobat
+
+<No.0172>(Have Shiny)
+%h Pichu
+
+<No.0173>(Have Shiny)
+%h Cleffa
+
+<No.0174>(Have Shiny)
+%h Igglybuff
+
+<No.0179>(Have Shiny)
+%h Mareep
+
+<No.0180>(Have Shiny)
+%h Flaaffy
+
+<No.0181>(Have Shiny)
+%h Ampharos
+
+<No.0196>(Have Shiny)
+%h Espeon
+
+<No.0197>(Have Shiny)
+%h Umbreon
+
+<No.0199>(Have Shiny)
+%h Slowking
+
+<No.0199-1>(Have Shiny)
+%h Slowking-Galar
+
+<No.0208>(Have Shiny)
+%h Steelix
+
+<No.0211>(Have Shiny)
+%h Qwilfish
+
+<No.0211-1>(Have Shiny)
+%h Qwilfish-Hisui
+
+<No.0212>(Have Shiny)
+%h Scizor
+
+<No.0214>(Have Shiny)
+%h Heracross
+
+<No.0225>(Have Shiny)
+%h Delibird
+
+<No.0227>(Have Shiny)
+%h Skarmory
+
+<No.0228>(Have Shiny)
+%h Houndour
+
+<No.0229>(Have Shiny)
+%h Houndoom
+
+<No.0233>(Have Shiny)
+%h Porygon2
+
+<No.0246>(Have Shiny)
+%h Larvitar
+
+<No.0247>(Have Shiny)
+%h Pupitar
+
+<No.0248>(Have Shiny)
+%h Tyranitar
+
+<No.0252>(Have Shiny)
+%h Treecko
+
+<No.0253>(Have Shiny)
+%h Grovyle
+
+<No.0254>(Have Shiny)
+%h Sceptile
+
+<No.0255>(Have Shiny)
+%h Torchic
+
+<No.0256>(Have Shiny)
+%h Combusken
+
+<No.0257>(Have Shiny)
+%h Blaziken
+
+<No.0258>(Have Shiny)
+%h Mudkip
+
+<No.0259>(Have Shiny)
+%h Marshtomp
+
+<No.0260>(Have Shiny)
+%h Swampert
+
+<No.0280>(Have Shiny)
+%h Ralts
+
+<No.0281>(Have Shiny)
+%h Kirlia
+
+<No.0282>(Have Shiny)
+%h Gardevoir
+
+<No.0302>(Have Shiny)
+%h Sableye
+
+<No.0303>(Have Shiny)
+%h Mawile
+
+<No.0304>(Have Shiny)
+%h Aron
+
+<No.0305>(Have Shiny)
+%h Lairon
+
+<No.0306>(Have Shiny)
+%h Aggron
+
+<No.0307>(Have Shiny)
+%h Meditite
+
+<No.0308>(Have Shiny)
+%h Medicham
+
+<No.0309>(Have Shiny)
+%h Electrike
+
+<No.0310>(Have Shiny)
+%h Manectric
+
+<No.0315>(Have Shiny)
+%h Roselia
+
+<No.0316>(Have Shiny)
+%h Gulpin
+
+<No.0317>(Have Shiny)
+%h Swalot
+
+<No.0318>(Have Shiny)
+%h Carvanha
+
+<No.0319>(Have Shiny)
+%h Sharpedo
+
+<No.0322>(Have Shiny)
+%h Numel
+
+<No.0323>(Have Shiny)
+%h Camerupt
+
+<No.0325>(Have Shiny)
+%h Spoink
+
+<No.0326>(Have Shiny)
+%h Grumpig
+
+<No.0333>(Have Shiny)
+%h Swablu
+
+<No.0334>(Have Shiny)
+%h Altaria
+
+<No.0335>(Have Shiny)
+%h Zangoose
+
+<No.0336>(Have Shiny)
+%h Seviper
+
+<No.0349>(Have Shiny)
+%h Feebas
+
+<No.0350>(Have Shiny)
+%h Milotic
+
+<No.0352>(Have Shiny)
+%h Kecleon
+
+<No.0353>(Have Shiny)
+%h Shuppet
+
+<No.0354>(Have Shiny)
+%h Banette
+
+<No.0358>(Have Shiny)
+%h Chimecho
+
+<No.0359>(Have Shiny)
+%h Absol
+
+<No.0361>(Have Shiny)
+%h Snorunt
+
+<No.0362>(Have Shiny)
+%h Glalie
+
+<No.0371>(Have Shiny)
+%h Bagon
+
+<No.0372>(Have Shiny)
+%h Shelgon
+
+<No.0373>(Have Shiny)
+%h Salamence
+
+<No.0374>(Have Shiny)
+%h Beldum
+
+<No.0375>(Have Shiny)
+%h Metang
+
+<No.0376>(Have Shiny)
+%h Metagross
+
+<No.0380>(Have Shiny)
+%h Latias
+
+<No.0381>(Have Shiny)
+%h Latios
+
+<No.0382>(Have Shiny)
+%h Kyogre
+
+<No.0383>(Have Shiny)
+%h Groudon
+
+<No.0384>(Have Shiny)
+%h Rayquaza
+
+<No.0396>(Have Shiny)
+%h Starly
+
+<No.0397>(Have Shiny)
+%h Staravia
+
+<No.0398>(Have Shiny)
+%h Staraptor
+
+<No.0406>(Have Shiny)
+%h Budew
+
+<No.0407>(Have Shiny)
+%h Roserade
+
+<No.0427>(Have Shiny)
+%h Buneary
+
+<No.0428>(Have Shiny)
+%h Lopunny
+
+<No.0433>(Have Shiny)
+%h Chingling
+
+<No.0439>(Have Shiny)
+%h Mime Jr.
+
+<No.0443>(Have Shiny)
+%h Gible
+
+<No.0444>(Have Shiny)
+%h Gabite
+
+<No.0445>(Have Shiny)
+%h Garchomp
+
+<No.0447>(Have Shiny)
+%h Riolu
+
+<No.0448>(Have Shiny)
+%h Lucario
+
+<No.0449>(Have Shiny)
+%h Hippopotas
+
+<No.0450>(Have Shiny)
+%h Hippowdon
+
+<No.0459>(Have Shiny)
+%h Snover
+
+<No.0460>(Have Shiny)
+%h Abomasnow
+
+<No.0470>(Have Shiny)
+%h Leafeon
+
+<No.0471>(Have Shiny)
+%h Glaceon
+
+<No.0474>(Have Shiny)
+%h Porygon-Z
+
+<No.0475>(Have Shiny)
+%h Gallade
+
+<No.0478>(Have Shiny)
+%h Froslass
+
+<No.0479>(Have Shiny)
+%h Rotom
+
+<No.0479-1>(Have Shiny)
+%h Rotom-Heat
+
+<No.0479-2>(Have Shiny)
+%h Rotom-Wash
+
+<No.0479-3>(Have Shiny)
+%h Rotom-Frost
+
+<No.0479-4>(Have Shiny)
+%h Rotom-Fan
+
+<No.0479-5>(Have Shiny)
+%h Rotom-Mow
+
+<No.0485>(Have Shiny)
+%h Heatran
+
+<No.0491>(Have Shiny)
+%h Darkrai
+
+<No.0498>(Have Shiny)
+%h Tepig
+
+<No.0499>(Have Shiny)
+%h Pignite
+
+<No.0500>(Have Shiny)
+%h Emboar
+
+<No.0504>(Have Shiny)
+%h Patrat
+
+<No.0505>(Have Shiny)
+%h Watchog
+
+<No.0509>(Have Shiny)
+%h Purrloin
+
+<No.0510>(Have Shiny)
+%h Liepard
+
+<No.0511>(Have Shiny)
+%h Pansage
+
+<No.0512>(Have Shiny)
+%h Simisage
+
+<No.0513>(Have Shiny)
+%h Pansear
+
+<No.0514>(Have Shiny)
+%h Simisear
+
+<No.0515>(Have Shiny)
+%h Panpour
+
+<No.0516>(Have Shiny)
+%h Simipour
+
+<No.0517>(Have Shiny)
+%h Munna
+
+<No.0518>(Have Shiny)
+%h Musharna
+
+<No.0529>(Have Shiny)
+%h Drilbur
+
+<No.0530>(Have Shiny)
+%h Excadrill
+
+<No.0531>(Have Shiny)
+%h Audino
+
+<No.0538>(Have Shiny)
+%h Throh
+
+<No.0539>(Have Shiny)
+%h Sawk
+
+<No.0543>(Have Shiny)
+%h Venipede
+
+<No.0544>(Have Shiny)
+%h Whirlipede
+
+<No.0545>(Have Shiny)
+%h Scolipede
+
+<No.0551>(Have Shiny)
+%h Sandile
+
+<No.0552>(Have Shiny)
+%h Krokorok
+
+<No.0553>(Have Shiny)
+%h Krookodile
+
+<No.0559>(Have Shiny)
+%h Scraggy
+
+<No.0560>(Have Shiny)
+%h Scrafty
+
+<No.0562>(Have Shiny)
+%h Yamask
+
+<No.0562-1>(Have Shiny)
+%h Yamask-Galar
+
+<No.0563>(Have Shiny)
+%h Cofagrigus
+
+<No.0568>(Have Shiny)
+%h Trubbish
+
+<No.0569>(Have Shiny)
+%h Garbodor
+
+<No.0582>(Have Shiny)
+%h Vanillite
+
+<No.0583>(Have Shiny)
+%h Vanillish
+
+<No.0584>(Have Shiny)
+%h Vanilluxe
+
+<No.0587>(Have Shiny)
+%h Emolga
+
+<No.0590>(Have Shiny)
+%h Foongus
+
+<No.0591>(Have Shiny)
+%h Amoonguss
+
+<No.0602>(Have Shiny)
+%h Tynamo
+
+<No.0603>(Have Shiny)
+%h Eelektrik
+
+<No.0604>(Have Shiny)
+%h Eelektross
+
+<No.0607>(Have Shiny)
+%h Litwick
+
+<No.0608>(Have Shiny)
+%h Lampent
+
+<No.0609>(Have Shiny)
+%h Chandelure
+
+<No.0615>(Have Shiny)
+%h Cryogonal
+
+<No.0618>(Have Shiny)
+%h Stunfisk
+
+<No.0618-1>(Have Shiny)
+%h Stunfisk-Galar
+
+<No.0622>(Have Shiny)
+%h Golett
+
+<No.0623>(Have Shiny)
+%h Golurk
+
+<No.0638>(Have Shiny)
+%h Cobalion
+
+<No.0639>(Have Shiny)
+%h Terrakion
+
+<No.0640>(Have Shiny)
+%h Virizion
+
+<No.0647>(Have Shiny)
+%h Keldeo
+
+<No.0647-1>(Have Shiny)
+%h Keldeo-Resolute
+
+<No.0648>(Have Shiny)
+%h Meloetta
+
+<No.0649>(Have Shiny)
+%h Genesect
+
+<No.0650>(Have Shiny)
+%h Chespin
+
+<No.0651>(Have Shiny)
+%h Quilladin
+
+<No.0652>(Have Shiny)
+%h Chesnaught
+
+<No.0653>(Have Shiny)
+%h Fennekin
+
+<No.0654>(Have Shiny)
+%h Braixen
+
+<No.0655>(Have Shiny)
+%h Delphox
+
+<No.0656>(Have Shiny)
+%h Froakie
+
+<No.0657>(Have Shiny)
+%h Frogadier
+
+<No.0658>(Have Shiny)
+%h Greninja
+
+<No.0659>(Have Shiny)
+%h Bunnelby
+
+<No.0660>(Have Shiny)
+%h Diggersby
+
+<No.0661>(Have Shiny)
+%h Fletchling
+
+<No.0662>(Have Shiny)
+%h Fletchinder
+
+<No.0663>(Have Shiny)
+%h Talonflame
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-4>(Have Shiny)
+%h Scatterbug-Garden
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0664-6>(Have Shiny)
+%h Scatterbug-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-4>(Have Shiny)
+%h Spewpa-Garden
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-8>(Have Shiny)
+%h Spewpa-Marine
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0665-6>(Have Shiny)
+%h Spewpa-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-4>(Have Shiny)
+%h Vivillon-Garden
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-8>(Have Shiny)
+%h Vivillon-Marine
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0666-6>(Have Shiny)
+%h Vivillon-Meadow
+
+<No.0667>(Have Shiny)
+%h Litleo
+
+<No.0668>(Have Shiny)
+%h Pyroar
+
+<No.0669>(Have Shiny)
+%h Flabébé
+
+<No.0669-1>(Have Shiny)
+%h Flabébé-Yellow
+
+<No.0669-2>(Have Shiny)
+%h Flabébé-Orange
+
+<No.0669-3>(Have Shiny)
+%h Flabébé-Blue
+
+<No.0669-4>(Have Shiny)
+%h Flabébé-White
+
+<No.0670>(Have Shiny)
+%h Floette
+
+<No.0670-1>(Have Shiny)
+%h Floette-Yellow
+
+<No.0670-2>(Have Shiny)
+%h Floette-Orange
+
+<No.0670-3>(Have Shiny)
+%h Floette-Blue
+
+<No.0670-4>(Have Shiny)
+%h Floette-White
+
+<No.0670-5>
+%h Floette-Eternal
+
+<No.0671>(Have Shiny)
+%h Florges
+
+<No.0671-1>(Have Shiny)
+%h Florges-Yellow
+
+<No.0671-2>(Have Shiny)
+%h Florges-Orange
+
+<No.0671-3>(Have Shiny)
+%h Florges-Blue
+
+<No.0671-4>(Have Shiny)
+%h Florges-White
+
+<No.0672>(Have Shiny)
+%h Skiddo
+
+<No.0673>(Have Shiny)
+%h Gogoat
+
+<No.0674>(Have Shiny)
+%h Pancham
+
+<No.0675>(Have Shiny)
+%h Pangoro
+
+<No.0676>(Have Shiny)
+%h Furfrou
+
+<No.0676-1>(Have Shiny)
+%h Furfrou-Heart
+
+<No.0676-2>(Have Shiny)
+%h Furfrou-Star
+
+<No.0676-3>(Have Shiny)
+%h Furfrou-Diamond
+
+<No.0676-4>(Have Shiny)
+%h Furfrou-Debutante
+
+<No.0676-5>(Have Shiny)
+%h Furfrou-Matron
+
+<No.0676-6>(Have Shiny)
+%h Furfrou-Dandy
+
+<No.0676-7>(Have Shiny)
+%h Furfrou-La-Reine
+
+<No.0676-8>(Have Shiny)
+%h Furfrou-Kabuki
+
+<No.0676-9>(Have Shiny)
+%h Furfrou-Pharaoh
+
+<No.0677>(Have Shiny)
+%h Espurr
+
+<No.0678>(Have Shiny)
+%h Meowstic
+
+<No.0678-1>(Have Shiny)
+%h Meowstic-F
+
+<No.0679>(Have Shiny)
+%h Honedge
+
+<No.0680>(Have Shiny)
+%h Doublade
+
+<No.0681>(Have Shiny)
+%h Aegislash
+
+<No.0682>(Have Shiny)
+%h Spritzee
+
+<No.0683>(Have Shiny)
+%h Aromatisse
+
+<No.0684>(Have Shiny)
+%h Swirlix
+
+<No.0685>(Have Shiny)
+%h Slurpuff
+
+<No.0686>(Have Shiny)
+%h Inkay
+
+<No.0687>(Have Shiny)
+%h Malamar
+
+<No.0688>(Have Shiny)
+%h Binacle
+
+<No.0689>(Have Shiny)
+%h Barbaracle
+
+<No.0690>(Have Shiny)
+%h Skrelp
+
+<No.0691>(Have Shiny)
+%h Dragalge
+
+<No.0692>(Have Shiny)
+%h Clauncher
+
+<No.0693>(Have Shiny)
+%h Clawitzer
+
+<No.0694>(Have Shiny)
+%h Helioptile
+
+<No.0695>(Have Shiny)
+%h Heliolisk
+
+<No.0696>(Have Shiny)
+%h Tyrunt
+
+<No.0697>(Have Shiny)
+%h Tyrantrum
+
+<No.0698>(Have Shiny)
+%h Amaura
+
+<No.0699>(Have Shiny)
+%h Aurorus
+
+<No.0700>(Have Shiny)
+%h Sylveon
+
+<No.0701>(Have Shiny)
+%h Hawlucha
+
+<No.0702>(Have Shiny)
+%h Dedenne
+
+<No.0703>(Have Shiny)
+%h Carbink
+
+<No.0704>(Have Shiny)
+%h Goomy
+
+<No.0705>(Have Shiny)
+%h Sliggoo
+
+<No.0705-1>(Have Shiny)
+%h Sliggoo-Hisui
+
+<No.0706>(Have Shiny)
+%h Goodra
+
+<No.0706-1>(Have Shiny)
+%h Goodra-Hisui
+
+<No.0707>(Have Shiny)
+%h Klefki
+
+<No.0708>(Have Shiny)
+%h Phantump
+
+<No.0709>(Have Shiny)
+%h Trevenant
+
+<No.0710>(Have Shiny)
+%h Pumpkaboo
+
+<No.0710-1>(Have Shiny)
+%h Pumpkaboo-Small
+
+<No.0710-2>(Have Shiny)
+%h Pumpkaboo-Large
+
+<No.0710-3>(Have Shiny)
+%h Pumpkaboo-Jumbo
+
+<No.0711>(Have Shiny)
+%h Gourgeist
+
+<No.0711-1>(Have Shiny)
+%h Gourgeist-Small
+
+<No.0711-2>(Have Shiny)
+%h Gourgeist-Large
+
+<No.0711-3>(Have Shiny)
+%h Gourgeist-Jumbo
+
+<No.0712>(Have Shiny)
+%h Bergmite
+
+<No.0713>(Have Shiny)
+%h Avalugg
+
+<No.0713-1>(Have Shiny)
+%h Avalugg-Hisui
+
+<No.0714>(Have Shiny)
+%h Noibat
+
+<No.0715>(Have Shiny)
+%h Noivern
+
+<No.0716>(Have Shiny)
+%h Xerneas
+
+<No.0717>(Have Shiny)
+%h Yveltal
+
+<No.0718-3>(Have Shiny)
+%h Zygarde-
+
+<No.0718-3>(Have Shiny)
+%h Zygarde-
+
+<No.0718-2>(Have Shiny)
+%h Zygarde-10%
+
+<No.0718-2>(Have Shiny)
+%h Zygarde-10%
+
+<No.0718-3>(Have Shiny)
+%h Zygarde-
+
+<No.0718-3>(Have Shiny)
+%h Zygarde-
+
+<No.0719>(Have Shiny)
+%h Diancie
+
+<No.0720>
+%h Hoopa
+
+<No.0720-1>
+%h Hoopa-Unbound
+
+<No.0721>
+%h Volcanion
+
+<No.0739>(Have Shiny)
+%h Crabrawler
+
+<No.0740>(Have Shiny)
+%h Crabominable
+
+<No.0767>(Have Shiny)
+%h Wimpod
+
+<No.0768>(Have Shiny)
+%h Golisopod
+
+<No.0769>(Have Shiny)
+%h Sandygast
+
+<No.0770>(Have Shiny)
+%h Palossand
+
+<No.0778>(Have Shiny)
+%h Mimikyu
+
+<No.0780>(Have Shiny)
+%h Drampa
+
+<No.0801>
+%h Magearna
+
+<No.0801-1>
+%h Magearna-Original
+
+<No.0802>
+%h Marshadow
+
+<No.0807>(Have Shiny)
+%h Zeraora
+
+<No.0808>(Have Shiny)
+%h Meltan
+
+<No.0809>(Have Shiny)
+%h Melmetal
+
+<No.0821>(Have Shiny)
+%h Rookidee
+
+<No.0822>(Have Shiny)
+%h Corvisquire
+
+<No.0823>(Have Shiny)
+%h Corviknight
+
+<No.0827>(Have Shiny)
+%h Nickit
+
+<No.0828>(Have Shiny)
+%h Thievul
+
+<No.0848>(Have Shiny)
+%h Toxel
+
+<No.0849>(Have Shiny)
+%h Toxtricity
+
+<No.0849-1>(Have Shiny)
+%h Toxtricity-Low-Key
+
+<No.0852>(Have Shiny)
+%h Clobbopus
+
+<No.0853>(Have Shiny)
+%h Grapploct
+
+<No.0863>(Have Shiny)
+%h Perrserker
+
+<No.0865>(Have Shiny)
+%h Sirfetch’d
+
+<No.0866>(Have Shiny)
+%h Mr. Rime
+
+<No.0867>(Have Shiny)
+%h Runerigus
+
+<No.0870>(Have Shiny)
+%h Falinks
+
+<No.0876>(Have Shiny)
+%h Indeedee
+
+<No.0876-1>(Have Shiny)
+%h Indeedee-F
+
+<No.0877>(Have Shiny)
+%h Morpeko
+
+<No.0900>(Have Shiny)
+%h Kleavor
+
+<No.0904>(Have Shiny)
+%h Overqwil
+
+<No.0926>(Have Shiny)
+%h Fidough
+
+<No.0927>(Have Shiny)
+%h Dachsbun
+
+<No.0931>(Have Shiny)
+%h Squawkabilly
+
+<No.0931-1>(Have Shiny)
+%h Squawkabilly-Blue
+
+<No.0931-2>(Have Shiny)
+%h Squawkabilly-Yellow
+
+<No.0931-3>(Have Shiny)
+%h Squawkabilly-White
+
+<No.0932>(Have Shiny)
+%h Nacli
+
+<No.0933>(Have Shiny)
+%h Naclstack
+
+<No.0934>(Have Shiny)
+%h Garganacl
+
+<No.0935>(Have Shiny)
+%h Charcadet
+
+<No.0936>(Have Shiny)
+%h Armarouge
+
+<No.0937>(Have Shiny)
+%h Ceruledge
+
+<No.0942>(Have Shiny)
+%h Maschiff
+
+<No.0943>(Have Shiny)
+%h Mabosstiff
+
+<No.0944>(Have Shiny)
+%h Shroodle
+
+<No.0945>(Have Shiny)
+%h Grafaiai
+
+<No.0951>(Have Shiny)
+%h Capsakid
+
+<No.0952>(Have Shiny)
+%h Scovillain
+
+<No.0957>(Have Shiny)
+%h Tinkatink
+
+<No.0958>(Have Shiny)
+%h Tinkatuff
+
+<No.0959>(Have Shiny)
+%h Tinkaton
+
+<No.0967>(Have Shiny)
+%h Cyclizar
+
+<No.0969>(Have Shiny)
+%h Glimmet
+
+<No.0970>(Have Shiny)
+%h Glimmora
+
+<No.0971>(Have Shiny)
+%h Greavard
+
+<No.0972>(Have Shiny)
+%h Houndstone
+
+<No.0973>(Have Shiny)
+%h Flamigo
+
+<No.0977>(Have Shiny)
+%h Dondozo
+
+<No.0978>(Have Shiny)
+%h Tatsugiri
+
+<No.0978-1>(Have Shiny)
+%h Tatsugiri-Droopy
+
+<No.0978-2>(Have Shiny)
+%h Tatsugiri-Stretchy
+
+<No.0979>(Have Shiny)
+%h Annihilape
+
+<No.0996>(Have Shiny)
+%h Frigibax
+
+<No.0997>(Have Shiny)
+%h Arctibax
+
+<No.0998>(Have Shiny)
+%h Baxcalibur
+
+<No.0999>(Have Shiny)
+%h Gimmighoul
+
+<No.0999-1>(Have Shiny)
+%h Gimmighoul-Roaming
+
+<No.1000>(Have Shiny)
+%h Gholdengo

@@ -177,7 +177,11 @@ const UI = (() => {
     const abilities = form.abilities || [];
     const moves = form.moves || [];
     const levelMax = form.levelMax || 100;
-    const canShiny = form.canShiny !== false;
+    // Shiny availability is driven purely by whether this form has a shiny
+    // sprite in the detail data (data/<version>/pokemon/<id>.json). This is the
+    // authoritative per-form signal — pokemon-list.json only carries the default
+    // form, so it can't represent forms like Floette-Eternal that lack shiny.
+    const canShiny = !!(form.spriteShiny && form.spriteShiny.trim());
     const canAlpha = form.canAlpha === true;
 
     const { natures, balls } = options;
