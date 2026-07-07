@@ -1176,13 +1176,6 @@
   animation: fadeScaleIn 0.15s ease;
 }
 
-/* Flip upward when there isn't enough room below the trigger. */
-.cd-wrap.cd-open--up .cd-menu {
-  top: auto;
-  bottom: calc(100% + 4px);
-  transform-origin: bottom center;
-}
-
 .cd-search {
   width: 100%;
   padding: 10px 14px;
