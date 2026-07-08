@@ -208,7 +208,8 @@ const UI = (() => {
     if (forms.length > 1) {
       let formOptionsHtml = '';
       for (let i = 0; i < forms.length; i++) {
-        const label = (forms[i].formName && forms[i].formName.trim()) || `Form ${i + 1}`;
+        const rawLabel = (forms[i].formName && forms[i].formName.trim()) || '';
+        const label = (!rawLabel || rawLabel === 'Default Form') ? 'ร่างปกติ' : rawLabel;
         formOptionsHtml += `<option value="${i}"${i === activeIndex ? ' selected' : ''}>${label}</option>`;
       }
       formSelectorHtml = `
