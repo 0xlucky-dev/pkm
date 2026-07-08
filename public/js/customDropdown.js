@@ -64,12 +64,15 @@ const CustomDropdown = (() => {
     optionsList.className = 'cd-options';
     menu.appendChild(optionsList);
 
-    // Render options
+    // Render options. Walks select.children directly (instead of the flat
+    // select.options list) so <optgroup> boundaries can be rendered as sticky
+    // group headers (used by the Moves dropdown to group by type).
     function renderOptions(filter = '') {
       optionsList.innerHTML = '';
       const lowerFilter = filter.toLowerCase();
-      for (const opt of options) {
-        if (lowerFilter && !opt.textContent.toLowerCase().includes(lowerFilter)) continue;
+
+      function renderOption(opt) {
+        if (lowerFilter && !opt.textContent.toLowerCase().includes(lowerFilter)) return;
 
         const item = document.createElement('div');
         item.className = 'cd-item' + (opt.value === select.value ? ' cd-item--active' : '');
@@ -86,6 +89,29 @@ const CustomDropdown = (() => {
           item.innerHTML = `<span>${opt.textContent}</span>`;
         }
         optionsList.appendChild(item);
+      }
+
+      for (const node of select.children) {
+        if (node.tagName === 'OPTGROUP') {
+          // Only show the group header if at least one of its options survives the filter.
+          const groupOpts = Array.from(node.children);
+          const visible = !lowerFilter || groupOpts.some((o) => o.textContent.toLowerCase().includes(lowerFilter));
+          if (!visible) continue;
+
+          const header = document.createElement('div');
+          header.className = 'cd-group-header';
+          const groupType = node.dataset.type;
+          if (groupType) {
+            const typeSlug = groupType.toLowerCase();
+            header.innerHTML = `<img src="/icons/types/${typeSlug}.svg" class="cd-group-header-icon" width="14" height="14" alt="" onerror="this.style.display='none'"><span>${node.label}</span>`;
+          } else {
+            header.textContent = node.label;
+          }
+          optionsList.appendChild(header);
+          groupOpts.forEach(renderOption);
+        } else if (node.tagName === 'OPTION') {
+          renderOption(node);
+        }
       }
     }
 

@@ -4,6 +4,13 @@
  */
 
 const UI = (() => {
+  // In-game type order (used to group the Moves dropdown by type).
+  const TYPE_ORDER = [
+    'Normal', 'Fighting', 'Flying', 'Poison', 'Ground', 'Rock', 'Bug', 'Ghost',
+    'Steel', 'Fire', 'Water', 'Grass', 'Electric', 'Psychic', 'Ice', 'Dragon',
+    'Dark', 'Fairy', 'Stellar',
+  ];
+
   // --- Toast ---
   let toastTimer = null;
 
@@ -356,13 +363,32 @@ const UI = (() => {
         ${evSlidersHtml}
       </div>`;
 
-    // --- Moves (sorted A–Z for easier scanning) ---
+    // --- Moves grouped by type (in-game type order), A–Z within each type ---
+    // Each type becomes an <optgroup> so both the native <select> and the
+    // custom dropdown (which reads optgroup labels) show a type header.
     const moveTypes = (options && options.moveTypes) || {};
+    const movesByType = {};
+    for (const m of moves) {
+      const t = moveTypes[m] || 'Unknown';
+      if (!movesByType[t]) movesByType[t] = [];
+      movesByType[t].push(m);
+    }
+    const typesPresent = Object.keys(movesByType).sort((a, b) => {
+      const idxA = TYPE_ORDER.indexOf(a);
+      const idxB = TYPE_ORDER.indexOf(b);
+      const rankA = idxA === -1 ? TYPE_ORDER.length : idxA;
+      const rankB = idxB === -1 ? TYPE_ORDER.length : idxB;
+      return rankA - rankB;
+    });
+
     let movesOptionsHtml = '<option value="">-- None --</option>';
-    const sortedMoves = [...moves].sort((a, b) => a.localeCompare(b));
-    for (const m of sortedMoves) {
-      const mType = moveTypes[m] || '';
-      movesOptionsHtml += `<option value="${m}" data-type="${mType}">${m}</option>`;
+    for (const t of typesPresent) {
+      const sortedNames = movesByType[t].sort((a, b) => a.localeCompare(b));
+      movesOptionsHtml += `<optgroup label="${t}" data-type="${t}">`;
+      for (const m of sortedNames) {
+        movesOptionsHtml += `<option value="${m}" data-type="${t}">${m}</option>`;
+      }
+      movesOptionsHtml += '</optgroup>';
     }
 
     const movesHtml = `

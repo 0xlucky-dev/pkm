@@ -1235,6 +1235,33 @@
   object-fit: contain;
 }
 
+/* Sticky type-group header inside the Moves dropdown */
+.cd-group-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  background: rgba(30, 38, 68, 0.98);
+  border-bottom: 1px solid rgba(100, 160, 255, 0.12);
+}
+.cd-group-header:first-child {
+  border-top: none;
+}
+.cd-group-header-icon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 .move-used-icon {
   margin-left: auto;
   display: flex;
