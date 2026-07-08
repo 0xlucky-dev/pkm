@@ -453,6 +453,9 @@
       // Batch thumbnail follows the shiny choice when a shiny sprite exists.
       _sprite: (shiny && spriteShinyUrl) ? spriteShinyUrl : spriteUrl,
       _ballSlug: ball ? ball.toLowerCase().replace(/[éè]/g, 'e').replace(/[^a-z]/g, '') : '',
+      // Metadata for %order suffix (version filtering / whitelist / banlist)
+      _dex: currentDetail.dexNum || currentDetail.id,
+      _formIndex: currentFormIndex,
     };
   }
 
@@ -543,6 +546,31 @@
   }
 
   // --- Beta Orders — submit to save_order.php and show %order code ---
+  // Builds a summary suffix for the %order code:
+  //   v52:0655,1:0904,1:0670-5,2:0686,1:0675,1
+  // Format: v{versionCode}:{dex[-formIndex],qty}...
+  // Consecutive duplicates (same dex+form) are merged into a single entry with summed qty.
+  function buildOrderSuffix(expandedConfigs) {
+    if (!expandedConfigs.length) return '';
+    const vCode = expandedConfigs[0].sourceVersion || '52';
+
+    // Group sequential duplicates by dex+form
+    const entries = [];
+    for (const cfg of expandedConfigs) {
+      const dex = String(cfg._dex || 0).padStart(4, '0');
+      const formIdx = cfg._formIndex || 0;
+      const key = formIdx > 0 ? `${dex}-${formIdx}` : dex;
+      const last = entries[entries.length - 1];
+      if (last && last.key === key) {
+        last.qty++;
+      } else {
+        entries.push({ key, qty: 1 });
+      }
+    }
+
+    return `v${vCode}:${entries.map(e => `${e.key},${e.qty}`).join(':')}`;
+  }
+
   async function submitBetaOrder() {
     if (batch.length === 0) { UI.showToast('Batch is empty'); return; }
     const mismatches = findVersionMismatches(batch);
@@ -563,9 +591,10 @@
       });
       const data = await res.json();
       if (data.order) {
-        const code = `%order ${data.order}`;
+        const suffix = buildOrderSuffix(expanded);
+        const code = `%order ${data.order} ${suffix}`;
         await navigator.clipboard.writeText(code).catch(() => {});
-        UI.showToast(`คัดลอกแล้ว: ${code}`, 5000, 'success');
+        UI.showToast(`คัดลอกแล้ว: %order ${data.order}`, 5000, 'success');
       } else {
         UI.showToast(data.error || 'เกิดข้อผิดพลาด', 4000, 'error');
       }
