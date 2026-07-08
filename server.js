@@ -126,6 +126,10 @@ app.get('/za', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+// Legacy redirects (old URLs → new short URLs)
+app.get('/gen9', (req, res) => res.redirect(301, '/sv'));
+app.get('/gen9a', (req, res) => res.redirect(301, '/za'));
+
 // Default route → za (Legends Z-A)
 app.get('/', (req, res) => {
   res.redirect('/za');
