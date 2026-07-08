@@ -116,17 +116,19 @@ app.use('/api/*', (req, res) => {
 
 // --- Version-specific app routes ---
 // These serve the SPA shell; the frontend reads the version from the URL path.
-app.get('/gen9', (req, res) => {
+// /sv  -> Scarlet/Violet (internal version code: gen9)
+// /za  -> Legends: Z-A   (internal version code: gen9a)
+app.get('/sv', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.get('/gen9a', (req, res) => {
+app.get('/za', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Default route → gen9a (Legends Z-A)
+// Default route → za (Legends Z-A)
 app.get('/', (req, res) => {
-  res.redirect('/gen9a');
+  res.redirect('/za');
 });
 
 // --- Static file serving (no cache for JS/CSS during dev) ---

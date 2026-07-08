@@ -7,11 +7,14 @@
   'use strict';
 
   // --- Version resolution from URL ---
+  // Public URL paths use short game codes (/sv, /za) while the internal
+  // version code (gen9, gen9a) is still used for API calls and data lookups.
   const VALID_VERSIONS = ['gen9', 'gen9a'];
+  const VERSION_TO_PATH = { gen9: '/sv', gen9a: '/za' };
 
   function versionFromPath() {
     const path = window.location.pathname.replace(/\/+$/, '');
-    if (path === '/gen9') return 'gen9';
+    if (path === '/sv') return 'gen9';
     return 'gen9a';
   }
 
@@ -694,7 +697,7 @@
       versionLogo.src = currentVersion === 'gen9a' ? '/img/za.png' : '/img/sv.png';
       // Reflect the version in the URL path without reloading the page
       if (VALID_VERSIONS.includes(currentVersion)) {
-        history.pushState({ version: currentVersion }, '', `/${currentVersion}`);
+        history.pushState({ version: currentVersion }, '', VERSION_TO_PATH[currentVersion]);
       }
       loadPokemonList(currentVersion);
       loadOptions(currentVersion);
