@@ -873,18 +873,21 @@
 
 .batch-panel .overlay__body { min-height: 100px; }
 
-/* Batch modal version logo — centered in header row */
+/* Batch modal version logo — centered in header row via 3-col flex */
 .batch-header-with-logo {
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+.batch-header-with-logo .overlay__title {
+  grid-column: 1;
 }
 .batch-version-logo {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  height: 40px;
+  grid-column: 2;
+  height: 36px;
   width: auto;
   object-fit: contain;
+  justify-self: center;
 }
 
 /* Beta Orders button — muted grey, looks inactive intentionally */
