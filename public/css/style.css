@@ -886,14 +886,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-@media (min-width: 640px) {
-  .batch-header-with-logo .overlay__title {
-    font-size: 1.5rem;
-  }
-}
 .batch-version-logo {
   grid-column: 2;
-  height: 36px;
+  height: 48px;
   width: auto;
   object-fit: contain;
   justify-self: center;
