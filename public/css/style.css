@@ -881,7 +881,15 @@
 }
 .batch-header-with-logo .overlay__title {
   grid-column: 1;
+  font-size: 0.78rem;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (min-width: 640px) {
+  .batch-header-with-logo .overlay__title {
+    font-size: 1.5rem;
+  }
 }
 .batch-version-logo {
   grid-column: 2;
