@@ -7,6 +7,9 @@ const PORT = process.env.PORT || 4000;
 
 const DATA_DIR = path.join(__dirname, 'data');
 
+// --- Middleware (MUST be before all routes) ---
+app.use(express.json());
+
 // --- Helper ---
 function readJSON(filePath, res) {
   try {
@@ -68,7 +71,6 @@ app.get('/api/options/:version', (req, res) => {
 // --- Proxy: POST /api/submit-order → pokemon.zeldaxiaoma.com/save_order.php ---
 // Routes through the backend so the browser is never the direct caller
 // (avoids CORS issues since save_order.php only whitelists same-origin requests).
-app.use(express.json());
 app.post('/api/submit-order', async (req, res) => {
   const { command } = req.body || {};
   if (!command || typeof command !== 'string') {

@@ -43,7 +43,6 @@
   const batchModal = document.getElementById('batch-modal');
   const batchModalClose = document.getElementById('batch-modal-close');
   const btnBetaOrders = document.getElementById('btn-beta-orders');
-  const batchOrderResult = document.getElementById('batch-order-result');
   const batchList = document.getElementById('batch-list');
   const btnCopyAll = document.getElementById('btn-copy-all');
   const btnClearBatch = document.getElementById('btn-clear-batch');
@@ -553,7 +552,6 @@
     const command = formatBatchNoPrefix(expanded);
     btnBetaOrders.disabled = true;
     btnBetaOrders.textContent = '...';
-    batchOrderResult.classList.add('hidden');
     try {
       const res = await fetch('/api/submit-order', {
         method: 'POST',
@@ -563,10 +561,8 @@
       const data = await res.json();
       if (data.order) {
         const code = `%order ${data.order}`;
-        batchOrderResult.textContent = code;
-        batchOrderResult.classList.remove('hidden');
         await navigator.clipboard.writeText(code).catch(() => {});
-        UI.showToast(`Copied: ${code}`, 4000, 'success');
+        UI.showToast(`คัดลอกแล้ว: ${code}`, 5000, 'success');
       } else {
         UI.showToast(data.error || 'เกิดข้อผิดพลาด', 4000, 'error');
       }
