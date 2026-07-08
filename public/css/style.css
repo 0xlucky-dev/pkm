@@ -873,15 +873,16 @@
 
 .batch-panel .overlay__body { min-height: 100px; }
 
-/* Batch modal version logo — centered below title */
+/* Batch modal version logo — centered in header row */
 .batch-header-with-logo {
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  text-align: center;
+  position: relative;
 }
 .batch-version-logo {
-  height: 48px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
   width: auto;
   object-fit: contain;
 }
