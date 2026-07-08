@@ -873,6 +873,15 @@
 
 .batch-panel .overlay__body { min-height: 100px; }
 
+/* Batch modal version logo */
+.batch-version-logo {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.85;
+  margin-left: auto;
+}
+
 /* Beta Orders button — muted grey, looks inactive intentionally */
 .btn--beta {
   padding: 10px 16px;

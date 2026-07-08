@@ -802,6 +802,9 @@
     // Batch badge -> open batch modal
     batchBadge.addEventListener('click', () => {
       UI.renderBatchList(batch, batchList);
+      // Sync version logo in batch modal header
+      const batchLogo = document.getElementById('batch-version-logo');
+      if (batchLogo) batchLogo.src = currentVersion === 'gen9a' ? '/img/za.png' : '/img/sv.png';
       UI.openOverlay('batch-modal');
     });
 
