@@ -881,6 +881,7 @@
 }
 .batch-header-with-logo .overlay__title {
   grid-column: 1;
+  white-space: nowrap;
 }
 .batch-version-logo {
   grid-column: 2;
@@ -888,6 +889,25 @@
   width: auto;
   object-fit: contain;
   justify-self: center;
+}
+
+/* Batch footer — shrink text on mobile so all 4 buttons fit in one row */
+.batch-panel .overlay__footer {
+  gap: 8px;
+}
+.batch-panel .btn {
+  padding: 12px 10px;
+  font-size: 0.78rem;
+}
+.batch-panel .btn--close-x {
+  flex: 0 0 44px;
+  min-width: 44px;
+}
+@media (min-width: 640px) {
+  .batch-panel .btn {
+    padding: 16px 20px;
+    font-size: 1rem;
+  }
 }
 
 /* Beta Orders button — muted grey, looks inactive intentionally */
