@@ -65,6 +65,48 @@ app.get('/api/options/:version', (req, res) => {
   res.json({ natures, balls, versionCodes, moveTypes });
 });
 
+// --- Proxy: POST /api/submit-order → pokemon.zeldaxiaoma.com/save_order.php ---
+// Routes through the backend so the browser is never the direct caller
+// (avoids CORS issues since save_order.php only whitelists same-origin requests).
+app.use(express.json());
+app.post('/api/submit-order', async (req, res) => {
+  const { command } = req.body || {};
+  if (!command || typeof command !== 'string') {
+    return res.status(400).json({ error: 'command field required' });
+  }
+  try {
+    const https = require('https');
+    const payload = JSON.stringify({ command, mode: 'home' });
+    const options = {
+      hostname: 'pokemon.zeldaxiaoma.com',
+      path: '/pokemon/api/save_order.php',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(payload),
+        'Referer': 'https://pokemon.zeldaxiaoma.com/pokemon/?lang=en-US&version=gen9a',
+        'Accept': '*/*',
+      },
+    };
+    const upstream = https.request(options, (upstream_res) => {
+      let data = '';
+      upstream_res.on('data', (chunk) => (data += chunk));
+      upstream_res.on('end', () => {
+        try {
+          res.json(JSON.parse(data));
+        } catch {
+          res.status(502).json({ error: 'Bad response from upstream', raw: data });
+        }
+      });
+    });
+    upstream.on('error', (err) => res.status(502).json({ error: err.message }));
+    upstream.write(payload);
+    upstream.end();
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 // --- Catch-all 404 for unmatched API routes ---
 app.use('/api/*', (req, res) => {
   res.status(404).json({ error: 'Endpoint not found' });

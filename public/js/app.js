@@ -42,6 +42,8 @@
   const batchBadgeCount = document.getElementById('batch-badge-count');
   const batchModal = document.getElementById('batch-modal');
   const batchModalClose = document.getElementById('batch-modal-close');
+  const btnBetaOrders = document.getElementById('btn-beta-orders');
+  const batchOrderResult = document.getElementById('batch-order-result');
   const batchList = document.getElementById('batch-list');
   const btnCopyAll = document.getElementById('btn-copy-all');
   const btnClearBatch = document.getElementById('btn-clear-batch');
@@ -522,6 +524,60 @@
   }
 
   // --- Copy all batch ---
+  // Build the expanded list respecting each item's qty counter.
+  function expandedBatch() {
+    const qtyCells = batchList.querySelectorAll('.batch-item__qty');
+    return batch.flatMap((cfg, i) => {
+      const qty = Math.max(1, parseInt((qtyCells[i] && qtyCells[i].value) || 1) || 1);
+      return Array(qty).fill(cfg);
+    });
+  }
+
+  // Format batch without any "%h " prefix (required by save_order.php).
+  function formatBatchNoPrefix(configs) {
+    return configs
+      .map((cfg) => formatPercentH(cfg, false))
+      .join('\n\n');
+  }
+
+  // --- Beta Orders — submit to save_order.php and show %order code ---
+  async function submitBetaOrder() {
+    if (batch.length === 0) { UI.showToast('Batch is empty'); return; }
+    const mismatches = findVersionMismatches(batch);
+    if (mismatches.length > 0) {
+      const names = [...new Set(mismatches.map((c) => c.pokemonName))].join(', ');
+      UI.showToast(`มีตัวไม่ตรงเวอร์ชัน (${names}) — ลบออกก่อน`, 5000, 'error');
+      return;
+    }
+    const expanded = expandedBatch();
+    const command = formatBatchNoPrefix(expanded);
+    btnBetaOrders.disabled = true;
+    btnBetaOrders.textContent = '...';
+    batchOrderResult.classList.add('hidden');
+    try {
+      const res = await fetch('/api/submit-order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ command }),
+      });
+      const data = await res.json();
+      if (data.order) {
+        const code = `%order ${data.order}`;
+        batchOrderResult.textContent = code;
+        batchOrderResult.classList.remove('hidden');
+        await navigator.clipboard.writeText(code).catch(() => {});
+        UI.showToast(`Copied: ${code}`, 4000, 'success');
+      } else {
+        UI.showToast(data.error || 'เกิดข้อผิดพลาด', 4000, 'error');
+      }
+    } catch (err) {
+      UI.showToast('ส่งคำสั่งไม่สำเร็จ: ' + err.message, 4000, 'error');
+    } finally {
+      btnBetaOrders.disabled = false;
+      btnBetaOrders.textContent = 'Beta Orders';
+    }
+  }
+
   async function copyBatch() {
     if (batch.length === 0) {
       UI.showToast('Batch is empty');
@@ -540,7 +596,7 @@
       return;
     }
 
-    const text = formatBatch(batch);
+    const text = formatBatch(expandedBatch());
     try {
       await navigator.clipboard.writeText(text);
       UI.showToast('Batch copied to clipboard!');
@@ -727,6 +783,17 @@
 
     // Copy all
     btnCopyAll.addEventListener('click', copyBatch);
+
+    // Beta Orders — submit to save_order.php via server proxy
+    btnBetaOrders.addEventListener('click', submitBetaOrder);
+
+    // Qty input change (update batch._qty live so expandedBatch() picks it up)
+    batchList.addEventListener('input', (e) => {
+      const input = e.target.closest('.batch-item__qty');
+      if (!input) return;
+      const index = parseInt(input.dataset.index);
+      if (batch[index]) batch[index]._qty = Math.max(1, parseInt(input.value) || 1);
+    });
 
     // Clear batch
     btnClearBatch.addEventListener('click', clearBatch);

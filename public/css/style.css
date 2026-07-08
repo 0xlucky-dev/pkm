@@ -821,6 +821,33 @@
 }
 
 .batch-item__name { font-weight: 600; font-size: 0.9rem; color: var(--text); }
+
+/* Right-side actions: qty input + remove button */
+.batch-item__actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.batch-item__qty {
+  width: 52px;
+  padding: 4px 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  font-family: var(--font);
+  text-align: center;
+  background: rgba(20, 30, 60, 0.8);
+  border: 1.5px solid rgba(140, 180, 255, 0.3);
+  border-radius: 8px;
+  color: var(--text);
+  outline: none;
+  -moz-appearance: textfield;
+}
+.batch-item__qty::-webkit-inner-spin-button,
+.batch-item__qty::-webkit-outer-spin-button { -webkit-appearance: none; }
+.batch-item__qty:focus { border-color: #c4388a; }
+
 .batch-item__remove {
   background: none;
   border: none;
@@ -835,6 +862,46 @@
 .batch-item__remove:hover { color: #fff; background: rgba(239, 68, 68, 0.2); }
 
 .batch-panel .overlay__body { min-height: 100px; }
+
+/* Beta Orders button — muted grey, looks inactive intentionally */
+.btn--beta {
+  padding: 10px 16px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: var(--font);
+  background: rgba(80, 90, 110, 0.5);
+  border: 1.5px solid rgba(140, 160, 200, 0.25);
+  border-radius: 10px;
+  color: rgba(180, 190, 220, 0.7);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.btn--beta:hover:not(:disabled) {
+  background: rgba(100, 110, 140, 0.65);
+  color: rgba(200, 210, 240, 0.9);
+  border-color: rgba(160, 180, 230, 0.4);
+}
+.btn--beta:disabled {
+  opacity: 0.5;
+  cursor: wait;
+}
+
+/* Result box that shows %order XXXXXXXX after a successful submit */
+.batch-order-result {
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: monospace;
+  color: #86efac;
+  background: rgba(20, 40, 30, 0.6);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  border-radius: 8px;
+  padding: 6px 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
 .batch-empty { text-align: center; padding: 40px 0; color: var(--text-dim); font-size: 0.9rem; }
 
 /* ===== Toast ===== */

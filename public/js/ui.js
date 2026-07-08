@@ -470,6 +470,7 @@ const UI = (() => {
       const ballHtml = item._ballSlug
         ? `<img src="/icons/${item._ballSlug}.png" class="batch-item__ball" width="20" height="20" alt="">`
         : '';
+      const qty = item._qty || 1;
       html += `
         <div class="batch-item">
           <div class="batch-item__info">
@@ -477,7 +478,11 @@ const UI = (() => {
             ${ballHtml}
             <span class="batch-item__name">${item.pokemonName}</span>
           </div>
-          <button class="batch-item__remove" data-index="${i}" aria-label="Remove">&times;</button>
+          <div class="batch-item__actions">
+            <input type="number" class="batch-item__qty" data-index="${i}"
+                   value="${qty}" min="1" max="999" aria-label="จำนวน">
+            <button class="batch-item__remove" data-index="${i}" aria-label="Remove">&times;</button>
+          </div>
         </div>
       `;
     }
