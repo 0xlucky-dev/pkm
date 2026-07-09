@@ -873,25 +873,22 @@
 
 .batch-panel .overlay__body { min-height: 100px; }
 
-/* Batch modal version logo — centered in header row via 3-col flex */
+/* Batch modal version logo — title left, logo center */
 .batch-header-with-logo {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  display: flex;
   align-items: center;
+  gap: 12px;
 }
 .batch-header-with-logo .overlay__title {
-  grid-column: 1;
   font-size: 0.78rem;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  flex-shrink: 0;
 }
 .batch-version-logo {
-  grid-column: 2;
   height: 48px;
   width: auto;
   object-fit: contain;
-  justify-self: center;
+  margin: 0 auto;
 }
 
 /* Batch footer — shrink text on mobile so all 4 buttons fit in one row */
