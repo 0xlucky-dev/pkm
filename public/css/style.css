@@ -893,6 +893,7 @@
 /* Batch footer — shrink text on mobile so all 4 buttons fit in one row */
 .batch-panel .overlay__footer {
   gap: 8px;
+  align-items: stretch;
 }
 .batch-panel .btn {
   padding: 12px 10px;
@@ -901,6 +902,7 @@
 .batch-panel .btn--close-x {
   flex: 0 0 44px;
   min-width: 44px;
+  height: auto;
 }
 @media (min-width: 640px) {
   .batch-panel .btn {
