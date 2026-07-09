@@ -814,8 +814,8 @@
 }
 
 .batch-item__sprite {
-  width: 36px;
-  height: 36px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
   image-rendering: pixelated;
   border-radius: 6px;
@@ -824,13 +824,13 @@
 }
 
 .batch-item__ball {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   object-fit: contain;
   flex-shrink: 0;
 }
 
-.batch-item__name { font-weight: 600; font-size: 0.9rem; color: var(--text); }
+.batch-item__name { font-weight: 600; font-size: 1rem; color: var(--text); }
 
 /* Right-side actions: qty input + remove button */
 .batch-item__actions {
@@ -873,22 +873,28 @@
 
 .batch-panel .overlay__body { min-height: 100px; }
 
-/* Batch modal version logo — title left, logo center */
+/* Batch modal version logo — title left, logo true-center */
 .batch-header-with-logo {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 12px;
+  min-height: 56px;
 }
 .batch-header-with-logo .overlay__title {
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   white-space: nowrap;
   flex-shrink: 0;
+  position: relative;
+  z-index: 1;
 }
 .batch-version-logo {
-  height: 48px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 44px;
   width: auto;
   object-fit: contain;
-  margin: 0 auto;
 }
 
 /* Batch footer — shrink text on mobile so all 4 buttons fit in one row */
