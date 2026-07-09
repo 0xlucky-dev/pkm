@@ -874,7 +874,7 @@
 .batch-panel .overlay__body { min-height: 100px; }
 
 /* Batch modal version logo — watermark centered in body */
-.batch-panel .overlay__body {
+.batch-body-wrap {
   position: relative;
 }
 .batch-version-watermark {
@@ -888,12 +888,17 @@
   opacity: 0.08;
   pointer-events: none;
   user-select: none;
+  z-index: 0;
+}
+.batch-body-wrap #batch-list {
+  position: relative;
+  z-index: 1;
 }
 
 /* Batch footer — shrink text on mobile so all 4 buttons fit in one row */
 .batch-panel .overlay__footer {
   gap: 8px;
-  align-items: stretch;
+  align-items: center;
 }
 .batch-panel .btn {
   padding: 12px 10px;
@@ -902,12 +907,16 @@
 .batch-panel .btn--close-x {
   flex: 0 0 44px;
   min-width: 44px;
+  padding: 12px 0;
   height: auto;
 }
 @media (min-width: 640px) {
   .batch-panel .btn {
     padding: 16px 20px;
     font-size: 1rem;
+  }
+  .batch-panel .btn--close-x {
+    padding: 16px 0;
   }
 }
 
