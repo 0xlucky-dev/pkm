@@ -104,32 +104,96 @@
     UI.renderGrid(filteredList, gridEl);
   }
 
+  // --- Build move options once per version and cache ---
+  // Avoids duplicating a 400+ option HTML string × 4 move selects in innerHTML.
+  const moveOptionsCache = {};
+
+  function buildMoveSelectNode(version) {
+    if (moveOptionsCache[version]) return moveOptionsCache[version].cloneNode(true);
+
+    const moveTypes = (options && options.moveTypes) || {};
+    // Collect all moves from the current pokemon detail
+    const allMoves = (currentDetail && currentDetail.forms &&
+      currentDetail.forms[currentFormIndex] &&
+      currentDetail.forms[currentFormIndex].moves) || [];
+
+    const TYPE_ORDER = ['Normal','Fire','Water','Electric','Grass','Ice','Fighting','Poison','Ground','Flying','Psychic','Bug','Rock','Ghost','Dragon','Dark','Steel','Fairy','Unknown'];
+    const movesByType = {};
+    for (const m of allMoves) {
+      const t = moveTypes[m] || 'Unknown';
+      if (!movesByType[t]) movesByType[t] = [];
+      movesByType[t].push(m);
+    }
+    const typesPresent = Object.keys(movesByType).sort((a, b) => {
+      const idxA = TYPE_ORDER.indexOf(a), idxB = TYPE_ORDER.indexOf(b);
+      return (idxA === -1 ? 999 : idxA) - (idxB === -1 ? 999 : idxB);
+    });
+
+    const sel = document.createElement('select');
+    const none = document.createElement('option');
+    none.value = ''; none.textContent = '-- None --';
+    sel.appendChild(none);
+
+    for (const t of typesPresent) {
+      const grp = document.createElement('optgroup');
+      grp.label = t; grp.dataset.type = t;
+      for (const m of movesByType[t].sort((a, b) => a.localeCompare(b))) {
+        const opt = document.createElement('option');
+        opt.value = m; opt.textContent = m; opt.dataset.type = t;
+        grp.appendChild(opt);
+      }
+      sel.appendChild(grp);
+    }
+
+    // Cache keyed by version+spNumber so different pokemon get their own options
+    const cacheKey = `${version}/${currentDetail && currentDetail.id}/${currentFormIndex}`;
+    moveOptionsCache[cacheKey] = sel;
+    return sel.cloneNode(true);
+  }
+
+  function populateMoveSelects() {
+    const cacheKey = `${currentVersion}/${currentDetail && currentDetail.id}/${currentFormIndex}`;
+    // Build template once, then clone for each slot
+    const template = moveOptionsCache[cacheKey] || (() => {
+      const node = buildMoveSelectNode(currentVersion);
+      moveOptionsCache[cacheKey] = node;
+      return node;
+    })();
+
+    for (let i = 1; i <= 4; i++) {
+      const placeholder = overlayBody.querySelector(`#cfg-move${i}`);
+      if (!placeholder) continue;
+      const clone = template.cloneNode(true);
+      clone.id = `cfg-move${i}`;
+      placeholder.parentNode.replaceChild(clone, placeholder);
+    }
+  }
+
+  function renderOverlayBody() {
+    overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
+    populateMoveSelects();
+    CustomDropdown.initAll(overlayBody);
+    attachConfigListeners();
+  }
+
   // --- Config overlay ---
   async function openConfig(spNumber, dex, name) {
     overlayTitle.textContent = `#${String(dex).padStart(3, '0')} ${name}`;
-
-    // Reset the selected form for each newly opened Pokémon.
     currentFormIndex = 0;
 
     const key = `${currentVersion}/${spNumber}`;
     const cached = detailCache[key];
 
     if (cached) {
-      // Instant render — no loading flash
       currentDetail = cached;
-      overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
-      CustomDropdown.initAll(overlayBody);
-      attachConfigListeners();
+      renderOverlayBody();
       UI.openOverlay('config-overlay');
     } else {
-      // Show overlay immediately with loading state while fetching
       overlayBody.innerHTML = '<div class="grid-loader">Loading...</div>';
       UI.openOverlay('config-overlay');
       try {
         currentDetail = await loadPokemonDetail(currentVersion, spNumber);
-        overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
-        CustomDropdown.initAll(overlayBody);
-        attachConfigListeners();
+        renderOverlayBody();
       } catch (err) {
         overlayBody.innerHTML = '<p style="color:var(--danger);">Failed to load Pokémon data.</p>';
       }
@@ -194,6 +258,7 @@
           // Re-render body
           currentFormIndex = val;
           overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
+          populateMoveSelects();
           CustomDropdown.initAll(overlayBody);
           attachConfigListeners();
           UI.updateEvTotal();
