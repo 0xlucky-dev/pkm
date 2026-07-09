@@ -592,42 +592,14 @@
 .hero-form-select .cd-btn {
   min-width: 140px;
 }
+/* Form dropdown: show all options, no scroll, no search needed */
 .hero-form-select .cd-menu {
   min-width: 140px;
+  max-height: none !important;
 }
-
-/* Form pill buttons — show all forms immediately */
-.hero-form-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  justify-content: center;
-  margin-top: 4px;
-}
-.form-btn {
-  padding: 6px 14px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  font-family: var(--font);
-  background: rgba(20, 28, 55, 0.9);
-  border: 1.5px solid rgba(200, 210, 240, 0.35);
-  border-radius: 50px;
-  color: var(--text-muted);
-  cursor: pointer;
-  transition: all var(--transition);
-  outline: none;
-  white-space: nowrap;
-}
-.form-btn:hover {
-  border-color: rgba(200, 210, 240, 0.6);
-  color: var(--text);
-}
-.form-btn--active {
-  background: rgba(196, 56, 138, 0.15);
-  border-color: #c4388a;
-  color: #e8a0cc;
-  font-weight: 600;
-  box-shadow: 0 0 0 3px rgba(196, 56, 138, 0.12);
+.hero-form-select .cd-options {
+  overflow-y: visible;
+  max-height: none;
 }
 
 /* Nickname pill */
