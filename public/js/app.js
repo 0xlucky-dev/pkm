@@ -142,9 +142,47 @@
 
   // --- Attach listeners inside the config overlay ---
   function attachConfigListeners() {
-    // Form selector — re-render the body for the newly selected form.
+    // Form selector — custom dropdown wired to hidden <select>
+    const formWrap = document.getElementById('cfg-form-wrap');
+    const formBtn = document.getElementById('cfg-form-btn');
+    const formMenu = document.getElementById('cfg-form-menu');
     const formSelect = document.getElementById('cfg-form');
-    if (formSelect) {
+
+    if (formBtn && formMenu && formSelect) {
+      // Toggle open/close
+      formBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = formWrap.classList.toggle('cd-open');
+        formBtn.setAttribute('aria-expanded', String(isOpen));
+      });
+      // Close on outside click
+      document.addEventListener('click', function closeForm(e) {
+        if (!formWrap.contains(e.target)) {
+          formWrap.classList.remove('cd-open');
+          formBtn.setAttribute('aria-expanded', 'false');
+          document.removeEventListener('click', closeForm);
+        }
+      });
+      // Item click
+      formMenu.querySelectorAll('.cd-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const val = parseInt(item.dataset.value) || 0;
+          formSelect.value = val;
+          formBtn.querySelector('.cd-selected-label').textContent = item.textContent;
+          formMenu.querySelectorAll('.cd-item').forEach(i => i.classList.remove('cd-item--active'));
+          item.classList.add('cd-item--active');
+          formWrap.classList.remove('cd-open');
+          formBtn.setAttribute('aria-expanded', 'false');
+          // Re-render body
+          currentFormIndex = val;
+          overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
+          CustomDropdown.initAll(overlayBody);
+          attachConfigListeners();
+          UI.updateEvTotal();
+        });
+      });
+    } else if (formSelect) {
+      // Fallback for native select
       formSelect.addEventListener('change', () => {
         currentFormIndex = parseInt(formSelect.value) || 0;
         overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
