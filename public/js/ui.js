@@ -206,13 +206,12 @@ const UI = (() => {
     // --- Hero section: sprite + name + form selector ---
     let formSelectorHtml = '';
     if (forms.length > 1) {
-      let cdItemsHtml = '';
-      let selectedLabel = 'ร่างปกติ';
+      let btnHtml = '';
       for (let i = 0; i < forms.length; i++) {
         const rawLabel = (forms[i].formName && forms[i].formName.trim()) || '';
         const label = (!rawLabel || rawLabel === 'Default Form') ? 'ร่างปกติ' : rawLabel;
-        if (i === activeIndex) selectedLabel = label;
-        cdItemsHtml += `<div class="cd-item${i === activeIndex ? ' cd-item--active' : ''}" data-value="${i}">${label}</div>`;
+        const active = i === activeIndex ? ' form-btn--active' : '';
+        btnHtml += `<button type="button" class="form-btn${active}" data-form-index="${i}">${label}</button>`;
       }
       // Hidden <select> kept for app.js change-event compatibility
       let hiddenOptions = '';
@@ -222,18 +221,10 @@ const UI = (() => {
         hiddenOptions += `<option value="${i}"${i === activeIndex ? ' selected' : ''}>${label}</option>`;
       }
       formSelectorHtml = `
-        <div class="hero-form-select">
-          <div class="cd-wrap" id="cfg-form-wrap">
-            <button type="button" class="cd-btn" id="cfg-form-btn" aria-haspopup="listbox" aria-expanded="false">
-              <span class="cd-selected-label">${selectedLabel}</span>
-              <svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-            </button>
-            <div class="cd-menu" id="cfg-form-menu" role="listbox">
-              <div class="cd-options">${cdItemsHtml}</div>
-            </div>
-          </div>
+        <div class="hero-form-pills">
+          ${btnHtml}
           <select id="cfg-form" class="visually-hidden" aria-hidden="true">${hiddenOptions}</select>
-        </div>`; 
+        </div>`;
     }
 
     const heroHtml = `
