@@ -78,8 +78,15 @@
     }
   }
 
+  // --- Pokemon detail cache (version-keyed, avoids re-fetch on re-open) ---
+  const detailCache = {};
+
   async function loadPokemonDetail(version, spNumber) {
-    return fetchJSON(`/api/pokemon/${version}/${spNumber}`);
+    const key = `${version}/${spNumber}`;
+    if (detailCache[key]) return detailCache[key];
+    const data = await fetchJSON(`/api/pokemon/${version}/${spNumber}`);
+    detailCache[key] = data;
+    return data;
   }
 
   // --- Search / Filter ---
@@ -104,17 +111,28 @@
     // Reset the selected form for each newly opened Pokémon.
     currentFormIndex = 0;
 
-    // Show overlay immediately with loading state
-    overlayBody.innerHTML = '<div class="grid-loader">Loading...</div>';
-    UI.openOverlay('config-overlay');
+    const key = `${currentVersion}/${spNumber}`;
+    const cached = detailCache[key];
 
-    try {
-      currentDetail = await loadPokemonDetail(currentVersion, spNumber);
+    if (cached) {
+      // Instant render — no loading flash
+      currentDetail = cached;
       overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
       CustomDropdown.initAll(overlayBody);
       attachConfigListeners();
-    } catch (err) {
-      overlayBody.innerHTML = '<p style="color:var(--danger);">Failed to load Pokémon data.</p>';
+      UI.openOverlay('config-overlay');
+    } else {
+      // Show overlay immediately with loading state while fetching
+      overlayBody.innerHTML = '<div class="grid-loader">Loading...</div>';
+      UI.openOverlay('config-overlay');
+      try {
+        currentDetail = await loadPokemonDetail(currentVersion, spNumber);
+        overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
+        CustomDropdown.initAll(overlayBody);
+        attachConfigListeners();
+      } catch (err) {
+        overlayBody.innerHTML = '<p style="color:var(--danger);">Failed to load Pokémon data.</p>';
+      }
     }
   }
 
@@ -142,23 +160,47 @@
 
   // --- Attach listeners inside the config overlay ---
   function attachConfigListeners() {
-    // Form selector — pill buttons, all visible immediately
-    const formPills = overlayBody.querySelectorAll('.form-btn');
+    // Form selector — custom dropdown wired to hidden <select>
+    const formWrap = document.getElementById('cfg-form-wrap');
+    const formBtn = document.getElementById('cfg-form-btn');
+    const formMenu = document.getElementById('cfg-form-menu');
     const formSelect = document.getElementById('cfg-form');
-    formPills.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const val = parseInt(btn.dataset.formIndex) || 0;
-        if (val === currentFormIndex) return;
-        currentFormIndex = val;
-        if (formSelect) formSelect.value = val;
-        overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
-        CustomDropdown.initAll(overlayBody);
-        attachConfigListeners();
-        UI.updateEvTotal();
+
+    if (formBtn && formMenu && formSelect) {
+      // Toggle open/close
+      formBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = formWrap.classList.toggle('cd-open');
+        formBtn.setAttribute('aria-expanded', String(isOpen));
       });
-    });
-    // Fallback for hidden native select (kept for compat)
-    if (!formPills.length && formSelect) {
+      // Close on outside click
+      document.addEventListener('click', function closeForm(e) {
+        if (!formWrap.contains(e.target)) {
+          formWrap.classList.remove('cd-open');
+          formBtn.setAttribute('aria-expanded', 'false');
+          document.removeEventListener('click', closeForm);
+        }
+      });
+      // Item click
+      formMenu.querySelectorAll('.cd-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const val = parseInt(item.dataset.value) || 0;
+          formSelect.value = val;
+          formBtn.querySelector('.cd-selected-label').textContent = item.textContent;
+          formMenu.querySelectorAll('.cd-item').forEach(i => i.classList.remove('cd-item--active'));
+          item.classList.add('cd-item--active');
+          formWrap.classList.remove('cd-open');
+          formBtn.setAttribute('aria-expanded', 'false');
+          // Re-render body
+          currentFormIndex = val;
+          overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
+          CustomDropdown.initAll(overlayBody);
+          attachConfigListeners();
+          UI.updateEvTotal();
+        });
+      });
+    } else if (formSelect) {
+      // Fallback for native select
       formSelect.addEventListener('change', () => {
         currentFormIndex = parseInt(formSelect.value) || 0;
         overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
