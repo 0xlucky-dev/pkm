@@ -873,28 +873,21 @@
 
 .batch-panel .overlay__body { min-height: 100px; }
 
-/* Batch modal version logo — title left, logo true-center */
-.batch-header-with-logo {
+/* Batch modal version logo — watermark centered in body */
+.batch-panel .overlay__body {
   position: relative;
-  display: flex;
-  align-items: center;
-  min-height: 56px;
 }
-.batch-header-with-logo .overlay__title {
-  font-size: 0.82rem;
-  white-space: nowrap;
-  flex-shrink: 0;
-  position: relative;
-  z-index: 1;
-}
-.batch-version-logo {
+.batch-version-watermark {
   position: absolute;
-  left: 50%;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  height: 44px;
+  height: 120px;
   width: auto;
   object-fit: contain;
+  opacity: 0.08;
+  pointer-events: none;
+  user-select: none;
 }
 
 /* Batch footer — shrink text on mobile so all 4 buttons fit in one row */
