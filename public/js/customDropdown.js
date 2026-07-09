@@ -64,9 +64,11 @@ const CustomDropdown = (() => {
     optionsList.className = 'cd-options';
     menu.appendChild(optionsList);
 
-    // Render options. Walks select.children directly (instead of the flat
-    // select.options list) so <optgroup> boundaries can be rendered as sticky
-    // group headers (used by the Moves dropdown to group by type).
+    let optionsRendered = false;
+
+    // Render options lazily — only called when menu opens for the first time,
+    // or when search filter changes. This avoids building thousands of DOM nodes
+    // upfront for large lists (e.g. 400+ move options × 4 slots).
     function renderOptions(filter = '') {
       optionsList.innerHTML = '';
       const lowerFilter = filter.toLowerCase();
@@ -93,7 +95,6 @@ const CustomDropdown = (() => {
 
       for (const node of select.children) {
         if (node.tagName === 'OPTGROUP') {
-          // Only show the group header if at least one of its options survives the filter.
           const groupOpts = Array.from(node.children);
           const visible = !lowerFilter || groupOpts.some((o) => o.textContent.toLowerCase().includes(lowerFilter));
           if (!visible) continue;
@@ -113,9 +114,10 @@ const CustomDropdown = (() => {
           renderOption(node);
         }
       }
+      optionsRendered = true;
     }
 
-    renderOptions();
+    // Do NOT call renderOptions() here — defer to first open
     wrapper.appendChild(menu);
 
     // Toggle menu
@@ -132,9 +134,8 @@ const CustomDropdown = (() => {
       const isOpen = wrapper.classList.toggle('cd-open');
       btn.setAttribute('aria-expanded', String(isOpen));
       if (isOpen) {
-        // Decide whether to open downward or flip upward. The overlay body is a
-        // scroll container (overflow-y:auto), so a menu near its bottom edge gets
-        // clipped — flip it up when there's more room above than below.
+        // Lazy-render options on first open
+        if (!optionsRendered) renderOptions();
         positionMenu();
         if (searchInput) {
           searchInput.value = '';
