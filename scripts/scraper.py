@@ -496,9 +496,9 @@ def parse_args(argv=None):
     parser.add_argument(
         "--version",
         type=str,
-        choices=["gen9", "gen9a"],
+        choices=["gen8", "gen8a", "gen9", "gen9a"],
         required=True,
-        help="Game version to scrape: gen9 (Scarlet/Violet) or gen9a (Pokemon ZA)",
+        help="Game version to scrape: gen8 (Sword/Shield), gen8a (Legends Arceus), gen9 (Scarlet/Violet), or gen9a (Pokemon ZA)",
     )
     parser.add_argument(
         "--output",
@@ -652,12 +652,20 @@ def get_version_codes(session: requests.Session) -> dict:
 
 # Mapping from version to local pkdata file for optional cross-check
 PKDATA_MAP = {
+    "gen8": os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "pkdata", "sword shield",
+    ),
+    "gen8a": os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "pkdata", "legends arceus",
+    ),
     "gen9": os.path.join(
-        os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
         "pkdata", "violet",
     ),
     "gen9a": os.path.join(
-        os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
         "pkdata", "pokemon za",
     ),
 }
