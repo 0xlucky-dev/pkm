@@ -72,10 +72,13 @@ app.get('/api/options/:version', (req, res) => {
 // Routes through the backend so the browser is never the direct caller
 // (avoids CORS issues since save_order.php only whitelists same-origin requests).
 app.post('/api/submit-order', async (req, res) => {
-  const { command } = req.body || {};
+  const { command, version } = req.body || {};
   if (!command || typeof command !== 'string') {
     return res.status(400).json({ error: 'command field required' });
   }
+  // Referer must match the version the command was built for (gen9/gen9a/
+  // gen8/gen8a) so the upstream bot's per-version parser accepts it.
+  const refererVersion = ['gen9', 'gen9a', 'gen8', 'gen8a'].includes(version) ? version : 'gen9';
   try {
     const https = require('https');
     const payload = JSON.stringify({ command, mode: 'home' });
@@ -86,7 +89,7 @@ app.post('/api/submit-order', async (req, res) => {
       headers: {
         'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(payload),
-        'Referer': 'https://pokemon.zeldaxiaoma.com/pokemon/?lang=en-US&version=gen9',
+        'Referer': `https://pokemon.zeldaxiaoma.com/pokemon/?lang=en-US&version=${refererVersion}`,
         'Accept': '*/*',
       },
     };

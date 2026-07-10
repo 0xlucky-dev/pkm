@@ -719,7 +719,7 @@
       const res = await fetch('/api/submit-order', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ command }),
+        body: JSON.stringify({ command, version: currentVersion }),
       });
       const data = await res.json();
       if (data.order) {
