@@ -829,7 +829,7 @@
   // --- Clear batch ---
   // --- Batch persistence (localStorage) ---
   const BATCH_STORAGE_KEY = 'pkm_batch_v1';
-  const BATCH_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
+  const BATCH_TTL_MS = 45 * 60 * 1000; // 45 minutes
 
   function saveBatch() {
     try {
