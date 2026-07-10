@@ -787,6 +787,7 @@
 
     const badgeCount = document.getElementById('batch-badge-count');
     const badgeMini = document.getElementById('batch-badge-mini');
+    const badgeFull = document.getElementById('batch-badge-full');
     if (badgeCount) badgeCount.textContent = count;
     if (badgeMini) badgeMini.textContent = count;
 
@@ -794,6 +795,16 @@
       batchBadge.classList.remove('hidden');
     } else {
       batchBadge.classList.add('hidden');
+    }
+
+    // Ensure badge starts/stays in mini (collapsed) state unless expandBadge()
+    // was explicitly called (e.g. right after adding a Pokémon). This matters
+    // on restore from localStorage, where no expand/collapse call happens —
+    // without this the badge could be stuck showing the full text permanently.
+    if (!batchBadge.classList.contains('batch-badge--expanded')) {
+      batchBadge.classList.add('batch-badge--mini');
+      if (badgeFull) badgeFull.classList.add('hidden');
+      if (badgeMini) badgeMini.classList.remove('hidden');
     }
   }
 
