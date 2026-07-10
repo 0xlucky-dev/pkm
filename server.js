@@ -115,20 +115,20 @@ app.use('/api/*', (req, res) => {
 });
 
 // --- Version-specific app routes ---
-// These serve the SPA shell; the frontend reads the version from the URL path.
-// /sv  -> Scarlet/Violet (internal version code: gen9)
-// /za  -> Legends: Z-A   (internal version code: gen9a)
-app.get('/sv', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
+// /sv   -> Scarlet/Violet  (gen9)
+// /za   -> Legends: Z-A    (gen9a)
+// /swsh -> Sword/Shield     (gen8)
+// /la   -> Legends Arceus  (gen8a)
+app.get('/sv',   (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
+app.get('/za',   (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
+app.get('/swsh', (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
+app.get('/la',   (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
 
-app.get('/za', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
-
-// Legacy redirects (old URLs → new short URLs)
-app.get('/gen9', (req, res) => res.redirect(301, '/sv'));
+// Legacy redirects
+app.get('/gen9',  (req, res) => res.redirect(301, '/sv'));
 app.get('/gen9a', (req, res) => res.redirect(301, '/za'));
+app.get('/gen8',  (req, res) => res.redirect(301, '/swsh'));
+app.get('/gen8a', (req, res) => res.redirect(301, '/la'));
 
 // Default route → za (Legends Z-A)
 app.get('/', (req, res) => {

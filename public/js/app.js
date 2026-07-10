@@ -7,14 +7,16 @@
   'use strict';
 
   // --- Version resolution from URL ---
-  // Public URL paths use short game codes (/sv, /za) while the internal
-  // version code (gen9, gen9a) is still used for API calls and data lookups.
-  const VALID_VERSIONS = ['gen9', 'gen9a'];
-  const VERSION_TO_PATH = { gen9: '/sv', gen9a: '/za' };
+  // Public URL paths use short game codes (/sv, /za, /swsh, /la) while the
+  // internal version code (gen9, gen9a, gen8, gen8a) is used for API/data.
+  const VALID_VERSIONS = ['gen9', 'gen9a', 'gen8', 'gen8a'];
+  const VERSION_TO_PATH = { gen9: '/sv', gen9a: '/za', gen8: '/swsh', gen8a: '/la' };
 
   function versionFromPath() {
     const path = window.location.pathname.replace(/\/+$/, '');
     if (path === '/sv') return 'gen9';
+    if (path === '/swsh') return 'gen8';
+    if (path === '/la') return 'gen8a';
     return 'gen9a';
   }
 
@@ -561,9 +563,9 @@
       shiny,
       alpha,
       _version: currentVersion,
-      sourceVersion: currentVersion === 'gen9a' ? '52' : '50',
+      sourceVersion: { gen9: '50', gen9a: '52', gen8: '45', gen8a: '47' }[currentVersion] || '50',
       ball,
-      ability: currentVersion === 'gen9a' ? '' : ability,  // ZA doesn't allow ability selection
+      ability: (currentVersion === 'gen9a' || currentVersion === 'gen8a') ? '' : ability,  // ZA/LA don't allow ability selection
       nature,
       friendship: parseInt((document.getElementById('cfg-friendship') || {}).value) || 0,
       evs,
@@ -586,7 +588,11 @@
   // AND still exists in the currently loaded list. Prevents copying a command
   // whose Pokémon the target bot can't accept (e.g. an SV mon in a ZA order).
   function versionLabel(v) {
-    return v === 'gen9a' ? 'Legends: Z-A' : 'Scarlet/Violet';
+    return { gen9: 'Scarlet/Violet', gen9a: 'Legends: Z-A', gen8: 'Sword/Shield', gen8a: 'Legends Arceus' }[v] || v;
+  }
+
+  function versionLogo(v) {
+    return { gen9: '/img/sv.png', gen9a: '/img/za.png', gen8: '/img/swsh.png', gen8a: '/img/la.png' }[v] || '/img/sv.png';
   }
 
   function findVersionMismatches(configs) {
@@ -827,7 +833,7 @@
   function init() {
     // Sync dropdown to the version resolved from the URL
     versionSelect.value = currentVersion;
-    versionLogo.src = currentVersion === 'gen9a' ? '/img/za.png' : '/img/sv.png';
+    versionLogo.src = versionLogo(currentVersion);
 
     // Version switch
     versionSelect.addEventListener('change', () => {
@@ -844,7 +850,7 @@
         UI.showToast(`สลับเวอร์ชันแล้ว — ล้างรายการ ${removed} ตัวออกจาก batch`, 3000);
       }
       // Update version logo
-      versionLogo.src = currentVersion === 'gen9a' ? '/img/za.png' : '/img/sv.png';
+      versionLogo.src = versionLogo(currentVersion);
       // Reflect the version in the URL path without reloading the page
       if (VALID_VERSIONS.includes(currentVersion)) {
         history.pushState({ version: currentVersion }, '', VERSION_TO_PATH[currentVersion]);
@@ -862,7 +868,7 @@
       if (currentVersion !== previousVersion && batch.length > 0) {
         clearBatch();
       }
-      versionLogo.src = currentVersion === 'gen9a' ? '/img/za.png' : '/img/sv.png';
+      versionLogo.src = versionLogo(currentVersion);
       searchInput.value = '';
       searchInputMobile.value = '';
       loadPokemonList(currentVersion);
@@ -925,7 +931,7 @@
       UI.renderBatchList(batch, batchList);
       // Sync version logo in batch modal header
       const batchLogo = document.getElementById('batch-version-logo');
-      if (batchLogo) batchLogo.src = currentVersion === 'gen9a' ? '/img/za.png' : '/img/sv.png';
+      if (batchLogo) batchLogo.src = versionLogo(currentVersion);
       UI.openOverlay('batch-modal');
     });
 

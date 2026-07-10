@@ -1,4 +1,6 @@
 [
-  { "id": "gen9", "name": "Scarlet/Violet" },
-  { "id": "gen9a", "name": "Pokemon ZA" }
+  { "id": "gen8",  "name": "Sword/Shield" },
+  { "id": "gen8a", "name": "Legends Arceus" },
+  { "id": "gen9",  "name": "Scarlet/Violet" },
+  { "id": "gen9a", "name": "Legends Z-A" }
 ]

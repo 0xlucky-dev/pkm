@@ -49,8 +49,18 @@
           <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-[#4a5580] lg:w-[14px] lg:h-[14px]"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div id="version-dropdown-menu" class="hidden absolute top-full left-0 mt-2 min-w-[220px] rounded-xl bg-[rgba(20,25,50,0.97)] border border-[rgba(100,140,220,0.15)] shadow-[0_8px_32px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.05)] backdrop-blur-xl z-50 overflow-hidden">
-          <button type="button" data-version="gen9"
+          <button type="button" data-version="gen8"
                   class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3">
+            <img src="/img/swsh.png" class="w-6 h-6 object-contain rounded" alt="">
+            <span>Sword / Shield</span>
+          </button>
+          <button type="button" data-version="gen8a"
+                  class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3 border-t border-[rgba(100,140,220,0.08)]">
+            <img src="/img/la.png" class="w-6 h-6 object-contain rounded" alt="">
+            <span>Legends: Arceus</span>
+          </button>
+          <button type="button" data-version="gen9"
+                  class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3 border-t border-[rgba(100,140,220,0.08)]">
             <img src="/img/sv.png" class="w-6 h-6 object-contain rounded" alt="">
             <span>Pokemon Scarlet/Violet</span>
           </button>
@@ -71,6 +81,8 @@
     </div>
     <!-- Hidden select for app.js compatibility -->
     <select id="version-select" class="visually-hidden" aria-hidden="true">
+      <option value="gen8">Sword/Shield</option>
+      <option value="gen8a">Legends Arceus</option>
       <option value="gen9">Scarlet/Violet</option>
       <option value="gen9a" selected>Pokemon ZA</option>
     </select>
@@ -196,8 +208,10 @@
     const subtitle = document.getElementById('version-subtitle');
 
     const versionMeta = {
-      gen9:  { logo: '/img/sv.png', subtitle: 'Pokemon Scarlet/Violet' },
-      gen9a: { logo: '/img/za.png', subtitle: 'Pokemon Legends Z-A' }
+      gen8:  { logo: '/img/swsh.png', subtitle: 'Pokemon Sword / Shield' },
+      gen8a: { logo: '/img/la.png',   subtitle: 'Pokemon Legends: Arceus' },
+      gen9:  { logo: '/img/sv.png',   subtitle: 'Pokemon Scarlet/Violet' },
+      gen9a: { logo: '/img/za.png',   subtitle: 'Pokemon Legends Z-A' }
     };
 
     function setVersion(version) {

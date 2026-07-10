@@ -300,7 +300,8 @@ const UI = (() => {
       langHtml += `<option value="${l}"${l === 'English' ? ' selected' : ''}>${l}</option>`;
     }
 
-    const isZA = version === 'gen9a';
+    // Legends games (ZA + Arceus) don't support ability selection
+    const isZA = version === 'gen9a' || version === 'gen8a';
 
     // Floette-Eternal (670, form 5) cannot choose ball or nature in ZA
     const isLockedBall = isZA && pokemonDetail.id === 670 && form.formName === 'Eternal';
