@@ -796,16 +796,20 @@
     } else {
       batchBadge.classList.add('hidden');
     }
+  }
 
-    // Ensure badge starts/stays in mini (collapsed) state unless expandBadge()
-    // was explicitly called (e.g. right after adding a Pokémon). This matters
-    // on restore from localStorage, where no expand/collapse call happens —
-    // without this the badge could be stuck showing the full text permanently.
-    if (!batchBadge.classList.contains('batch-badge--expanded')) {
-      batchBadge.classList.add('batch-badge--mini');
-      if (badgeFull) badgeFull.classList.add('hidden');
-      if (badgeMini) badgeMini.classList.remove('hidden');
-    }
+  // Force the badge into its collapsed (mini) visual state without the
+  // expand animation — used right after a page load/restore so a batch
+  // brought back from localStorage doesn't flash the "just added" full text.
+  function setBadgeMiniImmediate() {
+    const full = document.getElementById('batch-badge-full');
+    const mini = document.getElementById('batch-badge-mini');
+    if (!full || !mini) return;
+    clearTimeout(badgeCollapseTimer);
+    batchBadge.classList.remove('batch-badge--expanded');
+    batchBadge.classList.add('batch-badge--mini');
+    full.classList.add('hidden');
+    mini.classList.remove('hidden');
   }
 
   function expandBadge() {
@@ -866,6 +870,7 @@
       if (saved.version === currentVersion && Array.isArray(saved.items) && saved.items.length > 0) {
         batch = saved.items;
         updateBatchUI();
+        setBadgeMiniImmediate();
         UI.showToast(`โหลด batch ${batch.length} ตัวจากครั้งก่อน`, 3000, 'success');
       }
     } catch (e) {
