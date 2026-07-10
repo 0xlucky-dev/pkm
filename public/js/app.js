@@ -643,6 +643,7 @@
     if (!config) return;
 
     batch.push(config);
+    saveBatch();
     updateBatchUI();
 
     // Expand badge to show full text, then collapse after 2s
@@ -826,8 +827,35 @@
   }
 
   // --- Clear batch ---
+  // --- Batch persistence (localStorage) ---
+  const BATCH_STORAGE_KEY = 'pkm_batch_v1';
+
+  function saveBatch() {
+    try {
+      localStorage.setItem(BATCH_STORAGE_KEY, JSON.stringify({
+        version: currentVersion,
+        items: batch,
+      }));
+    } catch (e) { /* storage full or blocked */ }
+  }
+
+  function loadBatch() {
+    try {
+      const raw = localStorage.getItem(BATCH_STORAGE_KEY);
+      if (!raw) return;
+      const saved = JSON.parse(raw);
+      // Only restore if same version
+      if (saved.version === currentVersion && Array.isArray(saved.items) && saved.items.length > 0) {
+        batch = saved.items;
+        updateBatchUI();
+        UI.showToast(`โหลด batch ${batch.length} ตัวจากครั้งก่อน`, 3000, 'success');
+      }
+    } catch (e) { /* corrupted data */ }
+  }
+
   function clearBatch() {
     batch = [];
+    saveBatch();
     updateBatchUI();
     UI.renderBatchList(batch, batchList);
     UI.showToast('Batch cleared');
@@ -836,6 +864,7 @@
   // --- Remove single from batch ---
   function removeFromBatch(index) {
     batch.splice(index, 1);
+    saveBatch();
     updateBatchUI();
     UI.renderBatchList(batch, batchList);
   }
@@ -961,7 +990,10 @@
       const input = e.target.closest('.batch-item__qty');
       if (!input) return;
       const index = parseInt(input.dataset.index);
-      if (batch[index]) batch[index]._qty = Math.max(1, parseInt(input.value) || 1);
+      if (batch[index]) {
+        batch[index]._qty = Math.max(1, parseInt(input.value) || 1);
+        saveBatch();
+      }
     });
 
     // Clear batch
@@ -996,6 +1028,7 @@
     // Initial load
     loadPokemonList(currentVersion);
     loadOptions(currentVersion);
+    loadBatch();
     updateBatchUI();
   }
 
