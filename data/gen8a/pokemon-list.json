@@ -2,1211 +2,1695 @@
   {
     "sp_number": 25,
     "dex": 25,
-    "name": "Pikachu"
+    "name": "Pikachu",
+    "sprite": "sprites/poke_capture_0025_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0025_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 26,
     "dex": 26,
-    "name": "Raichu"
+    "name": "Raichu",
+    "sprite": "sprites/poke_capture_0026_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0026_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 35,
     "dex": 35,
-    "name": "Clefairy"
+    "name": "Clefairy",
+    "sprite": "sprites/poke_capture_0035_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0035_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 36,
     "dex": 36,
-    "name": "Clefable"
+    "name": "Clefable",
+    "sprite": "sprites/poke_capture_0036_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0036_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 37,
     "dex": 37,
-    "name": "Vulpix"
+    "name": "Vulpix",
+    "sprite": "sprites/poke_capture_0037_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0037_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 38,
     "dex": 38,
-    "name": "Ninetales"
+    "name": "Ninetales",
+    "sprite": "sprites/poke_capture_0038_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0038_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 41,
     "dex": 41,
-    "name": "Zubat"
+    "name": "Zubat",
+    "sprite": "sprites/poke_capture_0041_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0041_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 42,
     "dex": 42,
-    "name": "Golbat"
+    "name": "Golbat",
+    "sprite": "sprites/poke_capture_0042_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0042_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 46,
     "dex": 46,
-    "name": "Paras"
+    "name": "Paras",
+    "sprite": "sprites/poke_capture_0046_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0046_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 47,
     "dex": 47,
-    "name": "Parasect"
+    "name": "Parasect",
+    "sprite": "sprites/poke_capture_0047_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0047_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 54,
     "dex": 54,
-    "name": "Psyduck"
+    "name": "Psyduck",
+    "sprite": "sprites/poke_capture_0054_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0054_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 55,
     "dex": 55,
-    "name": "Golduck"
+    "name": "Golduck",
+    "sprite": "sprites/poke_capture_0055_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0055_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 58,
     "dex": 58,
-    "name": "Growlithe"
+    "name": "Growlithe",
+    "sprite": "sprites/poke_capture_0058_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0058_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 59,
     "dex": 59,
-    "name": "Arcanine"
+    "name": "Arcanine",
+    "sprite": "sprites/poke_capture_0059_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0059_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 63,
     "dex": 63,
-    "name": "Abra"
+    "name": "Abra",
+    "sprite": "sprites/poke_capture_0063_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0063_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 64,
     "dex": 64,
-    "name": "Kadabra"
+    "name": "Kadabra",
+    "sprite": "sprites/poke_capture_0064_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0064_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 65,
     "dex": 65,
-    "name": "Alakazam"
+    "name": "Alakazam",
+    "sprite": "sprites/poke_capture_0065_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0065_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 66,
     "dex": 66,
-    "name": "Machop"
+    "name": "Machop",
+    "sprite": "sprites/poke_capture_0066_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0066_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 67,
     "dex": 67,
-    "name": "Machoke"
+    "name": "Machoke",
+    "sprite": "sprites/poke_capture_0067_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0067_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 68,
     "dex": 68,
-    "name": "Machamp"
+    "name": "Machamp",
+    "sprite": "sprites/poke_capture_0068_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0068_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 72,
     "dex": 72,
-    "name": "Tentacool"
+    "name": "Tentacool",
+    "sprite": "sprites/poke_capture_0072_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0072_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 73,
     "dex": 73,
-    "name": "Tentacruel"
+    "name": "Tentacruel",
+    "sprite": "sprites/poke_capture_0073_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0073_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 74,
     "dex": 74,
-    "name": "Geodude"
+    "name": "Geodude",
+    "sprite": "sprites/poke_capture_0074_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0074_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 75,
     "dex": 75,
-    "name": "Graveler"
+    "name": "Graveler",
+    "sprite": "sprites/poke_capture_0075_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0075_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 76,
     "dex": 76,
-    "name": "Golem"
+    "name": "Golem",
+    "sprite": "sprites/poke_capture_0076_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0076_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 77,
     "dex": 77,
-    "name": "Ponyta"
+    "name": "Ponyta",
+    "sprite": "sprites/poke_capture_0077_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0077_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 78,
     "dex": 78,
-    "name": "Rapidash"
+    "name": "Rapidash",
+    "sprite": "sprites/poke_capture_0078_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0078_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 81,
     "dex": 81,
-    "name": "Magnemite"
+    "name": "Magnemite",
+    "sprite": "sprites/poke_capture_0081_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0081_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 82,
     "dex": 82,
-    "name": "Magneton"
+    "name": "Magneton",
+    "sprite": "sprites/poke_capture_0082_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0082_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 92,
     "dex": 92,
-    "name": "Gastly"
+    "name": "Gastly",
+    "sprite": "sprites/poke_capture_0092_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0092_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 93,
     "dex": 93,
-    "name": "Haunter"
+    "name": "Haunter",
+    "sprite": "sprites/poke_capture_0093_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0093_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 94,
     "dex": 94,
-    "name": "Gengar"
+    "name": "Gengar",
+    "sprite": "sprites/poke_capture_0094_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0094_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 95,
     "dex": 95,
-    "name": "Onix"
+    "name": "Onix",
+    "sprite": "sprites/poke_capture_0095_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0095_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 100,
     "dex": 100,
-    "name": "Voltorb"
+    "name": "Voltorb",
+    "sprite": "sprites/poke_capture_0100_001_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0100_001_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 101,
     "dex": 101,
-    "name": "Electrode"
+    "name": "Electrode",
+    "sprite": "sprites/poke_capture_0101_001_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0101_001_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 108,
     "dex": 108,
-    "name": "Lickitung"
+    "name": "Lickitung",
+    "sprite": "sprites/poke_capture_0108_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0108_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 111,
     "dex": 111,
-    "name": "Rhyhorn"
+    "name": "Rhyhorn",
+    "sprite": "sprites/poke_capture_0111_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0111_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 112,
     "dex": 112,
-    "name": "Rhydon"
+    "name": "Rhydon",
+    "sprite": "sprites/poke_capture_0112_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0112_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 113,
     "dex": 113,
-    "name": "Chansey"
+    "name": "Chansey",
+    "sprite": "sprites/poke_capture_0113_000_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0113_000_fo_n_00000000_f_r.png"
   },
   {
     "sp_number": 114,
     "dex": 114,
-    "name": "Tangela"
+    "name": "Tangela",
+    "sprite": "sprites/poke_capture_0114_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0114_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 122,
     "dex": 122,
-    "name": "Mr. Mime"
+    "name": "Mr. Mime",
+    "sprite": "sprites/poke_capture_0122_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0122_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 123,
     "dex": 123,
-    "name": "Scyther"
+    "name": "Scyther",
+    "sprite": "sprites/poke_capture_0123_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0123_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 125,
     "dex": 125,
-    "name": "Electabuzz"
+    "name": "Electabuzz",
+    "sprite": "sprites/poke_capture_0125_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0125_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 126,
     "dex": 126,
-    "name": "Magmar"
+    "name": "Magmar",
+    "sprite": "sprites/poke_capture_0126_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0126_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 129,
     "dex": 129,
-    "name": "Magikarp"
+    "name": "Magikarp",
+    "sprite": "sprites/poke_capture_0129_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0129_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 130,
     "dex": 130,
-    "name": "Gyarados"
+    "name": "Gyarados",
+    "sprite": "sprites/poke_capture_0130_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0130_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 133,
     "dex": 133,
-    "name": "Eevee"
+    "name": "Eevee",
+    "sprite": "sprites/poke_capture_0133_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0133_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 134,
     "dex": 134,
-    "name": "Vaporeon"
+    "name": "Vaporeon",
+    "sprite": "sprites/poke_capture_0134_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0134_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 135,
     "dex": 135,
-    "name": "Jolteon"
+    "name": "Jolteon",
+    "sprite": "sprites/poke_capture_0135_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0135_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 136,
     "dex": 136,
-    "name": "Flareon"
+    "name": "Flareon",
+    "sprite": "sprites/poke_capture_0136_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0136_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 137,
     "dex": 137,
-    "name": "Porygon"
+    "name": "Porygon",
+    "sprite": "sprites/poke_capture_0137_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0137_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 143,
     "dex": 143,
-    "name": "Snorlax"
+    "name": "Snorlax",
+    "sprite": "sprites/poke_capture_0143_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0143_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 155,
     "dex": 155,
-    "name": "Cyndaquil"
+    "name": "Cyndaquil",
+    "sprite": "sprites/poke_capture_0155_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0155_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 156,
     "dex": 156,
-    "name": "Quilava"
+    "name": "Quilava",
+    "sprite": "sprites/poke_capture_0156_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0156_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 157,
     "dex": 157,
-    "name": "Typhlosion"
+    "name": "Typhlosion",
+    "sprite": "sprites/poke_capture_0157_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0157_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 169,
     "dex": 169,
-    "name": "Crobat"
+    "name": "Crobat",
+    "sprite": "sprites/poke_capture_0169_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0169_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 172,
     "dex": 172,
-    "name": "Pichu"
+    "name": "Pichu",
+    "sprite": "sprites/poke_capture_0172_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0172_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 173,
     "dex": 173,
-    "name": "Cleffa"
+    "name": "Cleffa",
+    "sprite": "sprites/poke_capture_0173_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0173_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 175,
     "dex": 175,
-    "name": "Togepi"
+    "name": "Togepi",
+    "sprite": "sprites/poke_capture_0175_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0175_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 176,
     "dex": 176,
-    "name": "Togetic"
+    "name": "Togetic",
+    "sprite": "sprites/poke_capture_0176_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0176_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 185,
     "dex": 185,
-    "name": "Sudowoodo"
+    "name": "Sudowoodo",
+    "sprite": "sprites/poke_capture_0185_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0185_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 190,
     "dex": 190,
-    "name": "Aipom"
+    "name": "Aipom",
+    "sprite": "sprites/poke_capture_0190_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0190_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 193,
     "dex": 193,
-    "name": "Yanma"
+    "name": "Yanma",
+    "sprite": "sprites/poke_capture_0193_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0193_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 196,
     "dex": 196,
-    "name": "Espeon"
+    "name": "Espeon",
+    "sprite": "sprites/poke_capture_0196_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0196_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 197,
     "dex": 197,
-    "name": "Umbreon"
+    "name": "Umbreon",
+    "sprite": "sprites/poke_capture_0197_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0197_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 198,
     "dex": 198,
-    "name": "Murkrow"
+    "name": "Murkrow",
+    "sprite": "sprites/poke_capture_0198_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0198_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 200,
     "dex": 200,
-    "name": "Misdreavus"
+    "name": "Misdreavus",
+    "sprite": "sprites/poke_capture_0200_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0200_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 201,
     "dex": 201,
-    "name": "Unown"
+    "name": "Unown",
+    "sprite": "sprites/poke_capture_0201_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0201_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 207,
     "dex": 207,
-    "name": "Gligar"
+    "name": "Gligar",
+    "sprite": "sprites/poke_capture_0207_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0207_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 208,
     "dex": 208,
-    "name": "Steelix"
+    "name": "Steelix",
+    "sprite": "sprites/poke_capture_0208_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0208_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 211,
     "dex": 211,
-    "name": "Qwilfish"
+    "name": "Qwilfish",
+    "sprite": "sprites/poke_capture_0211_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0211_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 212,
     "dex": 212,
-    "name": "Scizor"
+    "name": "Scizor",
+    "sprite": "sprites/poke_capture_0212_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0212_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 214,
     "dex": 214,
-    "name": "Heracross"
+    "name": "Heracross",
+    "sprite": "sprites/poke_capture_0214_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0214_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 215,
     "dex": 215,
-    "name": "Sneasel"
+    "name": "Sneasel",
+    "sprite": "sprites/poke_capture_0215_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0215_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 216,
     "dex": 216,
-    "name": "Teddiursa"
+    "name": "Teddiursa",
+    "sprite": "sprites/poke_capture_0216_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0216_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 217,
     "dex": 217,
-    "name": "Ursaring"
+    "name": "Ursaring",
+    "sprite": "sprites/poke_capture_0217_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0217_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 220,
     "dex": 220,
-    "name": "Swinub"
+    "name": "Swinub",
+    "sprite": "sprites/poke_capture_0220_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0220_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 221,
     "dex": 221,
-    "name": "Piloswine"
+    "name": "Piloswine",
+    "sprite": "sprites/poke_capture_0221_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0221_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 223,
     "dex": 223,
-    "name": "Remoraid"
+    "name": "Remoraid",
+    "sprite": "sprites/poke_capture_0223_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0223_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 224,
     "dex": 224,
-    "name": "Octillery"
+    "name": "Octillery",
+    "sprite": "sprites/poke_capture_0224_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0224_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 226,
     "dex": 226,
-    "name": "Mantine"
+    "name": "Mantine",
+    "sprite": "sprites/poke_capture_0226_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0226_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 233,
     "dex": 233,
-    "name": "Porygon2"
+    "name": "Porygon2",
+    "sprite": "sprites/poke_capture_0233_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0233_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 234,
     "dex": 234,
-    "name": "Stantler"
+    "name": "Stantler",
+    "sprite": "sprites/poke_capture_0234_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0234_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 239,
     "dex": 239,
-    "name": "Elekid"
+    "name": "Elekid",
+    "sprite": "sprites/poke_capture_0239_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0239_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 240,
     "dex": 240,
-    "name": "Magby"
+    "name": "Magby",
+    "sprite": "sprites/poke_capture_0240_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0240_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 242,
     "dex": 242,
-    "name": "Blissey"
+    "name": "Blissey",
+    "sprite": "sprites/poke_capture_0242_000_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0242_000_fo_n_00000000_f_r.png"
   },
   {
     "sp_number": 265,
     "dex": 265,
-    "name": "Wurmple"
+    "name": "Wurmple",
+    "sprite": "sprites/poke_capture_0265_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0265_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 266,
     "dex": 266,
-    "name": "Silcoon"
+    "name": "Silcoon",
+    "sprite": "sprites/poke_capture_0266_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0266_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 267,
     "dex": 267,
-    "name": "Beautifly"
+    "name": "Beautifly",
+    "sprite": "sprites/poke_capture_0267_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0267_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 268,
     "dex": 268,
-    "name": "Cascoon"
+    "name": "Cascoon",
+    "sprite": "sprites/poke_capture_0268_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0268_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 269,
     "dex": 269,
-    "name": "Dustox"
+    "name": "Dustox",
+    "sprite": "sprites/poke_capture_0269_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0269_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 280,
     "dex": 280,
-    "name": "Ralts"
+    "name": "Ralts",
+    "sprite": "sprites/poke_capture_0280_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0280_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 281,
     "dex": 281,
-    "name": "Kirlia"
+    "name": "Kirlia",
+    "sprite": "sprites/poke_capture_0281_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0281_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 282,
     "dex": 282,
-    "name": "Gardevoir"
+    "name": "Gardevoir",
+    "sprite": "sprites/poke_capture_0282_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0282_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 299,
     "dex": 299,
-    "name": "Nosepass"
+    "name": "Nosepass",
+    "sprite": "sprites/poke_capture_0299_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0299_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 315,
     "dex": 315,
-    "name": "Roselia"
+    "name": "Roselia",
+    "sprite": "sprites/poke_capture_0315_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0315_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 339,
     "dex": 339,
-    "name": "Barboach"
+    "name": "Barboach",
+    "sprite": "sprites/poke_capture_0339_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0339_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 340,
     "dex": 340,
-    "name": "Whiscash"
+    "name": "Whiscash",
+    "sprite": "sprites/poke_capture_0340_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0340_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 355,
     "dex": 355,
-    "name": "Duskull"
+    "name": "Duskull",
+    "sprite": "sprites/poke_capture_0355_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0355_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 356,
     "dex": 356,
-    "name": "Dusclops"
+    "name": "Dusclops",
+    "sprite": "sprites/poke_capture_0356_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0356_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 358,
     "dex": 358,
-    "name": "Chimecho"
+    "name": "Chimecho",
+    "sprite": "sprites/poke_capture_0358_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0358_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 361,
     "dex": 361,
-    "name": "Snorunt"
+    "name": "Snorunt",
+    "sprite": "sprites/poke_capture_0361_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0361_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 362,
     "dex": 362,
-    "name": "Glalie"
+    "name": "Glalie",
+    "sprite": "sprites/poke_capture_0362_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0362_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 363,
     "dex": 363,
-    "name": "Spheal"
+    "name": "Spheal",
+    "sprite": "sprites/poke_capture_0363_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0363_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 364,
     "dex": 364,
-    "name": "Sealeo"
+    "name": "Sealeo",
+    "sprite": "sprites/poke_capture_0364_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0364_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 365,
     "dex": 365,
-    "name": "Walrein"
+    "name": "Walrein",
+    "sprite": "sprites/poke_capture_0365_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0365_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 387,
     "dex": 387,
-    "name": "Turtwig"
+    "name": "Turtwig",
+    "sprite": "sprites/poke_capture_0387_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0387_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 388,
     "dex": 388,
-    "name": "Grotle"
+    "name": "Grotle",
+    "sprite": "sprites/poke_capture_0388_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0388_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 389,
     "dex": 389,
-    "name": "Torterra"
+    "name": "Torterra",
+    "sprite": "sprites/poke_capture_0389_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0389_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 390,
     "dex": 390,
-    "name": "Chimchar"
+    "name": "Chimchar",
+    "sprite": "sprites/poke_capture_0390_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0390_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 391,
     "dex": 391,
-    "name": "Monferno"
+    "name": "Monferno",
+    "sprite": "sprites/poke_capture_0391_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0391_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 392,
     "dex": 392,
-    "name": "Infernape"
+    "name": "Infernape",
+    "sprite": "sprites/poke_capture_0392_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0392_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 393,
     "dex": 393,
-    "name": "Piplup"
+    "name": "Piplup",
+    "sprite": "sprites/poke_capture_0393_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0393_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 394,
     "dex": 394,
-    "name": "Prinplup"
+    "name": "Prinplup",
+    "sprite": "sprites/poke_capture_0394_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0394_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 395,
     "dex": 395,
-    "name": "Empoleon"
+    "name": "Empoleon",
+    "sprite": "sprites/poke_capture_0395_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0395_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 396,
     "dex": 396,
-    "name": "Starly"
+    "name": "Starly",
+    "sprite": "sprites/poke_capture_0396_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0396_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 397,
     "dex": 397,
-    "name": "Staravia"
+    "name": "Staravia",
+    "sprite": "sprites/poke_capture_0397_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0397_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 398,
     "dex": 398,
-    "name": "Staraptor"
+    "name": "Staraptor",
+    "sprite": "sprites/poke_capture_0398_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0398_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 399,
     "dex": 399,
-    "name": "Bidoof"
+    "name": "Bidoof",
+    "sprite": "sprites/poke_capture_0399_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0399_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 400,
     "dex": 400,
-    "name": "Bibarel"
+    "name": "Bibarel",
+    "sprite": "sprites/poke_capture_0400_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0400_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 401,
     "dex": 401,
-    "name": "Kricketot"
+    "name": "Kricketot",
+    "sprite": "sprites/poke_capture_0401_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0401_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 402,
     "dex": 402,
-    "name": "Kricketune"
+    "name": "Kricketune",
+    "sprite": "sprites/poke_capture_0402_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0402_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 403,
     "dex": 403,
-    "name": "Shinx"
+    "name": "Shinx",
+    "sprite": "sprites/poke_capture_0403_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0403_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 404,
     "dex": 404,
-    "name": "Luxio"
+    "name": "Luxio",
+    "sprite": "sprites/poke_capture_0404_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0404_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 405,
     "dex": 405,
-    "name": "Luxray"
+    "name": "Luxray",
+    "sprite": "sprites/poke_capture_0405_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0405_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 406,
     "dex": 406,
-    "name": "Budew"
+    "name": "Budew",
+    "sprite": "sprites/poke_capture_0406_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0406_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 407,
     "dex": 407,
-    "name": "Roserade"
+    "name": "Roserade",
+    "sprite": "sprites/poke_capture_0407_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0407_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 408,
     "dex": 408,
-    "name": "Cranidos"
+    "name": "Cranidos",
+    "sprite": "sprites/poke_capture_0408_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0408_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 409,
     "dex": 409,
-    "name": "Rampardos"
+    "name": "Rampardos",
+    "sprite": "sprites/poke_capture_0409_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0409_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 410,
     "dex": 410,
-    "name": "Shieldon"
+    "name": "Shieldon",
+    "sprite": "sprites/poke_capture_0410_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0410_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 411,
     "dex": 411,
-    "name": "Bastiodon"
+    "name": "Bastiodon",
+    "sprite": "sprites/poke_capture_0411_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0411_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 412,
     "dex": 412,
-    "name": "Burmy"
+    "name": "Burmy",
+    "sprite": "sprites/poke_capture_0412_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0412_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 413,
     "dex": 413,
-    "name": "Wormadam"
+    "name": "Wormadam",
+    "sprite": "sprites/poke_capture_0413_000_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0413_000_fo_n_00000000_f_r.png"
   },
   {
     "sp_number": 414,
     "dex": 414,
-    "name": "Mothim"
+    "name": "Mothim",
+    "sprite": "sprites/poke_capture_0414_000_mo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0414_000_mo_n_00000000_f_r.png"
   },
   {
     "sp_number": 415,
     "dex": 415,
-    "name": "Combee"
+    "name": "Combee",
+    "sprite": "sprites/poke_capture_0415_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0415_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 416,
     "dex": 416,
-    "name": "Vespiquen"
+    "name": "Vespiquen",
+    "sprite": "sprites/poke_capture_0416_000_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0416_000_fo_n_00000000_f_r.png"
   },
   {
     "sp_number": 417,
     "dex": 417,
-    "name": "Pachirisu"
+    "name": "Pachirisu",
+    "sprite": "sprites/poke_capture_0417_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0417_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 418,
     "dex": 418,
-    "name": "Buizel"
+    "name": "Buizel",
+    "sprite": "sprites/poke_capture_0418_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0418_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 419,
     "dex": 419,
-    "name": "Floatzel"
+    "name": "Floatzel",
+    "sprite": "sprites/poke_capture_0419_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0419_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 420,
     "dex": 420,
-    "name": "Cherubi"
+    "name": "Cherubi",
+    "sprite": "sprites/poke_capture_0420_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0420_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 421,
     "dex": 421,
-    "name": "Cherrim"
+    "name": "Cherrim",
+    "sprite": "sprites/poke_capture_0421_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0421_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 422,
     "dex": 422,
-    "name": "Shellos"
+    "name": "Shellos",
+    "sprite": "sprites/poke_capture_0422_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0422_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 423,
     "dex": 423,
-    "name": "Gastrodon"
+    "name": "Gastrodon",
+    "sprite": "sprites/poke_capture_0423_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0423_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 424,
     "dex": 424,
-    "name": "Ambipom"
+    "name": "Ambipom",
+    "sprite": "sprites/poke_capture_0424_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0424_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 425,
     "dex": 425,
-    "name": "Drifloon"
+    "name": "Drifloon",
+    "sprite": "sprites/poke_capture_0425_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0425_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 426,
     "dex": 426,
-    "name": "Drifblim"
+    "name": "Drifblim",
+    "sprite": "sprites/poke_capture_0426_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0426_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 427,
     "dex": 427,
-    "name": "Buneary"
+    "name": "Buneary",
+    "sprite": "sprites/poke_capture_0427_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0427_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 428,
     "dex": 428,
-    "name": "Lopunny"
+    "name": "Lopunny",
+    "sprite": "sprites/poke_capture_0428_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0428_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 429,
     "dex": 429,
-    "name": "Mismagius"
+    "name": "Mismagius",
+    "sprite": "sprites/poke_capture_0429_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0429_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 430,
     "dex": 430,
-    "name": "Honchkrow"
+    "name": "Honchkrow",
+    "sprite": "sprites/poke_capture_0430_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0430_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 431,
     "dex": 431,
-    "name": "Glameow"
+    "name": "Glameow",
+    "sprite": "sprites/poke_capture_0431_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0431_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 432,
     "dex": 432,
-    "name": "Purugly"
+    "name": "Purugly",
+    "sprite": "sprites/poke_capture_0432_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0432_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 433,
     "dex": 433,
-    "name": "Chingling"
+    "name": "Chingling",
+    "sprite": "sprites/poke_capture_0433_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0433_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 434,
     "dex": 434,
-    "name": "Stunky"
+    "name": "Stunky",
+    "sprite": "sprites/poke_capture_0434_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0434_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 435,
     "dex": 435,
-    "name": "Skuntank"
+    "name": "Skuntank",
+    "sprite": "sprites/poke_capture_0435_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0435_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 436,
     "dex": 436,
-    "name": "Bronzor"
+    "name": "Bronzor",
+    "sprite": "sprites/poke_capture_0436_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0436_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 437,
     "dex": 437,
-    "name": "Bronzong"
+    "name": "Bronzong",
+    "sprite": "sprites/poke_capture_0437_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0437_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 438,
     "dex": 438,
-    "name": "Bonsly"
+    "name": "Bonsly",
+    "sprite": "sprites/poke_capture_0438_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0438_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 439,
     "dex": 439,
-    "name": "Mime Jr."
+    "name": "Mime Jr.",
+    "sprite": "sprites/poke_capture_0439_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0439_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 440,
     "dex": 440,
-    "name": "Happiny"
+    "name": "Happiny",
+    "sprite": "sprites/poke_capture_0440_000_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0440_000_fo_n_00000000_f_r.png"
   },
   {
     "sp_number": 441,
     "dex": 441,
-    "name": "Chatot"
+    "name": "Chatot",
+    "sprite": "sprites/poke_capture_0441_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0441_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 442,
     "dex": 442,
-    "name": "Spiritomb"
+    "name": "Spiritomb",
+    "sprite": "sprites/poke_capture_0442_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0442_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 443,
     "dex": 443,
-    "name": "Gible"
+    "name": "Gible",
+    "sprite": "sprites/poke_capture_0443_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0443_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 444,
     "dex": 444,
-    "name": "Gabite"
+    "name": "Gabite",
+    "sprite": "sprites/poke_capture_0444_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0444_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 445,
     "dex": 445,
-    "name": "Garchomp"
+    "name": "Garchomp",
+    "sprite": "sprites/poke_capture_0445_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0445_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 446,
     "dex": 446,
-    "name": "Munchlax"
+    "name": "Munchlax",
+    "sprite": "sprites/poke_capture_0446_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0446_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 447,
     "dex": 447,
-    "name": "Riolu"
+    "name": "Riolu",
+    "sprite": "sprites/poke_capture_0447_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0447_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 448,
     "dex": 448,
-    "name": "Lucario"
+    "name": "Lucario",
+    "sprite": "sprites/poke_capture_0448_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0448_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 449,
     "dex": 449,
-    "name": "Hippopotas"
+    "name": "Hippopotas",
+    "sprite": "sprites/poke_capture_0449_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0449_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 450,
     "dex": 450,
-    "name": "Hippowdon"
+    "name": "Hippowdon",
+    "sprite": "sprites/poke_capture_0450_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0450_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 451,
     "dex": 451,
-    "name": "Skorupi"
+    "name": "Skorupi",
+    "sprite": "sprites/poke_capture_0451_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0451_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 452,
     "dex": 452,
-    "name": "Drapion"
+    "name": "Drapion",
+    "sprite": "sprites/poke_capture_0452_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0452_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 453,
     "dex": 453,
-    "name": "Croagunk"
+    "name": "Croagunk",
+    "sprite": "sprites/poke_capture_0453_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0453_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 454,
     "dex": 454,
-    "name": "Toxicroak"
+    "name": "Toxicroak",
+    "sprite": "sprites/poke_capture_0454_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0454_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 455,
     "dex": 455,
-    "name": "Carnivine"
+    "name": "Carnivine",
+    "sprite": "sprites/poke_capture_0455_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0455_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 456,
     "dex": 456,
-    "name": "Finneon"
+    "name": "Finneon",
+    "sprite": "sprites/poke_capture_0456_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0456_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 457,
     "dex": 457,
-    "name": "Lumineon"
+    "name": "Lumineon",
+    "sprite": "sprites/poke_capture_0457_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0457_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 458,
     "dex": 458,
-    "name": "Mantyke"
+    "name": "Mantyke",
+    "sprite": "sprites/poke_capture_0458_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0458_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 459,
     "dex": 459,
-    "name": "Snover"
+    "name": "Snover",
+    "sprite": "sprites/poke_capture_0459_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0459_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 460,
     "dex": 460,
-    "name": "Abomasnow"
+    "name": "Abomasnow",
+    "sprite": "sprites/poke_capture_0460_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0460_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 461,
     "dex": 461,
-    "name": "Weavile"
+    "name": "Weavile",
+    "sprite": "sprites/poke_capture_0461_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0461_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 462,
     "dex": 462,
-    "name": "Magnezone"
+    "name": "Magnezone",
+    "sprite": "sprites/poke_capture_0462_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0462_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 463,
     "dex": 463,
-    "name": "Lickilicky"
+    "name": "Lickilicky",
+    "sprite": "sprites/poke_capture_0463_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0463_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 464,
     "dex": 464,
-    "name": "Rhyperior"
+    "name": "Rhyperior",
+    "sprite": "sprites/poke_capture_0464_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0464_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 465,
     "dex": 465,
-    "name": "Tangrowth"
+    "name": "Tangrowth",
+    "sprite": "sprites/poke_capture_0465_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0465_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 466,
     "dex": 466,
-    "name": "Electivire"
+    "name": "Electivire",
+    "sprite": "sprites/poke_capture_0466_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0466_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 467,
     "dex": 467,
-    "name": "Magmortar"
+    "name": "Magmortar",
+    "sprite": "sprites/poke_capture_0467_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0467_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 468,
     "dex": 468,
-    "name": "Togekiss"
+    "name": "Togekiss",
+    "sprite": "sprites/poke_capture_0468_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0468_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 469,
     "dex": 469,
-    "name": "Yanmega"
+    "name": "Yanmega",
+    "sprite": "sprites/poke_capture_0469_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0469_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 470,
     "dex": 470,
-    "name": "Leafeon"
+    "name": "Leafeon",
+    "sprite": "sprites/poke_capture_0470_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0470_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 471,
     "dex": 471,
-    "name": "Glaceon"
+    "name": "Glaceon",
+    "sprite": "sprites/poke_capture_0471_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0471_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 472,
     "dex": 472,
-    "name": "Gliscor"
+    "name": "Gliscor",
+    "sprite": "sprites/poke_capture_0472_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0472_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 473,
     "dex": 473,
-    "name": "Mamoswine"
+    "name": "Mamoswine",
+    "sprite": "sprites/poke_capture_0473_000_fd_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0473_000_fd_n_00000000_f_r.png"
   },
   {
     "sp_number": 474,
     "dex": 474,
-    "name": "Porygon-Z"
+    "name": "Porygon-Z",
+    "sprite": "sprites/poke_capture_0474_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0474_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 475,
     "dex": 475,
-    "name": "Gallade"
+    "name": "Gallade",
+    "sprite": "sprites/poke_capture_0475_000_mo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0475_000_mo_n_00000000_f_r.png"
   },
   {
     "sp_number": 476,
     "dex": 476,
-    "name": "Probopass"
+    "name": "Probopass",
+    "sprite": "sprites/poke_capture_0476_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0476_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 477,
     "dex": 477,
-    "name": "Dusknoir"
+    "name": "Dusknoir",
+    "sprite": "sprites/poke_capture_0477_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0477_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 478,
     "dex": 478,
-    "name": "Froslass"
+    "name": "Froslass",
+    "sprite": "sprites/poke_capture_0478_000_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0478_000_fo_n_00000000_f_r.png"
   },
   {
     "sp_number": 479,
     "dex": 479,
-    "name": "Rotom"
+    "name": "Rotom",
+    "sprite": "sprites/poke_capture_0479_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0479_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 480,
     "dex": 480,
-    "name": "Uxie"
+    "name": "Uxie",
+    "sprite": "sprites/poke_capture_0480_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0480_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 481,
     "dex": 481,
-    "name": "Mesprit"
+    "name": "Mesprit",
+    "sprite": "sprites/poke_capture_0481_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0481_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 482,
     "dex": 482,
-    "name": "Azelf"
+    "name": "Azelf",
+    "sprite": "sprites/poke_capture_0482_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0482_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 483,
     "dex": 483,
-    "name": "Dialga"
+    "name": "Dialga",
+    "sprite": "sprites/poke_capture_0483_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0483_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 484,
     "dex": 484,
-    "name": "Palkia"
+    "name": "Palkia",
+    "sprite": "sprites/poke_capture_0484_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0484_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 485,
     "dex": 485,
-    "name": "Heatran"
+    "name": "Heatran",
+    "sprite": "sprites/poke_capture_0485_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0485_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 486,
     "dex": 486,
-    "name": "Regigigas"
+    "name": "Regigigas",
+    "sprite": "sprites/poke_capture_0486_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0486_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 487,
     "dex": 487,
-    "name": "Giratina"
+    "name": "Giratina",
+    "sprite": "sprites/poke_capture_0487_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0487_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 488,
     "dex": 488,
-    "name": "Cresselia"
+    "name": "Cresselia",
+    "sprite": "sprites/poke_capture_0488_000_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0488_000_fo_n_00000000_f_r.png"
   },
   {
     "sp_number": 489,
     "dex": 489,
-    "name": "Phione"
+    "name": "Phione",
+    "sprite": "sprites/poke_capture_0489_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0489_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 490,
     "dex": 490,
-    "name": "Manaphy"
+    "name": "Manaphy",
+    "sprite": "sprites/poke_capture_0490_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0490_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 491,
     "dex": 491,
-    "name": "Darkrai"
+    "name": "Darkrai",
+    "sprite": "sprites/poke_capture_0491_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0491_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 492,
     "dex": 492,
-    "name": "Shaymin"
+    "name": "Shaymin",
+    "sprite": "sprites/poke_capture_0492_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0492_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 493,
     "dex": 493,
-    "name": "Arceus"
+    "name": "Arceus",
+    "sprite": "sprites/poke_capture_0493_000_uk_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0493_000_uk_n_00000000_f_r.png"
   },
   {
     "sp_number": 501,
     "dex": 501,
-    "name": "Oshawott"
+    "name": "Oshawott",
+    "sprite": "sprites/poke_capture_0501_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0501_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 502,
     "dex": 502,
-    "name": "Dewott"
+    "name": "Dewott",
+    "sprite": "sprites/poke_capture_0502_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0502_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 503,
     "dex": 503,
-    "name": "Samurott"
+    "name": "Samurott",
+    "sprite": "sprites/poke_capture_0503_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0503_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 548,
     "dex": 548,
-    "name": "Petilil"
+    "name": "Petilil",
+    "sprite": "sprites/poke_capture_0548_000_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0548_000_fo_n_00000000_f_r.png"
   },
   {
     "sp_number": 549,
     "dex": 549,
-    "name": "Lilligant"
+    "name": "Lilligant",
+    "sprite": "sprites/poke_capture_0549_001_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0549_001_fo_n_00000000_f_r.png"
   },
   {
     "sp_number": 550,
     "dex": 550,
-    "name": "Basculin"
+    "name": "Basculin",
+    "sprite": "sprites/poke_capture_0550_002_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0550_002_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 570,
     "dex": 570,
-    "name": "Zorua"
+    "name": "Zorua",
+    "sprite": "sprites/poke_capture_0570_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0570_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 571,
     "dex": 571,
-    "name": "Zoroark"
+    "name": "Zoroark",
+    "sprite": "sprites/poke_capture_0571_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0571_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 627,
     "dex": 627,
-    "name": "Rufflet"
+    "name": "Rufflet",
+    "sprite": "sprites/poke_capture_0627_000_mo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0627_000_mo_n_00000000_f_r.png"
   },
   {
     "sp_number": 628,
     "dex": 628,
-    "name": "Braviary"
+    "name": "Braviary",
+    "sprite": "sprites/poke_capture_0628_001_mo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0628_001_mo_n_00000000_f_r.png"
   },
   {
     "sp_number": 641,
     "dex": 641,
-    "name": "Tornadus"
+    "name": "Tornadus",
+    "sprite": "sprites/poke_capture_0641_000_mo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0641_000_mo_n_00000000_f_r.png"
   },
   {
     "sp_number": 642,
     "dex": 642,
-    "name": "Thundurus"
+    "name": "Thundurus",
+    "sprite": "sprites/poke_capture_0642_000_mo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0642_000_mo_n_00000000_f_r.png"
   },
   {
     "sp_number": 645,
     "dex": 645,
-    "name": "Landorus"
+    "name": "Landorus",
+    "sprite": "sprites/poke_capture_0645_000_mo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0645_000_mo_n_00000000_f_r.png"
   },
   {
     "sp_number": 700,
     "dex": 700,
-    "name": "Sylveon"
+    "name": "Sylveon",
+    "sprite": "sprites/poke_capture_0700_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0700_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 704,
     "dex": 704,
-    "name": "Goomy"
+    "name": "Goomy",
+    "sprite": "sprites/poke_capture_0704_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0704_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 705,
     "dex": 705,
-    "name": "Sliggoo"
+    "name": "Sliggoo",
+    "sprite": "sprites/poke_capture_0705_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0705_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 706,
     "dex": 706,
-    "name": "Goodra"
+    "name": "Goodra",
+    "sprite": "sprites/poke_capture_0706_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0706_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 712,
     "dex": 712,
-    "name": "Bergmite"
+    "name": "Bergmite",
+    "sprite": "sprites/poke_capture_0712_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0712_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 713,
     "dex": 713,
-    "name": "Avalugg"
+    "name": "Avalugg",
+    "sprite": "sprites/poke_capture_0713_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0713_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 722,
     "dex": 722,
-    "name": "Rowlet"
+    "name": "Rowlet",
+    "sprite": "sprites/poke_capture_0722_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0722_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 723,
     "dex": 723,
-    "name": "Dartrix"
+    "name": "Dartrix",
+    "sprite": "sprites/poke_capture_0723_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0723_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 724,
     "dex": 724,
-    "name": "Decidueye"
+    "name": "Decidueye",
+    "sprite": "sprites/poke_capture_0724_001_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0724_001_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 899,
     "dex": 899,
-    "name": "Wyrdeer"
+    "name": "Wyrdeer",
+    "sprite": "sprites/poke_capture_0899_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0899_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 900,
     "dex": 900,
-    "name": "Kleavor"
+    "name": "Kleavor",
+    "sprite": "sprites/poke_capture_0900_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0900_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 901,
     "dex": 901,
-    "name": "Ursaluna"
+    "name": "Ursaluna",
+    "sprite": "sprites/poke_capture_0901_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0901_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 902,
     "dex": 902,
-    "name": "Basculegion"
+    "name": "Basculegion",
+    "sprite": "sprites/poke_capture_0902_000_md_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0902_000_md_n_00000000_f_r.png"
   },
   {
     "sp_number": 903,
     "dex": 903,
-    "name": "Sneasler"
+    "name": "Sneasler",
+    "sprite": "sprites/poke_capture_0903_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0903_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 904,
     "dex": 904,
-    "name": "Overqwil"
+    "name": "Overqwil",
+    "sprite": "sprites/poke_capture_0904_000_mf_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0904_000_mf_n_00000000_f_r.png"
   },
   {
     "sp_number": 905,
     "dex": 905,
-    "name": "Enamorus"
+    "name": "Enamorus",
+    "sprite": "sprites/poke_capture_0905_000_fo_n_00000000_f_n.png",
+    "spriteShiny": "sprites/poke_capture_0905_000_fo_n_00000000_f_r.png"
   }
 ]

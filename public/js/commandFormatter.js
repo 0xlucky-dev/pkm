@@ -61,7 +61,7 @@ function formatPercentH(config, includePrefix = true) {
   }
 
   let line1 = '';
-  const prefixMap = { '50': '%hsv ', '45': '%hswsh ', '47': '%hla ' };
+  const prefixMap = { '50': '%hsv ', '44': '%hswsh ', '47': '%hla ' };
   const prefix = prefixMap[config.sourceVersion] || '%h ';
   line1 = includePrefix ? `${prefix}${pokeName}` : pokeName;
   if (config.gender) line1 += ` (${config.gender})`;

@@ -563,7 +563,7 @@
       shiny,
       alpha,
       _version: currentVersion,
-      sourceVersion: { gen9: '50', gen9a: '52', gen8: '45', gen8a: '47' }[currentVersion] || '50',
+      sourceVersion: { gen9: '50', gen9a: '52', gen8: '44', gen8a: '47' }[currentVersion] || '50',
       ball,
       ability: (currentVersion === 'gen9a' || currentVersion === 'gen8a') ? '' : ability,  // ZA/LA don't allow ability selection
       nature,

@@ -1064,6 +1064,11 @@
   .poke-card__dex { font-size: 0.78rem; padding: 4px 14px; }
 }
 
+/* Version logo — remove white bg for logos that aren't fully transparent */
+.version-logo-img {
+  mix-blend-mode: lighten;
+}
+
 /* ===== Animations ===== */
 @keyframes fadeIn {
   from { opacity: 0; }
