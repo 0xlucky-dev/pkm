@@ -1,0 +1,43 @@
+{
+  "id": 417,
+  "name": "Pachirisu",
+  "dexNum": 417,
+  "forms": [
+    {
+      "name": "Pachirisu",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Run Away",
+        "Pickup",
+        "Volt Absorb"
+      ],
+      "moves": [
+        "Thunder Punch",
+        "Bite",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Spark",
+        "Iron Tail",
+        "Crunch",
+        "Charge Beam",
+        "Play Rough",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0417_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0417_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

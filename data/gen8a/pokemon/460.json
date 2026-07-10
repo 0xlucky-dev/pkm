@@ -1,0 +1,49 @@
+{
+  "id": 460,
+  "name": "Abomasnow",
+  "dexNum": 460,
+  "forms": [
+    {
+      "name": "Abomasnow",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Snow Warning",
+        "Soundproof"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rest",
+        "Rock Slide",
+        "Powder Snow",
+        "Icy Wind",
+        "Outrage",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Magical Leaf",
+        "Water Pulse",
+        "Energy Ball",
+        "Earth Power",
+        "Giga Impact",
+        "Ice Shard",
+        "Wood Hammer",
+        "Bulldoze",
+        "Icicle Crash",
+        "Leafage"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0460_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0460_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

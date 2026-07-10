@@ -1,0 +1,41 @@
+{
+  "id": 449,
+  "name": "Hippopotas",
+  "dexNum": 449,
+  "forms": [
+    {
+      "name": "Hippopotas",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sand Stream",
+        "Sand Force"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Rest",
+        "Rock Slide",
+        "Iron Tail",
+        "Crunch",
+        "Rock Smash",
+        "Water Pulse",
+        "Earth Power",
+        "Mud Bomb",
+        "Stealth Rock",
+        "Bulldoze",
+        "High Horsepower"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 55,
+      "spriteNormal": "sprites/poke_capture_0449_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0449_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

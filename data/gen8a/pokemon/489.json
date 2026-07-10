@@ -1,0 +1,40 @@
+{
+  "id": 489,
+  "name": "Phione",
+  "dexNum": 489,
+  "forms": [
+    {
+      "name": "Phione",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Hydration"
+      ],
+      "moves": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Confusion",
+        "Swift",
+        "Bubble",
+        "Acid Armor",
+        "Rest",
+        "Icy Wind",
+        "Calm Mind",
+        "Water Pulse",
+        "Zen Headbutt",
+        "Moonblast",
+        "Dazzling Gleam",
+        "Take Heart"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0489_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0489_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

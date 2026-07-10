@@ -1,0 +1,45 @@
+{
+  "id": 196,
+  "name": "Espeon",
+  "dexNum": 196,
+  "forms": [
+    {
+      "name": "Espeon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Synchronize",
+        "Magic Bounce"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Quick Attack",
+        "Mimic",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Calm Mind",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Dazzling Gleam",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 83,
+      "spriteNormal": "sprites/poke_capture_0196_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0196_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

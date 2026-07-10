@@ -1,0 +1,61 @@
+{
+  "id": 798,
+  "name": "Kartana",
+  "dexNum": 798,
+  "forms": [
+    {
+      "name": "Kartana",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Beast Boost"
+      ],
+      "moves": [
+        "Guillotine",
+        "Swords Dance",
+        "Cut",
+        "Razor Leaf",
+        "Screech",
+        "Rest",
+        "Substitute",
+        "Snore",
+        "Protect",
+        "Detect",
+        "Giga Drain",
+        "Endure",
+        "False Swipe",
+        "Fury Cutter",
+        "Sleep Talk",
+        "Synthesis",
+        "Brick Break",
+        "Air Cutter",
+        "Aerial Ace",
+        "Iron Defense",
+        "Calm Mind",
+        "Leaf Blade",
+        "Night Slash",
+        "Air Slash",
+        "X-Scissor",
+        "Vacuum Wave",
+        "Giga Impact",
+        "Psycho Cut",
+        "Defog",
+        "Round",
+        "Sacred Sword",
+        "Solar Blade",
+        "Laser Focus",
+        "Smart Strike",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0798_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0798_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

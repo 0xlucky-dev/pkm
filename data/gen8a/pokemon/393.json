@@ -1,0 +1,40 @@
+{
+  "id": 393,
+  "name": "Piplup",
+  "dexNum": 393,
+  "forms": [
+    {
+      "name": "Piplup",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Torrent",
+        "Defiant"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Ice Beam",
+        "Bubble",
+        "Rest",
+        "Icy Wind",
+        "Rock Smash",
+        "Aerial Ace",
+        "Water Pulse",
+        "Roost",
+        "Stealth Rock",
+        "Baby-Doll Eyes",
+        "Liquidation"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0393_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0393_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

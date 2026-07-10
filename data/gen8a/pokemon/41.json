@@ -1,0 +1,41 @@
+{
+  "id": 41,
+  "name": "Zubat",
+  "dexNum": 41,
+  "forms": [
+    {
+      "name": "Zubat",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Inner Focus",
+        "Infiltrator"
+      ],
+      "moves": [
+        "Gust",
+        "Bite",
+        "Hypnosis",
+        "Swift",
+        "Leech Life",
+        "Rest",
+        "Sludge Bomb",
+        "Shadow Ball",
+        "Air Cutter",
+        "Aerial Ace",
+        "Air Slash",
+        "Zen Headbutt",
+        "Cross Poison",
+        "Ominous Wind"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 57,
+      "spriteNormal": "sprites/poke_capture_0041_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0041_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

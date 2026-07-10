@@ -1,0 +1,45 @@
+{
+  "id": 416,
+  "name": "Vespiquen",
+  "dexNum": 416,
+  "forms": [
+    {
+      "name": "Vespiquen",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Pressure",
+        "Unnerve"
+      ],
+      "moves": [
+        "Gust",
+        "Pin Missile",
+        "Hyper Beam",
+        "Recover",
+        "Swift",
+        "Rest",
+        "Slash",
+        "Sludge Bomb",
+        "Silver Wind",
+        "Aerial Ace",
+        "Air Slash",
+        "X-Scissor",
+        "Bug Buzz",
+        "Power Gem",
+        "Giga Impact",
+        "Ominous Wind",
+        "Struggle Bug",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 61,
+      "spriteNormal": "sprites/poke_capture_0416_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0416_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

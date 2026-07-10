@@ -1,0 +1,48 @@
+{
+  "id": 234,
+  "name": "Stantler",
+  "dexNum": 234,
+  "forms": [
+    {
+      "name": "Stantler",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Intimidate",
+        "Frisk",
+        "Sap Sipper"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Thunderbolt",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Swift",
+        "Rest",
+        "Megahorn",
+        "Iron Tail",
+        "Shadow Ball",
+        "Extrasensory",
+        "Calm Mind",
+        "Energy Ball",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Bulldoze",
+        "Wild Charge",
+        "Psyshield Bash"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0234_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0234_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

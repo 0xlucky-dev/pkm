@@ -1,0 +1,41 @@
+{
+  "id": 114,
+  "name": "Tangela",
+  "dexNum": 114,
+  "forms": [
+    {
+      "name": "Tangela",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Chlorophyll",
+        "Leaf Guard",
+        "Regenerator"
+      ],
+      "moves": [
+        "Hyper Beam",
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Sleep Powder",
+        "Rest",
+        "Sludge Bomb",
+        "Ancient Power",
+        "Rock Smash",
+        "Energy Ball",
+        "Giga Impact",
+        "Double Hit",
+        "Acid Spray"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0114_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0114_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

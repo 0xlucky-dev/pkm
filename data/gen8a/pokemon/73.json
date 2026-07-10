@@ -1,0 +1,42 @@
+{
+  "id": 73,
+  "name": "Tentacruel",
+  "dexNum": 73,
+  "forms": [
+    {
+      "name": "Tentacruel",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Clear Body",
+        "Liquid Ooze",
+        "Rain Dish"
+      ],
+      "moves": [
+        "Poison Sting",
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Bubble",
+        "Acid Armor",
+        "Rest",
+        "Sludge Bomb",
+        "Icy Wind",
+        "Water Pulse",
+        "Poison Jab",
+        "Giga Impact",
+        "Hex",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0073_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0073_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

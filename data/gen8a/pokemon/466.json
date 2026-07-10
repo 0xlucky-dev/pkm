@@ -1,0 +1,48 @@
+{
+  "id": 466,
+  "name": "Electivire",
+  "dexNum": 466,
+  "forms": [
+    {
+      "name": "Electivire",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Motor Drive",
+        "Vital Spirit"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Flamethrower",
+        "Hyper Beam",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Psychic",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Spark",
+        "Iron Tail",
+        "Rock Smash",
+        "Giga Impact",
+        "Charge Beam",
+        "Bulldoze",
+        "Wild Charge"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 84,
+      "spriteNormal": "sprites/poke_capture_0466_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0466_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

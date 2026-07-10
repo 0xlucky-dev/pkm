@@ -1,0 +1,70 @@
+{
+  "id": 412,
+  "name": "Burmy",
+  "dexNum": 412,
+  "forms": [
+    {
+      "name": "Burmy",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Shed Skin",
+        "Overcoat"
+      ],
+      "moves": [
+        "Struggle Bug"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0412_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0412_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Burmy",
+      "formName": "Sandy",
+      "formIndex": 1,
+      "abilities": [
+        "Shed Skin",
+        "Overcoat"
+      ],
+      "moves": [
+        "Struggle Bug"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0412_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0412_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Burmy",
+      "formName": "Trash",
+      "formIndex": 2,
+      "abilities": [
+        "Shed Skin",
+        "Overcoat"
+      ],
+      "moves": [
+        "Struggle Bug"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0412_002_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0412_002_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

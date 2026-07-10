@@ -1,0 +1,44 @@
+{
+  "id": 63,
+  "name": "Abra",
+  "dexNum": 63,
+  "forms": [
+    {
+      "name": "Abra",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Synchronize",
+        "Inner Focus",
+        "Magic Guard"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Psychic",
+        "Teleport",
+        "Swift",
+        "Rest",
+        "Tri Attack",
+        "Iron Tail",
+        "Shadow Ball",
+        "Calm Mind",
+        "Drain Punch",
+        "Energy Ball",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0063_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0063_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

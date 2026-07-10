@@ -1,0 +1,90 @@
+{
+  "id": 215,
+  "name": "Sneasel",
+  "dexNum": 215,
+  "forms": [
+    {
+      "name": "Sneasel",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Inner Focus",
+        "Keen Eye",
+        "Pickpocket"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Swords Dance",
+        "Ice Beam",
+        "Blizzard",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Slash",
+        "Icy Wind",
+        "False Swipe",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Aerial Ace",
+        "Calm Mind",
+        "Poison Jab",
+        "Dark Pulse",
+        "X-Scissor",
+        "Ice Shard",
+        "Shadow Claw",
+        "Psycho Cut",
+        "Snarl"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0215_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0215_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Sneasel",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Inner Focus",
+        "Keen Eye",
+        "Poison Touch"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Quick Attack",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Slash",
+        "False Swipe",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Aerial Ace",
+        "Bulk Up",
+        "Calm Mind",
+        "Close Combat",
+        "Poison Jab",
+        "X-Scissor",
+        "Drain Punch",
+        "Shadow Claw",
+        "Snarl"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0215_001_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0215_001_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

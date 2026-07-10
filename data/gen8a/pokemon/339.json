@@ -1,0 +1,38 @@
+{
+  "id": 339,
+  "name": "Barboach",
+  "dexNum": 339,
+  "forms": [
+    {
+      "name": "Barboach",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Oblivious",
+        "Anticipation",
+        "Hydration"
+      ],
+      "moves": [
+        "Ice Beam",
+        "Rest",
+        "Mud-Slap",
+        "Icy Wind",
+        "Water Pulse",
+        "Aqua Tail",
+        "Earth Power",
+        "Mud Bomb",
+        "Zen Headbutt",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 60,
+      "spriteNormal": "sprites/poke_capture_0339_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0339_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

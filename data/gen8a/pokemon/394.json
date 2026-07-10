@@ -1,0 +1,41 @@
+{
+  "id": 394,
+  "name": "Prinplup",
+  "dexNum": 394,
+  "forms": [
+    {
+      "name": "Prinplup",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Torrent",
+        "Defiant"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Ice Beam",
+        "Bubble",
+        "Rest",
+        "Icy Wind",
+        "Rock Smash",
+        "Aerial Ace",
+        "Water Pulse",
+        "Roost",
+        "Shadow Claw",
+        "Stealth Rock",
+        "Baby-Doll Eyes",
+        "Liquidation"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0394_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0394_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

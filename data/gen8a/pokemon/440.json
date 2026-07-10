@@ -1,0 +1,43 @@
+{
+  "id": 440,
+  "name": "Happiny",
+  "dexNum": 440,
+  "forms": [
+    {
+      "name": "Happiny",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Natural Cure",
+        "Serene Grace",
+        "Friend Guard"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Flamethrower",
+        "Psychic",
+        "Soft-Boiled",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Calm Mind",
+        "Water Pulse",
+        "Drain Punch",
+        "Zen Headbutt",
+        "Draining Kiss",
+        "Fairy Wind",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0440_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0440_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

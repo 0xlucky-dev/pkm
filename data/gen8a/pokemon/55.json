@@ -1,0 +1,49 @@
+{
+  "id": 55,
+  "name": "Golduck",
+  "dexNum": 55,
+  "forms": [
+    {
+      "name": "Golduck",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Damp",
+        "Cloud Nine",
+        "Swift Swim"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Swift",
+        "Bubble",
+        "Rest",
+        "Tri Attack",
+        "Icy Wind",
+        "Iron Tail",
+        "Rock Smash",
+        "Aerial Ace",
+        "Calm Mind",
+        "Water Pulse",
+        "Aqua Tail",
+        "Giga Impact",
+        "Shadow Claw",
+        "Zen Headbutt"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0055_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0055_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

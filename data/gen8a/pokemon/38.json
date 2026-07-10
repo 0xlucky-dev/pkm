@@ -1,0 +1,87 @@
+{
+  "id": 38,
+  "name": "Ninetales",
+  "dexNum": 38,
+  "forms": [
+    {
+      "name": "Ninetales",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Flash Fire",
+        "Drought"
+      ],
+      "moves": [
+        "Ember",
+        "Flamethrower",
+        "Hyper Beam",
+        "Quick Attack",
+        "Fire Blast",
+        "Swift",
+        "Rest",
+        "Flame Wheel",
+        "Iron Tail",
+        "Shadow Ball",
+        "Extrasensory",
+        "Calm Mind",
+        "Dark Pulse",
+        "Energy Ball",
+        "Giga Impact",
+        "Nasty Plot",
+        "Zen Headbutt",
+        "Ominous Wind",
+        "Hex",
+        "Mystical Fire",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0038_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0038_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Ninetales",
+      "formName": "Alola",
+      "formIndex": 1,
+      "abilities": [
+        "Snow Cloak",
+        "Snow Warning"
+      ],
+      "moves": [
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Powder Snow",
+        "Icy Wind",
+        "Iron Tail",
+        "Calm Mind",
+        "Dark Pulse",
+        "Energy Ball",
+        "Giga Impact",
+        "Nasty Plot",
+        "Ice Fang",
+        "Zen Headbutt",
+        "Draining Kiss",
+        "Dazzling Gleam",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0038_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0038_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

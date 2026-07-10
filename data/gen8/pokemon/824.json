@@ -1,0 +1,33 @@
+{
+  "id": 824,
+  "name": "Blipbug",
+  "dexNum": 824,
+  "forms": [
+    {
+      "name": "Blipbug",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swarm",
+        "Compound Eyes",
+        "Telepathy"
+      ],
+      "moves": [
+        "Supersonic",
+        "Recover",
+        "Struggle Bug",
+        "Sticky Web",
+        "Infestation"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0824_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0824_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

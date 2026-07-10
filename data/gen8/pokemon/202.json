@@ -1,0 +1,35 @@
+{
+  "id": 202,
+  "name": "Wobbuffet",
+  "dexNum": 202,
+  "forms": [
+    {
+      "name": "Wobbuffet",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Shadow Tag",
+        "Telepathy"
+      ],
+      "moves": [
+        "Counter",
+        "Amnesia",
+        "Splash",
+        "Destiny Bond",
+        "Charm",
+        "Safeguard",
+        "Encore",
+        "Mirror Coat"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 60,
+      "spriteNormal": "sprites/poke_capture_0202_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0202_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

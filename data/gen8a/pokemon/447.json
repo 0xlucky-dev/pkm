@@ -1,0 +1,48 @@
+{
+  "id": 447,
+  "name": "Riolu",
+  "dexNum": 447,
+  "forms": [
+    {
+      "name": "Riolu",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Steadfast",
+        "Inner Focus",
+        "Prankster"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Thunder Punch",
+        "Bite",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Iron Tail",
+        "Crunch",
+        "Rock Smash",
+        "Iron Defense",
+        "Bulk Up",
+        "Close Combat",
+        "Aura Sphere",
+        "Poison Jab",
+        "Drain Punch",
+        "Bullet Punch",
+        "Shadow Claw",
+        "Zen Headbutt",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0447_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0447_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

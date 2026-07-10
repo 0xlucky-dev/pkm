@@ -1,0 +1,51 @@
+{
+  "id": 454,
+  "name": "Toxicroak",
+  "dexNum": 454,
+  "forms": [
+    {
+      "name": "Toxicroak",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Anticipation",
+        "Dry Skin",
+        "Poison Touch"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Thunder Punch",
+        "Poison Sting",
+        "Hyper Beam",
+        "Rest",
+        "Rock Slide",
+        "Sludge Bomb",
+        "Icy Wind",
+        "Shadow Ball",
+        "Rock Smash",
+        "Bulk Up",
+        "Close Combat",
+        "Poison Jab",
+        "Dark Pulse",
+        "X-Scissor",
+        "Drain Punch",
+        "Earth Power",
+        "Giga Impact",
+        "Nasty Plot",
+        "Mud Bomb",
+        "Stone Edge",
+        "Venoshock",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 87,
+      "spriteNormal": "sprites/poke_capture_0454_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0454_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

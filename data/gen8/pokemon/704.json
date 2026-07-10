@@ -1,0 +1,60 @@
+{
+  "id": 704,
+  "name": "Goomy",
+  "dexNum": 704,
+  "forms": [
+    {
+      "name": "Goomy",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sap Sipper",
+        "Hydration",
+        "Gooey"
+      ],
+      "moves": [
+        "Tackle",
+        "Body Slam",
+        "Water Gun",
+        "Counter",
+        "Absorb",
+        "Thunderbolt",
+        "Rest",
+        "Rock Slide",
+        "Substitute",
+        "Snore",
+        "Curse",
+        "Flail",
+        "Protect",
+        "Sludge Bomb",
+        "Outrage",
+        "Endure",
+        "Attract",
+        "Sleep Talk",
+        "Dragon Breath",
+        "Iron Tail",
+        "Rain Dance",
+        "Sunny Day",
+        "Facade",
+        "Muddy Water",
+        "Mud Shot",
+        "Water Pulse",
+        "Dragon Pulse",
+        "Draco Meteor",
+        "Sludge Wave",
+        "Round",
+        "Life Dew",
+        "Skitter Smack"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 52,
+      "spriteNormal": "sprites/poke_capture_0704_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0704_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

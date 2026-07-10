@@ -1,0 +1,45 @@
+{
+  "id": 101,
+  "name": "Electrode",
+  "dexNum": 101,
+  "forms": [
+    {
+      "name": "Electrode",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Soundproof",
+        "Static",
+        "Aftermath"
+      ],
+      "moves": [
+        "Tackle",
+        "Hyper Beam",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Self-Destruct",
+        "Swift",
+        "Rest",
+        "Spark",
+        "Ice Ball",
+        "Magical Leaf",
+        "Energy Ball",
+        "Giga Impact",
+        "Charge Beam",
+        "Wild Charge",
+        "Chloroblast"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0101_001_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0101_001_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

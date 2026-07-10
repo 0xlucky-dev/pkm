@@ -1,0 +1,46 @@
+{
+  "id": 26,
+  "name": "Raichu",
+  "dexNum": 26,
+  "forms": [
+    {
+      "name": "Raichu",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "moves": [
+        "Thunder Punch",
+        "Hyper Beam",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Spark",
+        "Iron Tail",
+        "Rock Smash",
+        "Volt Tackle",
+        "Calm Mind",
+        "Giga Impact",
+        "Charge Beam",
+        "Wild Charge",
+        "Play Rough",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0026_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0026_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

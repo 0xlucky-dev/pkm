@@ -1,0 +1,49 @@
+{
+  "id": 435,
+  "name": "Skuntank",
+  "dexNum": 435,
+  "forms": [
+    {
+      "name": "Skuntank",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Stench",
+        "Aftermath",
+        "Keen Eye"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Flamethrower",
+        "Hyper Beam",
+        "Focus Energy",
+        "Swift",
+        "Poison Gas",
+        "Rest",
+        "Sludge Bomb",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Poison Jab",
+        "Dark Pulse",
+        "Night Slash",
+        "Giga Impact",
+        "Shadow Claw",
+        "Venoshock",
+        "Acid Spray",
+        "Snarl",
+        "Play Rough"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0435_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0435_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

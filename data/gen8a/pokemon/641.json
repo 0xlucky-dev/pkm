@@ -1,0 +1,86 @@
+{
+  "id": 641,
+  "name": "Tornadus",
+  "dexNum": 641,
+  "forms": [
+    {
+      "name": "Tornadus",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Prankster",
+        "Defiant"
+      ],
+      "moves": [
+        "Tackle",
+        "Bite",
+        "Hyper Beam",
+        "Psychic",
+        "Rest",
+        "Sludge Bomb",
+        "Icy Wind",
+        "Iron Tail",
+        "Twister",
+        "Crunch",
+        "Rock Smash",
+        "Air Cutter",
+        "Extrasensory",
+        "Aerial Ace",
+        "Bulk Up",
+        "Dark Pulse",
+        "Giga Impact",
+        "Nasty Plot",
+        "Hurricane",
+        "Bleakwind Storm"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0641_000_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0641_000_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Tornadus",
+      "formName": "Therian",
+      "formIndex": 1,
+      "abilities": [
+        "Regenerator"
+      ],
+      "moves": [
+        "Tackle",
+        "Bite",
+        "Hyper Beam",
+        "Psychic",
+        "Rest",
+        "Sludge Bomb",
+        "Icy Wind",
+        "Iron Tail",
+        "Twister",
+        "Crunch",
+        "Rock Smash",
+        "Air Cutter",
+        "Extrasensory",
+        "Aerial Ace",
+        "Bulk Up",
+        "Dark Pulse",
+        "Giga Impact",
+        "Nasty Plot",
+        "Hurricane",
+        "Bleakwind Storm"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0641_001_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0641_001_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

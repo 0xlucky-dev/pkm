@@ -1,0 +1,45 @@
+{
+  "id": 407,
+  "name": "Roserade",
+  "dexNum": 407,
+  "forms": [
+    {
+      "name": "Roserade",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Natural Cure",
+        "Poison Point",
+        "Technician"
+      ],
+      "moves": [
+        "Poison Sting",
+        "Hyper Beam",
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Petal Dance",
+        "Swift",
+        "Rest",
+        "Sludge Bomb",
+        "Spikes",
+        "Shadow Ball",
+        "Magical Leaf",
+        "Poison Jab",
+        "Energy Ball",
+        "Giga Impact",
+        "Venoshock",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 84,
+      "spriteNormal": "sprites/poke_capture_0407_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0407_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

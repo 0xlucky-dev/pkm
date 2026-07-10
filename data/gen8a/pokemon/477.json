@@ -1,0 +1,49 @@
+{
+  "id": 477,
+  "name": "Dusknoir",
+  "dexNum": 477,
+  "forms": [
+    {
+      "name": "Dusknoir",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Pressure",
+        "Frisk"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Ice Beam",
+        "Hyper Beam",
+        "Absorb",
+        "Psychic",
+        "Leech Life",
+        "Rest",
+        "Rock Slide",
+        "Icy Wind",
+        "Shadow Ball",
+        "Rock Smash",
+        "Calm Mind",
+        "Dark Pulse",
+        "Giga Impact",
+        "Shadow Sneak",
+        "Charge Beam",
+        "Ominous Wind",
+        "Hex",
+        "Bulldoze",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 84,
+      "spriteNormal": "sprites/poke_capture_0477_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0477_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

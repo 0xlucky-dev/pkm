@@ -1,0 +1,45 @@
+{
+  "id": 465,
+  "name": "Tangrowth",
+  "dexNum": 465,
+  "forms": [
+    {
+      "name": "Tangrowth",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Chlorophyll",
+        "Leaf Guard",
+        "Regenerator"
+      ],
+      "moves": [
+        "Hyper Beam",
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Sleep Powder",
+        "Rest",
+        "Rock Slide",
+        "Sludge Bomb",
+        "Ancient Power",
+        "Rock Smash",
+        "Aerial Ace",
+        "Poison Jab",
+        "Energy Ball",
+        "Giga Impact",
+        "Double Hit",
+        "Acid Spray",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0465_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0465_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

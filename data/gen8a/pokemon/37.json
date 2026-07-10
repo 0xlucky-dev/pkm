@@ -1,0 +1,80 @@
+{
+  "id": 37,
+  "name": "Vulpix",
+  "dexNum": 37,
+  "forms": [
+    {
+      "name": "Vulpix",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Flash Fire",
+        "Drought"
+      ],
+      "moves": [
+        "Ember",
+        "Flamethrower",
+        "Quick Attack",
+        "Fire Blast",
+        "Swift",
+        "Rest",
+        "Flame Wheel",
+        "Iron Tail",
+        "Extrasensory",
+        "Dark Pulse",
+        "Energy Ball",
+        "Nasty Plot",
+        "Zen Headbutt",
+        "Ominous Wind",
+        "Hex",
+        "Mystical Fire",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0037_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0037_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Vulpix",
+      "formName": "Alola",
+      "formIndex": 1,
+      "abilities": [
+        "Snow Cloak",
+        "Snow Warning"
+      ],
+      "moves": [
+        "Ice Beam",
+        "Blizzard",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Powder Snow",
+        "Icy Wind",
+        "Iron Tail",
+        "Dark Pulse",
+        "Energy Ball",
+        "Nasty Plot",
+        "Ice Fang",
+        "Zen Headbutt",
+        "Draining Kiss",
+        "Dazzling Gleam",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0037_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0037_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

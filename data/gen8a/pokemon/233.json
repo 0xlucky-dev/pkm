@@ -1,0 +1,47 @@
+{
+  "id": 233,
+  "name": "Porygon2",
+  "dexNum": 233,
+  "forms": [
+    {
+      "name": "Porygon2",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Trace",
+        "Download",
+        "Analytic"
+      ],
+      "moves": [
+        "Tackle",
+        "Ice Beam",
+        "Hyper Beam",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Psychic",
+        "Recover",
+        "Swift",
+        "Rest",
+        "Tri Attack",
+        "Icy Wind",
+        "Spark",
+        "Iron Tail",
+        "Shadow Ball",
+        "Aerial Ace",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Charge Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 80,
+      "spriteNormal": "sprites/poke_capture_0233_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0233_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

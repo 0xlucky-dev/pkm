@@ -1,0 +1,57 @@
+{
+  "id": 767,
+  "name": "Wimpod",
+  "dexNum": 767,
+  "forms": [
+    {
+      "name": "Wimpod",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Wimp Out"
+      ],
+      "moves": [
+        "Sand Attack",
+        "Surf",
+        "Screech",
+        "Harden",
+        "Defense Curl",
+        "Waterfall",
+        "Swift",
+        "Leech Life",
+        "Rest",
+        "Substitute",
+        "Snore",
+        "Protect",
+        "Spikes",
+        "Endure",
+        "Rollout",
+        "Attract",
+        "Sleep Talk",
+        "Metal Claw",
+        "Rain Dance",
+        "Hail",
+        "Facade",
+        "Taunt",
+        "Mud Shot",
+        "Assurance",
+        "Bug Buzz",
+        "Aqua Jet",
+        "Wide Guard",
+        "Round",
+        "Scald",
+        "Struggle Bug",
+        "Skitter Smack"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 60,
+      "spriteNormal": "sprites/poke_capture_0767_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0767_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

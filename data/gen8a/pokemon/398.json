@@ -1,0 +1,41 @@
+{
+  "id": 398,
+  "name": "Staraptor",
+  "dexNum": 398,
+  "forms": [
+    {
+      "name": "Staraptor",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Intimidate",
+        "Reckless"
+      ],
+      "moves": [
+        "Gust",
+        "Double-Edge",
+        "Hyper Beam",
+        "Quick Attack",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Aerial Ace",
+        "Roost",
+        "Close Combat",
+        "Air Slash",
+        "Brave Bird",
+        "Giga Impact",
+        "Ominous Wind"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0398_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0398_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

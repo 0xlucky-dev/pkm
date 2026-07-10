@@ -1,0 +1,60 @@
+{
+  "id": 448,
+  "name": "Lucario",
+  "dexNum": 448,
+  "forms": [
+    {
+      "name": "Lucario",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Steadfast",
+        "Inner Focus",
+        "Justified"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Thunder Punch",
+        "Bite",
+        "Hyper Beam",
+        "Psychic",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Mach Punch",
+        "Iron Tail",
+        "Crunch",
+        "Shadow Ball",
+        "Rock Smash",
+        "Iron Defense",
+        "Bulk Up",
+        "Calm Mind",
+        "Water Pulse",
+        "Close Combat",
+        "Aura Sphere",
+        "Poison Jab",
+        "Dark Pulse",
+        "Dragon Pulse",
+        "Drain Punch",
+        "Giga Impact",
+        "Bullet Punch",
+        "Shadow Claw",
+        "Zen Headbutt",
+        "Flash Cannon",
+        "Stone Edge",
+        "Bulldoze",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0448_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0448_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

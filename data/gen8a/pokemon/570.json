@@ -1,0 +1,39 @@
+{
+  "id": 570,
+  "name": "Zorua",
+  "dexNum": 570,
+  "forms": [
+    {
+      "name": "Zorua",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Illusion"
+      ],
+      "moves": [
+        "Swift",
+        "Rest",
+        "Slash",
+        "Sludge Bomb",
+        "Shadow Ball",
+        "Aerial Ace",
+        "Calm Mind",
+        "Dark Pulse",
+        "Nasty Plot",
+        "Shadow Claw",
+        "Shadow Sneak",
+        "Snarl",
+        "Bitter Malice"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0570_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0570_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

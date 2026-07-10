@@ -1,0 +1,48 @@
+{
+  "id": 426,
+  "name": "Drifblim",
+  "dexNum": 426,
+  "forms": [
+    {
+      "name": "Drifblim",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Aftermath",
+        "Unburden",
+        "Flare Boost"
+      ],
+      "moves": [
+        "Hyper Beam",
+        "Thunderbolt",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Focus Energy",
+        "Self-Destruct",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Astonish",
+        "Extrasensory",
+        "Calm Mind",
+        "Giga Impact",
+        "Charge Beam",
+        "Ominous Wind",
+        "Hex",
+        "Mystical Fire",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0426_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0426_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

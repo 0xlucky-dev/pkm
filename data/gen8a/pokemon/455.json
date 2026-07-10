@@ -1,0 +1,39 @@
+{
+  "id": 455,
+  "name": "Carnivine",
+  "dexNum": 455,
+  "forms": [
+    {
+      "name": "Carnivine",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Bite",
+        "Hyper Beam",
+        "Absorb",
+        "Stun Spore",
+        "Sleep Powder",
+        "Leech Life",
+        "Rest",
+        "Sludge Bomb",
+        "Crunch",
+        "Magical Leaf",
+        "Energy Ball",
+        "Giga Impact",
+        "Acid Spray"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0455_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0455_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

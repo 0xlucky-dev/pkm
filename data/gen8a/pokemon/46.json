@@ -1,0 +1,42 @@
+{
+  "id": 46,
+  "name": "Paras",
+  "dexNum": 46,
+  "forms": [
+    {
+      "name": "Paras",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Effect Spore",
+        "Dry Skin",
+        "Damp"
+      ],
+      "moves": [
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Leech Life",
+        "Spore",
+        "Rest",
+        "Slash",
+        "Sludge Bomb",
+        "False Swipe",
+        "Rock Smash",
+        "Aerial Ace",
+        "X-Scissor",
+        "Energy Ball",
+        "Venoshock"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 55,
+      "spriteNormal": "sprites/poke_capture_0046_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0046_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

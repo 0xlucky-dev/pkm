@@ -1,0 +1,71 @@
+{
+  "id": 422,
+  "name": "Shellos",
+  "dexNum": 422,
+  "forms": [
+    {
+      "name": "Shellos",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sticky Hold",
+        "Storm Drain",
+        "Sand Force"
+      ],
+      "moves": [
+        "Tackle",
+        "Hydro Pump",
+        "Ice Beam",
+        "Recover",
+        "Rest",
+        "Mud-Slap",
+        "Icy Wind",
+        "Ancient Power",
+        "Water Pulse",
+        "Earth Power",
+        "Mud Bomb"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0422_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0422_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Shellos",
+      "formName": "East",
+      "formIndex": 1,
+      "abilities": [
+        "Sticky Hold",
+        "Storm Drain",
+        "Sand Force"
+      ],
+      "moves": [
+        "Tackle",
+        "Hydro Pump",
+        "Ice Beam",
+        "Recover",
+        "Rest",
+        "Mud-Slap",
+        "Icy Wind",
+        "Ancient Power",
+        "Water Pulse",
+        "Earth Power",
+        "Mud Bomb"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0422_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0422_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

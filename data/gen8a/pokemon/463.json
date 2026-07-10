@@ -1,0 +1,50 @@
+{
+  "id": 463,
+  "name": "Lickilicky",
+  "dexNum": 463,
+  "forms": [
+    {
+      "name": "Lickilicky",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Own Tempo",
+        "Oblivious",
+        "Cloud Nine"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Double-Edge",
+        "Flamethrower",
+        "Ice Beam",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Rest",
+        "Rock Slide",
+        "Icy Wind",
+        "Rollout",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Ice Ball",
+        "Water Pulse",
+        "Aqua Tail",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0463_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0463_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

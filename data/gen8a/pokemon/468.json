@@ -1,0 +1,55 @@
+{
+  "id": 468,
+  "name": "Togekiss",
+  "dexNum": 468,
+  "forms": [
+    {
+      "name": "Togekiss",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Hustle",
+        "Serene Grace",
+        "Super Luck"
+      ],
+      "moves": [
+        "Tackle",
+        "Flamethrower",
+        "Hyper Beam",
+        "Psychic",
+        "Swift",
+        "Rest",
+        "Tri Attack",
+        "Shadow Ball",
+        "Rock Smash",
+        "Air Cutter",
+        "Extrasensory",
+        "Aerial Ace",
+        "Magical Leaf",
+        "Calm Mind",
+        "Water Pulse",
+        "Air Slash",
+        "Drain Punch",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Ominous Wind",
+        "Draining Kiss",
+        "Play Rough",
+        "Fairy Wind",
+        "Moonblast",
+        "Mystical Fire",
+        "Dazzling Gleam",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0468_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0468_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

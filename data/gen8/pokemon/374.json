@@ -1,0 +1,32 @@
+{
+  "id": 374,
+  "name": "Beldum",
+  "dexNum": 374,
+  "forms": [
+    {
+      "name": "Beldum",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Clear Body",
+        "Light Metal"
+      ],
+      "moves": [
+        "Tackle",
+        "Iron Defense",
+        "Zen Headbutt",
+        "Iron Head",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 65,
+      "spriteNormal": "sprites/poke_capture_0374_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0374_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

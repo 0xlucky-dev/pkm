@@ -1,0 +1,55 @@
+{
+  "id": 143,
+  "name": "Snorlax",
+  "dexNum": 143,
+  "forms": [
+    {
+      "name": "Snorlax",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Immunity",
+        "Thick Fat",
+        "Gluttony"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Flamethrower",
+        "Ice Beam",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Psychic",
+        "Rest",
+        "Rock Slide",
+        "Icy Wind",
+        "Outrage",
+        "Rollout",
+        "Crunch",
+        "Shadow Ball",
+        "Rock Smash",
+        "Ice Ball",
+        "Water Pulse",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Iron Head",
+        "Bulldoze",
+        "Wild Charge",
+        "High Horsepower"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 85,
+      "spriteNormal": "sprites/poke_capture_0143_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0143_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

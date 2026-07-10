@@ -1,0 +1,47 @@
+{
+  "id": 471,
+  "name": "Glaceon",
+  "dexNum": 471,
+  "forms": [
+    {
+      "name": "Glaceon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Snow Cloak",
+        "Ice Body"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Ice Beam",
+        "Hyper Beam",
+        "Quick Attack",
+        "Mimic",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Powder Snow",
+        "Icy Wind",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Calm Mind",
+        "Water Pulse",
+        "Aqua Tail",
+        "Giga Impact",
+        "Ice Fang",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 78,
+      "spriteNormal": "sprites/poke_capture_0471_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0471_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

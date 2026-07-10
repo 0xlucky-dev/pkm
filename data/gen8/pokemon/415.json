@@ -1,0 +1,34 @@
+{
+  "id": 415,
+  "name": "Combee",
+  "dexNum": 415,
+  "forms": [
+    {
+      "name": "Combee",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Honey Gather",
+        "Hustle"
+      ],
+      "moves": [
+        "Gust",
+        "Snore",
+        "Sweet Scent",
+        "Bug Buzz",
+        "Bug Bite",
+        "Struggle Bug",
+        "Dual Wingbeat"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 57,
+      "spriteNormal": "sprites/poke_capture_0415_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0415_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

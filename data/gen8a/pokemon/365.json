@@ -1,0 +1,47 @@
+{
+  "id": 365,
+  "name": "Walrein",
+  "dexNum": 365,
+  "forms": [
+    {
+      "name": "Walrein",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Thick Fat",
+        "Ice Body",
+        "Oblivious"
+      ],
+      "moves": [
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rest",
+        "Rock Slide",
+        "Powder Snow",
+        "Icy Wind",
+        "Rollout",
+        "Iron Tail",
+        "Rock Smash",
+        "Ice Ball",
+        "Water Pulse",
+        "Aqua Tail",
+        "Giga Impact",
+        "Ice Fang",
+        "Iron Head",
+        "Bulldoze",
+        "Baby-Doll Eyes",
+        "Liquidation"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0365_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0365_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

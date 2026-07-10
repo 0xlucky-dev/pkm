@@ -1,0 +1,46 @@
+{
+  "id": 123,
+  "name": "Scyther",
+  "dexNum": 123,
+  "forms": [
+    {
+      "name": "Scyther",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swarm",
+        "Technician",
+        "Steadfast"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Hyper Beam",
+        "Quick Attack",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "False Swipe",
+        "Rock Smash",
+        "Silver Wind",
+        "Aerial Ace",
+        "Calm Mind",
+        "Close Combat",
+        "Air Slash",
+        "X-Scissor",
+        "Giga Impact",
+        "Psycho Cut",
+        "Double Hit",
+        "Ominous Wind"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 80,
+      "spriteNormal": "sprites/poke_capture_0123_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0123_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

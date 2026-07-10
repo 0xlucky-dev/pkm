@@ -1,0 +1,52 @@
+{
+  "id": 628,
+  "name": "Braviary",
+  "dexNum": 628,
+  "forms": [
+    {
+      "name": "Braviary",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Keen Eye",
+        "Sheer Force",
+        "Defiant"
+      ],
+      "moves": [
+        "Double-Edge",
+        "Hyper Beam",
+        "Psychic",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Slash",
+        "Twister",
+        "Rock Smash",
+        "Aerial Ace",
+        "Bulk Up",
+        "Roost",
+        "Air Slash",
+        "Brave Bird",
+        "Giga Impact",
+        "Shadow Claw",
+        "Zen Headbutt",
+        "Ominous Wind",
+        "Hurricane",
+        "Mystical Fire",
+        "Dazzling Gleam",
+        "Power Shift",
+        "Esper Wing"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0628_001_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0628_001_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 197,
+  "name": "Umbreon",
+  "dexNum": 197,
+  "forms": [
+    {
+      "name": "Umbreon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Synchronize",
+        "Inner Focus"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Hyper Beam",
+        "Psychic",
+        "Quick Attack",
+        "Mimic",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Calm Mind",
+        "Dark Pulse",
+        "Giga Impact",
+        "Snarl",
+        "Baby-Doll Eyes",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 80,
+      "spriteNormal": "sprites/poke_capture_0197_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0197_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

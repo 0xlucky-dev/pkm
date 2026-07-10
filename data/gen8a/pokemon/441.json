@@ -1,0 +1,42 @@
+{
+  "id": 441,
+  "name": "Chatot",
+  "dexNum": 441,
+  "forms": [
+    {
+      "name": "Chatot",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Keen Eye",
+        "Tangled Feet",
+        "Big Pecks"
+      ],
+      "moves": [
+        "Gust",
+        "Mimic",
+        "Swift",
+        "Rest",
+        "Air Cutter",
+        "Aerial Ace",
+        "Roost",
+        "Air Slash",
+        "Nasty Plot",
+        "Ominous Wind",
+        "Hurricane",
+        "Snarl",
+        "Play Rough",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0441_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0441_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

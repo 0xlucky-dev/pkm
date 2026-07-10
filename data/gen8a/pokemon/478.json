@@ -1,0 +1,47 @@
+{
+  "id": 478,
+  "name": "Froslass",
+  "dexNum": 478,
+  "forms": [
+    {
+      "name": "Froslass",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Snow Cloak",
+        "Cursed Body"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Bite",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Psychic",
+        "Rest",
+        "Powder Snow",
+        "Spikes",
+        "Icy Wind",
+        "Crunch",
+        "Shadow Ball",
+        "Water Pulse",
+        "Giga Impact",
+        "Ice Shard",
+        "Ice Fang",
+        "Ominous Wind",
+        "Hex",
+        "Icicle Crash"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0478_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0478_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": 418,
+  "name": "Buizel",
+  "dexNum": 418,
+  "forms": [
+    {
+      "name": "Buizel",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swift Swim",
+        "Water Veil"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Hydro Pump",
+        "Ice Beam",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Iron Tail",
+        "Rock Smash",
+        "Bulk Up",
+        "Water Pulse",
+        "Aqua Tail",
+        "Aqua Jet",
+        "Double Hit"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 60,
+      "spriteNormal": "sprites/poke_capture_0418_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0418_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

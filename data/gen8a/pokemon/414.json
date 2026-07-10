@@ -1,0 +1,112 @@
+{
+  "id": 414,
+  "name": "Mothim",
+  "dexNum": 414,
+  "forms": [
+    {
+      "name": "Mothim",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swarm",
+        "Tinted Lens"
+      ],
+      "moves": [
+        "Gust",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Swift",
+        "Rest",
+        "Shadow Ball",
+        "Silver Wind",
+        "Aerial Ace",
+        "Air Slash",
+        "Bug Buzz",
+        "Energy Ball",
+        "Giga Impact",
+        "Ominous Wind",
+        "Struggle Bug"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 61,
+      "spriteNormal": "sprites/poke_capture_0414_000_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0414_000_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Mothim",
+      "formName": "Sandy",
+      "formIndex": 1,
+      "abilities": [
+        "Swarm",
+        "Tinted Lens"
+      ],
+      "moves": [
+        "Gust",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Swift",
+        "Rest",
+        "Shadow Ball",
+        "Silver Wind",
+        "Aerial Ace",
+        "Air Slash",
+        "Bug Buzz",
+        "Energy Ball",
+        "Giga Impact",
+        "Ominous Wind",
+        "Struggle Bug"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0414_000_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0414_000_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Mothim",
+      "formName": "Trash",
+      "formIndex": 2,
+      "abilities": [
+        "Swarm",
+        "Tinted Lens"
+      ],
+      "moves": [
+        "Gust",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Swift",
+        "Rest",
+        "Shadow Ball",
+        "Silver Wind",
+        "Aerial Ace",
+        "Air Slash",
+        "Bug Buzz",
+        "Energy Ball",
+        "Giga Impact",
+        "Ominous Wind",
+        "Struggle Bug"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0414_000_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0414_000_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

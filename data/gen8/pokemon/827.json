@@ -1,0 +1,63 @@
+{
+  "id": 827,
+  "name": "Nickit",
+  "dexNum": 827,
+  "forms": [
+    {
+      "name": "Nickit",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Run Away",
+        "Unburden",
+        "Stakeout"
+      ],
+      "moves": [
+        "Tail Whip",
+        "Dig",
+        "Agility",
+        "Quick Attack",
+        "Screech",
+        "Swift",
+        "Rest",
+        "Substitute",
+        "Thief",
+        "Snore",
+        "Protect",
+        "Endure",
+        "Attract",
+        "Sleep Talk",
+        "Baton Pass",
+        "Beat Up",
+        "Torment",
+        "Facade",
+        "Taunt",
+        "Knock Off",
+        "Fake Tears",
+        "Howl",
+        "Mud Shot",
+        "Assurance",
+        "Sucker Punch",
+        "Night Slash",
+        "Nasty Plot",
+        "Hone Claws",
+        "Foul Play",
+        "Round",
+        "Quick Guard",
+        "Tail Slap",
+        "Snarl",
+        "Play Rough",
+        "Lash Out"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0827_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0827_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

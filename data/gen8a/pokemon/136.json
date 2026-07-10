@@ -1,0 +1,46 @@
+{
+  "id": 136,
+  "name": "Flareon",
+  "dexNum": 136,
+  "forms": [
+    {
+      "name": "Flareon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Flash Fire",
+        "Guts"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Ember",
+        "Flamethrower",
+        "Hyper Beam",
+        "Quick Attack",
+        "Mimic",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Calm Mind",
+        "Giga Impact",
+        "Fire Fang",
+        "Mystical Fire",
+        "Baby-Doll Eyes",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0136_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0136_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

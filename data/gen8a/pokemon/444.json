@@ -1,0 +1,47 @@
+{
+  "id": 444,
+  "name": "Gabite",
+  "dexNum": 444,
+  "forms": [
+    {
+      "name": "Gabite",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sand Veil",
+        "Rough Skin"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Flamethrower",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Slash",
+        "Outrage",
+        "Iron Tail",
+        "Twister",
+        "Rock Smash",
+        "Aerial Ace",
+        "Dragon Claw",
+        "Earth Power",
+        "Shadow Claw",
+        "Draco Meteor",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 62,
+      "spriteNormal": "sprites/poke_capture_0444_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0444_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

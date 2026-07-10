@@ -1,0 +1,60 @@
+{
+  "id": 242,
+  "name": "Blissey",
+  "dexNum": 242,
+  "forms": [
+    {
+      "name": "Blissey",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Natural Cure",
+        "Serene Grace",
+        "Healer"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Double-Edge",
+        "Flamethrower",
+        "Ice Beam",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Psychic",
+        "Soft-Boiled",
+        "Rest",
+        "Rock Slide",
+        "Tri Attack",
+        "Icy Wind",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Calm Mind",
+        "Water Pulse",
+        "Drain Punch",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Stealth Rock",
+        "Charge Beam",
+        "Bulldoze",
+        "Wild Charge",
+        "Draining Kiss",
+        "Fairy Wind",
+        "Dazzling Gleam",
+        "Baby-Doll Eyes",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 84,
+      "spriteNormal": "sprites/poke_capture_0242_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0242_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

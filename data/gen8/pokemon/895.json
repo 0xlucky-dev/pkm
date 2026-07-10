@@ -1,0 +1,62 @@
+{
+  "id": 895,
+  "name": "Regidrago",
+  "dexNum": 895,
+  "forms": [
+    {
+      "name": "Regidrago",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Dragon’s Maw"
+      ],
+      "moves": [
+        "Vise Grip",
+        "Body Slam",
+        "Thrash",
+        "Bite",
+        "Hyper Beam",
+        "Light Screen",
+        "Reflect",
+        "Focus Energy",
+        "Self-Destruct",
+        "Explosion",
+        "Rest",
+        "Substitute",
+        "Snore",
+        "Reversal",
+        "Protect",
+        "Outrage",
+        "Endure",
+        "Sleep Talk",
+        "Dragon Breath",
+        "Twister",
+        "Crunch",
+        "Ancient Power",
+        "Facade",
+        "Dragon Claw",
+        "Dragon Dance",
+        "Hammer Arm",
+        "Dragon Pulse",
+        "Giga Impact",
+        "Thunder Fang",
+        "Fire Fang",
+        "Draco Meteor",
+        "Round",
+        "Laser Focus",
+        "Breaking Swipe",
+        "Scale Shot",
+        "Dragon Energy"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0895_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0895_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

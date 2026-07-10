@@ -1,0 +1,42 @@
+{
+  "id": 402,
+  "name": "Kricketune",
+  "dexNum": 402,
+  "forms": [
+    {
+      "name": "Kricketune",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swarm",
+        "Technician"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Hyper Beam",
+        "Absorb",
+        "Focus Energy",
+        "Leech Life",
+        "Rest",
+        "Slash",
+        "False Swipe",
+        "Rock Smash",
+        "Aerial Ace",
+        "Night Slash",
+        "X-Scissor",
+        "Bug Buzz",
+        "Giga Impact"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0402_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0402_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

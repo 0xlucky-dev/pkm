@@ -1,0 +1,55 @@
+{
+  "id": 803,
+  "name": "Poipole",
+  "dexNum": 803,
+  "forms": [
+    {
+      "name": "Poipole",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Beast Boost"
+      ],
+      "moves": [
+        "Fury Attack",
+        "Pin Missile",
+        "Growl",
+        "Acid",
+        "Peck",
+        "Toxic",
+        "Rest",
+        "Substitute",
+        "Snore",
+        "Protect",
+        "Sludge Bomb",
+        "Endure",
+        "Charm",
+        "Sleep Talk",
+        "Iron Tail",
+        "Uproar",
+        "Facade",
+        "Helping Hand",
+        "Gastro Acid",
+        "Toxic Spikes",
+        "Poison Jab",
+        "Dragon Pulse",
+        "Nasty Plot",
+        "Gunk Shot",
+        "Venoshock",
+        "Sludge Wave",
+        "Round",
+        "Fell Stinger",
+        "Venom Drench"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0803_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0803_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": 410,
+  "name": "Shieldon",
+  "dexNum": 410,
+  "forms": [
+    {
+      "name": "Shieldon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sturdy",
+        "Soundproof"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Flamethrower",
+        "Ice Beam",
+        "Thunderbolt",
+        "Focus Energy",
+        "Rest",
+        "Rock Slide",
+        "Iron Tail",
+        "Ancient Power",
+        "Rock Smash",
+        "Iron Defense",
+        "Earth Power",
+        "Flash Cannon",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 68,
+      "spriteNormal": "sprites/poke_capture_0410_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0410_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

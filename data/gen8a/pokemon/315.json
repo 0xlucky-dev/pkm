@@ -1,0 +1,43 @@
+{
+  "id": 315,
+  "name": "Roselia",
+  "dexNum": 315,
+  "forms": [
+    {
+      "name": "Roselia",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Natural Cure",
+        "Poison Point",
+        "Leaf Guard"
+      ],
+      "moves": [
+        "Poison Sting",
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Petal Dance",
+        "Swift",
+        "Rest",
+        "Sludge Bomb",
+        "Spikes",
+        "Shadow Ball",
+        "Magical Leaf",
+        "Poison Jab",
+        "Energy Ball",
+        "Venoshock",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0315_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0315_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

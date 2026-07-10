@@ -1,0 +1,58 @@
+{
+  "id": 831,
+  "name": "Wooloo",
+  "dexNum": 831,
+  "forms": [
+    {
+      "name": "Wooloo",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Fluffy",
+        "Run Away",
+        "Bulletproof"
+      ],
+      "moves": [
+        "Stomp",
+        "Double Kick",
+        "Headbutt",
+        "Tackle",
+        "Take Down",
+        "Double-Edge",
+        "Growl",
+        "Counter",
+        "Thunder Wave",
+        "Agility",
+        "Defense Curl",
+        "Rest",
+        "Substitute",
+        "Snore",
+        "Reversal",
+        "Protect",
+        "Endure",
+        "Swagger",
+        "Attract",
+        "Sleep Talk",
+        "Facade",
+        "Payback",
+        "Copycat",
+        "Guard Swap",
+        "Guard Split",
+        "Electro Ball",
+        "Round",
+        "Wild Charge",
+        "Cotton Guard",
+        "Grassy Glide"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 65,
+      "spriteNormal": "sprites/poke_capture_0831_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0831_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

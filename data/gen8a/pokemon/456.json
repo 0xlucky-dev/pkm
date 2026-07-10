@@ -1,0 +1,42 @@
+{
+  "id": 456,
+  "name": "Finneon",
+  "dexNum": 456,
+  "forms": [
+    {
+      "name": "Finneon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swift Swim",
+        "Storm Drain",
+        "Water Veil"
+      ],
+      "moves": [
+        "Gust",
+        "Hydro Pump",
+        "Ice Beam",
+        "Swift",
+        "Bubble",
+        "Rest",
+        "Icy Wind",
+        "Silver Wind",
+        "Water Pulse",
+        "Roost",
+        "Aqua Tail",
+        "Air Slash",
+        "Ominous Wind",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0456_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0456_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

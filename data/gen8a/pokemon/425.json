@@ -1,0 +1,45 @@
+{
+  "id": 425,
+  "name": "Drifloon",
+  "dexNum": 425,
+  "forms": [
+    {
+      "name": "Drifloon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Aftermath",
+        "Unburden",
+        "Flare Boost"
+      ],
+      "moves": [
+        "Thunderbolt",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Focus Energy",
+        "Self-Destruct",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Astonish",
+        "Extrasensory",
+        "Calm Mind",
+        "Charge Beam",
+        "Ominous Wind",
+        "Hex",
+        "Mystical Fire"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0425_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0425_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

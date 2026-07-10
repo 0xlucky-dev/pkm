@@ -1,0 +1,53 @@
+{
+  "id": 885,
+  "name": "Dreepy",
+  "dexNum": 885,
+  "forms": [
+    {
+      "name": "Dreepy",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Clear Body",
+        "Infiltrator",
+        "Cursed Body"
+      ],
+      "moves": [
+        "Bite",
+        "Disable",
+        "Thunder Wave",
+        "Quick Attack",
+        "Double Team",
+        "Confuse Ray",
+        "Swift",
+        "Rest",
+        "Substitute",
+        "Snore",
+        "Curse",
+        "Protect",
+        "Endure",
+        "Attract",
+        "Sleep Talk",
+        "Baton Pass",
+        "Facade",
+        "Helping Hand",
+        "Grudge",
+        "Astonish",
+        "Sucker Punch",
+        "Draco Meteor",
+        "Round",
+        "Dragon Tail",
+        "Infestation"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 52,
+      "spriteNormal": "sprites/poke_capture_0885_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0885_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

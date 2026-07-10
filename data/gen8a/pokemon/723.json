@@ -1,0 +1,41 @@
+{
+  "id": 723,
+  "name": "Dartrix",
+  "dexNum": 723,
+  "forms": [
+    {
+      "name": "Dartrix",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Overgrow",
+        "Long Reach"
+      ],
+      "moves": [
+        "Gust",
+        "Swift",
+        "Rest",
+        "False Swipe",
+        "Aerial Ace",
+        "Magical Leaf",
+        "Leaf Blade",
+        "Roost",
+        "Air Slash",
+        "Energy Ball",
+        "Shadow Claw",
+        "Psycho Cut",
+        "Leaf Storm",
+        "Leafage"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 73,
+      "spriteNormal": "sprites/poke_capture_0723_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0723_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

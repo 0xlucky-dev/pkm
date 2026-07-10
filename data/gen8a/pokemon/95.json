@@ -1,0 +1,42 @@
+{
+  "id": 95,
+  "name": "Onix",
+  "dexNum": 95,
+  "forms": [
+    {
+      "name": "Onix",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Rock Head",
+        "Sturdy",
+        "Weak Armor"
+      ],
+      "moves": [
+        "Tackle",
+        "Rest",
+        "Rock Slide",
+        "Rollout",
+        "Iron Tail",
+        "Rock Smash",
+        "Earth Power",
+        "Flash Cannon",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "High Horsepower",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0095_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0095_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

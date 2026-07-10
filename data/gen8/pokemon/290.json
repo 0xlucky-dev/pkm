@@ -1,0 +1,59 @@
+{
+  "id": 290,
+  "name": "Nincada",
+  "dexNum": 290,
+  "forms": [
+    {
+      "name": "Nincada",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Compound Eyes",
+        "Run Away"
+      ],
+      "moves": [
+        "Scratch",
+        "Gust",
+        "Sand Attack",
+        "Absorb",
+        "Solar Beam",
+        "Dig",
+        "Harden",
+        "Leech Life",
+        "Fury Swipes",
+        "Rest",
+        "Substitute",
+        "Mind Reader",
+        "Snore",
+        "Flail",
+        "Protect",
+        "Mud-Slap",
+        "Sandstorm",
+        "Giga Drain",
+        "Endure",
+        "False Swipe",
+        "Sleep Talk",
+        "Metal Claw",
+        "Sunny Day",
+        "Shadow Ball",
+        "Facade",
+        "Night Slash",
+        "X-Scissor",
+        "Bug Buzz",
+        "Bug Bite",
+        "Round",
+        "Final Gambit",
+        "Skitter Smack"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0290_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0290_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": 226,
+  "name": "Mantine",
+  "dexNum": 226,
+  "forms": [
+    {
+      "name": "Mantine",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swift Swim",
+        "Water Absorb",
+        "Water Veil"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Swift",
+        "Bubble",
+        "Rest",
+        "Rock Slide",
+        "Icy Wind",
+        "Aerial Ace",
+        "Water Pulse",
+        "Roost",
+        "Aqua Tail",
+        "Air Slash",
+        "Giga Impact",
+        "Iron Head",
+        "Bulldoze",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0226_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0226_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

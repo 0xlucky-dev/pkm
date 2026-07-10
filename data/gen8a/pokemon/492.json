@@ -1,0 +1,85 @@
+{
+  "id": 492,
+  "name": "Shaymin",
+  "dexNum": 492,
+  "forms": [
+    {
+      "name": "Shaymin",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Natural Cure"
+      ],
+      "moves": [
+        "Hyper Beam",
+        "Sleep Powder",
+        "Psychic",
+        "Quick Attack",
+        "Recover",
+        "Swift",
+        "Rest",
+        "Aerial Ace",
+        "Magical Leaf",
+        "Air Slash",
+        "Energy Ball",
+        "Earth Power",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Seed Flare",
+        "Ominous Wind",
+        "Play Rough",
+        "Dazzling Gleam",
+        "Baby-Doll Eyes",
+        "Leafage"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0492_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0492_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Shaymin",
+      "formName": "Sky",
+      "formIndex": 1,
+      "abilities": [
+        "Serene Grace"
+      ],
+      "moves": [
+        "Hyper Beam",
+        "Sleep Powder",
+        "Psychic",
+        "Quick Attack",
+        "Recover",
+        "Swift",
+        "Rest",
+        "Aerial Ace",
+        "Magical Leaf",
+        "Air Slash",
+        "Energy Ball",
+        "Earth Power",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Seed Flare",
+        "Ominous Wind",
+        "Play Rough",
+        "Dazzling Gleam",
+        "Baby-Doll Eyes",
+        "Leafage"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0492_001_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0492_001_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

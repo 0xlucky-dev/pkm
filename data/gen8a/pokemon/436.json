@@ -1,0 +1,43 @@
+{
+  "id": 436,
+  "name": "Bronzor",
+  "dexNum": 436,
+  "forms": [
+    {
+      "name": "Bronzor",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate",
+        "Heatproof",
+        "Heavy Metal"
+      ],
+      "moves": [
+        "Tackle",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Rest",
+        "Rock Slide",
+        "Shadow Ball",
+        "Extrasensory",
+        "Iron Defense",
+        "Flash Cannon",
+        "Stealth Rock",
+        "Charge Beam",
+        "Hex",
+        "Bulldoze",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 64,
+      "spriteNormal": "sprites/poke_capture_0436_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0436_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

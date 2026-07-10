@@ -1,0 +1,42 @@
+{
+  "id": 459,
+  "name": "Snover",
+  "dexNum": 459,
+  "forms": [
+    {
+      "name": "Snover",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Snow Warning",
+        "Soundproof"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Ice Beam",
+        "Blizzard",
+        "Rest",
+        "Powder Snow",
+        "Icy Wind",
+        "Iron Tail",
+        "Shadow Ball",
+        "Magical Leaf",
+        "Water Pulse",
+        "Energy Ball",
+        "Ice Shard",
+        "Wood Hammer",
+        "Icicle Crash",
+        "Leafage"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 54,
+      "spriteNormal": "sprites/poke_capture_0459_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0459_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

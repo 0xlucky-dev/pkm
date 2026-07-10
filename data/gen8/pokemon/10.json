@@ -1,0 +1,31 @@
+{
+  "id": 10,
+  "name": "Caterpie",
+  "dexNum": 10,
+  "forms": [
+    {
+      "name": "Caterpie",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Shield Dust",
+        "Run Away"
+      ],
+      "moves": [
+        "Tackle",
+        "String Shot",
+        "Bug Bite",
+        "Electroweb"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0010_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0010_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": 157,
+  "name": "Typhlosion",
+  "dexNum": 157,
+  "forms": [
+    {
+      "name": "Typhlosion",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Blaze",
+        "Flash Fire"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Ember",
+        "Flamethrower",
+        "Hyper Beam",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Flame Wheel",
+        "Rollout",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Overheat",
+        "Aerial Ace",
+        "Calm Mind",
+        "Drain Punch",
+        "Giga Impact",
+        "Shadow Claw",
+        "Ominous Wind",
+        "Hex",
+        "Bulldoze",
+        "Wild Charge",
+        "Mystical Fire",
+        "Infernal Parade"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 91,
+      "spriteNormal": "sprites/poke_capture_0157_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0157_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

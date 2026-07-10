@@ -1,0 +1,46 @@
+{
+  "id": 58,
+  "name": "Growlithe",
+  "dexNum": 58,
+  "forms": [
+    {
+      "name": "Growlithe",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Intimidate",
+        "Flash Fire",
+        "Justified"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Ember",
+        "Flamethrower",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Outrage",
+        "Iron Tail",
+        "Crunch",
+        "Rock Smash",
+        "Aerial Ace",
+        "Flare Blitz",
+        "Fire Fang",
+        "Wild Charge",
+        "Snarl",
+        "Play Rough"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0058_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0058_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

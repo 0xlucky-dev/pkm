@@ -1,0 +1,44 @@
+{
+  "id": 627,
+  "name": "Rufflet",
+  "dexNum": 627,
+  "forms": [
+    {
+      "name": "Rufflet",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Keen Eye",
+        "Sheer Force",
+        "Hustle"
+      ],
+      "moves": [
+        "Double-Edge",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Slash",
+        "Twister",
+        "Rock Smash",
+        "Aerial Ace",
+        "Bulk Up",
+        "Roost",
+        "Air Slash",
+        "Brave Bird",
+        "Shadow Claw",
+        "Zen Headbutt",
+        "Ominous Wind"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 73,
+      "spriteNormal": "sprites/poke_capture_0627_000_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0627_000_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

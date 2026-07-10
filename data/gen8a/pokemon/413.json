@@ -1,0 +1,106 @@
+{
+  "id": 413,
+  "name": "Wormadam",
+  "dexNum": 413,
+  "forms": [
+    {
+      "name": "Wormadam",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Anticipation",
+        "Overcoat"
+      ],
+      "moves": [
+        "Gust",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Rest",
+        "Shadow Ball",
+        "Silver Wind",
+        "Magical Leaf",
+        "Bug Buzz",
+        "Energy Ball",
+        "Giga Impact",
+        "Struggle Bug"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0413_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0413_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Wormadam",
+      "formName": "Sandy",
+      "formIndex": 1,
+      "abilities": [
+        "Anticipation",
+        "Overcoat"
+      ],
+      "moves": [
+        "Gust",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Rest",
+        "Shadow Ball",
+        "Silver Wind",
+        "Bug Buzz",
+        "Earth Power",
+        "Giga Impact",
+        "Stealth Rock",
+        "Struggle Bug",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 71,
+      "spriteNormal": "sprites/poke_capture_0413_001_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0413_001_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Wormadam",
+      "formName": "Trash",
+      "formIndex": 2,
+      "abilities": [
+        "Anticipation",
+        "Overcoat"
+      ],
+      "moves": [
+        "Gust",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Rest",
+        "Shadow Ball",
+        "Silver Wind",
+        "Bug Buzz",
+        "Giga Impact",
+        "Flash Cannon",
+        "Iron Head",
+        "Stealth Rock",
+        "Struggle Bug",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0413_002_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0413_002_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

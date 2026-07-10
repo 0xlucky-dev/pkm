@@ -1,0 +1,55 @@
+{
+  "id": 713,
+  "name": "Avalugg",
+  "dexNum": 713,
+  "forms": [
+    {
+      "name": "Avalugg",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Strong Jaw",
+        "Ice Body",
+        "Sturdy"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rest",
+        "Rock Slide",
+        "Powder Snow",
+        "Icy Wind",
+        "Crunch",
+        "Rock Smash",
+        "Ice Ball",
+        "Iron Defense",
+        "Water Pulse",
+        "Earth Power",
+        "Giga Impact",
+        "Ice Shard",
+        "Ice Fang",
+        "Flash Cannon",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "High Horsepower",
+        "Power Shift",
+        "Mountain Gale"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0713_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0713_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

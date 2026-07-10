@@ -1,0 +1,46 @@
+{
+  "id": 216,
+  "name": "Teddiursa",
+  "dexNum": 216,
+  "forms": [
+    {
+      "name": "Teddiursa",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Pickup",
+        "Quick Feet",
+        "Honey Gather"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Double-Edge",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Slash",
+        "Rock Smash",
+        "Aerial Ace",
+        "Bulk Up",
+        "Shadow Claw",
+        "Bulldoze",
+        "Play Rough",
+        "Baby-Doll Eyes",
+        "High Horsepower"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0216_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0216_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

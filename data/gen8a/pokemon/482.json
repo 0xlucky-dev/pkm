@@ -1,0 +1,56 @@
+{
+  "id": 482,
+  "name": "Azelf",
+  "dexNum": 482,
+  "forms": [
+    {
+      "name": "Azelf",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Flamethrower",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Confusion",
+        "Psychic",
+        "Self-Destruct",
+        "Swift",
+        "Rest",
+        "Tri Attack",
+        "Iron Tail",
+        "Shadow Ball",
+        "Extrasensory",
+        "Calm Mind",
+        "Water Pulse",
+        "Drain Punch",
+        "Energy Ball",
+        "Giga Impact",
+        "Nasty Plot",
+        "Psycho Cut",
+        "Zen Headbutt",
+        "Stealth Rock",
+        "Charge Beam",
+        "Double Hit",
+        "Play Rough",
+        "Dazzling Gleam",
+        "Power Shift",
+        "Mystical Power"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0482_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0482_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

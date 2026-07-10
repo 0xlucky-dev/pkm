@@ -1,0 +1,50 @@
+{
+  "id": 899,
+  "name": "Wyrdeer",
+  "dexNum": 899,
+  "forms": [
+    {
+      "name": "Wyrdeer",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Intimidate",
+        "Frisk",
+        "Sap Sipper"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Swift",
+        "Rest",
+        "Megahorn",
+        "Iron Tail",
+        "Shadow Ball",
+        "Extrasensory",
+        "Calm Mind",
+        "Energy Ball",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Bulldoze",
+        "Wild Charge",
+        "High Horsepower",
+        "Psyshield Bash"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0899_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0899_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

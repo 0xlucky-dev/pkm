@@ -1,0 +1,44 @@
+{
+  "id": 220,
+  "name": "Swinub",
+  "dexNum": 220,
+  "forms": [
+    {
+      "name": "Swinub",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Oblivious",
+        "Snow Cloak",
+        "Thick Fat"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Ice Beam",
+        "Blizzard",
+        "Rest",
+        "Rock Slide",
+        "Icy Wind",
+        "Ancient Power",
+        "Rock Smash",
+        "Earth Power",
+        "Ice Shard",
+        "Stealth Rock",
+        "Bulldoze",
+        "Icicle Crash",
+        "Baby-Doll Eyes",
+        "High Horsepower"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 62,
+      "spriteNormal": "sprites/poke_capture_0220_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0220_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

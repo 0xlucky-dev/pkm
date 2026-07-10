@@ -1,0 +1,40 @@
+{
+  "id": 388,
+  "name": "Grotle",
+  "dexNum": 388,
+  "forms": [
+    {
+      "name": "Grotle",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Overgrow",
+        "Shell Armor"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Sleep Powder",
+        "Rest",
+        "Iron Tail",
+        "Rock Smash",
+        "Leaf Blade",
+        "Energy Ball",
+        "Earth Power",
+        "Stealth Rock",
+        "Bulldoze",
+        "Leafage"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0388_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0388_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": 200,
+  "name": "Misdreavus",
+  "dexNum": 200,
+  "forms": [
+    {
+      "name": "Misdreavus",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Thunderbolt",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Extrasensory",
+        "Aerial Ace",
+        "Calm Mind",
+        "Dark Pulse",
+        "Power Gem",
+        "Shadow Sneak",
+        "Charge Beam",
+        "Ominous Wind",
+        "Hex",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0200_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0200_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

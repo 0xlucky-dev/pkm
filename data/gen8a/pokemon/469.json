@@ -1,0 +1,45 @@
+{
+  "id": 469,
+  "name": "Yanmega",
+  "dexNum": 469,
+  "forms": [
+    {
+      "name": "Yanmega",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Speed Boost",
+        "Tinted Lens",
+        "Frisk"
+      ],
+      "moves": [
+        "Gust",
+        "Hyper Beam",
+        "Psychic",
+        "Hypnosis",
+        "Quick Attack",
+        "Swift",
+        "Leech Life",
+        "Rest",
+        "Crunch",
+        "Ancient Power",
+        "Shadow Ball",
+        "Silver Wind",
+        "Aerial Ace",
+        "Air Slash",
+        "Bug Buzz",
+        "Giga Impact",
+        "Ominous Wind"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0469_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0469_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

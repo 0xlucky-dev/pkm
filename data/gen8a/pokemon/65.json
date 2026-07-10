@@ -1,0 +1,50 @@
+{
+  "id": 65,
+  "name": "Alakazam",
+  "dexNum": 65,
+  "forms": [
+    {
+      "name": "Alakazam",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Synchronize",
+        "Inner Focus",
+        "Magic Guard"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Teleport",
+        "Recover",
+        "Swift",
+        "Rest",
+        "Tri Attack",
+        "Iron Tail",
+        "Shadow Ball",
+        "Calm Mind",
+        "Drain Punch",
+        "Energy Ball",
+        "Giga Impact",
+        "Psycho Cut",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 84,
+      "spriteNormal": "sprites/poke_capture_0065_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0065_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

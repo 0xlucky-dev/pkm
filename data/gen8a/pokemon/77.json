@@ -1,0 +1,43 @@
+{
+  "id": 77,
+  "name": "Ponyta",
+  "dexNum": 77,
+  "forms": [
+    {
+      "name": "Ponyta",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Run Away",
+        "Flash Fire",
+        "Flame Body"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Ember",
+        "Flamethrower",
+        "Hypnosis",
+        "Fire Blast",
+        "Swift",
+        "Rest",
+        "Flame Wheel",
+        "Iron Tail",
+        "Flare Blitz",
+        "Double Hit",
+        "Wild Charge",
+        "Mystical Fire",
+        "High Horsepower"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 54,
+      "spriteNormal": "sprites/poke_capture_0077_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0077_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

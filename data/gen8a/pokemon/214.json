@@ -1,0 +1,50 @@
+{
+  "id": 214,
+  "name": "Heracross",
+  "dexNum": 214,
+  "forms": [
+    {
+      "name": "Heracross",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swarm",
+        "Guts",
+        "Moxie"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Double-Edge",
+        "Pin Missile",
+        "Hyper Beam",
+        "Rest",
+        "Rock Slide",
+        "Slash",
+        "Spikes",
+        "Outrage",
+        "False Swipe",
+        "Megahorn",
+        "Rock Smash",
+        "Aerial Ace",
+        "Bulk Up",
+        "Calm Mind",
+        "Close Combat",
+        "Giga Impact",
+        "Shadow Claw",
+        "Stone Edge",
+        "Bulldoze",
+        "High Horsepower"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0214_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0214_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

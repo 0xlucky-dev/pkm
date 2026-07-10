@@ -1,0 +1,49 @@
+{
+  "id": 429,
+  "name": "Mismagius",
+  "dexNum": 429,
+  "forms": [
+    {
+      "name": "Mismagius",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hyper Beam",
+        "Thunderbolt",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Extrasensory",
+        "Aerial Ace",
+        "Magical Leaf",
+        "Calm Mind",
+        "Dark Pulse",
+        "Power Gem",
+        "Energy Ball",
+        "Giga Impact",
+        "Shadow Sneak",
+        "Charge Beam",
+        "Ominous Wind",
+        "Hex",
+        "Mystical Fire",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0429_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0429_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

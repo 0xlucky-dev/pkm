@@ -1,0 +1,57 @@
+{
+  "id": 472,
+  "name": "Gliscor",
+  "dexNum": 472,
+  "forms": [
+    {
+      "name": "Gliscor",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Hyper Cutter",
+        "Sand Veil",
+        "Poison Heal"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Poison Sting",
+        "Pin Missile",
+        "Hyper Beam",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Slash",
+        "Sludge Bomb",
+        "Spikes",
+        "False Swipe",
+        "Iron Tail",
+        "Rock Smash",
+        "Aerial Ace",
+        "Poison Jab",
+        "Dark Pulse",
+        "Aqua Tail",
+        "X-Scissor",
+        "Earth Power",
+        "Giga Impact",
+        "Thunder Fang",
+        "Ice Fang",
+        "Fire Fang",
+        "Mud Bomb",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 84,
+      "spriteNormal": "sprites/poke_capture_0472_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0472_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

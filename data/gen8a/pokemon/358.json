@@ -1,0 +1,43 @@
+{
+  "id": 358,
+  "name": "Chimecho",
+  "dexNum": 358,
+  "forms": [
+    {
+      "name": "Chimecho",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Recover",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Extrasensory",
+        "Calm Mind",
+        "Energy Ball",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Ominous Wind",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 84,
+      "spriteNormal": "sprites/poke_capture_0358_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0358_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

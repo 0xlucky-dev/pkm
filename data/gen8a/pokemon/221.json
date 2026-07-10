@@ -1,0 +1,48 @@
+{
+  "id": 221,
+  "name": "Piloswine",
+  "dexNum": 221,
+  "forms": [
+    {
+      "name": "Piloswine",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Oblivious",
+        "Snow Cloak",
+        "Thick Fat"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Rest",
+        "Rock Slide",
+        "Icy Wind",
+        "Ancient Power",
+        "Rock Smash",
+        "Earth Power",
+        "Giga Impact",
+        "Ice Shard",
+        "Ice Fang",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "Icicle Crash",
+        "Baby-Doll Eyes",
+        "High Horsepower"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0221_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0221_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

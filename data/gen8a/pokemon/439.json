@@ -1,0 +1,42 @@
+{
+  "id": 439,
+  "name": "Mime Jr.",
+  "dexNum": 439,
+  "forms": [
+    {
+      "name": "Mime Jr.",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Soundproof",
+        "Filter",
+        "Technician"
+      ],
+      "moves": [
+        "Thunderbolt",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Mimic",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Iron Defense",
+        "Calm Mind",
+        "Drain Punch",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0439_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0439_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

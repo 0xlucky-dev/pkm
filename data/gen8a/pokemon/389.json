@@ -1,0 +1,48 @@
+{
+  "id": 389,
+  "name": "Torterra",
+  "dexNum": 389,
+  "forms": [
+    {
+      "name": "Torterra",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Overgrow",
+        "Shell Armor"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Hyper Beam",
+        "Sleep Powder",
+        "Rest",
+        "Rock Slide",
+        "Outrage",
+        "Iron Tail",
+        "Rock Smash",
+        "Leaf Blade",
+        "Energy Ball",
+        "Earth Power",
+        "Giga Impact",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Wood Hammer",
+        "Bulldoze",
+        "Leafage",
+        "Headlong Rush"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0389_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0389_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

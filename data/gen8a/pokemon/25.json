@@ -1,0 +1,44 @@
+{
+  "id": 25,
+  "name": "Pikachu",
+  "dexNum": 25,
+  "forms": [
+    {
+      "name": "Pikachu",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "moves": [
+        "Thunder Punch",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Spark",
+        "Iron Tail",
+        "Rock Smash",
+        "Volt Tackle",
+        "Calm Mind",
+        "Charge Beam",
+        "Wild Charge",
+        "Play Rough",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0025_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0025_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

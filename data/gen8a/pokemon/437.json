@@ -1,0 +1,48 @@
+{
+  "id": 437,
+  "name": "Bronzong",
+  "dexNum": 437,
+  "forms": [
+    {
+      "name": "Bronzong",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate",
+        "Heatproof",
+        "Heavy Metal"
+      ],
+      "moves": [
+        "Tackle",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Rest",
+        "Rock Slide",
+        "Shadow Ball",
+        "Rock Smash",
+        "Extrasensory",
+        "Iron Defense",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Flash Cannon",
+        "Iron Head",
+        "Stealth Rock",
+        "Charge Beam",
+        "Hex",
+        "Bulldoze",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0437_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0437_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

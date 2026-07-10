@@ -1,0 +1,51 @@
+{
+  "id": 130,
+  "name": "Gyarados",
+  "dexNum": 130,
+  "forms": [
+    {
+      "name": "Gyarados",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Intimidate",
+        "Moxie"
+      ],
+      "moves": [
+        "Bite",
+        "Flamethrower",
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Focus Energy",
+        "Splash",
+        "Rest",
+        "Icy Wind",
+        "Outrage",
+        "Iron Tail",
+        "Twister",
+        "Crunch",
+        "Rock Smash",
+        "Water Pulse",
+        "Dark Pulse",
+        "Aqua Tail",
+        "Giga Impact",
+        "Ice Fang",
+        "Iron Head",
+        "Stone Edge",
+        "Bulldoze",
+        "Hurricane"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0130_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0130_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

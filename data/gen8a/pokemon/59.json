@@ -1,0 +1,53 @@
+{
+  "id": 59,
+  "name": "Arcanine",
+  "dexNum": 59,
+  "forms": [
+    {
+      "name": "Arcanine",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Intimidate",
+        "Flash Fire",
+        "Justified"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Ember",
+        "Flamethrower",
+        "Hyper Beam",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Outrage",
+        "Iron Tail",
+        "Crunch",
+        "Rock Smash",
+        "Aerial Ace",
+        "Flare Blitz",
+        "Giga Impact",
+        "Thunder Fang",
+        "Fire Fang",
+        "Iron Head",
+        "Stone Edge",
+        "Bulldoze",
+        "Wild Charge",
+        "Snarl",
+        "Play Rough",
+        "Raging Fury"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0059_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0059_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

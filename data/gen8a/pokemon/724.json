@@ -1,0 +1,50 @@
+{
+  "id": 724,
+  "name": "Decidueye",
+  "dexNum": 724,
+  "forms": [
+    {
+      "name": "Decidueye",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Overgrow",
+        "Long Reach"
+      ],
+      "moves": [
+        "Gust",
+        "Hyper Beam",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Spikes",
+        "False Swipe",
+        "Rock Smash",
+        "Aerial Ace",
+        "Bulk Up",
+        "Magical Leaf",
+        "Leaf Blade",
+        "Roost",
+        "Aura Sphere",
+        "Air Slash",
+        "Energy Ball",
+        "Brave Bird",
+        "Giga Impact",
+        "Shadow Claw",
+        "Psycho Cut",
+        "Leaf Storm",
+        "Leafage",
+        "Triple Arrows"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 84,
+      "spriteNormal": "sprites/poke_capture_0724_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0724_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

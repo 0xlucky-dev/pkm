@@ -1,0 +1,41 @@
+{
+  "id": 193,
+  "name": "Yanma",
+  "dexNum": 193,
+  "forms": [
+    {
+      "name": "Yanma",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Speed Boost",
+        "Compound Eyes",
+        "Frisk"
+      ],
+      "moves": [
+        "Gust",
+        "Psychic",
+        "Hypnosis",
+        "Quick Attack",
+        "Swift",
+        "Leech Life",
+        "Rest",
+        "Ancient Power",
+        "Shadow Ball",
+        "Silver Wind",
+        "Air Slash",
+        "Bug Buzz",
+        "Ominous Wind"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0193_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0193_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

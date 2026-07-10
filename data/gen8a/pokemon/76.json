@@ -1,0 +1,47 @@
+{
+  "id": 76,
+  "name": "Golem",
+  "dexNum": 76,
+  "forms": [
+    {
+      "name": "Golem",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Rock Head",
+        "Sturdy",
+        "Sand Veil"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Double-Edge",
+        "Flamethrower",
+        "Hyper Beam",
+        "Self-Destruct",
+        "Rest",
+        "Rock Slide",
+        "Mud-Slap",
+        "Rollout",
+        "Rock Smash",
+        "Iron Defense",
+        "Earth Power",
+        "Giga Impact",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0076_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0076_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 705,
+  "name": "Sliggoo",
+  "dexNum": 705,
+  "forms": [
+    {
+      "name": "Sliggoo",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Sap Sipper",
+        "Overcoat",
+        "Gooey"
+      ],
+      "moves": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Thunderbolt",
+        "Bubble",
+        "Acid Armor",
+        "Rest",
+        "Rock Slide",
+        "Sludge Bomb",
+        "Outrage",
+        "Iron Tail",
+        "Water Pulse",
+        "Dragon Pulse",
+        "Draco Meteor",
+        "Iron Head",
+        "Acid Spray",
+        "Steel Beam",
+        "Shelter"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0705_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0705_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

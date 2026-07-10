@@ -1,0 +1,40 @@
+{
+  "id": 81,
+  "name": "Magnemite",
+  "dexNum": 81,
+  "forms": [
+    {
+      "name": "Magnemite",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Magnet Pull",
+        "Sturdy",
+        "Analytic"
+      ],
+      "moves": [
+        "Tackle",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Swift",
+        "Rest",
+        "Spark",
+        "Flash Cannon",
+        "Charge Beam",
+        "Wild Charge",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 73,
+      "spriteNormal": "sprites/poke_capture_0081_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0081_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

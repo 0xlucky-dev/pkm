@@ -1,0 +1,46 @@
+{
+  "id": 430,
+  "name": "Honchkrow",
+  "dexNum": 430,
+  "forms": [
+    {
+      "name": "Honchkrow",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Insomnia",
+        "Super Luck",
+        "Moxie"
+      ],
+      "moves": [
+        "Gust",
+        "Hyper Beam",
+        "Psychic",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Aerial Ace",
+        "Calm Mind",
+        "Roost",
+        "Dark Pulse",
+        "Night Slash",
+        "Air Slash",
+        "Brave Bird",
+        "Giga Impact",
+        "Nasty Plot",
+        "Ominous Wind",
+        "Snarl"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0430_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0430_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

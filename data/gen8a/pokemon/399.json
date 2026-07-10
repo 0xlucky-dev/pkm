@@ -1,0 +1,45 @@
+{
+  "id": 399,
+  "name": "Bidoof",
+  "dexNum": 399,
+  "forms": [
+    {
+      "name": "Bidoof",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Simple",
+        "Unaware",
+        "Moody"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Ice Beam",
+        "Thunderbolt",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Rollout",
+        "Iron Tail",
+        "Crunch",
+        "Shadow Ball",
+        "Rock Smash",
+        "Aqua Tail",
+        "Stealth Rock",
+        "Charge Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0399_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0399_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

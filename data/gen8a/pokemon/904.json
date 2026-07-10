@@ -1,0 +1,47 @@
+{
+  "id": 904,
+  "name": "Overqwil",
+  "dexNum": 904,
+  "forms": [
+    {
+      "name": "Overqwil",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Poison Point",
+        "Swift Swim",
+        "Intimidate"
+      ],
+      "moves": [
+        "Double-Edge",
+        "Poison Sting",
+        "Pin Missile",
+        "Ice Beam",
+        "Hyper Beam",
+        "Self-Destruct",
+        "Swift",
+        "Rest",
+        "Sludge Bomb",
+        "Spikes",
+        "Icy Wind",
+        "Shadow Ball",
+        "Ice Ball",
+        "Water Pulse",
+        "Poison Jab",
+        "Dark Pulse",
+        "Aqua Tail",
+        "Giga Impact",
+        "Barb Barrage"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0904_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0904_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 451,
+  "name": "Skorupi",
+  "dexNum": 451,
+  "forms": [
+    {
+      "name": "Skorupi",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Battle Armor",
+        "Sniper",
+        "Keen Eye"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Poison Sting",
+        "Bite",
+        "Rest",
+        "Sludge Bomb",
+        "False Swipe",
+        "Iron Tail",
+        "Crunch",
+        "Shadow Ball",
+        "Rock Smash",
+        "Aerial Ace",
+        "Poison Jab",
+        "Dark Pulse",
+        "Aqua Tail",
+        "X-Scissor",
+        "Cross Poison",
+        "Venoshock"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 54,
+      "spriteNormal": "sprites/poke_capture_0451_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0451_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

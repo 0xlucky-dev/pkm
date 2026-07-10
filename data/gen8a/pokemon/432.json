@@ -1,0 +1,46 @@
+{
+  "id": 432,
+  "name": "Purugly",
+  "dexNum": 432,
+  "forms": [
+    {
+      "name": "Purugly",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Thick Fat",
+        "Own Tempo",
+        "Defiant"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Hypnosis",
+        "Swift",
+        "Rest",
+        "Slash",
+        "Iron Tail",
+        "Shadow Ball",
+        "Aerial Ace",
+        "Water Pulse",
+        "Night Slash",
+        "Giga Impact",
+        "Nasty Plot",
+        "Shadow Claw",
+        "Bulldoze",
+        "Play Rough"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0432_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0432_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

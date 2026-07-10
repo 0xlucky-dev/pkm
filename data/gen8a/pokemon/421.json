@@ -1,0 +1,40 @@
+{
+  "id": 421,
+  "name": "Cherrim",
+  "dexNum": 421,
+  "forms": [
+    {
+      "name": "Cherrim",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Flower Gift"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Hyper Beam",
+        "Absorb",
+        "Stun Spore",
+        "Sleep Powder",
+        "Petal Dance",
+        "Rest",
+        "Magical Leaf",
+        "Energy Ball",
+        "Giga Impact",
+        "Draining Kiss",
+        "Play Rough",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 71,
+      "spriteNormal": "sprites/poke_capture_0421_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0421_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

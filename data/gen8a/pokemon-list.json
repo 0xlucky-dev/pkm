@@ -1,0 +1,1212 @@
+[
+  {
+    "sp_number": 25,
+    "dex": 25,
+    "name": "Pikachu"
+  },
+  {
+    "sp_number": 26,
+    "dex": 26,
+    "name": "Raichu"
+  },
+  {
+    "sp_number": 35,
+    "dex": 35,
+    "name": "Clefairy"
+  },
+  {
+    "sp_number": 36,
+    "dex": 36,
+    "name": "Clefable"
+  },
+  {
+    "sp_number": 37,
+    "dex": 37,
+    "name": "Vulpix"
+  },
+  {
+    "sp_number": 38,
+    "dex": 38,
+    "name": "Ninetales"
+  },
+  {
+    "sp_number": 41,
+    "dex": 41,
+    "name": "Zubat"
+  },
+  {
+    "sp_number": 42,
+    "dex": 42,
+    "name": "Golbat"
+  },
+  {
+    "sp_number": 46,
+    "dex": 46,
+    "name": "Paras"
+  },
+  {
+    "sp_number": 47,
+    "dex": 47,
+    "name": "Parasect"
+  },
+  {
+    "sp_number": 54,
+    "dex": 54,
+    "name": "Psyduck"
+  },
+  {
+    "sp_number": 55,
+    "dex": 55,
+    "name": "Golduck"
+  },
+  {
+    "sp_number": 58,
+    "dex": 58,
+    "name": "Growlithe"
+  },
+  {
+    "sp_number": 59,
+    "dex": 59,
+    "name": "Arcanine"
+  },
+  {
+    "sp_number": 63,
+    "dex": 63,
+    "name": "Abra"
+  },
+  {
+    "sp_number": 64,
+    "dex": 64,
+    "name": "Kadabra"
+  },
+  {
+    "sp_number": 65,
+    "dex": 65,
+    "name": "Alakazam"
+  },
+  {
+    "sp_number": 66,
+    "dex": 66,
+    "name": "Machop"
+  },
+  {
+    "sp_number": 67,
+    "dex": 67,
+    "name": "Machoke"
+  },
+  {
+    "sp_number": 68,
+    "dex": 68,
+    "name": "Machamp"
+  },
+  {
+    "sp_number": 72,
+    "dex": 72,
+    "name": "Tentacool"
+  },
+  {
+    "sp_number": 73,
+    "dex": 73,
+    "name": "Tentacruel"
+  },
+  {
+    "sp_number": 74,
+    "dex": 74,
+    "name": "Geodude"
+  },
+  {
+    "sp_number": 75,
+    "dex": 75,
+    "name": "Graveler"
+  },
+  {
+    "sp_number": 76,
+    "dex": 76,
+    "name": "Golem"
+  },
+  {
+    "sp_number": 77,
+    "dex": 77,
+    "name": "Ponyta"
+  },
+  {
+    "sp_number": 78,
+    "dex": 78,
+    "name": "Rapidash"
+  },
+  {
+    "sp_number": 81,
+    "dex": 81,
+    "name": "Magnemite"
+  },
+  {
+    "sp_number": 82,
+    "dex": 82,
+    "name": "Magneton"
+  },
+  {
+    "sp_number": 92,
+    "dex": 92,
+    "name": "Gastly"
+  },
+  {
+    "sp_number": 93,
+    "dex": 93,
+    "name": "Haunter"
+  },
+  {
+    "sp_number": 94,
+    "dex": 94,
+    "name": "Gengar"
+  },
+  {
+    "sp_number": 95,
+    "dex": 95,
+    "name": "Onix"
+  },
+  {
+    "sp_number": 100,
+    "dex": 100,
+    "name": "Voltorb"
+  },
+  {
+    "sp_number": 101,
+    "dex": 101,
+    "name": "Electrode"
+  },
+  {
+    "sp_number": 108,
+    "dex": 108,
+    "name": "Lickitung"
+  },
+  {
+    "sp_number": 111,
+    "dex": 111,
+    "name": "Rhyhorn"
+  },
+  {
+    "sp_number": 112,
+    "dex": 112,
+    "name": "Rhydon"
+  },
+  {
+    "sp_number": 113,
+    "dex": 113,
+    "name": "Chansey"
+  },
+  {
+    "sp_number": 114,
+    "dex": 114,
+    "name": "Tangela"
+  },
+  {
+    "sp_number": 122,
+    "dex": 122,
+    "name": "Mr. Mime"
+  },
+  {
+    "sp_number": 123,
+    "dex": 123,
+    "name": "Scyther"
+  },
+  {
+    "sp_number": 125,
+    "dex": 125,
+    "name": "Electabuzz"
+  },
+  {
+    "sp_number": 126,
+    "dex": 126,
+    "name": "Magmar"
+  },
+  {
+    "sp_number": 129,
+    "dex": 129,
+    "name": "Magikarp"
+  },
+  {
+    "sp_number": 130,
+    "dex": 130,
+    "name": "Gyarados"
+  },
+  {
+    "sp_number": 133,
+    "dex": 133,
+    "name": "Eevee"
+  },
+  {
+    "sp_number": 134,
+    "dex": 134,
+    "name": "Vaporeon"
+  },
+  {
+    "sp_number": 135,
+    "dex": 135,
+    "name": "Jolteon"
+  },
+  {
+    "sp_number": 136,
+    "dex": 136,
+    "name": "Flareon"
+  },
+  {
+    "sp_number": 137,
+    "dex": 137,
+    "name": "Porygon"
+  },
+  {
+    "sp_number": 143,
+    "dex": 143,
+    "name": "Snorlax"
+  },
+  {
+    "sp_number": 155,
+    "dex": 155,
+    "name": "Cyndaquil"
+  },
+  {
+    "sp_number": 156,
+    "dex": 156,
+    "name": "Quilava"
+  },
+  {
+    "sp_number": 157,
+    "dex": 157,
+    "name": "Typhlosion"
+  },
+  {
+    "sp_number": 169,
+    "dex": 169,
+    "name": "Crobat"
+  },
+  {
+    "sp_number": 172,
+    "dex": 172,
+    "name": "Pichu"
+  },
+  {
+    "sp_number": 173,
+    "dex": 173,
+    "name": "Cleffa"
+  },
+  {
+    "sp_number": 175,
+    "dex": 175,
+    "name": "Togepi"
+  },
+  {
+    "sp_number": 176,
+    "dex": 176,
+    "name": "Togetic"
+  },
+  {
+    "sp_number": 185,
+    "dex": 185,
+    "name": "Sudowoodo"
+  },
+  {
+    "sp_number": 190,
+    "dex": 190,
+    "name": "Aipom"
+  },
+  {
+    "sp_number": 193,
+    "dex": 193,
+    "name": "Yanma"
+  },
+  {
+    "sp_number": 196,
+    "dex": 196,
+    "name": "Espeon"
+  },
+  {
+    "sp_number": 197,
+    "dex": 197,
+    "name": "Umbreon"
+  },
+  {
+    "sp_number": 198,
+    "dex": 198,
+    "name": "Murkrow"
+  },
+  {
+    "sp_number": 200,
+    "dex": 200,
+    "name": "Misdreavus"
+  },
+  {
+    "sp_number": 201,
+    "dex": 201,
+    "name": "Unown"
+  },
+  {
+    "sp_number": 207,
+    "dex": 207,
+    "name": "Gligar"
+  },
+  {
+    "sp_number": 208,
+    "dex": 208,
+    "name": "Steelix"
+  },
+  {
+    "sp_number": 211,
+    "dex": 211,
+    "name": "Qwilfish"
+  },
+  {
+    "sp_number": 212,
+    "dex": 212,
+    "name": "Scizor"
+  },
+  {
+    "sp_number": 214,
+    "dex": 214,
+    "name": "Heracross"
+  },
+  {
+    "sp_number": 215,
+    "dex": 215,
+    "name": "Sneasel"
+  },
+  {
+    "sp_number": 216,
+    "dex": 216,
+    "name": "Teddiursa"
+  },
+  {
+    "sp_number": 217,
+    "dex": 217,
+    "name": "Ursaring"
+  },
+  {
+    "sp_number": 220,
+    "dex": 220,
+    "name": "Swinub"
+  },
+  {
+    "sp_number": 221,
+    "dex": 221,
+    "name": "Piloswine"
+  },
+  {
+    "sp_number": 223,
+    "dex": 223,
+    "name": "Remoraid"
+  },
+  {
+    "sp_number": 224,
+    "dex": 224,
+    "name": "Octillery"
+  },
+  {
+    "sp_number": 226,
+    "dex": 226,
+    "name": "Mantine"
+  },
+  {
+    "sp_number": 233,
+    "dex": 233,
+    "name": "Porygon2"
+  },
+  {
+    "sp_number": 234,
+    "dex": 234,
+    "name": "Stantler"
+  },
+  {
+    "sp_number": 239,
+    "dex": 239,
+    "name": "Elekid"
+  },
+  {
+    "sp_number": 240,
+    "dex": 240,
+    "name": "Magby"
+  },
+  {
+    "sp_number": 242,
+    "dex": 242,
+    "name": "Blissey"
+  },
+  {
+    "sp_number": 265,
+    "dex": 265,
+    "name": "Wurmple"
+  },
+  {
+    "sp_number": 266,
+    "dex": 266,
+    "name": "Silcoon"
+  },
+  {
+    "sp_number": 267,
+    "dex": 267,
+    "name": "Beautifly"
+  },
+  {
+    "sp_number": 268,
+    "dex": 268,
+    "name": "Cascoon"
+  },
+  {
+    "sp_number": 269,
+    "dex": 269,
+    "name": "Dustox"
+  },
+  {
+    "sp_number": 280,
+    "dex": 280,
+    "name": "Ralts"
+  },
+  {
+    "sp_number": 281,
+    "dex": 281,
+    "name": "Kirlia"
+  },
+  {
+    "sp_number": 282,
+    "dex": 282,
+    "name": "Gardevoir"
+  },
+  {
+    "sp_number": 299,
+    "dex": 299,
+    "name": "Nosepass"
+  },
+  {
+    "sp_number": 315,
+    "dex": 315,
+    "name": "Roselia"
+  },
+  {
+    "sp_number": 339,
+    "dex": 339,
+    "name": "Barboach"
+  },
+  {
+    "sp_number": 340,
+    "dex": 340,
+    "name": "Whiscash"
+  },
+  {
+    "sp_number": 355,
+    "dex": 355,
+    "name": "Duskull"
+  },
+  {
+    "sp_number": 356,
+    "dex": 356,
+    "name": "Dusclops"
+  },
+  {
+    "sp_number": 358,
+    "dex": 358,
+    "name": "Chimecho"
+  },
+  {
+    "sp_number": 361,
+    "dex": 361,
+    "name": "Snorunt"
+  },
+  {
+    "sp_number": 362,
+    "dex": 362,
+    "name": "Glalie"
+  },
+  {
+    "sp_number": 363,
+    "dex": 363,
+    "name": "Spheal"
+  },
+  {
+    "sp_number": 364,
+    "dex": 364,
+    "name": "Sealeo"
+  },
+  {
+    "sp_number": 365,
+    "dex": 365,
+    "name": "Walrein"
+  },
+  {
+    "sp_number": 387,
+    "dex": 387,
+    "name": "Turtwig"
+  },
+  {
+    "sp_number": 388,
+    "dex": 388,
+    "name": "Grotle"
+  },
+  {
+    "sp_number": 389,
+    "dex": 389,
+    "name": "Torterra"
+  },
+  {
+    "sp_number": 390,
+    "dex": 390,
+    "name": "Chimchar"
+  },
+  {
+    "sp_number": 391,
+    "dex": 391,
+    "name": "Monferno"
+  },
+  {
+    "sp_number": 392,
+    "dex": 392,
+    "name": "Infernape"
+  },
+  {
+    "sp_number": 393,
+    "dex": 393,
+    "name": "Piplup"
+  },
+  {
+    "sp_number": 394,
+    "dex": 394,
+    "name": "Prinplup"
+  },
+  {
+    "sp_number": 395,
+    "dex": 395,
+    "name": "Empoleon"
+  },
+  {
+    "sp_number": 396,
+    "dex": 396,
+    "name": "Starly"
+  },
+  {
+    "sp_number": 397,
+    "dex": 397,
+    "name": "Staravia"
+  },
+  {
+    "sp_number": 398,
+    "dex": 398,
+    "name": "Staraptor"
+  },
+  {
+    "sp_number": 399,
+    "dex": 399,
+    "name": "Bidoof"
+  },
+  {
+    "sp_number": 400,
+    "dex": 400,
+    "name": "Bibarel"
+  },
+  {
+    "sp_number": 401,
+    "dex": 401,
+    "name": "Kricketot"
+  },
+  {
+    "sp_number": 402,
+    "dex": 402,
+    "name": "Kricketune"
+  },
+  {
+    "sp_number": 403,
+    "dex": 403,
+    "name": "Shinx"
+  },
+  {
+    "sp_number": 404,
+    "dex": 404,
+    "name": "Luxio"
+  },
+  {
+    "sp_number": 405,
+    "dex": 405,
+    "name": "Luxray"
+  },
+  {
+    "sp_number": 406,
+    "dex": 406,
+    "name": "Budew"
+  },
+  {
+    "sp_number": 407,
+    "dex": 407,
+    "name": "Roserade"
+  },
+  {
+    "sp_number": 408,
+    "dex": 408,
+    "name": "Cranidos"
+  },
+  {
+    "sp_number": 409,
+    "dex": 409,
+    "name": "Rampardos"
+  },
+  {
+    "sp_number": 410,
+    "dex": 410,
+    "name": "Shieldon"
+  },
+  {
+    "sp_number": 411,
+    "dex": 411,
+    "name": "Bastiodon"
+  },
+  {
+    "sp_number": 412,
+    "dex": 412,
+    "name": "Burmy"
+  },
+  {
+    "sp_number": 413,
+    "dex": 413,
+    "name": "Wormadam"
+  },
+  {
+    "sp_number": 414,
+    "dex": 414,
+    "name": "Mothim"
+  },
+  {
+    "sp_number": 415,
+    "dex": 415,
+    "name": "Combee"
+  },
+  {
+    "sp_number": 416,
+    "dex": 416,
+    "name": "Vespiquen"
+  },
+  {
+    "sp_number": 417,
+    "dex": 417,
+    "name": "Pachirisu"
+  },
+  {
+    "sp_number": 418,
+    "dex": 418,
+    "name": "Buizel"
+  },
+  {
+    "sp_number": 419,
+    "dex": 419,
+    "name": "Floatzel"
+  },
+  {
+    "sp_number": 420,
+    "dex": 420,
+    "name": "Cherubi"
+  },
+  {
+    "sp_number": 421,
+    "dex": 421,
+    "name": "Cherrim"
+  },
+  {
+    "sp_number": 422,
+    "dex": 422,
+    "name": "Shellos"
+  },
+  {
+    "sp_number": 423,
+    "dex": 423,
+    "name": "Gastrodon"
+  },
+  {
+    "sp_number": 424,
+    "dex": 424,
+    "name": "Ambipom"
+  },
+  {
+    "sp_number": 425,
+    "dex": 425,
+    "name": "Drifloon"
+  },
+  {
+    "sp_number": 426,
+    "dex": 426,
+    "name": "Drifblim"
+  },
+  {
+    "sp_number": 427,
+    "dex": 427,
+    "name": "Buneary"
+  },
+  {
+    "sp_number": 428,
+    "dex": 428,
+    "name": "Lopunny"
+  },
+  {
+    "sp_number": 429,
+    "dex": 429,
+    "name": "Mismagius"
+  },
+  {
+    "sp_number": 430,
+    "dex": 430,
+    "name": "Honchkrow"
+  },
+  {
+    "sp_number": 431,
+    "dex": 431,
+    "name": "Glameow"
+  },
+  {
+    "sp_number": 432,
+    "dex": 432,
+    "name": "Purugly"
+  },
+  {
+    "sp_number": 433,
+    "dex": 433,
+    "name": "Chingling"
+  },
+  {
+    "sp_number": 434,
+    "dex": 434,
+    "name": "Stunky"
+  },
+  {
+    "sp_number": 435,
+    "dex": 435,
+    "name": "Skuntank"
+  },
+  {
+    "sp_number": 436,
+    "dex": 436,
+    "name": "Bronzor"
+  },
+  {
+    "sp_number": 437,
+    "dex": 437,
+    "name": "Bronzong"
+  },
+  {
+    "sp_number": 438,
+    "dex": 438,
+    "name": "Bonsly"
+  },
+  {
+    "sp_number": 439,
+    "dex": 439,
+    "name": "Mime Jr."
+  },
+  {
+    "sp_number": 440,
+    "dex": 440,
+    "name": "Happiny"
+  },
+  {
+    "sp_number": 441,
+    "dex": 441,
+    "name": "Chatot"
+  },
+  {
+    "sp_number": 442,
+    "dex": 442,
+    "name": "Spiritomb"
+  },
+  {
+    "sp_number": 443,
+    "dex": 443,
+    "name": "Gible"
+  },
+  {
+    "sp_number": 444,
+    "dex": 444,
+    "name": "Gabite"
+  },
+  {
+    "sp_number": 445,
+    "dex": 445,
+    "name": "Garchomp"
+  },
+  {
+    "sp_number": 446,
+    "dex": 446,
+    "name": "Munchlax"
+  },
+  {
+    "sp_number": 447,
+    "dex": 447,
+    "name": "Riolu"
+  },
+  {
+    "sp_number": 448,
+    "dex": 448,
+    "name": "Lucario"
+  },
+  {
+    "sp_number": 449,
+    "dex": 449,
+    "name": "Hippopotas"
+  },
+  {
+    "sp_number": 450,
+    "dex": 450,
+    "name": "Hippowdon"
+  },
+  {
+    "sp_number": 451,
+    "dex": 451,
+    "name": "Skorupi"
+  },
+  {
+    "sp_number": 452,
+    "dex": 452,
+    "name": "Drapion"
+  },
+  {
+    "sp_number": 453,
+    "dex": 453,
+    "name": "Croagunk"
+  },
+  {
+    "sp_number": 454,
+    "dex": 454,
+    "name": "Toxicroak"
+  },
+  {
+    "sp_number": 455,
+    "dex": 455,
+    "name": "Carnivine"
+  },
+  {
+    "sp_number": 456,
+    "dex": 456,
+    "name": "Finneon"
+  },
+  {
+    "sp_number": 457,
+    "dex": 457,
+    "name": "Lumineon"
+  },
+  {
+    "sp_number": 458,
+    "dex": 458,
+    "name": "Mantyke"
+  },
+  {
+    "sp_number": 459,
+    "dex": 459,
+    "name": "Snover"
+  },
+  {
+    "sp_number": 460,
+    "dex": 460,
+    "name": "Abomasnow"
+  },
+  {
+    "sp_number": 461,
+    "dex": 461,
+    "name": "Weavile"
+  },
+  {
+    "sp_number": 462,
+    "dex": 462,
+    "name": "Magnezone"
+  },
+  {
+    "sp_number": 463,
+    "dex": 463,
+    "name": "Lickilicky"
+  },
+  {
+    "sp_number": 464,
+    "dex": 464,
+    "name": "Rhyperior"
+  },
+  {
+    "sp_number": 465,
+    "dex": 465,
+    "name": "Tangrowth"
+  },
+  {
+    "sp_number": 466,
+    "dex": 466,
+    "name": "Electivire"
+  },
+  {
+    "sp_number": 467,
+    "dex": 467,
+    "name": "Magmortar"
+  },
+  {
+    "sp_number": 468,
+    "dex": 468,
+    "name": "Togekiss"
+  },
+  {
+    "sp_number": 469,
+    "dex": 469,
+    "name": "Yanmega"
+  },
+  {
+    "sp_number": 470,
+    "dex": 470,
+    "name": "Leafeon"
+  },
+  {
+    "sp_number": 471,
+    "dex": 471,
+    "name": "Glaceon"
+  },
+  {
+    "sp_number": 472,
+    "dex": 472,
+    "name": "Gliscor"
+  },
+  {
+    "sp_number": 473,
+    "dex": 473,
+    "name": "Mamoswine"
+  },
+  {
+    "sp_number": 474,
+    "dex": 474,
+    "name": "Porygon-Z"
+  },
+  {
+    "sp_number": 475,
+    "dex": 475,
+    "name": "Gallade"
+  },
+  {
+    "sp_number": 476,
+    "dex": 476,
+    "name": "Probopass"
+  },
+  {
+    "sp_number": 477,
+    "dex": 477,
+    "name": "Dusknoir"
+  },
+  {
+    "sp_number": 478,
+    "dex": 478,
+    "name": "Froslass"
+  },
+  {
+    "sp_number": 479,
+    "dex": 479,
+    "name": "Rotom"
+  },
+  {
+    "sp_number": 480,
+    "dex": 480,
+    "name": "Uxie"
+  },
+  {
+    "sp_number": 481,
+    "dex": 481,
+    "name": "Mesprit"
+  },
+  {
+    "sp_number": 482,
+    "dex": 482,
+    "name": "Azelf"
+  },
+  {
+    "sp_number": 483,
+    "dex": 483,
+    "name": "Dialga"
+  },
+  {
+    "sp_number": 484,
+    "dex": 484,
+    "name": "Palkia"
+  },
+  {
+    "sp_number": 485,
+    "dex": 485,
+    "name": "Heatran"
+  },
+  {
+    "sp_number": 486,
+    "dex": 486,
+    "name": "Regigigas"
+  },
+  {
+    "sp_number": 487,
+    "dex": 487,
+    "name": "Giratina"
+  },
+  {
+    "sp_number": 488,
+    "dex": 488,
+    "name": "Cresselia"
+  },
+  {
+    "sp_number": 489,
+    "dex": 489,
+    "name": "Phione"
+  },
+  {
+    "sp_number": 490,
+    "dex": 490,
+    "name": "Manaphy"
+  },
+  {
+    "sp_number": 491,
+    "dex": 491,
+    "name": "Darkrai"
+  },
+  {
+    "sp_number": 492,
+    "dex": 492,
+    "name": "Shaymin"
+  },
+  {
+    "sp_number": 493,
+    "dex": 493,
+    "name": "Arceus"
+  },
+  {
+    "sp_number": 501,
+    "dex": 501,
+    "name": "Oshawott"
+  },
+  {
+    "sp_number": 502,
+    "dex": 502,
+    "name": "Dewott"
+  },
+  {
+    "sp_number": 503,
+    "dex": 503,
+    "name": "Samurott"
+  },
+  {
+    "sp_number": 548,
+    "dex": 548,
+    "name": "Petilil"
+  },
+  {
+    "sp_number": 549,
+    "dex": 549,
+    "name": "Lilligant"
+  },
+  {
+    "sp_number": 550,
+    "dex": 550,
+    "name": "Basculin"
+  },
+  {
+    "sp_number": 570,
+    "dex": 570,
+    "name": "Zorua"
+  },
+  {
+    "sp_number": 571,
+    "dex": 571,
+    "name": "Zoroark"
+  },
+  {
+    "sp_number": 627,
+    "dex": 627,
+    "name": "Rufflet"
+  },
+  {
+    "sp_number": 628,
+    "dex": 628,
+    "name": "Braviary"
+  },
+  {
+    "sp_number": 641,
+    "dex": 641,
+    "name": "Tornadus"
+  },
+  {
+    "sp_number": 642,
+    "dex": 642,
+    "name": "Thundurus"
+  },
+  {
+    "sp_number": 645,
+    "dex": 645,
+    "name": "Landorus"
+  },
+  {
+    "sp_number": 700,
+    "dex": 700,
+    "name": "Sylveon"
+  },
+  {
+    "sp_number": 704,
+    "dex": 704,
+    "name": "Goomy"
+  },
+  {
+    "sp_number": 705,
+    "dex": 705,
+    "name": "Sliggoo"
+  },
+  {
+    "sp_number": 706,
+    "dex": 706,
+    "name": "Goodra"
+  },
+  {
+    "sp_number": 712,
+    "dex": 712,
+    "name": "Bergmite"
+  },
+  {
+    "sp_number": 713,
+    "dex": 713,
+    "name": "Avalugg"
+  },
+  {
+    "sp_number": 722,
+    "dex": 722,
+    "name": "Rowlet"
+  },
+  {
+    "sp_number": 723,
+    "dex": 723,
+    "name": "Dartrix"
+  },
+  {
+    "sp_number": 724,
+    "dex": 724,
+    "name": "Decidueye"
+  },
+  {
+    "sp_number": 899,
+    "dex": 899,
+    "name": "Wyrdeer"
+  },
+  {
+    "sp_number": 900,
+    "dex": 900,
+    "name": "Kleavor"
+  },
+  {
+    "sp_number": 901,
+    "dex": 901,
+    "name": "Ursaluna"
+  },
+  {
+    "sp_number": 902,
+    "dex": 902,
+    "name": "Basculegion"
+  },
+  {
+    "sp_number": 903,
+    "dex": 903,
+    "name": "Sneasler"
+  },
+  {
+    "sp_number": 904,
+    "dex": 904,
+    "name": "Overqwil"
+  },
+  {
+    "sp_number": 905,
+    "dex": 905,
+    "name": "Enamorus"
+  }
+]

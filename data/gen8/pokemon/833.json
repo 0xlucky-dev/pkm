@@ -1,0 +1,60 @@
+{
+  "id": 833,
+  "name": "Chewtle",
+  "dexNum": 833,
+  "forms": [
+    {
+      "name": "Chewtle",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Strong Jaw",
+        "Shell Armor",
+        "Swift Swim"
+      ],
+      "moves": [
+        "Headbutt",
+        "Tackle",
+        "Body Slam",
+        "Bite",
+        "Water Gun",
+        "Hydro Pump",
+        "Surf",
+        "Counter",
+        "Skull Bash",
+        "Rest",
+        "Substitute",
+        "Snore",
+        "Protect",
+        "Endure",
+        "Attract",
+        "Sleep Talk",
+        "Rain Dance",
+        "Whirlpool",
+        "Facade",
+        "Revenge",
+        "Dive",
+        "Mud Shot",
+        "Payback",
+        "Assurance",
+        "Gastro Acid",
+        "Ice Fang",
+        "Round",
+        "Dragon Tail",
+        "Liquidation",
+        "Jaw Lock",
+        "Scale Shot",
+        "Skitter Smack"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 40,
+      "spriteNormal": "sprites/poke_capture_0833_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0833_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

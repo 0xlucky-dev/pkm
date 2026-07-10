@@ -1,0 +1,62 @@
+{
+  "id": 843,
+  "name": "Silicobra",
+  "dexNum": 843,
+  "forms": [
+    {
+      "name": "Silicobra",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sand Spit",
+        "Shed Skin",
+        "Sand Veil"
+      ],
+      "moves": [
+        "Slam",
+        "Sand Attack",
+        "Headbutt",
+        "Wrap",
+        "Earthquake",
+        "Dig",
+        "Screech",
+        "Minimize",
+        "Glare",
+        "Rest",
+        "Substitute",
+        "Snore",
+        "Protect",
+        "Mud-Slap",
+        "Sandstorm",
+        "Endure",
+        "Attract",
+        "Sleep Talk",
+        "Facade",
+        "Sand Tomb",
+        "Mud Shot",
+        "Poison Tail",
+        "Last Resort",
+        "Dragon Rush",
+        "Earth Power",
+        "Coil",
+        "Round",
+        "Bulldoze",
+        "Drill Run",
+        "Belch",
+        "Brutal Swing",
+        "Scale Shot",
+        "Skitter Smack",
+        "Scorching Sands"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0843_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0843_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

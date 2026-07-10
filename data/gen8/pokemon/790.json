@@ -1,0 +1,29 @@
+{
+  "id": 790,
+  "name": "Cosmoem",
+  "dexNum": 790,
+  "forms": [
+    {
+      "name": "Cosmoem",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sturdy"
+      ],
+      "moves": [
+        "Teleport",
+        "Splash",
+        "Cosmic Power"
+      ],
+      "canShiny": false,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0790_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

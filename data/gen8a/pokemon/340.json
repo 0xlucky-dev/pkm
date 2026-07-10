@@ -1,0 +1,44 @@
+{
+  "id": 340,
+  "name": "Whiscash",
+  "dexNum": 340,
+  "forms": [
+    {
+      "name": "Whiscash",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Oblivious",
+        "Anticipation",
+        "Hydration"
+      ],
+      "moves": [
+        "Ice Beam",
+        "Hyper Beam",
+        "Rest",
+        "Rock Slide",
+        "Mud-Slap",
+        "Icy Wind",
+        "Rock Smash",
+        "Aerial Ace",
+        "Water Pulse",
+        "Aqua Tail",
+        "Earth Power",
+        "Giga Impact",
+        "Mud Bomb",
+        "Zen Headbutt",
+        "Stone Edge",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 71,
+      "spriteNormal": "sprites/poke_capture_0340_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0340_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

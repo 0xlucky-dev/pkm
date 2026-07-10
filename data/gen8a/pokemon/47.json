@@ -1,0 +1,44 @@
+{
+  "id": 47,
+  "name": "Parasect",
+  "dexNum": 47,
+  "forms": [
+    {
+      "name": "Parasect",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Effect Spore",
+        "Dry Skin",
+        "Damp"
+      ],
+      "moves": [
+        "Hyper Beam",
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Leech Life",
+        "Spore",
+        "Rest",
+        "Slash",
+        "Sludge Bomb",
+        "False Swipe",
+        "Rock Smash",
+        "Aerial Ace",
+        "X-Scissor",
+        "Energy Ball",
+        "Giga Impact",
+        "Venoshock"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0047_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0047_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

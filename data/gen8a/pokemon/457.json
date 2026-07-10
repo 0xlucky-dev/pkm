@@ -1,0 +1,45 @@
+{
+  "id": 457,
+  "name": "Lumineon",
+  "dexNum": 457,
+  "forms": [
+    {
+      "name": "Lumineon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Swift Swim",
+        "Storm Drain",
+        "Water Veil"
+      ],
+      "moves": [
+        "Gust",
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Swift",
+        "Bubble",
+        "Rest",
+        "Icy Wind",
+        "Silver Wind",
+        "Aerial Ace",
+        "Water Pulse",
+        "Roost",
+        "Aqua Tail",
+        "Air Slash",
+        "Giga Impact",
+        "Ominous Wind",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0457_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0457_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

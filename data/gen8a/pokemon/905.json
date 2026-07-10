@@ -1,0 +1,90 @@
+{
+  "id": 905,
+  "name": "Enamorus",
+  "dexNum": 905,
+  "forms": [
+    {
+      "name": "Enamorus",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Healer",
+        "Contrary"
+      ],
+      "moves": [
+        "Tackle",
+        "Bite",
+        "Hyper Beam",
+        "Psychic",
+        "Rest",
+        "Sludge Bomb",
+        "Twister",
+        "Crunch",
+        "Rock Smash",
+        "Extrasensory",
+        "Iron Defense",
+        "Calm Mind",
+        "Earth Power",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Draining Kiss",
+        "Play Rough",
+        "Moonblast",
+        "Mystical Fire",
+        "Dazzling Gleam",
+        "Power Shift",
+        "Springtide Storm"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0905_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0905_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Enamorus",
+      "formName": "Therian",
+      "formIndex": 1,
+      "abilities": [
+        "Overcoat"
+      ],
+      "moves": [
+        "Tackle",
+        "Bite",
+        "Hyper Beam",
+        "Psychic",
+        "Rest",
+        "Sludge Bomb",
+        "Twister",
+        "Crunch",
+        "Rock Smash",
+        "Extrasensory",
+        "Iron Defense",
+        "Calm Mind",
+        "Earth Power",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Draining Kiss",
+        "Play Rough",
+        "Moonblast",
+        "Mystical Fire",
+        "Dazzling Gleam",
+        "Power Shift",
+        "Springtide Storm"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0905_001_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0905_001_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

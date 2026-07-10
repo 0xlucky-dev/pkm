@@ -1,0 +1,62 @@
+{
+  "id": 661,
+  "name": "Fletchling",
+  "dexNum": 661,
+  "forms": [
+    {
+      "name": "Fletchling",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Big Pecks",
+        "Gale Wings"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Fly",
+        "Growl",
+        "Ember",
+        "Peck",
+        "Agility",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Substitute",
+        "Thief",
+        "Snore",
+        "Flail",
+        "Protect",
+        "Endure",
+        "Steel Wing",
+        "Attract",
+        "Sleep Talk",
+        "Sunny Day",
+        "Heat Wave",
+        "Will-O-Wisp",
+        "Facade",
+        "Taunt",
+        "Overheat",
+        "Aerial Ace",
+        "Roost",
+        "Tailwind",
+        "U-turn",
+        "Defog",
+        "Flame Charge",
+        "Round",
+        "Quick Guard",
+        "Acrobatics",
+        "Work Up",
+        "Dual Wingbeat"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0661_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0661_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

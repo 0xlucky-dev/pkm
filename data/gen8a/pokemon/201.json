@@ -1,0 +1,567 @@
+{
+  "id": 201,
+  "name": "Unown",
+  "dexNum": 201,
+  "forms": [
+    {
+      "name": "Unown",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "B",
+      "formIndex": 1,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_001_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_001_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "C",
+      "formIndex": 2,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_002_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_002_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "D",
+      "formIndex": 3,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_003_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_003_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "E",
+      "formIndex": 4,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_004_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_004_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "F",
+      "formIndex": 5,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_005_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_005_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "G",
+      "formIndex": 6,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_006_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_006_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "H",
+      "formIndex": 7,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_007_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_007_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "I",
+      "formIndex": 8,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_008_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_008_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "J",
+      "formIndex": 9,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_009_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_009_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "K",
+      "formIndex": 10,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_010_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_010_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "L",
+      "formIndex": 11,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_011_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_011_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "M",
+      "formIndex": 12,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_012_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_012_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "N",
+      "formIndex": 13,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_013_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_013_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "O",
+      "formIndex": 14,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_014_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_014_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "P",
+      "formIndex": 15,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_015_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_015_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "Q",
+      "formIndex": 16,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_016_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_016_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "R",
+      "formIndex": 17,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_017_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_017_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "S",
+      "formIndex": 18,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_018_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_018_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "T",
+      "formIndex": 19,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_019_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_019_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "U",
+      "formIndex": 20,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_020_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_020_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "V",
+      "formIndex": 21,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_021_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_021_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "W",
+      "formIndex": 22,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_022_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_022_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "X",
+      "formIndex": 23,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_023_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_023_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "Y",
+      "formIndex": 24,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_024_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_024_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "Z",
+      "formIndex": 25,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_025_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_025_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "!",
+      "formIndex": 26,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_026_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_026_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Unown",
+      "formName": "?",
+      "formIndex": 27,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Hidden Power"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0201_027_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0201_027_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

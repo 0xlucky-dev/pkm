@@ -1,0 +1,49 @@
+{
+  "id": 400,
+  "name": "Bibarel",
+  "dexNum": 400,
+  "forms": [
+    {
+      "name": "Bibarel",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Simple",
+        "Unaware",
+        "Moody"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Ice Beam",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Rollout",
+        "Iron Tail",
+        "Crunch",
+        "Shadow Ball",
+        "Rock Smash",
+        "Water Pulse",
+        "Aqua Tail",
+        "Giga Impact",
+        "Stealth Rock",
+        "Charge Beam",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0400_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0400_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 169,
+  "name": "Crobat",
+  "dexNum": 169,
+  "forms": [
+    {
+      "name": "Crobat",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Inner Focus",
+        "Infiltrator"
+      ],
+      "moves": [
+        "Gust",
+        "Bite",
+        "Hyper Beam",
+        "Hypnosis",
+        "Swift",
+        "Leech Life",
+        "Rest",
+        "Sludge Bomb",
+        "Shadow Ball",
+        "Air Cutter",
+        "Aerial Ace",
+        "Dark Pulse",
+        "Air Slash",
+        "X-Scissor",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Cross Poison",
+        "Ominous Wind"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 84,
+      "spriteNormal": "sprites/poke_capture_0169_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0169_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

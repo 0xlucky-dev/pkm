@@ -1,0 +1,43 @@
+{
+  "id": 501,
+  "name": "Oshawott",
+  "dexNum": 501,
+  "forms": [
+    {
+      "name": "Oshawott",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Torrent",
+        "Shell Armor"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Hydro Pump",
+        "Ice Beam",
+        "Focus Energy",
+        "Rest",
+        "Slash",
+        "Icy Wind",
+        "False Swipe",
+        "Iron Tail",
+        "Rock Smash",
+        "Aerial Ace",
+        "Water Pulse",
+        "Aqua Tail",
+        "X-Scissor",
+        "Aqua Jet"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 73,
+      "spriteNormal": "sprites/poke_capture_0501_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0501_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

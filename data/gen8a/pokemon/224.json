@@ -1,0 +1,46 @@
+{
+  "id": 224,
+  "name": "Octillery",
+  "dexNum": 224,
+  "forms": [
+    {
+      "name": "Octillery",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Suction Cups",
+        "Sniper",
+        "Moody"
+      ],
+      "moves": [
+        "Flamethrower",
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Psychic",
+        "Focus Energy",
+        "Swift",
+        "Bubble",
+        "Rest",
+        "Sludge Bomb",
+        "Octazooka",
+        "Icy Wind",
+        "Water Pulse",
+        "Energy Ball",
+        "Giga Impact",
+        "Flash Cannon",
+        "Charge Beam",
+        "Acid Spray"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0224_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0224_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

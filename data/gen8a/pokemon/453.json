@@ -1,0 +1,48 @@
+{
+  "id": 453,
+  "name": "Croagunk",
+  "dexNum": 453,
+  "forms": [
+    {
+      "name": "Croagunk",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Anticipation",
+        "Dry Skin",
+        "Poison Touch"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Thunder Punch",
+        "Poison Sting",
+        "Rest",
+        "Rock Slide",
+        "Sludge Bomb",
+        "Icy Wind",
+        "Shadow Ball",
+        "Rock Smash",
+        "Bulk Up",
+        "Close Combat",
+        "Poison Jab",
+        "Dark Pulse",
+        "X-Scissor",
+        "Drain Punch",
+        "Earth Power",
+        "Nasty Plot",
+        "Mud Bomb",
+        "Venoshock",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 56,
+      "spriteNormal": "sprites/poke_capture_0453_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0453_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

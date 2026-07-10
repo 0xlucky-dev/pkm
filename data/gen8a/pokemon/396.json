@@ -1,0 +1,38 @@
+{
+  "id": 396,
+  "name": "Starly",
+  "dexNum": 396,
+  "forms": [
+    {
+      "name": "Starly",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Keen Eye",
+        "Reckless"
+      ],
+      "moves": [
+        "Gust",
+        "Double-Edge",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Aerial Ace",
+        "Roost",
+        "Air Slash",
+        "Brave Bird",
+        "Giga Impact",
+        "Ominous Wind"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0396_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0396_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

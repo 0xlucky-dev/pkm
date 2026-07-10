@@ -1,0 +1,43 @@
+{
+  "id": 42,
+  "name": "Golbat",
+  "dexNum": 42,
+  "forms": [
+    {
+      "name": "Golbat",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Inner Focus",
+        "Infiltrator"
+      ],
+      "moves": [
+        "Gust",
+        "Bite",
+        "Hyper Beam",
+        "Hypnosis",
+        "Swift",
+        "Leech Life",
+        "Rest",
+        "Sludge Bomb",
+        "Shadow Ball",
+        "Air Cutter",
+        "Aerial Ace",
+        "Air Slash",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Cross Poison",
+        "Ominous Wind"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0042_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0042_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

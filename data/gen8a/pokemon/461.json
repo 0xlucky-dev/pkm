@@ -1,0 +1,52 @@
+{
+  "id": 461,
+  "name": "Weavile",
+  "dexNum": 461,
+  "forms": [
+    {
+      "name": "Weavile",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Pressure",
+        "Pickpocket"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Swords Dance",
+        "Ice Beam",
+        "Blizzard",
+        "Hyper Beam",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Slash",
+        "Icy Wind",
+        "False Swipe",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Aerial Ace",
+        "Calm Mind",
+        "Poison Jab",
+        "Dark Pulse",
+        "Night Slash",
+        "X-Scissor",
+        "Giga Impact",
+        "Ice Shard",
+        "Shadow Claw",
+        "Psycho Cut",
+        "Snarl"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 75,
+      "spriteNormal": "sprites/poke_capture_0461_000_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0461_000_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

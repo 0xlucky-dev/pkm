@@ -1,0 +1,48 @@
+{
+  "id": 486,
+  "name": "Regigigas",
+  "dexNum": 486,
+  "forms": [
+    {
+      "name": "Regigigas",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Slow Start"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Rest",
+        "Rock Slide",
+        "Icy Wind",
+        "Ancient Power",
+        "Rock Smash",
+        "Aerial Ace",
+        "Drain Punch",
+        "Earth Power",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Iron Head",
+        "Stone Edge",
+        "Crush Grip",
+        "Bulldoze",
+        "High Horsepower",
+        "Power Shift"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0486_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0486_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

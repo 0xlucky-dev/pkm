@@ -1,0 +1,48 @@
+{
+  "id": 207,
+  "name": "Gligar",
+  "dexNum": 207,
+  "forms": [
+    {
+      "name": "Gligar",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Hyper Cutter",
+        "Sand Veil",
+        "Immunity"
+      ],
+      "moves": [
+        "Poison Sting",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Slash",
+        "Sludge Bomb",
+        "False Swipe",
+        "Iron Tail",
+        "Rock Smash",
+        "Aerial Ace",
+        "Poison Jab",
+        "Dark Pulse",
+        "Aqua Tail",
+        "X-Scissor",
+        "Earth Power",
+        "Mud Bomb",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0207_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0207_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

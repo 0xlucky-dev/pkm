@@ -1,0 +1,41 @@
+{
+  "id": 550,
+  "name": "Basculin",
+  "dexNum": 550,
+  "forms": [
+    {
+      "name": "Basculin",
+      "formName": "White",
+      "formIndex": 2,
+      "abilities": [
+        "Rattled",
+        "Adaptability",
+        "Mold Breaker"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Ice Beam",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Crunch",
+        "Aqua Tail",
+        "Ice Fang",
+        "Zen Headbutt",
+        "Aqua Jet",
+        "Wave Crash"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 80,
+      "spriteNormal": "sprites/poke_capture_0550_002_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0550_002_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

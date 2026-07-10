@@ -1,0 +1,91 @@
+{
+  "id": 902,
+  "name": "Basculegion",
+  "dexNum": 902,
+  "forms": [
+    {
+      "name": "Basculegion",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Rattled",
+        "Adaptability",
+        "Mold Breaker"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Ice Beam",
+        "Hyper Beam",
+        "Psychic",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Crunch",
+        "Shadow Ball",
+        "Calm Mind",
+        "Water Pulse",
+        "Aqua Tail",
+        "Giga Impact",
+        "Ice Fang",
+        "Zen Headbutt",
+        "Aqua Jet",
+        "Ominous Wind",
+        "Hex",
+        "Wave Crash"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0902_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0902_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Basculegion",
+      "formName": "F",
+      "formIndex": 1,
+      "abilities": [
+        "Rattled",
+        "Adaptability",
+        "Mold Breaker"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Ice Beam",
+        "Hyper Beam",
+        "Psychic",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Crunch",
+        "Shadow Ball",
+        "Calm Mind",
+        "Water Pulse",
+        "Aqua Tail",
+        "Giga Impact",
+        "Ice Fang",
+        "Zen Headbutt",
+        "Aqua Jet",
+        "Ominous Wind",
+        "Hex",
+        "Wave Crash"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0902_001_fd_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0902_001_fd_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

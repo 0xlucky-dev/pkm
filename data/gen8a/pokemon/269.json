@@ -1,0 +1,46 @@
+{
+  "id": 269,
+  "name": "Dustox",
+  "dexNum": 269,
+  "forms": [
+    {
+      "name": "Dustox",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Shield Dust",
+        "Compound Eyes"
+      ],
+      "moves": [
+        "Tackle",
+        "Poison Sting",
+        "Hyper Beam",
+        "Poison Powder",
+        "Confusion",
+        "Psychic",
+        "Swift",
+        "Rest",
+        "Sludge Bomb",
+        "Shadow Ball",
+        "Silver Wind",
+        "Extrasensory",
+        "Aerial Ace",
+        "Iron Defense",
+        "Bug Buzz",
+        "Energy Ball",
+        "Giga Impact",
+        "Ominous Wind",
+        "Venoshock"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0269_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0269_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

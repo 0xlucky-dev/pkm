@@ -1,0 +1,49 @@
+{
+  "id": 395,
+  "name": "Empoleon",
+  "dexNum": 395,
+  "forms": [
+    {
+      "name": "Empoleon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Torrent",
+        "Defiant"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Bubble",
+        "Rest",
+        "Rock Slide",
+        "Icy Wind",
+        "Rock Smash",
+        "Aerial Ace",
+        "Water Pulse",
+        "Roost",
+        "Giga Impact",
+        "Shadow Claw",
+        "Flash Cannon",
+        "Stealth Rock",
+        "Bulldoze",
+        "Baby-Doll Eyes",
+        "Liquidation",
+        "Steel Beam",
+        "Wave Crash"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0395_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0395_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

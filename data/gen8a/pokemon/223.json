@@ -1,0 +1,40 @@
+{
+  "id": 223,
+  "name": "Remoraid",
+  "dexNum": 223,
+  "forms": [
+    {
+      "name": "Remoraid",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Hustle",
+        "Sniper",
+        "Moody"
+      ],
+      "moves": [
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Psychic",
+        "Focus Energy",
+        "Swift",
+        "Bubble",
+        "Rest",
+        "Icy Wind",
+        "Water Pulse",
+        "Charge Beam",
+        "Acid Spray"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0223_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0223_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

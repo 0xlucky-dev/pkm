@@ -1,0 +1,49 @@
+{
+  "id": 446,
+  "name": "Munchlax",
+  "dexNum": 446,
+  "forms": [
+    {
+      "name": "Munchlax",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Pickup",
+        "Thick Fat",
+        "Gluttony"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Flamethrower",
+        "Ice Beam",
+        "Thunderbolt",
+        "Psychic",
+        "Rest",
+        "Rock Slide",
+        "Icy Wind",
+        "Rollout",
+        "Shadow Ball",
+        "Rock Smash",
+        "Water Pulse",
+        "Giga Impact",
+        "Zen Headbutt",
+        "Bulldoze",
+        "High Horsepower"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0446_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0446_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

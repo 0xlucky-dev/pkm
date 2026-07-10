@@ -1,0 +1,48 @@
+{
+  "id": 450,
+  "name": "Hippowdon",
+  "dexNum": 450,
+  "forms": [
+    {
+      "name": "Hippowdon",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sand Stream",
+        "Sand Force"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Bite",
+        "Hyper Beam",
+        "Rest",
+        "Rock Slide",
+        "Iron Tail",
+        "Crunch",
+        "Rock Smash",
+        "Water Pulse",
+        "Earth Power",
+        "Giga Impact",
+        "Thunder Fang",
+        "Ice Fang",
+        "Fire Fang",
+        "Mud Bomb",
+        "Iron Head",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "High Horsepower"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0450_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0450_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

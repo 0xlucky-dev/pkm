@@ -1,0 +1,47 @@
+{
+  "id": 280,
+  "name": "Ralts",
+  "dexNum": 280,
+  "forms": [
+    {
+      "name": "Ralts",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Synchronize",
+        "Trace",
+        "Telepathy"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Ice Beam",
+        "Thunderbolt",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Teleport",
+        "Swift",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Magical Leaf",
+        "Calm Mind",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Draining Kiss",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0280_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0280_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

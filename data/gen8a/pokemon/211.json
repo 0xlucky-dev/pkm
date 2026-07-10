@@ -1,0 +1,45 @@
+{
+  "id": 211,
+  "name": "Qwilfish",
+  "dexNum": 211,
+  "forms": [
+    {
+      "name": "Qwilfish",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Poison Point",
+        "Swift Swim",
+        "Intimidate"
+      ],
+      "moves": [
+        "Double-Edge",
+        "Poison Sting",
+        "Pin Missile",
+        "Ice Beam",
+        "Self-Destruct",
+        "Swift",
+        "Rest",
+        "Sludge Bomb",
+        "Spikes",
+        "Icy Wind",
+        "Shadow Ball",
+        "Ice Ball",
+        "Water Pulse",
+        "Poison Jab",
+        "Dark Pulse",
+        "Aqua Tail",
+        "Barb Barrage"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0211_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0211_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

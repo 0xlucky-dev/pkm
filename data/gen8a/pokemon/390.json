@@ -1,0 +1,44 @@
+{
+  "id": 390,
+  "name": "Chimchar",
+  "dexNum": 390,
+  "forms": [
+    {
+      "name": "Chimchar",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Blaze",
+        "Iron Fist"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Double-Edge",
+        "Ember",
+        "Flamethrower",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Flame Wheel",
+        "Iron Tail",
+        "Rock Smash",
+        "Aerial Ace",
+        "Bulk Up",
+        "Nasty Plot",
+        "Shadow Claw",
+        "Stealth Rock"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0390_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0390_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

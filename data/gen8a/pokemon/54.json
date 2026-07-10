@@ -1,0 +1,47 @@
+{
+  "id": 54,
+  "name": "Psyduck",
+  "dexNum": 54,
+  "forms": [
+    {
+      "name": "Psyduck",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Damp",
+        "Cloud Nine",
+        "Swift Swim"
+      ],
+      "moves": [
+        "Ice Punch",
+        "Hydro Pump",
+        "Ice Beam",
+        "Confusion",
+        "Psychic",
+        "Hypnosis",
+        "Swift",
+        "Bubble",
+        "Rest",
+        "Tri Attack",
+        "Icy Wind",
+        "Iron Tail",
+        "Rock Smash",
+        "Aerial Ace",
+        "Calm Mind",
+        "Water Pulse",
+        "Aqua Tail",
+        "Shadow Claw",
+        "Zen Headbutt"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0054_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0054_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

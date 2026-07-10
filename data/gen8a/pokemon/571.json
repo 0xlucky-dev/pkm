@@ -1,0 +1,45 @@
+{
+  "id": 571,
+  "name": "Zoroark",
+  "dexNum": 571,
+  "forms": [
+    {
+      "name": "Zoroark",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Illusion"
+      ],
+      "moves": [
+        "Flamethrower",
+        "Hyper Beam",
+        "Swift",
+        "Rest",
+        "Slash",
+        "Sludge Bomb",
+        "Shadow Ball",
+        "Rock Smash",
+        "Extrasensory",
+        "Aerial Ace",
+        "Calm Mind",
+        "Dark Pulse",
+        "Giga Impact",
+        "Nasty Plot",
+        "Shadow Claw",
+        "Shadow Sneak",
+        "Ominous Wind",
+        "Snarl",
+        "Bitter Malice"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0571_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0571_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

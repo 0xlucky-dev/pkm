@@ -1,0 +1,42 @@
+{
+  "id": 100,
+  "name": "Voltorb",
+  "dexNum": 100,
+  "forms": [
+    {
+      "name": "Voltorb",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Soundproof",
+        "Static",
+        "Aftermath"
+      ],
+      "moves": [
+        "Tackle",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Self-Destruct",
+        "Swift",
+        "Rest",
+        "Spark",
+        "Ice Ball",
+        "Magical Leaf",
+        "Energy Ball",
+        "Charge Beam",
+        "Wild Charge"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0100_001_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0100_001_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

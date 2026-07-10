@@ -1,0 +1,51 @@
+{
+  "id": 428,
+  "name": "Lopunny",
+  "dexNum": 428,
+  "forms": [
+    {
+      "name": "Lopunny",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Cute Charm",
+        "Klutz",
+        "Limber"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Ice Punch",
+        "Thunder Punch",
+        "Double-Edge",
+        "Ice Beam",
+        "Hyper Beam",
+        "Thunderbolt",
+        "Quick Attack",
+        "Swift",
+        "Rest",
+        "Mach Punch",
+        "Iron Tail",
+        "Shadow Ball",
+        "Rock Smash",
+        "Water Pulse",
+        "Close Combat",
+        "Drain Punch",
+        "Giga Impact",
+        "Charge Beam",
+        "Double Hit",
+        "Draining Kiss",
+        "Play Rough",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 79,
+      "spriteNormal": "sprites/poke_capture_0428_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0428_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": 133,
+  "name": "Eevee",
+  "dexNum": 133,
+  "forms": [
+    {
+      "name": "Eevee",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Run Away",
+        "Adaptability",
+        "Anticipation"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Quick Attack",
+        "Mimic",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Iron Tail",
+        "Shadow Ball",
+        "Calm Mind",
+        "Baby-Doll Eyes"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0133_000_md_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0133_000_md_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

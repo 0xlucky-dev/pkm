@@ -1,0 +1,42 @@
+{
+  "id": 406,
+  "name": "Budew",
+  "dexNum": 406,
+  "forms": [
+    {
+      "name": "Budew",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Natural Cure",
+        "Poison Point",
+        "Leaf Guard"
+      ],
+      "moves": [
+        "Poison Sting",
+        "Absorb",
+        "Poison Powder",
+        "Stun Spore",
+        "Petal Dance",
+        "Swift",
+        "Rest",
+        "Sludge Bomb",
+        "Spikes",
+        "Shadow Ball",
+        "Poison Jab",
+        "Energy Ball",
+        "Venoshock",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 77,
+      "spriteNormal": "sprites/poke_capture_0406_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0406_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

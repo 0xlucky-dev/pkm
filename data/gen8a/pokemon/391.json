@@ -1,0 +1,47 @@
+{
+  "id": 391,
+  "name": "Monferno",
+  "dexNum": 391,
+  "forms": [
+    {
+      "name": "Monferno",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Blaze",
+        "Iron Fist"
+      ],
+      "moves": [
+        "Fire Punch",
+        "Thunder Punch",
+        "Tackle",
+        "Double-Edge",
+        "Ember",
+        "Flamethrower",
+        "Focus Energy",
+        "Swift",
+        "Rest",
+        "Rock Slide",
+        "Flame Wheel",
+        "Mach Punch",
+        "Iron Tail",
+        "Rock Smash",
+        "Aerial Ace",
+        "Bulk Up",
+        "Poison Jab",
+        "Nasty Plot",
+        "Shadow Claw",
+        "Stealth Rock"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0391_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0391_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

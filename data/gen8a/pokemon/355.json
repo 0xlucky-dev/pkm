@@ -1,0 +1,40 @@
+{
+  "id": 355,
+  "name": "Duskull",
+  "dexNum": 355,
+  "forms": [
+    {
+      "name": "Duskull",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate",
+        "Frisk"
+      ],
+      "moves": [
+        "Ice Beam",
+        "Absorb",
+        "Psychic",
+        "Leech Life",
+        "Rest",
+        "Icy Wind",
+        "Shadow Ball",
+        "Calm Mind",
+        "Dark Pulse",
+        "Shadow Sneak",
+        "Charge Beam",
+        "Ominous Wind",
+        "Hex"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 67,
+      "spriteNormal": "sprites/poke_capture_0355_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0355_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

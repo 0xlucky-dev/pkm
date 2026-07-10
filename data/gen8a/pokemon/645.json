@@ -1,0 +1,88 @@
+{
+  "id": 645,
+  "name": "Landorus",
+  "dexNum": 645,
+  "forms": [
+    {
+      "name": "Landorus",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Sand Force",
+        "Sheer Force"
+      ],
+      "moves": [
+        "Tackle",
+        "Bite",
+        "Hyper Beam",
+        "Psychic",
+        "Rest",
+        "Rock Slide",
+        "Sludge Bomb",
+        "Outrage",
+        "Iron Tail",
+        "Twister",
+        "Crunch",
+        "Rock Smash",
+        "Extrasensory",
+        "Bulk Up",
+        "Calm Mind",
+        "Earth Power",
+        "Giga Impact",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "Sandsear Storm"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0645_000_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0645_000_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    },
+    {
+      "name": "Landorus",
+      "formName": "Therian",
+      "formIndex": 1,
+      "abilities": [
+        "Intimidate"
+      ],
+      "moves": [
+        "Tackle",
+        "Bite",
+        "Hyper Beam",
+        "Psychic",
+        "Rest",
+        "Rock Slide",
+        "Sludge Bomb",
+        "Outrage",
+        "Iron Tail",
+        "Twister",
+        "Crunch",
+        "Rock Smash",
+        "Extrasensory",
+        "Bulk Up",
+        "Calm Mind",
+        "Earth Power",
+        "Giga Impact",
+        "Stone Edge",
+        "Stealth Rock",
+        "Bulldoze",
+        "Sandsear Storm"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0645_001_mo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0645_001_mo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

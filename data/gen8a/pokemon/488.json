@@ -1,0 +1,46 @@
+{
+  "id": 488,
+  "name": "Cresselia",
+  "dexNum": 488,
+  "forms": [
+    {
+      "name": "Cresselia",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Levitate"
+      ],
+      "moves": [
+        "Tackle",
+        "Ice Beam",
+        "Hyper Beam",
+        "Confusion",
+        "Psychic",
+        "Recover",
+        "Swift",
+        "Rest",
+        "Slash",
+        "Icy Wind",
+        "Shadow Ball",
+        "Calm Mind",
+        "Energy Ball",
+        "Giga Impact",
+        "Psycho Cut",
+        "Zen Headbutt",
+        "Charge Beam",
+        "Moonblast",
+        "Power Shift",
+        "Lunar Blessing"
+      ],
+      "canShiny": true,
+      "canAlpha": false,
+      "canAlphaShiny": false,
+      "canGigantamax": false,
+      "levelMax": 70,
+      "spriteNormal": "sprites/poke_capture_0488_000_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0488_000_fo_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

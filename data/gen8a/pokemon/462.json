@@ -1,0 +1,44 @@
+{
+  "id": 462,
+  "name": "Magnezone",
+  "dexNum": 462,
+  "forms": [
+    {
+      "name": "Magnezone",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Magnet Pull",
+        "Sturdy",
+        "Analytic"
+      ],
+      "moves": [
+        "Tackle",
+        "Hyper Beam",
+        "Thunder Shock",
+        "Thunderbolt",
+        "Thunder Wave",
+        "Thunder",
+        "Swift",
+        "Rest",
+        "Tri Attack",
+        "Spark",
+        "Giga Impact",
+        "Flash Cannon",
+        "Iron Head",
+        "Charge Beam",
+        "Wild Charge",
+        "Steel Beam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 100,
+      "spriteNormal": "sprites/poke_capture_0462_000_uk_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0462_000_uk_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

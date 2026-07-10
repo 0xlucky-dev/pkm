@@ -1,0 +1,37 @@
+{
+  "id": 420,
+  "name": "Cherubi",
+  "dexNum": 420,
+  "forms": [
+    {
+      "name": "Cherubi",
+      "formName": "Default Form",
+      "formIndex": 0,
+      "abilities": [
+        "Chlorophyll"
+      ],
+      "moves": [
+        "Tackle",
+        "Double-Edge",
+        "Absorb",
+        "Stun Spore",
+        "Sleep Powder",
+        "Petal Dance",
+        "Rest",
+        "Magical Leaf",
+        "Energy Ball",
+        "Draining Kiss",
+        "Dazzling Gleam"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 50,
+      "spriteNormal": "sprites/poke_capture_0420_000_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0420_000_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}

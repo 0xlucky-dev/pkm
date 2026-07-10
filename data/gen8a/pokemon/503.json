@@ -1,0 +1,51 @@
+{
+  "id": 503,
+  "name": "Samurott",
+  "dexNum": 503,
+  "forms": [
+    {
+      "name": "Samurott",
+      "formName": "Hisui",
+      "formIndex": 1,
+      "abilities": [
+        "Torrent",
+        "Shell Armor"
+      ],
+      "moves": [
+        "Swords Dance",
+        "Tackle",
+        "Hydro Pump",
+        "Ice Beam",
+        "Hyper Beam",
+        "Focus Energy",
+        "Rest",
+        "Slash",
+        "Icy Wind",
+        "False Swipe",
+        "Megahorn",
+        "Iron Tail",
+        "Rock Smash",
+        "Aerial Ace",
+        "Water Pulse",
+        "Poison Jab",
+        "Dark Pulse",
+        "Night Slash",
+        "Aqua Tail",
+        "X-Scissor",
+        "Giga Impact",
+        "Psycho Cut",
+        "Aqua Jet",
+        "Ceaseless Edge"
+      ],
+      "canShiny": true,
+      "canAlpha": true,
+      "canAlphaShiny": true,
+      "canGigantamax": false,
+      "levelMax": 88,
+      "spriteNormal": "sprites/poke_capture_0503_001_mf_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0503_001_mf_n_00000000_f_r.png",
+      "spriteGmax": "",
+      "spriteShinyGmax": ""
+    }
+  ]
+}
