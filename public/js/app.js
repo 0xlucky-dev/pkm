@@ -1,4 +1,4 @@
-﻿/**
+/**
  * App Module â€” main application logic for the Pokemon Generator.
  * Handles state, API calls, event binding, and config generation.
  */
