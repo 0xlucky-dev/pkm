@@ -829,12 +829,14 @@
   // --- Clear batch ---
   // --- Batch persistence (localStorage) ---
   const BATCH_STORAGE_KEY = 'pkm_batch_v1';
+  const BATCH_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
 
   function saveBatch() {
     try {
       localStorage.setItem(BATCH_STORAGE_KEY, JSON.stringify({
         version: currentVersion,
         items: batch,
+        savedAt: Date.now(),
       }));
     } catch (e) { /* storage full or blocked */ }
   }
@@ -844,13 +846,20 @@
       const raw = localStorage.getItem(BATCH_STORAGE_KEY);
       if (!raw) return;
       const saved = JSON.parse(raw);
+      // Expire after TTL
+      if (!saved.savedAt || (Date.now() - saved.savedAt) > BATCH_TTL_MS) {
+        localStorage.removeItem(BATCH_STORAGE_KEY);
+        return;
+      }
       // Only restore if same version
       if (saved.version === currentVersion && Array.isArray(saved.items) && saved.items.length > 0) {
         batch = saved.items;
         updateBatchUI();
         UI.showToast(`โหลด batch ${batch.length} ตัวจากครั้งก่อน`, 3000, 'success');
       }
-    } catch (e) { /* corrupted data */ }
+    } catch (e) {
+      localStorage.removeItem(BATCH_STORAGE_KEY);
+    }
   }
 
   function clearBatch() {
