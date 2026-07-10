@@ -80,13 +80,13 @@ app.post('/api/submit-order', async (req, res) => {
     const https = require('https');
     const payload = JSON.stringify({ command, mode: 'home' });
     const options = {
-      hostname: 'pokemon.zeldaxiaoma.com',
+      hostname: 'poke.zeldaxiaoma.com',
       path: '/pokemon/api/save_order.php',
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(payload),
-        'Referer': 'https://pokemon.zeldaxiaoma.com/pokemon/?lang=en-US&version=gen9a',
+        'Referer': 'https://poke.zeldaxiaoma.com/pokemon/?lang=en-US&version=gen9',
         'Accept': '*/*',
       },
     };

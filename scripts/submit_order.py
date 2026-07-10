@@ -17,8 +17,10 @@ import sys
 
 import requests
 
-API_URL = "https://pokemon.zeldaxiaoma.com/pokemon/api/save_order.php"
-REFERRER = "https://pokemon.zeldaxiaoma.com/pokemon/?lang=en-US&version=gen9a"
+API_URL = "https://poke.zeldaxiaoma.com/pokemon/api/save_order.php"
+REFERRER_SV  = "https://poke.zeldaxiaoma.com/pokemon/?lang=en-US&version=gen9"
+REFERRER_ZA  = "https://poke.zeldaxiaoma.com/pokemon/?lang=en-US&version=gen9a"
+REFERRER = REFERRER_SV  # default
 
 # Default multi-Pokémon command block, exactly as captured from the browser
 # request (no leading "%h " prefix — the endpoint does not require it).
@@ -100,18 +102,15 @@ def build_headers():
     }
 
 
-def submit_order(command: str, mode: str = "trade") -> dict:
+def submit_order(command: str, mode: str = "home", version: str = "gen9") -> dict:
     """
     POST a command block to save_order.php.
-
-    Returns the parsed JSON response, e.g.:
-        {"success": true, "order": "20260708-68800992", "date": "...", "ip": "..."}
-    Raises requests.HTTPError on a non-2xx response.
     """
+    referrer = REFERRER_ZA if version in ("gen9a", "za") else REFERRER_SV
     payload = {"command": command, "mode": mode}
     resp = requests.post(
         API_URL,
-        headers=build_headers(),
+        headers={**build_headers(), "referer": referrer},
         data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
         timeout=15,
     )
@@ -128,8 +127,14 @@ def main():
     )
     parser.add_argument(
         "--mode",
-        default="trade",
-        help="Value for the 'mode' field (default: trade).",
+        default="home",
+        help="Value for the 'mode' field (default: home).",
+    )
+    parser.add_argument(
+        "--version",
+        default="gen9",
+        choices=["gen9", "gen9a", "sv", "za"],
+        help="Game version: gen9/sv = Scarlet/Violet, gen9a/za = Legends Z-A (default: gen9)",
     )
     args = parser.parse_args()
 
@@ -140,7 +145,7 @@ def main():
         command = DEFAULT_COMMAND
 
     try:
-        result = submit_order(command, mode=args.mode)
+        result = submit_order(command, mode=args.mode, version=args.version)
     except requests.RequestException as err:
         print(f"Request failed: {err}", file=sys.stderr)
         sys.exit(1)
