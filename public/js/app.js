@@ -1,5 +1,5 @@
-/**
- * App Module — main application logic for the Pokemon Generator.
+﻿/**
+ * App Module â€” main application logic for the Pokemon Generator.
  * Handles state, API calls, event binding, and config generation.
  */
 
@@ -67,7 +67,7 @@
       filteredList = pokemonList;
       UI.renderGrid(filteredList, gridEl);
     } catch (err) {
-      gridEl.innerHTML = `<p style="color:var(--danger);padding:20px;">Failed to load Pokémon list.</p>`;
+      gridEl.innerHTML = `<p style="color:var(--danger);padding:20px;">Failed to load PokÃ©mon list.</p>`;
     }
     gridLoader.style.display = 'none';
   }
@@ -107,7 +107,7 @@
   }
 
   // --- Build move options once per version and cache ---
-  // Avoids duplicating a 400+ option HTML string × 4 move selects in innerHTML.
+  // Avoids duplicating a 400+ option HTML string Ã— 4 move selects in innerHTML.
   const moveOptionsCache = {};
 
   function buildMoveSelectNode(version) {
@@ -197,7 +197,7 @@
         currentDetail = await loadPokemonDetail(currentVersion, spNumber);
         renderOverlayBody();
       } catch (err) {
-        overlayBody.innerHTML = '<p style="color:var(--danger);">Failed to load Pokémon data.</p>';
+        overlayBody.innerHTML = '<p style="color:var(--danger);">Failed to load PokÃ©mon data.</p>';
       }
     }
   }
@@ -226,7 +226,7 @@
 
   // --- Attach listeners inside the config overlay ---
   function attachConfigListeners() {
-    // Form selector — custom dropdown wired to hidden <select>
+    // Form selector â€” custom dropdown wired to hidden <select>
     const formWrap = document.getElementById('cfg-form-wrap');
     const formBtn = document.getElementById('cfg-form-btn');
     const formMenu = document.getElementById('cfg-form-menu');
@@ -334,7 +334,7 @@
       });
     });
 
-    // Shiny toggle — swap the hero sprite to the shiny image when available.
+    // Shiny toggle â€” swap the hero sprite to the shiny image when available.
     const shinyBtn = document.getElementById('cfg-shiny');
     if (shinyBtn) {
       shinyBtn.addEventListener('click', () => {
@@ -353,7 +353,7 @@
       });
     }
 
-    // Gender toggles — only one active at a time
+    // Gender toggles â€” only one active at a time
     const genderBtns = overlayBody.querySelectorAll('.icon-toggle[data-gender]');
     genderBtns.forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -367,14 +367,14 @@
       });
     });
 
-    // Ball icon preview — update hero ball when selection changes
+    // Ball icon preview â€” update hero ball when selection changes
     const ballSelect = document.getElementById('cfg-ball');
     const heroBallIcon = document.getElementById('cfg-hero-ball-icon');
     if (ballSelect) {
       ballSelect.addEventListener('change', () => {
         const val = ballSelect.value;
         if (val) {
-          const slug = val.toLowerCase().replace(/[éè]/g, 'e').replace(/[^a-z]/g, '');
+          const slug = val.toLowerCase().replace(/[Ã©Ã¨]/g, 'e').replace(/[^a-z]/g, '');
           const src = `/icons/${slug}.png`;
           if (heroBallIcon) { heroBallIcon.src = src; }
         } else {
@@ -411,7 +411,7 @@
       });
     });
 
-    // Moves — prevent duplicates across slots
+    // Moves â€” prevent duplicates across slots
     const moveSelects = [
       document.getElementById('cfg-move1'),
       document.getElementById('cfg-move2'),
@@ -526,7 +526,7 @@
     };
     const gender = resolveGender(genderInfo, requestedGender);
 
-    // Moves — deduplicated
+    // Moves â€” deduplicated
     const moves = [];
     for (let i = 1; i <= 4; i++) {
       const val = document.getElementById(`cfg-move${i}`).value;
@@ -575,7 +575,7 @@
       moves,
       // Batch thumbnail follows the shiny choice when a shiny sprite exists.
       _sprite: (shiny && spriteShinyUrl) ? spriteShinyUrl : spriteUrl,
-      _ballSlug: ball ? ball.toLowerCase().replace(/[éè]/g, 'e').replace(/[^a-z]/g, '') : '',
+      _ballSlug: ball ? ball.toLowerCase().replace(/[Ã©Ã¨]/g, 'e').replace(/[^a-z]/g, '') : '',
       // Metadata for %order suffix (version filtering / whitelist / banlist)
       _dex: currentDetail.dexNum || currentDetail.id,
       _formIndex: currentFormIndex,
@@ -584,14 +584,14 @@
 
   // --- Copy single ---
   // --- Version guard ---
-  // A Pokémon belongs to the current version when it was built in that version
+  // A PokÃ©mon belongs to the current version when it was built in that version
   // AND still exists in the currently loaded list. Prevents copying a command
-  // whose Pokémon the target bot can't accept (e.g. an SV mon in a ZA order).
+  // whose PokÃ©mon the target bot can't accept (e.g. an SV mon in a ZA order).
   function versionLabel(v) {
     return { gen9: 'Scarlet/Violet', gen9a: 'Legends: Z-A', gen8: 'Sword/Shield', gen8a: 'Legends Arceus' }[v] || v;
   }
 
-  function versionLogo(v) {
+  function getVersionLogoSrc(v) {
     return { gen9: '/img/sv.png', gen9a: '/img/za.png', gen8: '/img/swsh.png', gen8a: '/img/la.png' }[v] || '/img/sv.png';
   }
 
@@ -610,7 +610,7 @@
     // a defensive check in case the list failed to load.
     if (findVersionMismatches([config]).length > 0) {
       UI.showToast(
-        `${config.pokemonName} ไม่มีในเวอร์ชัน ${versionLabel(currentVersion)} — คัดลอกไม่ได้`,
+        `${config.pokemonName} à¹„à¸¡à¹ˆà¸¡à¸µà¹ƒà¸™à¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¸™ ${versionLabel(currentVersion)} â€” à¸„à¸±à¸”à¸¥à¸­à¸à¹„à¸¡à¹ˆà¹„à¸”à¹‰`,
         4000,
         'error'
       );
@@ -652,7 +652,7 @@
     batchBadge.classList.add('batch-badge-pop');
     setTimeout(() => batchBadge.classList.remove('batch-badge-pop'), 500);
 
-    UI.showToast(`✓ เพิ่ม ${config.pokemonName} แล้ว (${batch.length} ตัว)`, 2500, 'success');
+    UI.showToast(`âœ“ à¹€à¸žà¸´à¹ˆà¸¡ ${config.pokemonName} à¹à¸¥à¹‰à¸§ (${batch.length} à¸•à¸±à¸§)`, 2500, 'success');
   }
 
   // --- Copy all batch ---
@@ -672,7 +672,7 @@
       .join('\n\n');
   }
 
-  // --- Beta Orders — submit to save_order.php and show %order code ---
+  // --- Beta Orders â€” submit to save_order.php and show %order code ---
   // Builds a summary suffix for the %order code:
   //   v52:0655,1:0904,1:0670-5,2:0686,1:0675,1
   // Format: v{versionCode}:{dex[-formIndex],qty}...
@@ -703,7 +703,7 @@
     const mismatches = findVersionMismatches(batch);
     if (mismatches.length > 0) {
       const names = [...new Set(mismatches.map((c) => c.pokemonName))].join(', ');
-      UI.showToast(`มีตัวไม่ตรงเวอร์ชัน (${names}) — ลบออกก่อน`, 5000, 'error');
+      UI.showToast(`à¸¡à¸µà¸•à¸±à¸§à¹„à¸¡à¹ˆà¸•à¸£à¸‡à¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¸™ (${names}) â€” à¸¥à¸šà¸­à¸­à¸à¸à¹ˆà¸­à¸™`, 5000, 'error');
       return;
     }
     const expanded = expandedBatch();
@@ -721,12 +721,12 @@
         const suffix = buildOrderSuffix(expanded);
         const code = `%order ${data.order} ${suffix}`;
         await navigator.clipboard.writeText(code).catch(() => {});
-        UI.showToast(`คัดลอกแล้ว: %order ${data.order}`, 5000, 'success');
+        UI.showToast(`à¸„à¸±à¸”à¸¥à¸­à¸à¹à¸¥à¹‰à¸§: %order ${data.order}`, 5000, 'success');
       } else {
-        UI.showToast(data.error || 'เกิดข้อผิดพลาด', 4000, 'error');
+        UI.showToast(data.error || 'à¹€à¸à¸´à¸”à¸‚à¹‰à¸­à¸œà¸´à¸”à¸žà¸¥à¸²à¸”', 4000, 'error');
       }
     } catch (err) {
-      UI.showToast('ส่งคำสั่งไม่สำเร็จ: ' + err.message, 4000, 'error');
+      UI.showToast('à¸ªà¹ˆà¸‡à¸„à¸³à¸ªà¸±à¹ˆà¸‡à¹„à¸¡à¹ˆà¸ªà¸³à¹€à¸£à¹‡à¸ˆ: ' + err.message, 4000, 'error');
     } finally {
       btnBetaOrders.disabled = false;
       btnBetaOrders.textContent = 'Beta Orders';
@@ -744,7 +744,7 @@
     if (mismatches.length > 0) {
       const names = [...new Set(mismatches.map((c) => c.pokemonName))].join(', ');
       UI.showToast(
-        `มี ${mismatches.length} ตัวไม่ตรงกับเวอร์ชัน ${versionLabel(currentVersion)} (${names}) — ลบออกก่อนคัดลอก`,
+        `à¸¡à¸µ ${mismatches.length} à¸•à¸±à¸§à¹„à¸¡à¹ˆà¸•à¸£à¸‡à¸à¸±à¸šà¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¸™ ${versionLabel(currentVersion)} (${names}) â€” à¸¥à¸šà¸­à¸­à¸à¸à¹ˆà¸­à¸™à¸„à¸±à¸”à¸¥à¸­à¸`,
         5000,
         'error'
       );
@@ -796,7 +796,7 @@
     full.classList.remove('hidden');
     mini.classList.add('hidden');
 
-    // Don't auto-collapse here — wait until overlay closes
+    // Don't auto-collapse here â€” wait until overlay closes
     clearTimeout(badgeCollapseTimer);
   }
 
@@ -833,7 +833,7 @@
   function init() {
     // Sync dropdown to the version resolved from the URL
     versionSelect.value = currentVersion;
-    versionLogo.src = versionLogo(currentVersion);
+    versionLogo.src = getVersionLogoSrc(currentVersion);
 
     // Version switch
     versionSelect.addEventListener('change', () => {
@@ -842,15 +842,15 @@
       searchInput.value = '';
       searchInputMobile.value = '';
       // A batch is tied to a single game version (different .Version code and
-      // fields per version). Clear it on a real version change so Pokémon from
+      // fields per version). Clear it on a real version change so PokÃ©mon from
       // one game can't leak into another game's command.
       if (currentVersion !== previousVersion && batch.length > 0) {
         const removed = batch.length;
         clearBatch();
-        UI.showToast(`สลับเวอร์ชันแล้ว — ล้างรายการ ${removed} ตัวออกจาก batch`, 3000);
+        UI.showToast(`à¸ªà¸¥à¸±à¸šà¹€à¸§à¸­à¸£à¹Œà¸Šà¸±à¸™à¹à¸¥à¹‰à¸§ â€” à¸¥à¹‰à¸²à¸‡à¸£à¸²à¸¢à¸à¸²à¸£ ${removed} à¸•à¸±à¸§à¸­à¸­à¸à¸ˆà¸²à¸ batch`, 3000);
       }
       // Update version logo
-      versionLogo.src = versionLogo(currentVersion);
+      versionLogo.src = getVersionLogoSrc(currentVersion);
       // Reflect the version in the URL path without reloading the page
       if (VALID_VERSIONS.includes(currentVersion)) {
         history.pushState({ version: currentVersion }, '', VERSION_TO_PATH[currentVersion]);
@@ -868,7 +868,7 @@
       if (currentVersion !== previousVersion && batch.length > 0) {
         clearBatch();
       }
-      versionLogo.src = versionLogo(currentVersion);
+      versionLogo.src = getVersionLogoSrc(currentVersion);
       searchInput.value = '';
       searchInputMobile.value = '';
       loadPokemonList(currentVersion);
@@ -931,7 +931,7 @@
       UI.renderBatchList(batch, batchList);
       // Sync version logo in batch modal header
       const batchLogo = document.getElementById('batch-version-logo');
-      if (batchLogo) batchLogo.src = versionLogo(currentVersion);
+      if (batchLogo) batchLogo.src = getVersionLogoSrc(currentVersion);
       UI.openOverlay('batch-modal');
     });
 
@@ -942,7 +942,7 @@
     // Copy all
     btnCopyAll.addEventListener('click', copyBatch);
 
-    // Beta Orders — submit to save_order.php via server proxy
+    // Beta Orders â€” submit to save_order.php via server proxy
     btnBetaOrders.addEventListener('click', submitBetaOrder);
 
     // Qty input change (update batch._qty live so expandedBatch() picks it up)
@@ -995,3 +995,4 @@
     init();
   }
 })();
+
