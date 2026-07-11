@@ -638,13 +638,31 @@
   }
 
   // --- Add to batch ---
+  // Compare two configs ignoring internal bookkeeping fields (_qty is the
+  // running count, not part of the Pokémon's identity).
+  function configsEqual(a, b) {
+    const strip = (cfg) => {
+      const { _qty, ...rest } = cfg;
+      return rest;
+    };
+    return JSON.stringify(strip(a)) === JSON.stringify(strip(b));
+  }
+
   function addToBatch() {
     const config = buildConfig();
     if (!config) return;
 
-    batch.push(config);
+    // If an identical config (same species, form, level, ball, IVs/EVs, etc.)
+    // is already in the batch, bump its qty instead of adding a new row.
+    const existingIndex = batch.findIndex((cfg) => configsEqual(cfg, config));
+    if (existingIndex !== -1) {
+      batch[existingIndex]._qty = (batch[existingIndex]._qty || 1) + 1;
+    } else {
+      batch.push(config);
+    }
     saveBatch();
     updateBatchUI();
+    UI.renderBatchList(batch, batchList);
 
     // Expand badge to show full text, then collapse after 2s
     expandBadge();
@@ -657,7 +675,8 @@
     batchBadge.classList.add('batch-badge-pop');
     setTimeout(() => batchBadge.classList.remove('batch-badge-pop'), 500);
 
-    UI.showToast(`✓ เพิ่ม ${config.pokemonName} แล้ว (${batch.length} ตัว)`, 2500, 'success');
+    const totalQty = expandedBatch().length;
+    UI.showToast(`✓ เพิ่ม ${config.pokemonName} แล้ว (${totalQty} ตัว)`, 2500, 'success');
   }
 
   // --- Copy all batch ---
