@@ -798,20 +798,6 @@
     }
   }
 
-  // Force the badge into its collapsed (mini) visual state without the
-  // expand animation — used right after a page load/restore so a batch
-  // brought back from localStorage doesn't flash the "just added" full text.
-  function setBadgeMiniImmediate() {
-    const full = document.getElementById('batch-badge-full');
-    const mini = document.getElementById('batch-badge-mini');
-    if (!full || !mini) return;
-    clearTimeout(badgeCollapseTimer);
-    batchBadge.classList.remove('batch-badge--expanded');
-    batchBadge.classList.add('batch-badge--mini');
-    full.classList.add('hidden');
-    mini.classList.remove('hidden');
-  }
-
   function expandBadge() {
     const full = document.getElementById('batch-badge-full');
     const mini = document.getElementById('batch-badge-mini');
@@ -870,11 +856,10 @@
       if (saved.version === currentVersion && Array.isArray(saved.items) && saved.items.length > 0) {
         batch = saved.items;
         updateBatchUI();
-        setBadgeMiniImmediate();
-        // Small pop animation so the user notices the restored badge,
-        // without the full-text expand/collapse or a toast notification.
-        batchBadge.classList.add('batch-badge-pop');
-        setTimeout(() => batchBadge.classList.remove('batch-badge-pop'), 500);
+        // Same expand → collapse animation as adding a new Pokémon: show the
+        // full "เทรดจำนวน N ตัว" text briefly, then shrink to the mini badge.
+        expandBadge();
+        collapseBadge();
       }
     } catch (e) {
       localStorage.removeItem(BATCH_STORAGE_KEY);
