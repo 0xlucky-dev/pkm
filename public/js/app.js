@@ -233,17 +233,33 @@
     const formSelect = document.getElementById('cfg-form');
 
     if (formBtn && formMenu && formSelect) {
-      // Toggle open/close
+      // Toggle open/close. The menu is repositioned to fixed + the button's
+      // on-screen coordinates so it escapes the overlay panel's
+      // `overflow:hidden`, which would otherwise clip long form lists
+      // instead of letting them show in full.
       formBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         const isOpen = formWrap.classList.toggle('cd-open');
         formBtn.setAttribute('aria-expanded', String(isOpen));
+        if (isOpen) {
+          const rect = formBtn.getBoundingClientRect();
+          formMenu.style.setProperty('position', 'fixed', 'important');
+          formMenu.style.setProperty('top', `${rect.bottom + 4}px`, 'important');
+          formMenu.style.setProperty('left', `${rect.left}px`, 'important');
+          formMenu.style.setProperty('width', `${rect.width}px`, 'important');
+          // Cap height to available space below the button and allow
+          // scrolling within the menu itself if the form list is long,
+          // instead of letting the overlay panel clip it.
+          const available = window.innerHeight - rect.bottom - 16;
+          formMenu.style.setProperty('max-height', `${available}px`, 'important');
+        }
       });
       // Close on outside click
       document.addEventListener('click', function closeForm(e) {
         if (!formWrap.contains(e.target)) {
           formWrap.classList.remove('cd-open');
           formBtn.setAttribute('aria-expanded', 'false');
+          formMenu.style.removeProperty('position');
           document.removeEventListener('click', closeForm);
         }
       });

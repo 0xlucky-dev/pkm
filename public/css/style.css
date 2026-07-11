@@ -596,14 +596,16 @@
 .hero-form-select .cd-btn {
   min-width: 140px;
 }
-/* Form dropdown: show all options, no scroll, no search needed */
+/* Form dropdown: no search box needed since forms lists are short. The
+   menu is repositioned to `fixed` by JS on open (see app.js) so it can
+   escape the overlay panel's overflow:hidden — if the form list is still
+   taller than the available space below the button, it scrolls instead
+   of getting clipped. */
 .hero-form-select .cd-menu {
   min-width: 140px;
-  max-height: none !important;
 }
 .hero-form-select .cd-options {
-  overflow-y: visible;
-  max-height: none;
+  overflow-y: auto;
 }
 
 /* Nickname pill */
