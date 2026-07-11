@@ -1,9 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
+const DISCORD_INVITE_URL = process.env.DISCORD_INVITE_URL || 'https://discord.gg/R6nEKxkx5j';
 
 const DATA_DIR = path.join(__dirname, 'data');
 
@@ -117,15 +119,27 @@ app.use('/api/*', (req, res) => {
   res.status(404).json({ error: 'Endpoint not found' });
 });
 
+// Serve index.html with {{DISCORD_INVITE_URL}} replaced by the env value,
+// so the Discord invite link can be changed via .env without editing HTML.
+function sendIndexWithEnv(res) {
+  const filePath = path.join(__dirname, 'public', 'index.html');
+  fs.readFile(filePath, 'utf-8', (err, html) => {
+    if (err) return res.status(500).send('Failed to load page');
+    const rendered = html.replace(/\{\{DISCORD_INVITE_URL\}\}/g, DISCORD_INVITE_URL);
+    res.set('Content-Type', 'text/html');
+    res.send(rendered);
+  });
+}
+
 // --- Version-specific app routes ---
 // /sv   -> Scarlet/Violet  (gen9)
 // /za   -> Legends: Z-A    (gen9a)
 // /swsh -> Sword/Shield     (gen8)
 // /la   -> Legends Arceus  (gen8a)
-app.get('/sv',   (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
-app.get('/za',   (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
-app.get('/swsh', (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
-app.get('/la',   (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
+app.get('/sv',   (req, res) => sendIndexWithEnv(res));
+app.get('/za',   (req, res) => sendIndexWithEnv(res));
+app.get('/swsh', (req, res) => sendIndexWithEnv(res));
+app.get('/la',   (req, res) => sendIndexWithEnv(res));
 
 // Legacy redirects
 app.get('/gen9',  (req, res) => res.redirect(301, '/sv'));
@@ -137,6 +151,11 @@ app.get('/gen8a', (req, res) => res.redirect(301, '/la'));
 app.get('/', (req, res) => {
   res.redirect('/za');
 });
+
+// Guard against directly requesting the raw index.html (which still
+// contains the unreplaced {{DISCORD_INVITE_URL}} placeholder) — redirect
+// to the versioned route instead so it goes through sendIndexWithEnv.
+app.get('/index.html', (req, res) => res.redirect(301, '/za'));
 
 // --- Static file serving (no cache for JS/CSS during dev) ---
 app.use(express.static(path.join(__dirname, 'public'), {
