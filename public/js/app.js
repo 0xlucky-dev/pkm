@@ -800,17 +800,23 @@
   // --- Update batch badge and counts ---
   let badgeCollapseTimer = null;
 
+  // Total individual Pokémon count, respecting each row's qty (not just the
+  // number of distinct rows in the batch array).
+  function totalBatchQty() {
+    return batch.reduce((sum, cfg) => sum + (cfg._qty || 1), 0);
+  }
+
   function updateBatchUI() {
-    const count = batch.length;
-    btnBatchCount.textContent = count;
+    const rowCount = batch.length;
+    const totalCount = totalBatchQty();
+    btnBatchCount.textContent = totalCount;
 
     const badgeCount = document.getElementById('batch-badge-count');
     const badgeMini = document.getElementById('batch-badge-mini');
-    const badgeFull = document.getElementById('batch-badge-full');
-    if (badgeCount) badgeCount.textContent = count;
-    if (badgeMini) badgeMini.textContent = count;
+    if (badgeCount) badgeCount.textContent = totalCount;
+    if (badgeMini) badgeMini.textContent = totalCount;
 
-    if (count > 0) {
+    if (rowCount > 0) {
       batchBadge.classList.remove('hidden');
     } else {
       batchBadge.classList.add('hidden');
@@ -1025,6 +1031,7 @@
       if (batch[index]) {
         batch[index]._qty = Math.max(1, parseInt(input.value) || 1);
         saveBatch();
+        updateBatchUI();
       }
     });
 
