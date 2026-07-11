@@ -871,7 +871,10 @@
         batch = saved.items;
         updateBatchUI();
         setBadgeMiniImmediate();
-        UI.showToast(`โหลด batch ${batch.length} ตัวจากครั้งก่อน`, 3000, 'success');
+        // Small pop animation so the user notices the restored badge,
+        // without the full-text expand/collapse or a toast notification.
+        batchBadge.classList.add('batch-badge-pop');
+        setTimeout(() => batchBadge.classList.remove('batch-badge-pop'), 500);
       }
     } catch (e) {
       localStorage.removeItem(BATCH_STORAGE_KEY);
