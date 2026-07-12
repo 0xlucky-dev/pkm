@@ -597,9 +597,19 @@
   min-width: 140px;
 }
 /* Form dropdown: show max 10 items then scroll */
+.hero-form-select {
+  position: relative;
+  min-width: 140px;
+  max-width: 220px;
+}
+.hero-form-select .cd-wrap {
+  position: static;
+}
 .hero-form-select .cd-menu {
   min-width: 140px;
   max-height: 380px !important;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .hero-form-select .cd-options {
   overflow-y: auto;
