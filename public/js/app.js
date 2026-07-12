@@ -744,28 +744,23 @@
       if (data.order) {
         const suffix = buildOrderSuffix(expanded);
         const code = `%order ${data.order} ${suffix}`;
-        // iOS Safari blocks clipboard after async — use a visible span + Selection API
-        const span = document.createElement('span');
-        span.textContent = code;
-        span.style.whiteSpace = 'pre';
-        span.style.position = 'fixed';
-        span.style.top = '-9999px';
-        span.style.opacity = '0';
-        span.setAttribute('contenteditable', 'true');
-        document.body.appendChild(span);
-        const range = document.createRange();
-        range.selectNodeContents(span);
-        const sel = window.getSelection();
-        sel.removeAllRanges();
-        sel.addRange(range);
-        span.setSelectionRange(0, code.length); // iOS needs this
+        // iOS Safari clipboard workaround: textarea + select + execCommand
+        const ta = document.createElement('textarea');
+        ta.value = code;
+        ta.style.position = 'fixed';
+        ta.style.left = '-9999px';
+        ta.style.top = '0';
+        ta.style.opacity = '0';
+        ta.setAttribute('readonly', '');
+        document.body.appendChild(ta);
+        ta.select();
+        ta.setSelectionRange(0, code.length);
         let copied = false;
         try { copied = document.execCommand('copy'); } catch {}
         if (!copied) {
           try { await navigator.clipboard.writeText(code); copied = true; } catch {}
         }
-        sel.removeAllRanges();
-        document.body.removeChild(span);
+        document.body.removeChild(ta);
         UI.showToast(copied ? `คัดลอกแล้ว: %order ${data.order}` : `%order ${data.order} (กดค้างเพื่อคัดลอก)`, 5000, copied ? 'success' : 'error');
       } else {
         UI.showToast(data.error || 'เกิดข้อผิดพลาด', 4000, 'error');
