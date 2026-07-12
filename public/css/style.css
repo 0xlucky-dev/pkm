@@ -1121,8 +1121,16 @@
   .poke-card__dex { font-size: 0.78rem; padding: 4px 14px; }
 }
 
-/* Version logo — no blend mode needed, logos are transparent */
+/* Version logo — constrained box so all logos look balanced */
 .version-logo-img {
+  max-height: 80px;
+  max-width: 240px;
+}
+@media (min-width: 1024px) {
+  .version-logo-img {
+    max-height: 120px;
+    max-width: 360px;
+  }
 }
 
 /* ===== Animations ===== */
