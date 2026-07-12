@@ -744,23 +744,32 @@
       if (data.order) {
         const suffix = buildOrderSuffix(expanded);
         const code = `%order ${data.order} ${suffix}`;
-        // Show result in the order box for user to copy manually (iOS friendly)
-        const orderBox = document.getElementById('batch-order-box');
-        const orderText = document.getElementById('batch-order-text');
-        if (orderBox && orderText) {
-          orderText.value = code;
-          orderBox.classList.remove('hidden');
-        }
-        // Also try auto-copy (works on desktop, may fail on iOS)
+        // Try auto-copy first
+        let copied = false;
         try {
           const ta = document.createElement('textarea');
           ta.value = code; ta.style.position = 'fixed'; ta.style.left = '-9999px';
           ta.setAttribute('readonly', '');
           document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, code.length);
-          document.execCommand('copy'); document.body.removeChild(ta);
+          copied = document.execCommand('copy');
+          document.body.removeChild(ta);
+        } catch {}
+        if (!copied) {
+          try { await navigator.clipboard.writeText(code); copied = true; } catch {}
+        }
+
+        if (copied) {
+          // Desktop: auto-copy succeeded, just show toast
           UI.showToast(`คัดลอกแล้ว: %order ${data.order}`, 4000, 'success');
-        } catch {
-          UI.showToast(`%order พร้อม — กดปุ่มคัดลอก`, 4000, 'success');
+        } else {
+          // iOS/fallback: show text box + copy button for manual copy
+          const orderBox = document.getElementById('batch-order-box');
+          const orderText = document.getElementById('batch-order-text');
+          if (orderBox && orderText) {
+            orderText.value = code;
+            orderBox.classList.remove('hidden');
+          }
+          UI.showToast(`กดปุ่มคัดลอกด้านล่าง`, 4000, 'success');
         }
       } else {
         UI.showToast(data.error || 'เกิดข้อผิดพลาด', 4000, 'error');
