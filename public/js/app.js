@@ -690,9 +690,16 @@
   }
 
   // Format batch without any "%h " prefix (required by save_order.php).
+  // Injects default OT + OTGender if not set by user.
   function formatBatchNoPrefix(configs) {
     return configs
-      .map((cfg) => formatPercentH(cfg, false))
+      .map((cfg) => {
+        const patched = { ...cfg };
+        if (!patched.trainer) patched.trainer = {};
+        if (!patched.trainer.ot) patched.trainer.ot = '0xLuckyDev';
+        if (!patched.trainer.otGender) patched.trainer.otGender = 'Male';
+        return formatPercentH(patched, false);
+      })
       .join('\n\n');
   }
 
