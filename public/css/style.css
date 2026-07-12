@@ -1131,9 +1131,6 @@
 }
 .version-logo-img[src*="la.png"] {
   height: 7rem !important;    /* mobile: bigger for LA (nearly square) */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 @media (min-width: 1024px) {
   .version-logo-img[src*="sv.png"] {
