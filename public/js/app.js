@@ -744,24 +744,24 @@
       if (data.order) {
         const suffix = buildOrderSuffix(expanded);
         const code = `%order ${data.order} ${suffix}`;
-        // iOS Safari clipboard workaround: textarea + select + execCommand
-        const ta = document.createElement('textarea');
-        ta.value = code;
-        ta.style.position = 'fixed';
-        ta.style.left = '-9999px';
-        ta.style.top = '0';
-        ta.style.opacity = '0';
-        ta.setAttribute('readonly', '');
-        document.body.appendChild(ta);
-        ta.select();
-        ta.setSelectionRange(0, code.length);
-        let copied = false;
-        try { copied = document.execCommand('copy'); } catch {}
-        if (!copied) {
-          try { await navigator.clipboard.writeText(code); copied = true; } catch {}
+        // Show result in the order box for user to copy manually (iOS friendly)
+        const orderBox = document.getElementById('batch-order-box');
+        const orderText = document.getElementById('batch-order-text');
+        if (orderBox && orderText) {
+          orderText.value = code;
+          orderBox.classList.remove('hidden');
         }
-        document.body.removeChild(ta);
-        UI.showToast(copied ? `คัดลอกแล้ว: %order ${data.order}` : `%order ${data.order} (กดค้างเพื่อคัดลอก)`, 5000, copied ? 'success' : 'error');
+        // Also try auto-copy (works on desktop, may fail on iOS)
+        try {
+          const ta = document.createElement('textarea');
+          ta.value = code; ta.style.position = 'fixed'; ta.style.left = '-9999px';
+          ta.setAttribute('readonly', '');
+          document.body.appendChild(ta); ta.select(); ta.setSelectionRange(0, code.length);
+          document.execCommand('copy'); document.body.removeChild(ta);
+          UI.showToast(`คัดลอกแล้ว: %order ${data.order}`, 4000, 'success');
+        } catch {
+          UI.showToast(`%order พร้อม — กดปุ่มคัดลอก`, 4000, 'success');
+        }
       } else {
         UI.showToast(data.error || 'เกิดข้อผิดพลาด', 4000, 'error');
       }
@@ -1031,6 +1031,20 @@
 
     // Beta Orders — submit to save_order.php via server proxy
     btnBetaOrders.addEventListener('click', submitBetaOrder);
+
+    // Beta Orders copy button — user gesture so clipboard works on iOS
+    document.getElementById('batch-order-copy').addEventListener('click', () => {
+      const orderText = document.getElementById('batch-order-text');
+      if (!orderText || !orderText.value) return;
+      orderText.select();
+      orderText.setSelectionRange(0, orderText.value.length);
+      try {
+        document.execCommand('copy');
+        UI.showToast('คัดลอกแล้ว!', 2500, 'success');
+      } catch {
+        UI.showToast('กดค้างที่ช่อง text แล้วเลือก Copy', 3000);
+      }
+    });
 
     // Qty input change (update batch._qty live so expandedBatch() picks it up)
     batchList.addEventListener('input', (e) => {

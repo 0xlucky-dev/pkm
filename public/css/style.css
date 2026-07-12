@@ -950,6 +950,47 @@
 }
 .batch-empty { text-align: center; padding: 40px 0; color: var(--text-dim); font-size: 0.9rem; }
 
+/* Order result box — visible after Beta Orders returns a code */
+.batch-order-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border-top: 1px solid var(--border);
+  background: rgba(15, 17, 35, 0.98);
+  flex-shrink: 0;
+}
+.batch-order-box.hidden { display: none; }
+.batch-order-input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  font-family: monospace;
+  font-weight: 600;
+  color: #86efac;
+  background: rgba(20, 40, 30, 0.7);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 8px;
+  outline: none;
+  cursor: text;
+  -webkit-user-select: all;
+  user-select: all;
+}
+.batch-order-copy-btn {
+  padding: 8px 16px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  font-family: var(--font);
+  color: #fff;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+.batch-order-copy-btn:active { transform: scale(0.92); }
+
 /* ===== Toast ===== */
 .toast {
   position: fixed;
