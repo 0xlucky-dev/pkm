@@ -608,8 +608,10 @@
 .hero-form-select .cd-menu {
   min-width: 140px;
   max-height: 380px !important;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-form-select .cd-options {
   overflow-y: auto;
