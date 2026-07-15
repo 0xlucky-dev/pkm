@@ -299,14 +299,31 @@
       });
     }
 
-    // Size sliders — min=-1 is "X" (don't send), 0-255 = send value
+    // Size sliders + editable input — bidirectional sync
     ['cfg-scale', 'cfg-height-scalar', 'cfg-weight-scalar'].forEach(id => {
       const slider = document.getElementById(id);
-      if (!slider) return;
+      const input = document.getElementById(id + '-val');
+      if (!slider || !input) return;
+
+      // Slider → input
       slider.addEventListener('input', () => {
         const val = parseInt(slider.value);
-        const valEl = document.getElementById(id + '-val');
-        if (valEl) valEl.textContent = val < 0 ? '✕' : val;
+        input.value = val < 0 ? '✕' : val;
+        const pct = val < 0 ? 0 : (val / 255) * 100;
+        slider.style.setProperty('--iv-pct', pct + '%');
+      });
+
+      // Input → slider (accepts x, X, -1, or 0-255)
+      input.addEventListener('change', () => {
+        const raw = input.value.trim().toLowerCase();
+        let val;
+        if (raw === 'x' || raw === '✕' || raw === '-1' || raw === '') {
+          val = -1;
+        } else {
+          val = Math.max(-1, Math.min(255, parseInt(raw) || -1));
+        }
+        slider.value = val;
+        input.value = val < 0 ? '✕' : val;
         const pct = val < 0 ? 0 : (val / 255) * 100;
         slider.style.setProperty('--iv-pct', pct + '%');
       });
