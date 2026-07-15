@@ -962,6 +962,30 @@
 }
 .batch-empty { text-align: center; padding: 40px 0; color: var(--text-dim); font-size: 0.9rem; }
 
+/* Size slider X button — marks slider as "don't send" */
+.size-x-btn {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(239, 68, 68, 0.4);
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.size-x-btn:hover { background: rgba(239, 68, 68, 0.2); }
+.size-x-btn.active {
+  background: rgba(239, 68, 68, 0.3);
+  border-color: #ef4444;
+  color: #fff;
+}
+
 /* Order result box — visible after Beta Orders returns a code */
 .batch-order-box {
   display: flex;

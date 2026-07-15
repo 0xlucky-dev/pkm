@@ -268,15 +268,7 @@ const UI = (() => {
       </div>`;
 
     // --- Friendship slider ---
-    const friendshipHtml = `
-      <div class="config-section">
-        <div class="config-section__title">Friendship</div>
-        <div class="config-slider-row level-slider">
-          <span class="slider-value" id="cfg-friendship-val">0</span>
-          <input type="range" id="cfg-friendship" min="0" max="255" value="0"
-                 style="--level-pct: 0%">
-        </div>
-      </div>`;
+    // (included inside Basic Info section below)
 
     // --- Basic Info dropdowns ---
     let abilitiesHtml = '';
@@ -352,6 +344,34 @@ const UI = (() => {
           <div class="config-field">
             <label for="cfg-language">Language</label>
             <select id="cfg-language">${langHtml}</select>
+          </div>
+        </div>
+        <div style="margin-top:16px;padding-top:12px;border-top:1px solid rgba(100,160,255,0.1);">
+          <label style="font-size:0.72rem;color:var(--text-muted);font-weight:500;text-transform:uppercase;letter-spacing:0.3px;">Friendship</label>
+          <div class="config-slider-row level-slider" style="margin-top:6px;">
+            <span class="slider-value" id="cfg-friendship-val">0</span>
+            <input type="range" id="cfg-friendship" min="0" max="255" value="0" style="--level-pct:0%">
+          </div>
+        </div>
+        <div style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(100,160,255,0.1);">
+          <label style="font-size:0.72rem;color:var(--text-muted);font-weight:500;text-transform:uppercase;letter-spacing:0.3px;">Size</label>
+          <div class="config-slider-row iv-slider" style="margin-top:6px;">
+            <label style="min-width:50px;">Scale</label>
+            <span class="slider-value" id="cfg-scale-val">0</span>
+            <input type="range" id="cfg-scale" min="0" max="255" value="0" style="--iv-pct:0%">
+            <button type="button" class="size-x-btn" data-target="cfg-scale" title="ไม่ส่ง">✕</button>
+          </div>
+          <div class="config-slider-row iv-slider">
+            <label style="min-width:50px;">Height</label>
+            <span class="slider-value" id="cfg-height-scalar-val">0</span>
+            <input type="range" id="cfg-height-scalar" min="0" max="255" value="0" style="--iv-pct:0%">
+            <button type="button" class="size-x-btn" data-target="cfg-height-scalar" title="ไม่ส่ง">✕</button>
+          </div>
+          <div class="config-slider-row iv-slider">
+            <label style="min-width:50px;">Weight</label>
+            <span class="slider-value" id="cfg-weight-scalar-val">0</span>
+            <input type="range" id="cfg-weight-scalar" min="0" max="255" value="0" style="--iv-pct:0%">
+            <button type="button" class="size-x-btn" data-target="cfg-weight-scalar" title="ไม่ส่ง">✕</button>
           </div>
         </div>
       </div>`;
@@ -472,22 +492,13 @@ const UI = (() => {
         </div>
       </div>`;
 
-    // --- Size section (Scale / Height / Weight) — sliders 0-255 ---
-    const sizeHtml = `
-      <div class="config-section">
-        <div class="config-section__title">Size</div>
-        ${buildSliderRow('cfg-scale', 'Size', 0, 255, 0, 'iv-slider')}
-        ${buildSliderRow('cfg-height-scalar', 'Height', 0, 255, 0, 'iv-slider')}
-        ${buildSliderRow('cfg-weight-scalar', 'Weight', 0, 255, 0, 'iv-slider')}
-      </div>`;
+    // --- Size section (Scale / Height / Weight) included in basicInfoHtml above ---
 
     return `
       ${heroHtml}
       ${traitTogglesHtml}
       ${levelSliderHtml}
-      ${friendshipHtml}
       ${basicInfoHtml}
-      ${sizeHtml}
       ${ivsHtml}
       ${evsHtml}
       ${movesHtml}

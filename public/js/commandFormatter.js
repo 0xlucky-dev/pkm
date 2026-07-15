@@ -129,10 +129,10 @@ function formatPercentH(config, includePrefix = true) {
   // Language — always
   lines.push(`Language: ${config.language}`);
 
-  // Size scalars — only when > 0
-  if (config.scale !== undefined && config.scale >= 0) lines.push(`.Scale=${config.scale}`);
-  if (config.heightScalar !== undefined && config.heightScalar >= 0) lines.push(`.HeightScalar=${config.heightScalar}`);
-  if (config.weightScalar !== undefined && config.weightScalar >= 0) lines.push(`.WeightScalar=${config.weightScalar}`);
+  // Size scalars — only when defined (not undefined = X pressed)
+  if (config.scale !== undefined) lines.push(`.Scale=${config.scale}`);
+  if (config.heightScalar !== undefined) lines.push(`.HeightScalar=${config.heightScalar}`);
+  if (config.weightScalar !== undefined) lines.push(`.WeightScalar=${config.weightScalar}`);
 
   // Moves — each selected move on its own line, hyphen prefix, NO space
   for (const move of config.moves) {

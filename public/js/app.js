@@ -299,6 +299,18 @@
       });
     }
 
+    // Size X buttons — toggle "disabled" state on size sliders
+    overlayBody.querySelectorAll('.size-x-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const isActive = btn.classList.toggle('active');
+        const slider = document.getElementById(btn.dataset.target);
+        if (slider) {
+          slider.disabled = isActive;
+          slider.style.opacity = isActive ? '0.3' : '1';
+        }
+      });
+    });
+
     // IV sliders
     const ivInputs = overlayBody.querySelectorAll('.iv-slider input[type="range"]');
     ivInputs.forEach((input) => {
@@ -558,10 +570,13 @@
     if (sid.trim()) trainer.sid = sid.trim();
     if (otGender) trainer.otGender = otGender;
 
-    // Size scalars (0-255, value 0 means "send .Scale=0", slider at -1/untouched means don't send)
-    const scaleVal = parseInt((document.getElementById('cfg-scale') || {}).value) || 0;
-    const heightVal = parseInt((document.getElementById('cfg-height-scalar') || {}).value) || 0;
-    const weightVal = parseInt((document.getElementById('cfg-weight-scalar') || {}).value) || 0;
+    // Size scalars (disabled = X pressed = don't send)
+    const scaleEl = document.getElementById('cfg-scale');
+    const heightEl = document.getElementById('cfg-height-scalar');
+    const weightEl = document.getElementById('cfg-weight-scalar');
+    const scaleVal = (scaleEl && !scaleEl.disabled) ? parseInt(scaleEl.value) : -1;
+    const heightVal = (heightEl && !heightEl.disabled) ? parseInt(heightEl.value) : -1;
+    const weightVal = (weightEl && !weightEl.disabled) ? parseInt(weightEl.value) : -1;
 
     return {
       pokemonName: currentDetail.name,
@@ -588,10 +603,10 @@
       // Metadata for %order suffix (version filtering / whitelist / banlist)
       _dex: currentDetail.dexNum || currentDetail.id,
       _formIndex: currentFormIndex,
-      // Size scalars (0 = send value 0, undefined = don't send)
-      scale: scaleVal > 0 ? scaleVal : undefined,
-      heightScalar: heightVal > 0 ? heightVal : undefined,
-      weightScalar: weightVal > 0 ? weightVal : undefined,
+      // Size scalars (-1 = disabled/X = don't send, >=0 = send)
+      scale: scaleVal >= 0 ? scaleVal : undefined,
+      heightScalar: heightVal >= 0 ? heightVal : undefined,
+      weightScalar: weightVal >= 0 ? weightVal : undefined,
     };
   }
 
