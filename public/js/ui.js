@@ -347,26 +347,30 @@ const UI = (() => {
           </div>
         </div>
         <div style="margin-top:16px;padding-top:12px;border-top:1px solid rgba(100,160,255,0.1);">
-          <label style="font-size:0.72rem;color:var(--text-muted);font-weight:500;text-transform:uppercase;letter-spacing:0.3px;">Friendship</label>
-          <div class="config-slider-row level-slider" style="margin-top:6px;">
+          <div class="config-row--single" style="margin-bottom:8px;">
+            <div class="config-field">
+              <label for="cfg-friendship">Friendship</label>
+            </div>
+          </div>
+          <div class="config-slider-row level-slider">
             <span class="slider-value" id="cfg-friendship-val">0</span>
             <input type="range" id="cfg-friendship" min="0" max="255" value="0" style="--level-pct:0%">
           </div>
         </div>
         <div style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(100,160,255,0.1);">
-          <label style="font-size:0.72rem;color:var(--text-muted);font-weight:500;text-transform:uppercase;letter-spacing:0.3px;">Size</label>
-          <div class="config-slider-row iv-slider" style="margin-top:6px;">
-            <label style="min-width:50px;">Scale</label>
+          <div class="config-section__title" style="margin-bottom:10px;">Size</div>
+          <div class="config-slider-row iv-slider">
+            <label style="min-width:54px;">Scale</label>
             <span class="slider-value" id="cfg-scale-val">✕</span>
             <input type="range" id="cfg-scale" min="-1" max="255" value="-1" style="--iv-pct:0%">
           </div>
           <div class="config-slider-row iv-slider">
-            <label style="min-width:50px;">Height</label>
+            <label style="min-width:54px;">Height</label>
             <span class="slider-value" id="cfg-height-scalar-val">✕</span>
             <input type="range" id="cfg-height-scalar" min="-1" max="255" value="-1" style="--iv-pct:0%">
           </div>
           <div class="config-slider-row iv-slider">
-            <label style="min-width:50px;">Weight</label>
+            <label style="min-width:54px;">Weight</label>
             <span class="slider-value" id="cfg-weight-scalar-val">✕</span>
             <input type="range" id="cfg-weight-scalar" min="-1" max="255" value="-1" style="--iv-pct:0%">
           </div>
@@ -459,26 +463,32 @@ const UI = (() => {
           <span class="config-section__hint">ปกติไม่ต้องตั้ง bot จัดการให้อัตโนมัติ</span>
           <svg class="config-section__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </button>
-        <div class="config-section__content" id="trainer-content" style="display:none;">
-          <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px;flex-wrap:wrap;">
-            <div class="nickname-pill">
-              <input type="text" id="cfg-ot" placeholder="OT Name" maxlength="12" autocomplete="off" style="width:120px;">
+        <div class="config-section__content" id="trainer-content" style="display:none;padding-top:16px;">
+          <div class="config-row" style="margin-bottom:14px;">
+            <div class="config-field">
+              <label for="cfg-ot">OT Name</label>
+              <input type="text" id="cfg-ot" placeholder="Trainer Name" maxlength="12" autocomplete="off">
             </div>
-            <button type="button" class="icon-toggle icon-toggle--male" data-ot-gender="Male" aria-pressed="false" title="Male">
-              <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M14.5 3a1 1 0 000 2h2.086l-3.51 3.51A6 6 0 1014.99 9.9L18.5 6.41V8.5a1 1 0 002 0v-4.5a1 1 0 00-1-1h-5zM10 10a4 4 0 110 8 4 4 0 010-8z"/></svg>
-            </button>
-            <button type="button" class="icon-toggle icon-toggle--female" data-ot-gender="Female" aria-pressed="false" title="Female">
-              <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2a6 6 0 00-1 11.917V16H9a1 1 0 000 2h2v2a1 1 0 002 0v-2h2a1 1 0 000-2h-2v-2.083A6 6 0 0012 2zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>
-            </button>
+            <div class="config-field">
+              <label>Gender</label>
+              <div style="display:flex;gap:8px;padding-top:4px;">
+                <button type="button" class="icon-toggle icon-toggle--male" data-ot-gender="Male" aria-pressed="false" title="Male">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M14.5 3a1 1 0 000 2h2.086l-3.51 3.51A6 6 0 1014.99 9.9L18.5 6.41V8.5a1 1 0 002 0v-4.5a1 1 0 00-1-1h-5zM10 10a4 4 0 110 8 4 4 0 010-8z"/></svg>
+                </button>
+                <button type="button" class="icon-toggle icon-toggle--female" data-ot-gender="Female" aria-pressed="false" title="Female">
+                  <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 2a6 6 0 00-1 11.917V16H9a1 1 0 000 2h2v2a1 1 0 002 0v-2h2a1 1 0 000-2h-2v-2.083A6 6 0 0012 2zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>
+                </button>
+              </div>
+            </div>
           </div>
-          <div class="config-row" style="margin-top:14px;">
+          <div class="config-row">
             <div class="config-field">
               <label for="cfg-tid">TID</label>
-              <input type="text" id="cfg-tid" placeholder="Trainer ID" maxlength="6" autocomplete="off" inputmode="numeric">
+              <input type="text" id="cfg-tid" placeholder="000000" maxlength="6" autocomplete="off" inputmode="numeric">
             </div>
             <div class="config-field">
               <label for="cfg-sid">SID</label>
-              <input type="text" id="cfg-sid" placeholder="Secret ID" maxlength="6" autocomplete="off" inputmode="numeric">
+              <input type="text" id="cfg-sid" placeholder="000000" maxlength="6" autocomplete="off" inputmode="numeric">
             </div>
           </div>
           <select id="cfg-ot-gender" style="display:none;">
