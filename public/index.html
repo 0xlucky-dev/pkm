@@ -42,35 +42,6 @@
   <header class="sticky top-0 z-[100] flex items-center justify-between px-6 lg:px-10 h-16 lg:h-20 bg-[#131629]/80 backdrop-blur-xl border-b border-[rgba(100,140,220,0.12)] shadow-[0_4px_16px_rgba(0,0,0,0.4),0_1px_0_rgba(255,255,255,0.03)_inset]">
     <div class="flex items-center gap-2 flex-shrink-0">
       <span class="text-lg lg:text-2xl font-bold text-white uppercase tracking-wide">Pokémon <span class="text-[#c4388a]">Helper</span></span>
-      <div class="relative" id="version-dropdown-wrap">
-        <button type="button" id="version-dropdown-btn"
-                class="flex items-center gap-1.5 lg:gap-2 px-2.5 lg:px-5 py-1.5 lg:py-2.5 rounded-lg lg:rounded-xl bg-[rgba(25,30,56,0.7)] border border-[rgba(100,140,220,0.15)] text-xs lg:text-base font-medium text-[#7b8ab8] cursor-pointer outline-none hover:text-white hover:border-[rgba(100,140,220,0.3)] transition-all duration-200">
-          <span>Select</span>
-          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-[#4a5580] lg:w-[14px] lg:h-[14px]"><path d="M6 9l6 6 6-6"/></svg>
-        </button>
-        <div id="version-dropdown-menu" class="hidden absolute top-full left-0 mt-2 min-w-[220px] rounded-xl bg-[rgba(20,25,50,0.97)] border border-[rgba(100,140,220,0.15)] shadow-[0_8px_32px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.05)] backdrop-blur-xl z-50 overflow-hidden">
-          <button type="button" data-version="gen9a"
-                  class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3">
-            <img src="/img/za.png" class="w-6 h-6 object-contain rounded" alt="">
-            <span>Pokemon Legends Z-A</span>
-          </button>
-          <button type="button" data-version="gen9"
-                  class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3 border-t border-[rgba(100,140,220,0.08)]">
-            <img src="/img/sv.png" class="w-6 h-6 object-contain rounded" alt="">
-            <span>Pokemon Scarlet/Violet</span>
-          </button>
-          <button type="button" data-version="gen8"
-                  class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3 border-t border-[rgba(100,140,220,0.08)]">
-            <img src="/img/swsh.png" class="w-6 h-6 object-contain rounded" alt="">
-            <span>Sword / Shield</span>
-          </button>
-          <button type="button" data-version="gen8a"
-                  class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3 border-t border-[rgba(100,140,220,0.08)]">
-            <img src="/img/la.png" class="w-6 h-6 object-contain rounded" alt="">
-            <span>Legends: Arceus</span>
-          </button>
-        </div>
-      </div>
     </div>
     <div class="flex items-center gap-3 flex-shrink-0">
       <a href="{{DISCORD_INVITE_URL}}" target="_blank" rel="noopener noreferrer"
@@ -103,6 +74,36 @@
       <img src="/icons/discord.svg" width="28" height="28" alt="Discord" class="rounded-full lg:w-[48px] lg:h-[48px]">
       <span>เข้าร่วม Discord เรา</span>
     </a>
+    <!-- Version selector (centered, glowing border) -->
+    <div class="relative" id="version-dropdown-wrap">
+      <button type="button" id="version-dropdown-btn"
+              class="flex items-center gap-2 px-6 py-3 lg:px-8 lg:py-4 rounded-xl bg-[rgba(25,30,56,0.8)] border-[1.5px] border-[rgba(200,220,255,0.5)] text-sm lg:text-base font-semibold text-white cursor-pointer outline-none transition-all duration-200 shadow-[0_0_12px_rgba(200,220,255,0.15),inset_0_1px_0_rgba(255,255,255,0.08)]">
+        <span id="version-btn-label">Pokemon Legends Z-A</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-white/60"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div id="version-dropdown-menu" class="hidden absolute top-full left-1/2 -translate-x-1/2 mt-2 min-w-[240px] rounded-xl bg-[rgba(20,25,50,0.97)] border border-[rgba(100,140,220,0.15)] shadow-[0_8px_32px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.05)] backdrop-blur-xl z-50 overflow-hidden">
+        <button type="button" data-version="gen9a"
+                class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3">
+          <img src="/img/za.png" class="w-6 h-6 object-contain rounded" alt="">
+          <span>Pokemon Legends Z-A</span>
+        </button>
+        <button type="button" data-version="gen9"
+                class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3 border-t border-[rgba(100,140,220,0.08)]">
+          <img src="/img/sv.png" class="w-6 h-6 object-contain rounded" alt="">
+          <span>Pokemon Scarlet/Violet</span>
+        </button>
+        <button type="button" data-version="gen8"
+                class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3 border-t border-[rgba(100,140,220,0.08)]">
+          <img src="/img/swsh.png" class="w-6 h-6 object-contain rounded" alt="">
+          <span>Sword / Shield</span>
+        </button>
+        <button type="button" data-version="gen8a"
+                class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3 border-t border-[rgba(100,140,220,0.08)]">
+          <img src="/img/la.png" class="w-6 h-6 object-contain rounded" alt="">
+          <span>Legends: Arceus</span>
+        </button>
+      </div>
+    </div>
   </section>
 
   <!-- Search Bar (desktop) -->
@@ -223,6 +224,9 @@
       const meta = versionMeta[version] || versionMeta.gen9a;
       logoImg.src = meta.logo;
       subtitle.textContent = meta.subtitle;
+      // Update the version button label
+      const btnLabel = document.getElementById('version-btn-label');
+      if (btnLabel) btnLabel.textContent = meta.subtitle;
     }
 
     // Resolve the version straight from the URL path — matches app.js's
