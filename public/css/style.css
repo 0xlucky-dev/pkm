@@ -895,28 +895,32 @@
   z-index: 1;
 }
 
-/* Batch footer — shrink text on mobile so all 4 buttons fit in one row */
+/* Batch footer — fit 4 buttons on mobile */
 .batch-panel .overlay__footer {
-  gap: 8px;
+  gap: 6px;
   align-items: center;
+  flex-wrap: nowrap;
+  overflow: visible;
 }
 .batch-panel .btn {
-  padding: 12px 10px;
-  font-size: 0.78rem;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 12px 6px;
+  font-size: 0.72rem;
 }
 .batch-panel .btn--close-x {
-  flex: 0 0 44px;
-  min-width: 44px;
+  flex: 0 0 38px;
+  min-width: 38px;
   padding: 0;
   font-size: 1rem;
-  align-self: stretch;
 }
 @media (min-width: 640px) {
   .batch-panel .btn {
     padding: 16px 20px;
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .batch-panel .btn--close-x {
+    flex: 0 0 46px;
     padding: 16px 0;
   }
 }
