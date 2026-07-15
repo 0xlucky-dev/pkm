@@ -816,7 +816,7 @@
       UI.showToast('ส่งคำสั่งไม่สำเร็จ: ' + err.message, 4000, 'error');
     } finally {
       btnBetaOrders.disabled = false;
-      btnBetaOrders.textContent = 'Beta Orders';
+      btnBetaOrders.textContent = 'คัดลอก Order โค้ด';
     }
   }
 
