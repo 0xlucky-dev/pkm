@@ -357,21 +357,18 @@ const UI = (() => {
           <label style="font-size:0.72rem;color:var(--text-muted);font-weight:500;text-transform:uppercase;letter-spacing:0.3px;">Size</label>
           <div class="config-slider-row iv-slider" style="margin-top:6px;">
             <label style="min-width:50px;">Scale</label>
-            <span class="slider-value" id="cfg-scale-val">0</span>
-            <input type="range" id="cfg-scale" min="0" max="255" value="0" style="--iv-pct:0%">
-            <button type="button" class="size-x-btn" data-target="cfg-scale" title="ไม่ส่ง">✕</button>
+            <span class="slider-value size-val" id="cfg-scale-val">✕</span>
+            <input type="range" id="cfg-scale" min="0" max="255" value="0" data-touched="false" style="--iv-pct:0%;opacity:0.4">
           </div>
           <div class="config-slider-row iv-slider">
             <label style="min-width:50px;">Height</label>
-            <span class="slider-value" id="cfg-height-scalar-val">0</span>
-            <input type="range" id="cfg-height-scalar" min="0" max="255" value="0" style="--iv-pct:0%">
-            <button type="button" class="size-x-btn" data-target="cfg-height-scalar" title="ไม่ส่ง">✕</button>
+            <span class="slider-value size-val" id="cfg-height-scalar-val">✕</span>
+            <input type="range" id="cfg-height-scalar" min="0" max="255" value="0" data-touched="false" style="--iv-pct:0%;opacity:0.4">
           </div>
           <div class="config-slider-row iv-slider">
             <label style="min-width:50px;">Weight</label>
-            <span class="slider-value" id="cfg-weight-scalar-val">0</span>
-            <input type="range" id="cfg-weight-scalar" min="0" max="255" value="0" style="--iv-pct:0%">
-            <button type="button" class="size-x-btn" data-target="cfg-weight-scalar" title="ไม่ส่ง">✕</button>
+            <span class="slider-value size-val" id="cfg-weight-scalar-val">✕</span>
+            <input type="range" id="cfg-weight-scalar" min="0" max="255" value="0" data-touched="false" style="--iv-pct:0%;opacity:0.4">
           </div>
         </div>
       </div>`;

@@ -299,15 +299,17 @@
       });
     }
 
-    // Size X buttons — toggle "disabled" state on size sliders
-    overlayBody.querySelectorAll('.size-x-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const isActive = btn.classList.toggle('active');
-        const slider = document.getElementById(btn.dataset.target);
-        if (slider) {
-          slider.disabled = isActive;
-          slider.style.opacity = isActive ? '0.3' : '1';
-        }
+    // Size sliders — mark as "touched" on first interaction (default = untouched = don't send)
+    ['cfg-scale', 'cfg-height-scalar', 'cfg-weight-scalar'].forEach(id => {
+      const slider = document.getElementById(id);
+      if (!slider) return;
+      slider.addEventListener('input', () => {
+        slider.dataset.touched = 'true';
+        slider.style.opacity = '1';
+        const valEl = document.getElementById(id + '-val');
+        if (valEl) valEl.textContent = slider.value;
+        const pct = (slider.value / 255) * 100;
+        slider.style.setProperty('--iv-pct', pct + '%');
       });
     });
 
@@ -570,13 +572,13 @@
     if (sid.trim()) trainer.sid = sid.trim();
     if (otGender) trainer.otGender = otGender;
 
-    // Size scalars (disabled = X pressed = don't send)
+    // Size scalars (untouched = don't send, touched = send value 0-255)
     const scaleEl = document.getElementById('cfg-scale');
     const heightEl = document.getElementById('cfg-height-scalar');
     const weightEl = document.getElementById('cfg-weight-scalar');
-    const scaleVal = (scaleEl && !scaleEl.disabled) ? parseInt(scaleEl.value) : -1;
-    const heightVal = (heightEl && !heightEl.disabled) ? parseInt(heightEl.value) : -1;
-    const weightVal = (weightEl && !weightEl.disabled) ? parseInt(weightEl.value) : -1;
+    const scaleVal = (scaleEl && scaleEl.dataset.touched === 'true') ? parseInt(scaleEl.value) : -1;
+    const heightVal = (heightEl && heightEl.dataset.touched === 'true') ? parseInt(heightEl.value) : -1;
+    const weightVal = (weightEl && weightEl.dataset.touched === 'true') ? parseInt(weightEl.value) : -1;
 
     return {
       pokemonName: currentDetail.name,
