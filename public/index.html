@@ -81,7 +81,7 @@
         <span id="version-btn-label">Pokemon Legends Z-A</span>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-white/60"><path d="M6 9l6 6 6-6"/></svg>
       </button>
-      <div id="version-dropdown-menu" class="hidden absolute top-full left-1/2 -translate-x-1/2 mt-2 min-w-[240px] rounded-xl bg-[rgba(20,25,50,0.97)] border border-[rgba(100,140,220,0.15)] shadow-[0_8px_32px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.05)] backdrop-blur-xl z-50 overflow-hidden">
+      <div id="version-dropdown-menu" class="hidden fixed left-1/2 -translate-x-1/2 mt-2 min-w-[240px] rounded-xl bg-[rgba(20,25,50,0.97)] border border-[rgba(100,140,220,0.15)] shadow-[0_8px_32px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.05)] backdrop-blur-xl z-[9999] overflow-hidden">
         <button type="button" data-version="gen9a"
                 class="version-option w-full text-left px-5 py-3 text-sm lg:text-base text-[#c8d4f0] hover:bg-[rgba(100,140,220,0.1)] hover:text-white transition-colors duration-150 flex items-center gap-3">
           <img src="/img/za.png" class="w-6 h-6 object-contain rounded" alt="">
@@ -241,10 +241,14 @@
       return 'gen9a';
     }
 
-    // Toggle menu
+    // Toggle menu — position fixed menu right below the button
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
-      menu.classList.toggle('hidden');
+      const isHidden = menu.classList.toggle('hidden');
+      if (!isHidden) {
+        const rect = btn.getBoundingClientRect();
+        menu.style.top = (rect.bottom + 8) + 'px';
+      }
     });
 
     // Select option
