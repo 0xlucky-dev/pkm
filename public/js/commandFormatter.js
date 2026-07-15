@@ -115,6 +115,12 @@ function formatPercentH(config, includePrefix = true) {
   // OT — only when set
   if (config.trainer && config.trainer.ot) lines.push(`OT: ${config.trainer.ot}`);
 
+  // TID — only when set
+  if (config.trainer && config.trainer.tid) lines.push(`TID: ${config.trainer.tid}`);
+
+  // SID — only when set
+  if (config.trainer && config.trainer.sid) lines.push(`SID: ${config.trainer.sid}`);
+
   // OTGender — only when set
   if (config.trainer && config.trainer.otGender) {
     lines.push(`OTGender: ${config.trainer.otGender}`);
@@ -122,6 +128,11 @@ function formatPercentH(config, includePrefix = true) {
 
   // Language — always
   lines.push(`Language: ${config.language}`);
+
+  // Size scalars — only when > 0
+  if (config.scale !== undefined && config.scale >= 0) lines.push(`.Scale=${config.scale}`);
+  if (config.heightScalar !== undefined && config.heightScalar >= 0) lines.push(`.HeightScalar=${config.heightScalar}`);
+  if (config.weightScalar !== undefined && config.weightScalar >= 0) lines.push(`.WeightScalar=${config.weightScalar}`);
 
   // Moves — each selected move on its own line, hyphen prefix, NO space
   for (const move of config.moves) {

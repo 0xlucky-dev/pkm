@@ -550,9 +550,18 @@
     // Trainer
     const ot = document.getElementById('cfg-ot').value.trim();
     const otGender = document.getElementById('cfg-ot-gender').value;
+    const tid = (document.getElementById('cfg-tid') || {}).value || '';
+    const sid = (document.getElementById('cfg-sid') || {}).value || '';
     const trainer = {};
     if (ot) trainer.ot = ot;
+    if (tid.trim()) trainer.tid = tid.trim();
+    if (sid.trim()) trainer.sid = sid.trim();
     if (otGender) trainer.otGender = otGender;
+
+    // Size scalars (0-255, value 0 means "send .Scale=0", slider at -1/untouched means don't send)
+    const scaleVal = parseInt((document.getElementById('cfg-scale') || {}).value) || 0;
+    const heightVal = parseInt((document.getElementById('cfg-height-scalar') || {}).value) || 0;
+    const weightVal = parseInt((document.getElementById('cfg-weight-scalar') || {}).value) || 0;
 
     return {
       pokemonName: currentDetail.name,
@@ -579,6 +588,10 @@
       // Metadata for %order suffix (version filtering / whitelist / banlist)
       _dex: currentDetail.dexNum || currentDetail.id,
       _formIndex: currentFormIndex,
+      // Size scalars (0 = send value 0, undefined = don't send)
+      scale: scaleVal > 0 ? scaleVal : undefined,
+      heightScalar: heightVal > 0 ? heightVal : undefined,
+      weightScalar: weightVal > 0 ? weightVal : undefined,
     };
   }
 

@@ -454,6 +454,16 @@ const UI = (() => {
               <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2a6 6 0 00-1 11.917V16H9a1 1 0 000 2h2v2a1 1 0 002 0v-2h2a1 1 0 000-2h-2v-2.083A6 6 0 0012 2zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>
             </button>
           </div>
+          <div class="config-row" style="margin-top:12px;">
+            <div class="config-field">
+              <label for="cfg-tid">TID</label>
+              <input type="text" id="cfg-tid" placeholder="Trainer ID" maxlength="6" autocomplete="off" inputmode="numeric">
+            </div>
+            <div class="config-field">
+              <label for="cfg-sid">SID</label>
+              <input type="text" id="cfg-sid" placeholder="Secret ID" maxlength="6" autocomplete="off" inputmode="numeric">
+            </div>
+          </div>
           <select id="cfg-ot-gender" style="display:none;">
             <option value="">-- None --</option>
             <option value="Male">Male</option>
@@ -462,12 +472,22 @@ const UI = (() => {
         </div>
       </div>`;
 
+    // --- Size section (Scale / Height / Weight) — sliders 0-255 ---
+    const sizeHtml = `
+      <div class="config-section">
+        <div class="config-section__title">Size</div>
+        ${buildSliderRow('cfg-scale', 'Size', 0, 255, 0, 'iv-slider')}
+        ${buildSliderRow('cfg-height-scalar', 'Height', 0, 255, 0, 'iv-slider')}
+        ${buildSliderRow('cfg-weight-scalar', 'Weight', 0, 255, 0, 'iv-slider')}
+      </div>`;
+
     return `
       ${heroHtml}
       ${traitTogglesHtml}
       ${levelSliderHtml}
       ${friendshipHtml}
       ${basicInfoHtml}
+      ${sizeHtml}
       ${ivsHtml}
       ${evsHtml}
       ${movesHtml}
