@@ -1125,20 +1125,10 @@
 .version-logo-img {
 }
 
-/* Version-specific logo size adjustments */
-.version-logo-img[src*="sv.png"] {
-  height: 3.5rem !important;  /* mobile: smaller for wide SV logo */
-}
-.version-logo-img[src*="la.png"] {
-  height: 7rem !important;    /* mobile: bigger for LA (nearly square) */
-}
-@media (min-width: 1024px) {
-  .version-logo-img[src*="sv.png"] {
-    height: 7rem !important;  /* desktop: smaller than default 10rem */
-  }
-  .version-logo-img[src*="la.png"] {
-    height: 12rem !important; /* desktop: bigger for LA */
-  }
+/* Version-specific logo — no per-version size overrides, consistent height */
+.version-logo-img {
+  /* All logos share the same height from Tailwind (h-20 lg:h-32).
+     max-width prevents overly wide logos (SV) from breaking the card. */
 }
 
 /* ===== Animations ===== */
