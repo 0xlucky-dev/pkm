@@ -313,19 +313,27 @@
         slider.style.setProperty('--iv-pct', pct + '%');
       });
 
-      // Input → slider (accepts x, X, -1, or 0-255)
-      input.addEventListener('change', () => {
+      // Input → slider (live sync while typing + clamp on blur/enter)
+      function syncFromInput() {
         const raw = input.value.trim().toLowerCase();
         let val;
         if (raw === 'x' || raw === '✕' || raw === '-1' || raw === '') {
           val = -1;
         } else {
-          val = Math.max(-1, Math.min(255, parseInt(raw) || -1));
+          val = parseInt(raw);
+          if (isNaN(val)) val = -1;
+          else val = Math.max(0, Math.min(255, val));
         }
         slider.value = val;
-        input.value = val < 0 ? '✕' : val;
         const pct = val < 0 ? 0 : (val / 255) * 100;
         slider.style.setProperty('--iv-pct', pct + '%');
+        return val;
+      }
+
+      input.addEventListener('input', () => syncFromInput());
+      input.addEventListener('change', () => {
+        const val = syncFromInput();
+        input.value = val < 0 ? '✕' : val;
       });
     });
 
