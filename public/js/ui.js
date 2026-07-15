@@ -357,18 +357,18 @@ const UI = (() => {
           <label style="font-size:0.72rem;color:var(--text-muted);font-weight:500;text-transform:uppercase;letter-spacing:0.3px;">Size</label>
           <div class="config-slider-row iv-slider" style="margin-top:6px;">
             <label style="min-width:50px;">Scale</label>
-            <span class="slider-value size-val" id="cfg-scale-val">✕</span>
-            <input type="range" id="cfg-scale" min="0" max="255" value="0" data-touched="false" style="--iv-pct:0%;opacity:0.4">
+            <span class="slider-value" id="cfg-scale-val">✕</span>
+            <input type="range" id="cfg-scale" min="-1" max="255" value="-1" style="--iv-pct:0%">
           </div>
           <div class="config-slider-row iv-slider">
             <label style="min-width:50px;">Height</label>
-            <span class="slider-value size-val" id="cfg-height-scalar-val">✕</span>
-            <input type="range" id="cfg-height-scalar" min="0" max="255" value="0" data-touched="false" style="--iv-pct:0%;opacity:0.4">
+            <span class="slider-value" id="cfg-height-scalar-val">✕</span>
+            <input type="range" id="cfg-height-scalar" min="-1" max="255" value="-1" style="--iv-pct:0%">
           </div>
           <div class="config-slider-row iv-slider">
             <label style="min-width:50px;">Weight</label>
-            <span class="slider-value size-val" id="cfg-weight-scalar-val">✕</span>
-            <input type="range" id="cfg-weight-scalar" min="0" max="255" value="0" data-touched="false" style="--iv-pct:0%;opacity:0.4">
+            <span class="slider-value" id="cfg-weight-scalar-val">✕</span>
+            <input type="range" id="cfg-weight-scalar" min="-1" max="255" value="-1" style="--iv-pct:0%">
           </div>
         </div>
       </div>`;
@@ -460,9 +460,9 @@ const UI = (() => {
           <svg class="config-section__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
         </button>
         <div class="config-section__content" id="trainer-content" style="display:none;">
-          <div style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;">
+          <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-top:14px;flex-wrap:wrap;">
             <div class="nickname-pill">
-              <input type="text" id="cfg-ot" placeholder="OT Name" maxlength="12" autocomplete="off" style="width:110px;">
+              <input type="text" id="cfg-ot" placeholder="OT Name" maxlength="12" autocomplete="off" style="width:120px;">
             </div>
             <button type="button" class="icon-toggle icon-toggle--male" data-ot-gender="Male" aria-pressed="false" title="Male">
               <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M14.5 3a1 1 0 000 2h2.086l-3.51 3.51A6 6 0 1014.99 9.9L18.5 6.41V8.5a1 1 0 002 0v-4.5a1 1 0 00-1-1h-5zM10 10a4 4 0 110 8 4 4 0 010-8z"/></svg>
@@ -471,7 +471,7 @@ const UI = (() => {
               <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2a6 6 0 00-1 11.917V16H9a1 1 0 000 2h2v2a1 1 0 002 0v-2h2a1 1 0 000-2h-2v-2.083A6 6 0 0012 2zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>
             </button>
           </div>
-          <div class="config-row" style="margin-top:12px;">
+          <div class="config-row" style="margin-top:14px;">
             <div class="config-field">
               <label for="cfg-tid">TID</label>
               <input type="text" id="cfg-tid" placeholder="Trainer ID" maxlength="6" autocomplete="off" inputmode="numeric">

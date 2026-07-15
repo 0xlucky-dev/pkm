@@ -299,16 +299,15 @@
       });
     }
 
-    // Size sliders — mark as "touched" on first interaction (default = untouched = don't send)
+    // Size sliders — min=-1 is "X" (don't send), 0-255 = send value
     ['cfg-scale', 'cfg-height-scalar', 'cfg-weight-scalar'].forEach(id => {
       const slider = document.getElementById(id);
       if (!slider) return;
       slider.addEventListener('input', () => {
-        slider.dataset.touched = 'true';
-        slider.style.opacity = '1';
+        const val = parseInt(slider.value);
         const valEl = document.getElementById(id + '-val');
-        if (valEl) valEl.textContent = slider.value;
-        const pct = (slider.value / 255) * 100;
+        if (valEl) valEl.textContent = val < 0 ? '✕' : val;
+        const pct = val < 0 ? 0 : (val / 255) * 100;
         slider.style.setProperty('--iv-pct', pct + '%');
       });
     });
@@ -572,13 +571,13 @@
     if (sid.trim()) trainer.sid = sid.trim();
     if (otGender) trainer.otGender = otGender;
 
-    // Size scalars (untouched = don't send, touched = send value 0-255)
+    // Size scalars (-1 = X = don't send, 0-255 = send)
     const scaleEl = document.getElementById('cfg-scale');
     const heightEl = document.getElementById('cfg-height-scalar');
     const weightEl = document.getElementById('cfg-weight-scalar');
-    const scaleVal = (scaleEl && scaleEl.dataset.touched === 'true') ? parseInt(scaleEl.value) : -1;
-    const heightVal = (heightEl && heightEl.dataset.touched === 'true') ? parseInt(heightEl.value) : -1;
-    const weightVal = (weightEl && weightEl.dataset.touched === 'true') ? parseInt(weightEl.value) : -1;
+    const scaleVal = scaleEl ? parseInt(scaleEl.value) : -1;
+    const heightVal = heightEl ? parseInt(heightEl.value) : -1;
+    const weightVal = weightEl ? parseInt(weightEl.value) : -1;
 
     return {
       pokemonName: currentDetail.name,
