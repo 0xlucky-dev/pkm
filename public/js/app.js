@@ -313,8 +313,10 @@
     });
 
     // IV sliders
+    const sizeIds = ['cfg-scale', 'cfg-height-scalar', 'cfg-weight-scalar'];
     const ivInputs = overlayBody.querySelectorAll('.iv-slider input[type="range"]');
     ivInputs.forEach((input) => {
+      if (sizeIds.includes(input.id)) return; // handled by size slider listener below
       input.addEventListener('input', () => {
         const valEl = document.getElementById(input.id + '-val');
         if (valEl) valEl.textContent = input.value;
