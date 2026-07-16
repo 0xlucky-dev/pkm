@@ -82,8 +82,8 @@
       "canAlphaShiny": true,
       "canGigantamax": false,
       "levelMax": 79,
-      "spriteNormal": "sprites/poke_capture_0902_001_fd_n_00000000_f_n.png",
-      "spriteShiny": "sprites/poke_capture_0902_001_fd_n_00000000_f_r.png",
+      "spriteNormal": "sprites/poke_capture_0902_001_fo_n_00000000_f_n.png",
+      "spriteShiny": "sprites/poke_capture_0902_001_fo_n_00000000_f_r.png",
       "spriteGmax": "",
       "spriteShinyGmax": ""
     }
