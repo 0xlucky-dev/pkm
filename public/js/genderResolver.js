@@ -12,7 +12,8 @@ function resolveGender(genderInfo, requestedGender) {
   if (genderInfo.isGenderless) return '';
   if (!genderInfo.canBeMale) return 'F';
   if (!genderInfo.canBeFemale) return 'M';
-  return requestedGender || 'M';
+  // If user hasn't picked, return empty = no gender in output
+  return requestedGender || '';
 }
 
 // Export for Node.js (Jest) and browser

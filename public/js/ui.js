@@ -60,21 +60,19 @@ const UI = (() => {
 
   // --- Build the top pill toggle row (Nickname + Gender + Shiny + Alpha) ---
   function buildTraitToggles({ canShiny, canAlpha, showMale, showFemale }) {
-    const maleActive = showMale;
-    const femaleActive = showFemale && !showMale;
-
+    // Default = no gender selected (user must pick). No active class initially.
     let genderHtml = '';
     if (showMale) {
       genderHtml += `
-        <button type="button" class="icon-toggle icon-toggle--male${maleActive ? ' active' : ''}"
-                data-gender="M" aria-pressed="${maleActive}" title="Male">
+        <button type="button" class="icon-toggle icon-toggle--male"
+                data-gender="M" aria-pressed="false" title="Male">
           ${ICON_MALE}
         </button>`;
     }
     if (showFemale) {
       genderHtml += `
-        <button type="button" class="icon-toggle icon-toggle--female${femaleActive ? ' active' : ''}"
-                data-gender="F" aria-pressed="${femaleActive}" title="Female">
+        <button type="button" class="icon-toggle icon-toggle--female"
+                data-gender="F" aria-pressed="false" title="Female">
           ${ICON_FEMALE}
         </button>`;
     }

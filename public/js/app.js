@@ -171,11 +171,46 @@
     }
   }
 
+  // --- Trainer state persists across pokemon changes ---
+  let _trainerOT = '';
+  let _trainerTID = '';
+  let _trainerSID = '';
+  let _trainerGender = '';
+
+  function saveTrainerState() {
+    const ot = document.getElementById('cfg-ot');
+    const tid = document.getElementById('cfg-tid');
+    const sid = document.getElementById('cfg-sid');
+    const otg = document.getElementById('cfg-ot-gender');
+    if (ot) _trainerOT = ot.value;
+    if (tid) _trainerTID = tid.value;
+    if (sid) _trainerSID = sid.value;
+    if (otg) _trainerGender = otg.value;
+  }
+
+  function restoreTrainerState() {
+    const ot = document.getElementById('cfg-ot');
+    const tid = document.getElementById('cfg-tid');
+    const sid = document.getElementById('cfg-sid');
+    const otg = document.getElementById('cfg-ot-gender');
+    if (ot && _trainerOT) ot.value = _trainerOT;
+    if (tid && _trainerTID) tid.value = _trainerTID;
+    if (sid && _trainerSID) sid.value = _trainerSID;
+    if (otg && _trainerGender) {
+      otg.value = _trainerGender;
+      // Also activate the corresponding icon toggle
+      const btn = overlayBody.querySelector(`[data-ot-gender="${_trainerGender}"]`);
+      if (btn) { btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true'); }
+    }
+  }
+
   function renderOverlayBody() {
+    saveTrainerState();
     overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
     populateMoveSelects();
     CustomDropdown.initAll(overlayBody);
     attachConfigListeners();
+    restoreTrainerState();
   }
 
   // --- Config overlay ---
