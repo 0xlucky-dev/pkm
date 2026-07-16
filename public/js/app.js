@@ -207,10 +207,13 @@
   function renderOverlayBody() {
     saveTrainerState();
     overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
-    populateMoveSelects();
-    CustomDropdown.initAll(overlayBody);
     attachConfigListeners();
     restoreTrainerState();
+    // Defer heavy DOM work to after first paint so overlay opens instantly
+    requestAnimationFrame(() => {
+      populateMoveSelects();
+      CustomDropdown.initAll(overlayBody);
+    });
   }
 
   // --- Config overlay ---
