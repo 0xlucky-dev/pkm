@@ -357,16 +357,16 @@ const UI = (() => {
         </div>
         <div style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(100,160,255,0.1);">
           <div class="config-section__title" style="margin-bottom:10px;">Size</div>
-          <div class="config-slider-row iv-slider">
+          ${(version === 'gen9' || version === 'gen8' || version === 'gen9a') ? `<div class="config-slider-row iv-slider">
             <label style="min-width:54px;">Scale</label>
             <input type="text" class="size-input" id="cfg-scale-val" value="✕" maxlength="3" autocomplete="off">
             <input type="range" id="cfg-scale" min="-1" max="255" value="-1" style="--iv-pct:0%">
-          </div>
-          <div class="config-slider-row iv-slider">
+          </div>` : ''}
+          ${(version === 'gen9' || version === 'gen8') ? `<div class="config-slider-row iv-slider">
             <label style="min-width:54px;">Height</label>
             <input type="text" class="size-input" id="cfg-height-scalar-val" value="✕" maxlength="3" autocomplete="off">
             <input type="range" id="cfg-height-scalar" min="-1" max="255" value="-1" style="--iv-pct:0%">
-          </div>
+          </div>` : ''}
           <div class="config-slider-row iv-slider">
             <label style="min-width:54px;">Weight</label>
             <input type="text" class="size-input" id="cfg-weight-scalar-val" value="✕" maxlength="3" autocomplete="off">

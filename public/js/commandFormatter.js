@@ -129,10 +129,18 @@ function formatPercentH(config, includePrefix = true) {
   // Language — always
   lines.push(`Language: ${config.language}`);
 
-  // Size scalars — only when defined (not undefined = X pressed)
-  if (config.scale !== undefined) lines.push(`.Scale=${config.scale}`);
-  if (config.heightScalar !== undefined) lines.push(`.HeightScalar=${config.heightScalar}`);
-  if (config.weightScalar !== undefined) lines.push(`.WeightScalar=${config.weightScalar}`);
+  // Size scalars — only when defined AND version supports them
+  // gen9a(ZA): Scale+Weight | gen9(SV)/gen8(SWSH): all 3 | gen8a(LA): Weight only
+  const ver = config._version || 'gen9';
+  if (config.scale !== undefined && (ver === 'gen9' || ver === 'gen8' || ver === 'gen9a')) {
+    lines.push(`.Scale=${config.scale}`);
+  }
+  if (config.heightScalar !== undefined && (ver === 'gen9' || ver === 'gen8')) {
+    lines.push(`.HeightScalar=${config.heightScalar}`);
+  }
+  if (config.weightScalar !== undefined) {
+    lines.push(`.WeightScalar=${config.weightScalar}`);
+  }
 
   // Moves — each selected move on its own line, hyphen prefix, NO space
   for (const move of config.moves) {
