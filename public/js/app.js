@@ -217,9 +217,9 @@
   }
 
   // --- Config overlay ---
-  async function openConfig(spNumber, dex, name) {
+  async function openConfig(spNumber, dex, name, formIndex) {
     overlayTitle.textContent = `#${String(dex).padStart(3, '0')} ${name}`;
-    currentFormIndex = 0;
+    currentFormIndex = formIndex || 0;
 
     const key = `${currentVersion}/${spNumber}`;
     const cached = detailCache[key];
@@ -264,58 +264,9 @@
 
   // --- Attach listeners inside the config overlay ---
   function attachConfigListeners() {
-    // Form selector — custom dropdown wired to hidden <select>
-    const formWrap = document.getElementById('cfg-form-wrap');
-    const formBtn = document.getElementById('cfg-form-btn');
-    const formMenu = document.getElementById('cfg-form-menu');
-    const formSelect = document.getElementById('cfg-form');
+    // Form selector removed — form is now pre-selected from the grid card
 
-    if (formBtn && formMenu && formSelect) {
-      // Toggle open/close
-      formBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const isOpen = formWrap.classList.toggle('cd-open');
-        formBtn.setAttribute('aria-expanded', String(isOpen));
-      });
-      // Close on outside click
-      document.addEventListener('click', function closeForm(e) {
-        if (!formWrap.contains(e.target)) {
-          formWrap.classList.remove('cd-open');
-          formBtn.setAttribute('aria-expanded', 'false');
-          document.removeEventListener('click', closeForm);
-        }
-      });
-      // Item click
-      formMenu.querySelectorAll('.cd-item').forEach(item => {
-        item.addEventListener('click', () => {
-          const val = parseInt(item.dataset.value) || 0;
-          formSelect.value = val;
-          formBtn.querySelector('.cd-selected-label').textContent = item.textContent;
-          formMenu.querySelectorAll('.cd-item').forEach(i => i.classList.remove('cd-item--active'));
-          item.classList.add('cd-item--active');
-          formWrap.classList.remove('cd-open');
-          formBtn.setAttribute('aria-expanded', 'false');
-          // Re-render body
-          currentFormIndex = val;
-          overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
-          populateMoveSelects();
-          CustomDropdown.initAll(overlayBody);
-          attachConfigListeners();
-          UI.updateEvTotal();
-        });
-      });
-    } else if (formSelect) {
-      // Fallback for native select
-      formSelect.addEventListener('change', () => {
-        currentFormIndex = parseInt(formSelect.value) || 0;
-        overlayBody.innerHTML = UI.renderConfigBody(currentDetail, options, currentFormIndex, currentVersion);
-        CustomDropdown.initAll(overlayBody);
-        attachConfigListeners();
-        UI.updateEvTotal();
-      });
-    }
-
-    // Level slider
+        // Level slider
     const levelSlider = document.getElementById('cfg-level');
     if (levelSlider) {
       levelSlider.addEventListener('input', () => {
@@ -1095,7 +1046,8 @@
       const spNumber = card.dataset.spNumber;
       const dex = card.dataset.dex;
       const name = card.dataset.name;
-      openConfig(spNumber, dex, name);
+      const formIndex = parseInt(card.dataset.formIndex) || 0;
+      openConfig(spNumber, dex, name, formIndex);
     });
 
     // Close overlay
