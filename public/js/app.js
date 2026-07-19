@@ -879,7 +879,7 @@
       UI.showToast('ส่งคำสั่งไม่สำเร็จ: ' + err.message, 4000, 'error');
     } finally {
       btnBetaOrders.disabled = false;
-      btnBetaOrders.textContent = 'คัดลอก %%order โค้ด';
+      btnBetaOrders.textContent = 'คัดลอก %order โค้ด';
     }
   }
 
