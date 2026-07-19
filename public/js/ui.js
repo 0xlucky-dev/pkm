@@ -112,6 +112,7 @@ const UI = (() => {
     card.dataset.spNumber = pokemon.sp_number;
     card.dataset.dex = pokemon.dex;
     card.dataset.name = pokemon.name;
+    card.dataset.formIndex = pokemon.formIndex || 0;
 
     let spriteUrl;
     if (pokemon.sprite) {
@@ -201,38 +202,8 @@ const UI = (() => {
       spriteShinyUrl = '/' + form.spriteShiny.replace(/^\/+/, '');
     }
 
-    // --- Hero section: sprite + name + form selector ---
+    // --- Hero section: sprite + name (form already selected from grid card) ---
     let formSelectorHtml = '';
-    if (forms.length > 1) {
-      let cdItemsHtml = '';
-      let selectedLabel = 'ร่างปกติ';
-      for (let i = 0; i < forms.length; i++) {
-        const rawLabel = (forms[i].formName && forms[i].formName.trim()) || '';
-        const label = (!rawLabel || rawLabel === 'Default Form') ? 'ร่างปกติ' : rawLabel;
-        if (i === activeIndex) selectedLabel = label;
-        cdItemsHtml += `<div class="cd-item${i === activeIndex ? ' cd-item--active' : ''}" data-value="${i}">${label}</div>`;
-      }
-      // Hidden <select> kept for app.js change-event compatibility
-      let hiddenOptions = '';
-      for (let i = 0; i < forms.length; i++) {
-        const rawLabel = (forms[i].formName && forms[i].formName.trim()) || '';
-        const label = (!rawLabel || rawLabel === 'Default Form') ? 'ร่างปกติ' : rawLabel;
-        hiddenOptions += `<option value="${i}"${i === activeIndex ? ' selected' : ''}>${label}</option>`;
-      }
-      formSelectorHtml = `
-        <div class="hero-form-select">
-          <div class="cd-wrap" id="cfg-form-wrap">
-            <button type="button" class="cd-btn" id="cfg-form-btn" aria-haspopup="listbox" aria-expanded="false">
-              <span class="cd-selected-label">${selectedLabel}</span>
-              <svg class="cd-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-            </button>
-            <div class="cd-menu" id="cfg-form-menu" role="listbox">
-              <div class="cd-options">${cdItemsHtml}</div>
-            </div>
-          </div>
-          <select id="cfg-form" class="visually-hidden" aria-hidden="true">${hiddenOptions}</select>
-        </div>`; 
-    }
 
     const heroHtml = `
       <div class="config-hero config-hero--centered">
