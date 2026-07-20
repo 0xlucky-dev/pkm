@@ -872,6 +872,8 @@
           }
           UI.showToast(`กดปุ่มคัดลอกด้านล่าง`, 4000, 'success');
         }
+      } else if (data.success === false) {
+        UI.showToast('คุณกดเร็วเกินไป รอสักครู่แล้วลองใหม่', 5000, 'error');
       } else {
         UI.showToast(data.error || 'เกิดข้อผิดพลาด', 4000, 'error');
       }
