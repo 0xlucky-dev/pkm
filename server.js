@@ -92,7 +92,9 @@ app.post('/api/submit-order', async (req, res) => {
         'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(payload),
         'Referer': `https://poke.zeldaxiaoma.com/pokemon/?lang=en-US&version=${refererVersion}`,
+        'Origin': 'https://poke.zeldaxiaoma.com',
         'Accept': '*/*',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36',
       },
     };
     const upstream = https.request(options, (upstream_res) => {
