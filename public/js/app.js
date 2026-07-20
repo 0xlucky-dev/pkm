@@ -873,7 +873,14 @@
           UI.showToast(`กดปุ่มคัดลอกด้านล่าง`, 4000, 'success');
         }
       } else if (data.success === false) {
-        UI.showToast('คุณกดเร็วเกินไป รอสักครู่แล้วลองใหม่', 5000, 'error');
+        const err = data.error || '';
+        if (err.includes('\u8bf7\u6c42\u8fc7\u4e8e\u9891\u7e41') || err.includes('频繁')) {
+          UI.showToast('คุณกดเร็วเกินไป รอสักครู่แล้วลองใหม่', 5000, 'error');
+        } else if (err.includes('\u8bf7\u6c42\u6570\u636e\u8fc7\u957f') || err.includes('过长')) {
+          UI.showToast('ข้อมูลยาวเกินไป ลองลดจำนวนโปเกมอน', 5000, 'error');
+        } else {
+          UI.showToast(err || 'เกิดข้อผิดพลาด', 4000, 'error');
+        }
       } else {
         UI.showToast(data.error || 'เกิดข้อผิดพลาด', 4000, 'error');
       }
