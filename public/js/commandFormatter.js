@@ -130,7 +130,7 @@ function formatPercentH(config, includePrefix = true) {
   lines.push(`Language: ${config.language}`);
 
   // Size scalars — only when defined AND version supports them
-  // gen9a(ZA): Scale+Weight | gen9(SV)/gen8(SWSH): all 3 | gen8a(LA): Weight only
+  // gen9(SV)/gen8(SWSH): Scale+Height+Weight | gen8a(LA): Weight only | gen9a(ZA): Scale only
   const ver = config._version || 'gen9';
   if (config.scale !== undefined && (ver === 'gen9' || ver === 'gen8' || ver === 'gen9a')) {
     lines.push(`.Scale=${config.scale}`);
@@ -138,7 +138,7 @@ function formatPercentH(config, includePrefix = true) {
   if (config.heightScalar !== undefined && (ver === 'gen9' || ver === 'gen8')) {
     lines.push(`.HeightScalar=${config.heightScalar}`);
   }
-  if (config.weightScalar !== undefined) {
+  if (config.weightScalar !== undefined && (ver === 'gen9' || ver === 'gen8' || ver === 'gen8a')) {
     lines.push(`.WeightScalar=${config.weightScalar}`);
   }
 

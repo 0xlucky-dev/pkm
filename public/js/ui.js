@@ -367,11 +367,11 @@ const UI = (() => {
             <input type="text" class="size-input" id="cfg-height-scalar-val" value="✕" maxlength="3" autocomplete="off">
             <input type="range" id="cfg-height-scalar" min="-1" max="255" value="-1" style="--iv-pct:0%">
           </div>` : ''}
-          <div class="config-slider-row iv-slider">
+          ${(version === 'gen9' || version === 'gen8' || version === 'gen8a') ? `<div class="config-slider-row iv-slider">
             <label style="min-width:54px;">Weight</label>
             <input type="text" class="size-input" id="cfg-weight-scalar-val" value="✕" maxlength="3" autocomplete="off">
             <input type="range" id="cfg-weight-scalar" min="-1" max="255" value="-1" style="--iv-pct:0%">
-          </div>
+          </div>` : ''}
         </div>
       </div>`;
 
